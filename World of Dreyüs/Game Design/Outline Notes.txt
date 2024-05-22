@@ -1,0 +1,429 @@
+Core Design Outline:
+
+Dice System:				√
+Turn Economy:				√
+Attribute:    				√
+Abilities:				√
+TechMagic:    				√
+Items/Gear:				√
+Class:					√
+Starting Conditions/Progression:	√
+Vehicle Mechanics:			√
+World Background:			√ (see lore folder)
+Example Story:				TODO (elsewhere, later date)
+
+	
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Dice System: Stat + Skill (I think we go with Attribute + Abilities)
+	Stat = number of available dice (Potential? Maybe 1 dice per 2x stat?)
+	Skill (Ability?) = size of dice (d6-d12 most likely)
+		Decision to make: how to vehicles scale? Consider: Potential amplifier? (aka, more dice per roll)
+	Consider: maybe some skills/abilities use multiple or split other stats, for instance atk is power + dex?)
+			aka Potential for atk could be 1/2 pow + 1/2 dex, other rolls might be 1/1 pow?
+
+	Roll vs Effect modifiers (per dice before check vs added to total after check)
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Turn Economy: Action Point
+	Consider: Base 2 points
+		Attack = 2 points, move = distance per point, defend = 1 point, item interaction = 1 point <- basically this
+			Note: item interaction is the exchange of what is in ones hand with something else
+				empty hand is null object, i.e. emptying hand = same cost as exchanging items. 
+
+	- openings/mistakes/critical-fails
+		>Target, or nearest hostile(s) can use X AP as a reaction before roll resolves, where X is number of rolled 1's.
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Attributes: 
+	
+	1-5 for each
+	1 = below average
+	2 = average
+	3 = above average
+	4 = exceptional
+	5 = nearly super-human
+
+		Power: physical strength, carry weight, ability to wield large weapons
+		Finesse: deftness, hand-eye, precision, body control (helps derive armor?)
+		Heartiness: derives health points (and armor with dex?)
+		Speed: derives AP & movement value (data note: avg human = 1.5 m/s)
+		Charm: physical & emotional appeal
+		Acuity: perception or ability to understand/comprehend as well as rely on well-developed tendecies ('muscle memory')
+		Memory: potential depth of recollection
+		Tenacity: mental resilience, ability to stay calm, resist stress
+		
+		Listed order: H T S F A P C M
+			Emphasizes attributes that leads to derived stats
+
+	Derived Stats:
+		
+		->Health: derived from Heartiness ( x 10), use threshold = wounded, double = dieing, dieing = next hit dead
+								one hit deal 4x health = instakill (direct hits from ships could) 
+		
+		->Defense: Heartiness + Finesse (caps at 10, i like this)
+		
+		->Movement value: speed as meters per second, can be augmented by abilities
+												
+		
+		->AP: derived from speed (bonus from class? i think if combined w/ 1/2 spd round up?) 
+		
+		->Control: mental hp, 10x tenacity? 
+			Take Stress damage
+				- when being attacked
+				- if wounded 
+				- if nearly died
+				- experts take passively each turn of foot-combat
+				- stress inflicting abilities
+			hit threshold = distracted, penalty to Potential. 
+			Double = Panic, chance to be unable to act
+			triple = unconcious, can be awoken but will fall back unconcious if stressed more
+		
+		->Carry Weight: kilos = 10 x power, movement penalties?
+		
+	
+	Scaling - Logarithmic acquisition cost, especially past 3. 4-5 should be a significant feat, and the individual remarkable, 
+			enough so that to have many above 3 and multiple at 5 is a awe-inspiring legend. Consider creating mechanical
+			hard-limits, allowing only a few 5s, or creating an absolute limit to total combined Attributes that 
+			represents human limitations and inability to excel at all things. Be cautious of over encouraging min-maxing	
+			but also attempt to prevent godlike perfection.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Abilities:
+
+	Two types: Primary and Secondary
+	
+	Abilities reflect an indvidual's knowledge and/or skill in a field. 
+	Mechanically, Abilities have two primary functions:
+		- determines size of dice used for an action 
+		- grants individuals access to particular techniques or actions that can be performed, sometimes multiple times per
+			ability, distributed across the levels.
+	
+	Dice Scaling - Primary Abilities have 4 levels, from lowest to highest: novice, journeyman, master, legend
+			Any action taken can be assigned a related Ability, however if an individual has no related Ability they are
+			said to be unskilled at that action.
+		This leads to the following heirarchy to determine what dice to roll based on one's Ability or lack thereof
+			Unskilled 	- d4
+			Novice	  	- d6
+			Journeyman 	- d8
+			Master		- d10
+			Legend		- d12
+
+	Techniques - Many abilities will grant techniques that result in unique in-game actions or modifications to other actions, 
+		especially in the case of Secondary Abilities. These can be granted at one or more levels, and range from combat or
+		martial art techniques with weapons or m-fabs to out of combat feats that reflect one's knowledge and skill.
+	
+	Secondary Abilties are 1 level only and serve to add special bonuses and/or techniques to a primary ability. They rely on
+		the level of the primary ability to determine dice size. These mostly will exist as class-restricted customization
+		options that give classes unique choices and identity via mutual exclusivity.
+  
+	Primary Abilities should have a level-to-level acquisition cost that is more logarithmic than linear, and becoming a legend 
+		should take a significant time investment. Balance against Attribute acquisition cost, consider scaling of one vs 
+		the other such that splitting investments is preferred. We want to avoid Superhuman Novices. 
+	
+	Secondary abilities should probably scale depending on power, likewise locked behind level in ability depending on
+		relative strength.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Technology (aka Magic System) (M-fab Abilties)
+
+	All 'techs' (casters) use same tool, microfabricator (m-fabs, or micro-fabs more commonly).
+		Using m-fab abilities requires AP and consumes material resource (need a name here, mats as placeholder)
+			can be modified for customization, for instance adding diagnostic modules for either medical or mechanical
+			mats replaced via 'recharge canisters' (chargers?), generic resupply good that can be bought easily
+				most crews would carry a large stock of these, as they are key to repairs and general tool use.
+
+	Scope and distribution of abilities/spells, need several or few? 
+		initial thought: relegate to ability-like distribution, ability for burning stuff, ability for freezing/slowing, 
+				ability for medicine, ability for repair, ability for shock/stun, etc.
+			I like this, i think make ability for each, then scale it via mastery/levels, unlock more effects 
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Items/Gear:		
+
+	
+	Quality: 	
+		Novice 		+0 
+		Journeyman 	+1
+		Master		+2
+		Legend		+3
+
+	Weapons: bonus damage on success (effect modifier)
+		Small guns 	- d4
+		Small melee	- d6
+		Large guns 	- d8
+		Large melee	- d12
+		
+		Quality modifier won't effect damage, but if a weapon has a unique function or is used in a non-combat way,
+			such as being displayed to demonstrate its in-world quality, then the modifier might be used. 
+			->Consider if a check is made to break a weapon, use quality to add a modifier to that check threshold.
+
+	M-fabs:
+		quality as roll modifier
+		rely on 'material' supply to use abilities
+			'material' pool: Novice  - 30
+					 Journey - 40
+					 Master  - 50
+					 Legend	 - 60
+		all resuplied from same 'resupply pods', always expends pod to reach max capacity. 
+			higher quality m-fabs therefor get mor material per pod, respresenting efficiency
+
+	Armor: reduces damage taken when hit successfully 
+		more effective vs melee than vs lasers. 
+		dmg reduction = quality mod (+2 if vs melee attacker)
+				Rng | Mel
+			Novice:	 0  |  2
+		       Journey:  1  |  3
+			Master:  2  |  4
+			Legend:  3  |  5
+
+	Consumable:
+		I think we make these the unique results of certain predetermined uses of abilties
+			need production gear, takes time to make, cost resources. cheap AP cost but mild effect
+			supplements active BattleTechs, but not a viable replacement		
+
+	Tools: Tools for abilities not covered by m-fabs such as music, or macro-fabrication such as weapon crafting, shipwright, 
+		or surgical apparatus. Production tools to make consumables.
+		Quality as roll modifier
+	
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Class System:
+	
+	Class list:
+		Lancer	   <- fighters who can hold their own with saber and pistol, as well as pilot the dangerous sky-lances
+		Marksman   <- Snipers proficient with trib-guns, both handheld and ship-mounted.
+		Battletech <- combat engineers adapt at using m-fabs to damage and disrupt enemies, or heal and repair friendlies
+		Experts	   <- specialists who excel at learning non-combat abilities, excellent pilots, surgeons, ecologists, etc.
+	
+	Notes:
+	- Lancer: starts melee, shooting, and piloting ability
+		melee for less AP, acess to unique advanced combat skill upgrades: swashbuckler (swing+shoot), brawler (swing+swing)
+		does not take stress from being attacked but can from wounded, etc.
+	- Marksman: starts shooting skill, observation(searching/noticing), analysis (gain info on enemy/attack better)
+		shoot for less AP, access to shooting skill upgrades: sniping (range + crit), gunslinger (shoot+shoot)
+	- BattleTech: starts with choice: 1 combat ability, 1 tech ability at journeyman, and 1 tech ability at novice
+		tech abilities for less AP, access to unique m-fab upgrades and integrations 
+						(automates certain m-fab actions like material or wound analysis + handsfree)
+	- Experts: starts with 2 knowledge abilities at journeyman, and 2 tech or knowledge abilities at novice
+		learns non-combat abilities faster via acuity, bonus to ability rolls outside of foot-combat
+		takes stress passively per turn of foot combat
+		m-fab upgrades 
+
+	Note: All PC's end up with at least 2 Acuity as a baseline. 
+		This can be explained by the fact that participating in a sky-sailing crew is a difficult job, that not all can do. 
+		It requires a decent Acuity, which represets one's ability to perceive and understand.
+		Thus this Attribute is fundamental to any sky-sailor, and is reflected in that most rolls for vehicles require it.
+		NPCs that aren't sky-sailors, or are part of the Auxillary Crew, may have a 1 in Acuity.
+			 
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+
+Starting Conditions/Progression: 
+	
+	Class starts (see class system for static skill starts):
+		- Lancer: +1 Heartiness, +1 Tenacity, +1 Acuity, +1 Power
+			choose: 2 small melee weapons or 1 large melee weapon 
+			choose: 1 small tribgun, 1 small melee weapon, or an m-fab
+			choose: novice armor or 1 small tribgun
+			learn 1 new combat or tech ability
+		- Marksman: +1 Tenacity, +1 Finesse, +2 Acuity
+			1 large tribgun
+			choose: 2 small tribguns or 1 large tribgun
+			choose: 1 small melee weapon, 1 small tribgun, or an m-fab 
+			learn 1 new ability
+		- BattleTech: +1 Tenacity, +1 Acuity, +2 Memory
+			an m-fab 
+			choose twice: 1 small tribgun or 1 small melee weapon
+			learn 1 new ability
+		- Expert: +2 Acuity, +1 Charm, +2 Memory
+			an m--fab
+			learn 1 new ability and gain 1 related piece of equipment related to that ability if not provided by the 
+				ability automatically
+	
+		Each Character also gets 2 free attributes to spend at will,
+	 	however, no attribute can be raised above 3 during character creation
+
+
+	Progression
+		learning new abilities, increasing the level of abilities, or raising attributes requires experience points
+		should scale, requiring more points for higher levels or attributes
+		doing things, especially challenging or noteworthy, should grant experience points in a way that reflect what was
+			accomplished
+		incororate training system
+			training can yield experience points towards specific goals
+			partner & mentor system
+			Experts should give extra partner/mentor bonus to others 
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Vehicle Mechanics:
+
+	
+
+	Create general size classes based on mast number and overall size:
+		Small  	1 (Mainmast)
+		Medium	2 or 3 (Mainmast and combination of Foremast and/or Mizzenmasts)
+		Large   3 (Mainmast, Foremast, and Mizzenmast)
+		Huge    4 (Mainmast, Foremast, Mizzenmast, and Jiggermast)
+
+	Some Rules:
+		Wind Speed: Strong, Normal, Weak, Calmed (Cannot go below 1 m/s)
+			Strong - Full Speed
+			Normal - -5 m/s
+			Weak   - -10 m/s
+			Calmed - 1 m/s
+				Note: for aerial movement, encourages altitude shifts to find different winds.
+					Use 'levels' of altitude rather than exact distances?
+		Navigation and Helming Roll:
+			 3 + Navigational Difficulty(ND) for each direction (Reaching, Downwind, Windward) 
+	
+	Ship Components:
+		Crew Spaces: 
+			Bunk Cabin 	- +5 Berth  | Space: 1 Compartment
+			Officer Cabin	- +2 Berth  | Space: 1 Compartment
+			Captain Cabin   - +1 Berth  | Space: 1 Compartment
+			Bunk Deck 	- +10 Berth | Space: 2 Compartments
+		Gundecks:
+			Full Gundeck - 1/2 compartments on that Deck	(Can be Automated - Remove Aux Crew Req)
+				Aux Crew: Small (0), Medium (10), Large (XX), Huge (XX)
+			Half Gundeck - 1/2 of full gundeck on that Deck (Can be Automated - Remove Aux Crew Req)
+				Aux Crew: Small (0), Medium (5), Large (XX), Huge (XX)
+		Rigging:
+			Aux Crew Req based on Sail Plan, can be autmomated to remove Req. 
+		
+		Shipe Width - Narrow, Average, Wide
+			Compartments Per Deck Change:
+				Small: -2, 0, +2 
+				Medium:
+				Large:
+				Huge:
+			Navigational Difficulty Change:
+				Small: -1, 0, +1
+				Medium:
+				Large:
+				Huge:
+
+	Ship Attributes
+		Size Class:		Determines ship available sail plans as well as helping derive compartments per deck.
+						Also gives reference for magnitude of systems on ship (power source, etc).
+						Derives maximum Gun Class, thanks to relation to power supply.
+		Sail Plan:		Rigging layout, options differ per Size Class. Derives many other Ship Attributes.
+		Hull Style:		Affects cost, durability, and ability to have gundecks below the topdeck. (Clinker vs Carvel)
+		Sky-Speed: 		Derived from Sail Plan. The craft's max speed in the air while reaching. 
+						Downwind = 75%, Windward 50%	
+		Surface-Speed: 		Derived from Sail Plan. Max speed in water, reduces similiarly to Skyspeed.
+		Durability:		Derives from Sail Plan and Hull Style. Ship HP is 50 x Durability, ships take 2x HP before 
+						being 'killed'.
+		Width: 			Narrow, Average, or Wide. Trades Navigation Difficulty for Compartments per Deck.
+						Availability varies by Sail Plan.
+		Navigation Difficulty:	Derived from Sail Plan and Width. Values for Reaching, Downwind, and Windward.
+						Varies by Sail Plan + Width.
+		Deck Number:		Derived from Sail Plan. Amount of decks (levels) to a craft. 
+						Multiplies the number of compartments based on Size Class and Width.
+		Compartments per Deck:	Derived from Size class and Width. Determines amount of space on craft.
+		Berth:			Maximum number of people the craft can accomodate. 
+						Increases by setting aside compartments as living space.
+		Cargo Space:		Number of compartments set aside for cargo plus hold space.
+		Broadside Power:	Added Potential for Gunnery rolls from the side.
+						Derived from the number of full and half gundecks: +2 per full, +1 per half.
+						Note: can be 0 if craft has no gundecks at all, and therefore is unable to attack.
+		Chaser Power:		Added Potential for Gunnery rolls from the front or back.
+						Derived from number of full gundecks: +1 per full.
+						Note: can be 0 if craft has no full gundecks, and therefore is unable to attack  
+							forward or aft.
+		Gun Class:		Dice added as bonus damage to successful attacks with the craft's guns.
+						Light	 - 2d10 Broad, 1d10 Chaser
+						Moderate - 2d12 Broad, 1d12 Chaser
+						Heavy 	 - 2d20 Broad, 1d20 Chaser
+						Limited by Size Class.
+							Small  - up to Light
+							Medium - up to Moderate
+							Large  - up to Heavy
+						 	Huge   - up to Heavy
+								Note: Huge craft get to roll 1 extra GC dice when hitting,
+									no matter their GC. (3 dice for broadside, 2 dice chaser)
+		Auxillary Crew Size:	Minimum number of spare crew members needed to operate craft. 
+						Varies by sail plan and system automation. Can be 0 if craft has full automization.
+		
+	Primary Crew Roles (Rolls for operating a skycraft):
+		Navigator (Acuity + Memory) - Determines a craft's course.
+						On Small craft can serve as Engineer's roll in combination when changing altitude. 
+						On Small and Medium 2-mast craft can serve as Helmsman's roll in combination.
+							Becomes Acuity + Charm if needing to interact with a rigging crew.
+		Engineer  (Acuity + Memory) - Manages the craft's technical systems, rolls for any mid-action repairs.
+						Required to roll seperate for altitude changes on Medium and larger craft. 
+		Helmsman  (Acuity)          - Steers a ship and guides the rigging crew, if any. 
+						Required as seperate roll on craft with at least 3 masts.
+						Becomes Acuity + Charm when without automated rigging.
+		Gunnery   (Acuity)          - Commands the craft's armament. Rolls to attack with the guns using ranged weapon skill.
+						Gets added Potential on ranged weapon roll based on craft's armament.
+						Can order attacks from Broad and Chaser in same turn, but does so as seperate rolls. 
+						Becomes Acuity + Charm when without automated gundecks.		
+
+
+	Lances, and to a lesser extent all Sail-boards or other vehicles, follow slightly different but similiar rules.
+		
+		Vehicles may require seperate individuals to roll for each behaviour (moving, attacking, etc)
+			or allow multiple to be done by one individual.
+		
+		One-person craft should allow the pilot to do all normal rolls in one turn.
+
+		Sail-boards and Lances
+			Attributes:
+				Sky-Speed & Surface-Speed - identical definition to normal craft. Faster than sky-sailing craft.
+				Lift-Drive Class - Surface or Sky, depending on if is sky-capable or not.
+				Capacity - carriable weight
+				Navigation Difficulty - Same rules as normal craft
+					Roll is Acuity + Power, rather than Memory or Charm
+				Can attack with mounted Lance, or personal tribgun
+					Tribgun roll as if on foot, subject to half dmg vs vehicle
+					Lance roll - Acuity + Finesse, but uses Melee Attacking skill
+						Also gets Heavy Chaser Gun Class bonus (1d20 bonus dmg on hit)
+
+				
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
