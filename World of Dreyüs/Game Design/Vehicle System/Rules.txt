@@ -1,10 +1,19 @@
-Vehicle System
+Vehicle System - Primary Document
+
+Vehicle Actions - REVIEW READY
+
+Movement - TODO
+
+Attacks - TODO
+
+Vehicle Roles - REVIEW READY
+
+Sky-ship Attributes - REVIEW READY
 
 
-PCs and NPCs can crew various Roles on a vehicle, allowing them to use abilities to take Vehicle Actions.
-	Example Roles: Navigator, Gunner/Gunnery Officer, Helmsman, Pilot, Engineer 
-Unless the description of a vehicle states otherwise, individuals can only take 1 Vehicle Action per turn.
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 
 
 Vehicle Actions - 
@@ -15,21 +24,25 @@ Vehicle Actions -
 	Vehicle Actions can result in the vehicle moving, attacking, or performing some other function.
 	
 	Rolls for Vehicle Actions resolve in three ways: Excellent, Inadequate, or Failure.
-		Failure occurs when more than half of all dice rolled for a Vehicle Action roll a "1". If this happens, the vehicle
-			does not perform its action at all or performs the action incorrectly in a non-beneficial way.
+		
+		-> Failure occurs when more than half of all dice rolled for a Vehicle Action roll a "1". If this happens, 
+			the vehicle does not perform its action at all or performs the action incorrectly in a non-beneficial way.
 			When moving, a Failure causes the craft to misalign and not move, drifting with the wind if the vehicle is
 				wind-driven.
 			When attacking, a Failure causes the craft fail to attack due to malfunction and require 1 round to reset
 				the weapons before being able to attack again.
-		Inadequate occurs when no dice meet or exceed the threshold of the roll.
+		
+		-> Inadequate occurs when no dice meet or exceed the threshold of the roll.
 			The vehicle will either perform its action poorly, or perform in incompletely.
 			When moving, the vehicle will move in the desired direction, but do so with a penalty.
 			When attacking, the attack will miss.
-		Excellent occurs when the threshold for the roll is met, and a Failure does not occur.
+		
+		-> Excellent occurs when the threshold for the roll is met, and a Failure does not occur.
 			The vehicle will perform the action correctly and to its best capability.
 
 	Cooperative Rolls - Sometimes, particularly on Sky-ships, multiple individuals will make rolls to contribute to a 
 			Vehicle Action.
+			
 			This most often occurs with Navigation Rolls, but can occur elsewhere, such as when multiple Engineers make
 				Repair Rolls.
 			
@@ -44,16 +57,46 @@ Vehicle Actions -
 				compared against the total dice rolled in order to determine if it is a Failure instead. 
 		
 
+
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
+
+Movement: TODO
+	All vehicles require an individual to roll to determine the quality of the vehicle's movement.
+
+	////////TODO: Terrestial vs Wind-driven	
+		Terrain Difficulty, land speed
+		Winds, sky-speed/surface-speed
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Attacks: TODO
+	
+	Attacks from individuals on foot deal 1/4 the value of successful dice, rounded down (minimun of 1) when targeting vehicles,
+		unless with attacking with a weapon that states otherwise.
+	
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
 Vehicle Roles:
+	
+
 	Engineer - Manages craft's technological systems.
 		Typical Rolls:
+			
 			Altitude Change - On Size Class Medium and larger sky-ships an Engineer must make a 
 				Navigation Roll (Acuity + Memory) seperate from the Navigator's and/or Helmsman's Navigation Rolls
-				when the ship is changing altitude. The threshold for this roll is 6 plus the modifier from ship's 
-				Lift-Drive Class.
+				when the ship is changing altitude. The threshold for this roll is 6 plus the modifier from 
+				the ship's Lift-Drive Class.
+			
 			System Stabilization - When a ship's systems become "Critical" due to the ship's Damage value meeting its 
 				Ship Health, an Engineer can make a Engineering Roll (Acuity + Memory) to attempt damage control
 				and stabilize the affected systems. This removes the "Critical" status and it's associated penalties.
@@ -61,6 +104,7 @@ Vehicle Roles:
 				applied, even if the a System Stabilization action succeeded previously. System Stabilization can be
 				used again to remove the "Critical" status if reapplied, but it does not prevent the reapplication 
 				of the status.
+			
 			Repairs - Outside of Combat, Engineers can lead the effort to repair a ship, lowering its Damage value.
 				This roll can be made once per day, and the work associated with the roll occupies that day. 
 				Engineers must have access to appropriate materials. The roll is affected by the number of
@@ -75,61 +119,130 @@ Vehicle Roles:
 				The threshold for this roll is always 6, and the Damaged reduced is equal to the combined value of
 					successful dice.
 
-	Gunner/Gunnery Officer - Operates a ships guns or directs auxillary crew in their use.
+	
+
+	Gunner/Gunnery Officer - Operates a craft's guns or directs Auxillary Crew in their use.
+		
 		Gunnery Rolls when the Gunner operates guns directly themself are Marksmanship (Acuity) Rolls.
 			Note: this can be when the craft only has a single weapon, when a craft has fully automated gunnery, 
 				or when their is insufficient crew to man a ship's gundecks.
+		
 		Gunnery Rolls when a Gunnery Officer directs crew members use of guns are Marksmanship (Acuity + Charm) Rolls.
 			Note: only the Gunnery Officer needs to roll when these attacks are made.
 		
 		Typical Rolls:
+			
 			Shoot - Gunner attacks with the weapon system of the craft. Always a Marksmanship (Acuity) Roll.
 				Note: This is the typical action when the craft possess a singular primary projectile weapon.
+			
 			Broadside Volley - Gunner or Gunnery Officer attacks with the broadside weapons to the port or starboard side.
 				Receives bonus Potential equal to the ship's Broadside Power.
+			
 			Chaser Volley - Gunner or Gunnery Officer attacks with the chaser weapons in the ship's fore or aft direction.  
 				Receives bonus Potential equal to the ship's Chaser Power.
 	
-	Helmsman - Operates the helm of a ship and directs the rigging crew, or operates the automated rigging system.
+	
+
+	Helmsman - Operates the helm of a ship and directs the Rigging Crew, or operates the automated rigging system.
+		
 		The Helmsman is only a required role on ships with at least 3 masts. However, a Helmsman can be used seperately from
 			a Navigator on smaller craft if there is enough crew members.
 		
-		A Helmsman can make Navigation (Acuity + Charm) Rolls to set a craft's course.
+		A Helmsman can make Navigation (Acuity) Rolls to set a craft's course.
 		
-		On Size Class: Small ships, the Helmsman can combine the Engineer's roll for altitude changes into their own 
+		On Size Class: Small ships, the Helmsman can combine the Engineer's roll for altitude changes into their own
 			Navigation roll instead of the Navigator or Engineer. 
+			The threshold for this roll is 3 plus Navigational Difficulty plus Lift-Drive Class modifier.
+				(3 + ND + LD Class)
 		
 		If a Helmsman must direct a manual rigging crew as part of the action, their roll becomes Navigation (Acuity + Charm).
 		
 
-	Lancer
 
-	Navigator	
+	Lancer - Operates a Lancer craft deployed at altitude from a Lancer Bay on a sky-ships.
+		
+		Only applicable when a sail-board is outfitted as a Lancer craft, otherwise the Pilot role is used instead.
+		
+		Lancers can always make a Vehicle Movement Action and some kind of Attack Action each round while on their craft.
 
-	Pilot
+		Typical Rolls:
+			
+			-> Movement: Navigation (Finesse + Acuity) Roll. Threshold is 3 + Navigational Difficulty.
+
+			-> Lance Attack: Melee Weapon (Acuity + Power) Roll to attack another craft with the mounted explosive
+				lance. Threshold is target craft's Defense.
+
+			-> Small Arms Attack: Melee Weapon (Finesse + Power) or Marksmanship (Finesse + Acuity) roll to attack with
+				a handheld weapon while moving with the craft. Counts as a on-foot attack rather than a vehicle one.
+				Typically used to target other individual Lancers directly mid-air.
 
 
-Auxillary Roles:
-	Gunnery Crew
 
-	Rigging Crew
+	Navigator - Determines the course a craft should take to reach its desired destination.
+		
+		Required Role on most wind-driven craft.
+
+		Makes Navigation (Acuity + Memory) Rolls to set a craft's course, determining the craft's movement. 
+			The threshold for this roll is 3 plus the Navigational Difficulty for the course's direction.
+
+		On craft that do not require seperate rolls from the Engineer for altitude changes, the Navigator can incorporate
+			that roll into their primary Navigation roll to make them one combined roll.
+			The threshold for this roll is 3 plus Navigational Difficulty plus Lift-Drive Class modifier.
+				(3 + ND + LD Class)
+
+		On craft with less than 3 masts the Nagivator can both determine the course of the ship while handling the ship's
+			controls and directing the rigging crew, if any. 
+			This roll is the normal Navigation (Acuity + Memory) Roll, unless interacting with a riging crew.
+			If directing a rigging crew, the roll becomes Navigation (Acuity + Charm).	
+
+
+
+	Pilot - Similiar to a Navigator or Helmsman, this role primarily directs the movement of a craft, but may also perform
+			other rolls depending on the craft.
+		
+		Most commonly used for terrestial vehicles, or one-person wind-driven vehicles such as sail-boards.
+		
+		Typical Rolls:
+		
+			-> Movement: Vehicle-Dependent roll to move a vehicle or set its course.
+				Threshold varies by vehicle type.
+				Ability and Attribute requirement varies by vehicle.
+					E.g. Driving (Finesse + Acuity) Rolls for wheeled vehicles, or
+						Navigation (Finesse + Acuity) Rolls for sail-boards, or
+						Navigation (Acuity + Memory) Rolls for other one-person wind-driven craft.
+		
+			-> Attack: Attack with vehicle-mounted weapon or handheld weapons.
+				Threshold is target's Defense. 
+				Ability and Attribute requirement varies for vehicle and weapon type.
+				Attacks made from a vehicle with handheld weapons count as on-foot attacks rather than vehicle ones.
+		
+
+
+Auxillary Vehicle Roles:
+
+	Gunnery Crew - Operates Manual Gundecks on sky-ships as Auxillary Crew Members.
+		
+		Gunnery Rolls made when interacting with Gunnery Crews become Marksmanship (Acuity + Charm) Rolls.
+			
+			(Note: if their is insufficient auxillary crew for Manual Gunnery, PC's can only
+				use half their Acuity, rounded down, as Potential for Attacks with the ship. 
+				You recieve half the total bonus Potential from Broadside or Chase Power, rounded down.
+				You can only roll 1 dice for bonus damage from the ship's Gun Class.
+				Bonus Damage dealt from Gun Class is reduced to half the amount rolled, rounded down.)
+
+
+
+	Rigging Crew - Operates Manual Rigging on sky-ships Auxillary Crew Members.
+			
+		Navigation Rolls made when interacting with Rigging Crews becomes Navigation (Acuity + Charm) Rolls.
+		
+			(Note: if their is insufficient auxillary crew for Manual Rigging, PC's will need to use AP to 
+				make additional Navigation Rolls to manually rig the sails. These rolls should be Acuity + Power.
+				These count as Vehicle Actions, and thus may cause course-changes to take multiple rounds to
+				complete, with the ship drifting until the changes are complete.)
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
-
-Movement:
-	All vehicles require an individual to roll to determine the quality of the vehicle's movement.
-		Role: Navigator, Helmsman, Pilot, Driver
-
-	////////TODO: Terrestial vs Wind-driven	
-		Terrain Difficulty, land speed, Driver Role
-		Winds, sky-speed/surface-speed, Pilot vs Navigator/Helmsman Role
-
-
-
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 
@@ -210,8 +323,10 @@ Sky-ship Attributes:
 					to determine roll threshold for Navigator's and Helmsman's Navigation Rolls.
 		Lift-Drive
 		Class		- Relative power of Lift-Drive for the ship's Size Class
-				 	Acts as a modifier to the Navigational Roll when changing altitude, 
-						added to the base 3 used for Navigation Rolls.
+				 	Acts as a modifier to the Navigational Roll when changing altitude.
+						Added to the base 6 used for Engineering Navigation Rolls.
+						Added to the base 3 plus the Navigational Difficulty when incorporated into regular
+							Navigation Rolls.
 					Low, Normal, High - +1, 0, -1
 					Affects construction cost relative to the Ship's Size Class
 						Small: -2000, 0, +2000
@@ -234,7 +349,8 @@ Sky-ship Attributes:
 	
 	Combat:
 		Durability	- Derived from Sail Plan and affected by Hull Style, used to calculate Ship HP
-		Ship HP		- 50 x Durability
+		Ship Health	- 50 x Durability
+		Defense		- Threshold for landing Damage dealing hits on the ship.
 		Lancer Bays	- Number of compartments set aside to allow Lancer deployment at altitude.
 					Limited per deck by Size Class:
 						Small: 2
