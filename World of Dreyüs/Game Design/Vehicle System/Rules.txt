@@ -69,6 +69,35 @@ Movement: TODO
 		Terrain Difficulty, land speed
 		Winds, sky-speed/surface-speed
 
+	Terrestial Vechicles
+		These are vehicles that are propelled by interacting with the ground directly, such as with wheels or tracks.
+		This contrasts with grounded wind-driven vehicles, which use the wind for propulsion, despite not actually flying.
+		
+		These are typically driven by one character directly as the Pilot Role. 
+		Normally these vehicles requires the Pilot to make a Driving(Finesse + Acuity) roll.
+				The threshold for these rolls is determined by the 
+					Vehicle's base Handling plus the Terrain Difficulty.
+				Handling is a Vehicle Attribute represented as an integer value of 1 or greater, 
+					it describes the general difficulty of controlling the vehicle.
+				Terrain Difficulty, also represented as an integer value or 0,
+					describes the ease of maneuvering a vehicle through a given area.
+						Examples:
+							Paved Surface 	- 0
+							Unpaved Road 	- 1
+							Loose Dirt/Sand - 2
+							Shallow Mud 	- 3
+							Deep Dirt/Sand 	- 4
+							Deep Mud	- 5
+							Steep Slope	- +2 (Added modifier to base Terrain Difficulty)
+		These vehicles have a Land Speed, which describes their maximum movement distance.
+			The quality of the roll's result (Excellent, Inadequate, Failure) interact with Land Speed to determine 
+				the acutal distance travelled as the result of the roll.
+					Excellent 	- Full Land Speed
+					Inadequate	- Movement Penalty
+					Failure		- No movement at all or mininal movement (i.e. slow roll, stop-start, etc)
+						(Note: Failure on rolls when the vehicle is already moving at speed from a previous 
+							turn might cause the vehicle to crash.)
+
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
