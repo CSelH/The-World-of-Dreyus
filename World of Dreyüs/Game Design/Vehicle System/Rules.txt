@@ -25,35 +25,29 @@ Vehicle Actions -
 	
 	Rolls for Vehicle Actions resolve in three ways: Excellent, Inadequate, or Failure.
 		
-		-> Failure occurs when more than half of all dice rolled for a Vehicle Action roll a "1". If this happens, 
+		-> Failure occurs when at least half of all dice rolled for a Vehicle Action roll a "1". If this happens, 
 			the vehicle does not perform its action at all or performs the action incorrectly in a non-beneficial way.
-			When moving, a Failure causes the craft to misalign and not move, drifting with the wind if the vehicle is
-				wind-driven.
-			When attacking, a Failure causes the craft fail to attack due to malfunction and require 1 round to reset
-				the weapons before being able to attack again.
 		
 		-> Inadequate occurs when no dice meet or exceed the threshold of the roll.
 			The vehicle will either perform its action poorly, or perform in incompletely.
-			When moving, the vehicle will move in the desired direction, but do so with a penalty.
-			When attacking, the attack will miss.
 		
 		-> Excellent occurs when the threshold for the roll is met, and a Failure does not occur.
 			The vehicle will perform the action correctly and to its best capability.
 
 	Cooperative Rolls - Sometimes, particularly on Sky-ships, multiple individuals will make rolls to contribute to a 
-			Vehicle Action.
+		Vehicle Action.
 			
-			This most often occurs with Navigation Rolls, but can occur elsewhere, such as when multiple Engineers make
-				Repair Rolls.
+		This most often occurs with Navigation Rolls, but can occur elsewhere, such as when multiple Engineers make
+			Repair Rolls.
 			
-			When performing Cooperative Rolls all individuals must meet the threshold on their roles in order to achieve
-				Excellent. 
+		When performing Cooperative Rolls all individuals must meet the threshold on their roles in order to achieve
+			Excellent. 
 			
-			However, if an individual succeeds with multiple dice, they may choose one partner from the roll and have
-				that partner's roll be considered successful as well. An individual may only do this for one partner
-				at a time.    
-			
-			All individuals rolling as part of cooperative roll have their rolled 1's counted collectively and 
+		However, if an individual succeeds with multiple dice, they may choose one partner from the roll and have
+			that partner's roll be considered successful as well. An individual may only do this for one partner
+			at a time.    
+		
+		All individuals rolling as part of cooperative roll have their rolled 1's counted collectively and 
 				compared against the total dice rolled in order to determine if it is a Failure instead. 
 		
 
@@ -62,21 +56,17 @@ Vehicle Actions -
 
 
 
-Movement: TODO
+Movement: 
 	All vehicles require an individual to roll to determine the quality of the vehicle's movement.
 
-	////////TODO: Terrestial vs Wind-driven	
-		Terrain Difficulty, land speed
-		Winds, sky-speed/surface-speed
 
 	Terrestial Vechicles
 		These are vehicles that are propelled by interacting with the ground directly, such as with wheels or tracks.
-		This contrasts with grounded wind-driven vehicles, which use the wind for propulsion, despite not actually flying.
+		This contrasts with grounded wind-driven vehicles, which use the wind for propulsion, despite not truly flying.
 		
 		These are typically driven by one character directly as the Pilot Role. 
-		Normally these vehicles requires the Pilot to make a Driving(Finesse + Acuity) roll.
-				The threshold for these rolls is determined by the 
-					Vehicle's base Handling plus the Terrain Difficulty.
+		Normally these vehicles require the Pilot to make a Driving(Finesse + Acuity) roll.
+			The threshold for these rolls is determined by the Vehicle's base Handling plus the Terrain Difficulty.
 				Handling is a Vehicle Attribute represented as an integer value of 1 or greater, 
 					it describes the general difficulty of controlling the vehicle.
 				Terrain Difficulty, also represented as an integer value or 0,
@@ -89,14 +79,197 @@ Movement: TODO
 							Deep Dirt/Sand 	- 4
 							Deep Mud	- 5
 							Steep Slope	- +2 (Added modifier to base Terrain Difficulty)
+							(Note: it is possible for certain Handling + TD combinations to create values
+								great than 12, making the manuever impossible to perform with an
+								Excellent result. The roll may still be attempted, but the best 
+								possible result is instead simply Inadequate.)
 		These vehicles have a Land Speed, which describes their maximum movement distance.
 			The quality of the roll's result (Excellent, Inadequate, Failure) interact with Land Speed to determine 
 				the acutal distance travelled as the result of the roll.
 					Excellent 	- Full Land Speed
-					Inadequate	- Movement Penalty
-					Failure		- No movement at all or mininal movement (i.e. slow roll, stop-start, etc)
+					Inadequate	- Movement Penalty (Half Speed?)
+					Failure		- No movement at all, minimal movement, or catastrophy
 						(Note: Failure on rolls when the vehicle is already moving at speed from a previous 
-							turn might cause the vehicle to crash.)
+							turn might cause the vehicle to crash or otherwise go out of control.)
+	
+
+	Wind-driven Vehicles
+		These are vehicles that are propelled by natural wind currents, with or without other sources of propulsion.
+		The most iconic of this class of vehicles would by the Sky-sailing Ships in all their various forms,
+			however many other sorts of vehicles exist in this class, such as sail-boards, sea-sailing ships, and 
+			other surface-based craft that use weak LDs to hover a small distance above the ground or water.
+		
+		Depending on the vehicle, the Pilot, Helmsman, and/or Navigator Roles are used to control movement.
+			Large, fully-crewed Sky-sailing Ships may even require a Helmsman, Navigator, and Engineer all working 
+			together in order to achieve optimal movement.
+		
+		Nearly all vehicles in this class utilize Navigation rolls for their movement, however the number of such rolls,
+			as well as the Attributes used for the roll, can vary between vehicles and related roles. 
+			Typically these will nearly always involve Acuity, either alone or split with another Attribute.
+		
+		The threshold for movement rolls can differ slightly, but will normally use a base of 3 + some modifier.
+			Typically the modifier is Navigational Difficulty (ND), which describes the difficulty of guiding the vehicle.
+				Navigational Difficulty varies for each vehicle, with a sepereate value for each relative Direction.
+			Besides ND, Lift-Drive Class (LDC) is the 2nd most common modifier for these rolls, but is only applicable 
+				whenever altitude changes are made. If an Engineer is handling the altitude change, the threshold 
+				for their roll is 6 + LDC modifier.
+				(Note: These rules will become more clear as the other relevant mechanics are explained.)
+		
+		While the maximum achievable speed is determined by the combination of the Vehicle's Speed, its Direction of travel 
+			relative to the wind, and the Wind Intensity, the quality of the result of the roll determines how much of
+			that potential speed is actually achieved.
+				Excellent	- Full Speed
+				Inadequate	- Half Speed (Note: If this would result in < 1 m/s, the vehicle does not move.)
+				Failure		- No movement at all or incorrect movement, and catastrophy (possibly turn penalty)		
+
+		These vehicles will have a surface-speed and/or sky-speed (depending on the vehicle) that describes their maximum
+			movement distance under ideal conditions (i.e. Reaching during Strong Winds)
+			Surface-speed and/or Sky-speed are listed in a vehicle's description.
+			These values are used as the base value when deriving the actual movement speed of the vehicle for a round.
+				Wind Intensity subtracts from this base value, limiting the maximum speed of the vehicle.
+				Direction of travel determines what percentage of that adjusted value is achievable. 
+			
+		Wind Intensity describes the general strength of the wind along its direction of travel.
+			Wind Intensity is described as either Strong, Normal, Weak, or Calm (no wind).
+			(Note: these general descriptions are used in lieu of exact wind speeds for simplicity.)
+				Strong Winds are the most intense. While they do allow for the greatest speed, they frequently 
+					acompany storms and other unsafe conditions.
+				Normal Winds are moderate intensity. Little danger is associated with this intensity, 
+					however vehicles cannot achieve their true maximum speed under these conditions.
+				Weak Winds are low intensity. While completely non-threatening, vehicles' max speed is further
+					reduced at this intensity.
+				Still Winds are non-intensive, being essentially of negligible speed. Vehicles will either be unable
+					to move, or only drift slowly.
+		Wind Intensity affects the maximum speed of a vehicle in the following ways:
+			Strong - Full Speed
+			Normal - -5 m/s
+			Weak   - -10 m/s
+			Calmed - Max speed = 1 m/s
+			(Note: Normal and Weak winds cannot reduce a vehicle's speed below 1 m/s.)
+			(Additional Note: if an altitude change is made as part of a movement, the Wind Intensity of the initial
+				position is used to determine possible speed.)
+		
+		Direction - wind-driven vehicles have three directions of lateral movement relative to the wind.
+			These are Reaching, Downwind, and Windward.
+			Reaching is movement that is roughly perpendicular to the wind's direction.
+			Downwind is movement along the wind's direction.
+			Windward is movemnt against the wind's direction.
+				(Note: For simplicity, tacking is performed automatically for Windward movement, and does not 
+					require the players to calculate or describe a true-to-life course. In other words, Players
+					can consider Windward movement as a straight line and describe it as such, with the 
+					understanding that characters in-world are utilizing realistic techniques, and are not
+					defying the laws of physics insofar as sailing techniques are concerned.) 
+		The direction of travel relative to the wind's direction affects the actual travelling speed of the vehicle.
+			Reaching movement allows for the maximum possible speed in the given Wind Intensity.
+			Downwind movement restricts a vehicle to 75% of its maximum possible speed in the given Wind Intensity.
+			Windward movements restricts a vehicle to 50% of its maximum possible speed in the given Wind Intensity.
+			(Note: Downwind and Windward movement cannot reduce a vehicle's speed below 1 m/s.)
+			(Additional Note: similiar to Wind Intensity, if an altitude change is made as part of a movement, the inital
+				Direction relative to the wind is used to determine possible speed.)
+
+		
+		All together, a vehicle's movement is determined using the following process:
+			A crew member, typically the Navigator, decides the intended course. 
+			Once the Direction is determined (Reaching, Downwind, Windward), and whether or not an altitude change is 
+				desired, the roll threshold is set based on the vehicle's Navigational Difficulty for that direction
+				and/or the Lift-Drive Class. These values are added to a base of 3 to determine the roll(s) threshold.
+				(Note: Depending on the how responsibilities are divided, different Crew Roles may have different
+					thresholds for the same movement roll. This is most notable whenever a crew is using a 
+					Navigator, Helmsman, and Engineer in cooperation. This is explained in detail in the 
+					Crew Roles segment.)
+			Starting from the vehicle's relevant speed (surface or sky), first any reduction from Wind Intensity 
+				is applied, if appropriate. Then, any reduction due to Direction is applied, rounded down to the 
+				nearest whole number if necessary. The resulting value is the vehicle's maximum speed for that round. 
+			After the threshold and speed is determined, all relevant rolls are made and the quality of the result is
+				revealed. 
+				If the result was Excellent, the vehicle moves at 100% of the determined speed.
+				If it was Inadequate, the vehicle suffers a 50% reduction to the determined speed, rounded down, 
+					if this goes below 1 m/s, the vehicle doesn't move, but is otherwise uninhibited.
+				If it was a Failure, the vehicle doesn't move at all or moves in a way that is harmful to the crew's
+					efforts, and suffers from some catastrophy that requires one or more crew members to take
+					corrective actions before full control of the vehicle is regained. 
+
+		A few specific examples to demonstrate the process:
+			
+			The Navigator of a 3-masted Full-rigged sky-ship of average width (in this case also equipped with automated
+				rigging and a Lift-Drive class of Normal) sets a Reaching course in Strong Winds, 
+				along with an altitude change. (Note: the ship is already at altitude, rather than the surface.)
+			This ship requires the Navigator, Helmsman, and Engineer to make seperate rolls in cooperation.
+				The Navigator's roll is Navigation (Acuity + Memory), with a threshold equal to 3 plus the Reaching 
+					ND for this ship ( 3 + 6 for a total of 9).
+				The Helmsman's roll is Navigation (Acuity), with the same threshold as the Navigator's roll.
+					(base 3 + the ships Reaching ND of 6 for a total of 9.)
+				The Engineer's roll is Navigation (Acuity + Memory), with a threshold equal to 6 plus the modifier 
+					from the ship's Lift-Drive Class (+0 for a LDC of Normal, so the threshold in this case is
+					simply 6).
+			This ship's sky speed is 15 m/s, the winds are Strong (no reduction), and the ship is reaching (no reduction).
+				So the ship's maximum speed for this round is the full 15 m/s. 
+			The Navigator, Helmsman, and Engineer all roll, each manage to meet or beat the threshold, and the total 
+				amount of 1's rolled is less than half the total amount of dice rolled. 
+				With these rolls, the result of the overall Cooperative Roll is Excellent, and thus the ship moves
+					at 15 m/s in the desired direction while making the desired altitude change.
+			(Note: any Failures or Inadequecies from some, but not all, of the involved crew leaves the exact nature of 
+				the outcome to the GM, however it's recommended to associate the result with the aspect of the roll
+				that was unsuccessful. E.g. a failed Engineer roll might cause the craft to simply not change 
+				altitude, or change in the wrong direction, or a failed Navigator's roll might incur the movement
+				speed penalty, but not affect the altitude change.)
+
+			
+			A Lancer operating a Lancer Sail-Board decides to move Windward while the Wind Intensity is Normal. 
+				(Note: altitude changes do not affect the roll for these craft).
+			The Lancer's roll is Navigation (Finesse + Acuity), and the threshold is 3 plus the ND of this craft, in this
+				case we'll say it is 5, so the threshold is 8 (since 3 + 5 = 8).
+			This Sail-Board's Sky-Speed is 30 m/s, reduced by 5 m/s down to 25 m/s due to Normal Wind Intensity, and the 
+				Direction is Windward, so the 25 m/s is reduced by 50%, rounded down, for a result of 12 m/s.
+				So the craft's maximum speed for this round is 12 m/s.
+			The Lancer rolls and does not meet or beat the threshold of 8, but less than half of the dice rolled are 1's,
+				so the result of the roll is just Inadequate.
+			The Inadequate result applies another 50% reduction to the 12 m/s speed, down to merely 6 m/s. However the 
+				movement does still occur since the final speed speed is not < 1 m/s.
+			The action resolves, and the craft moves 6 m/s along the desired course.
+
+
+
+			The lone Navigator of an average width Cutter sky-ship equipped with a High Power Lift-Drive sets a 
+				Downwind course with an altitude change during Weak Winds.
+			The Navigator's roll is Navigation (Acuity + Memory), with a threshold equal to 3 + the ship's Downwind ND, 
+				plus the Lift-Drive Class Modifier, because the Navigator is handling the altitude change, rather
+				than delegating the task to a dedicated Engineer.
+				So, the threshold for this roll is 4 ( 3 + 2 *Downwind ND* + -1 *High Power Lift-Drive Class* = 4 )
+			The Cutter's Sky-Speed is 20 m/s, Weak Winds reduce this by 10 m/s, then the Downwind penalty is applied,
+				rounded down, bringing the speed to 7 m/s ( 20 - 10 = 10, 10 x .75 = 7.5, round down to 7).
+				So the ship's maximum speed for this round is 7 m/s.
+			The Navigator rolls, and half of the dice rolled are 1's, so the result of the roll is a Failure, regardless
+				of if any other dice meet or beat the threshold. 
+			The action resolves, and the GM decides that the Navigator's Failure manifests as the character having
+				mishandled the controls, leading to the rigging becoming tangled before the Navigator could get
+				the ship to move. Thus the ship fails to move at all, due to the Navigator halting the process in 
+				order to begin to untangle the rigging. The GM determines that the untangling process will take the 
+				crew 1 round to complete, resulting in the ship being unable to utilize the wind until a round is 
+				spent fixing the problem. (Note: this exact situation, as formulated by the theoretical GM, would 
+				still allow the ship to change altitude. The GM is free to determine to what exact extent a 
+				Failure will inhibit the Players, but GM's are encouraged to avoid multiple-round penalties unless 
+				it seems appopriate for the circumstances.)
+
+
+		Alternatively, the order of operations performed for movements can be changed slightly if desired, so long as it is
+			not done in a way that provides the Players any undue insight or unfair meta-gaming. Changes to this order 
+			should only be made out of personal preference or for ease of use, and never to gain any mechanical advantage.
+
+			For instance, Players might calculate the potential speed for all 3 directions before deciding which one 
+				to attempt. In fact, Players dedicated to being Navigators might keep a chart of the exact potential
+				speed of their ship for every combination of Wind Intensity and Direction, though this is not
+				a requirement.
+			Or, dice rolls might be made immediately after determining the thresholds, and then calculating the potential
+				speed of the movement before applying the result of the roll. 
+			
+		Regardless, rolls should NEVER be revealed before determining the direction or the threshold of the roll. 
+			Players might roll preemptively if the course of action was previously agreed upon, but knowledge of the roll
+			result should not be used to incentivize any change to the actions being taken. (I.e. don't meta-game rolls).
+		Likewise, calculating speed should always take the following order:
+			Vehicle Speed -> Wind Intensity -> Direction Penalty -> Roll Result
+			Performing this operation in any other order could result in unintended outcomes. 
+			
 
 
 
@@ -290,10 +463,7 @@ Sky-ship Attributes:
 				Large:
 				Huge:
 			Navigational Difficulty Change:
-				Small: -1, 0, +1
-				Medium:
-				Large:
-				Huge:
+				All Sail Plans: -1, 0, +1
 			Construction Cost Change:
 				Small: -500, 0, +500
 				Medium:

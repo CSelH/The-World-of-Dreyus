@@ -258,7 +258,7 @@ Class System:
 Starting Conditions/Progression: 
 	
 	Class starts (see class system for static skill starts):
-		- Lancer: +1 Heartiness, +1 Tenacity, +1 Acuity, +1 Power
+		- Lancer: +1 Heartiness, +1 Speed, +1 Tenacity, +1 Acuity, +1 Power
 			choose: 2 small melee weapons or 1 large melee weapon 
 			choose: 1 small tribgun, 1 small melee weapon, or an m-fab
 			choose: novice armor or 1 small tribgun
