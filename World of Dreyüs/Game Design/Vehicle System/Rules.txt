@@ -2,7 +2,7 @@ Vehicle System - Primary Document
 
 Vehicle Actions - REVIEW READY
 
-Movement - TODO
+Movement - REVIEW READY
 
 Attacks - TODO
 
@@ -279,6 +279,19 @@ Movement:
 
 Attacks: TODO
 	
+
+	Attacks from vehicles are generally similiar to attacks made from individuals on foot.
+	
+	First, an attacker determines the size and number of dice they may roll.
+		Size is determined by their Level in the relevant Ability.
+		Quantity is determined by their Potential for the roll, derived from the Attributes used from the roll.
+			Note: some vehicles gain a bonus to the Potential for their attacks, allowing the attacker to roll 
+				more dice than their own Potential would allow for. The exact name of this vehicle Attribute can
+				differ slightly between vehicles but will include the term "Force" e.g. "Broadside Force" or
+				"Chaser Force" derived from the respective gundecks on ships.
+
+	Then, the attacker rolls the selected number of dice, and the result is compared against the target's Defense.
+
 	Attacks from individuals on foot deal 1/4 the value of successful dice, rounded down (minimun of 1) when targeting vehicles,
 		unless with attacking with a weapon that states otherwise.
 	
@@ -560,10 +573,10 @@ Sky-ship Attributes:
 		Half Gundeck(s) - Contributes to Broadside Power, requires 1/2 the compartments of a Full Gundeck
 				Note: A ship CANNOT have multiple Gundecks, Full or Half, on a single deck of a ship, regardless of
 					the number of available compartments.
-		Broadside Power - Added Potential for Gunnery rolls from the side.
+		Broadside Force - Added Potential for Gunnery rolls from the side.
 					Derived from the number of full and half gundecks: +2 per full, +1 per half.
 						Note: can be 0 if craft has no gundecks at all, and therefore is unable to attack.
-		Chaser Power	- Added Potential for Gunnery rolls from the front or back.
+		Chaser Force	- Added Potential for Gunnery rolls from the front or back.
 					Derived from number of full gundecks: +1 per full.
 						Note: can be 0 if craft has no full gundecks,
 							and therefore is unable to attack forward or aft. 
