@@ -1,10 +1,12 @@
-Vehicle System - Primary Document
+Vehicle System ---- Primary Document
 
 Vehicle Actions - REVIEW READY
 
+Vehicle Status - TODO
+
 Movement - REVIEW READY
 
-Attacks - TODO
+Attacks - REVIEW READY
 
 Vehicle Roles - REVIEW READY
 
@@ -54,6 +56,14 @@ Vehicle Actions -
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+
+
+Vehicle Status - TODO
+	
+	Describe the general conditions of a vehicle. Such as its Ship Health and Systems, and the various statuses they can be in.
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 Movement: 
@@ -277,21 +287,51 @@ Movement:
 
 
 
-Attacks: TODO
+Attacks: 
 	
 
 	Attacks from vehicles are generally similiar to attacks made from individuals on foot.
 	
-	First, an attacker determines the size and number of dice they may roll.
-		Size is determined by their Level in the relevant Ability.
-		Quantity is determined by their Potential for the roll, derived from the Attributes used from the roll.
-			Note: some vehicles gain a bonus to the Potential for their attacks, allowing the attacker to roll 
-				more dice than their own Potential would allow for. The exact name of this vehicle Attribute can
-				differ slightly between vehicles but will include the term "Force" e.g. "Broadside Force" or
-				"Chaser Force" derived from the respective gundecks on ships.
+	First, as when making regular attacks, an attacker determines the size of the dice they will roll and the maximum number of 
+		dice they may throw.
+		Size is determined by the user's Level in the relevant Ability.
+		Quantity is determined by their Potential for the roll, derived from the Attributes used from the roll, as well as
+			any Bonus Potential provided by the Force of the vehicle's weapons.
+			
+	After choosing how many dice to roll, the attacker rolls those dice.
+	
+	Unlike regular attacks, vehicle attacks, like other vehicle rolls, suffer a Failure if at least half of the dice 
+		rolled land on a "1". 
+	
+	If the result of the roll is a Failure, the attack cannot hit even if other dice rolled at or over the target's defense.
+		Additionally, at the GM's discretion, a Failure can be accompanied other negative consequences, such as the attack
+			hitting an unintended target instead or the weapons malfunctioning and requiring time and/or effort to reset.
+			(Note: GM's are heavily encouraged to be dynamic with the consequences of Failures, and make use of them 
+				as storytelling tools that can be adapted to the situation at hand.)
+			(Suggestion: if you desire a standard or default consequence for a Failure from a Vehicle Attack, you
+				may simply have the weapon system have a "Malfunction" and become Critical status requiring a 
+				System Stabilization roll with a threshold for the roll equal to either 3 or twice the Force from the 
+				relevant vehicle weapon, whichever is higher.)
 
-	Then, the attacker rolls the selected number of dice, and the result is compared against the target's Defense.
+	If the result of the roll is Inadequate, where no dice met or exceeded the target's defense but a Failure did not occur,
+		then the attack either hits for no damage or misses entirely, but without other negative consequences.
 
+	If the result of the roll is Excellent, then the attack succeeds and the target takes damage equal to the value of the 
+		successful dice that met or exceeded the target's Defense.
+
+	Whenever a vehicle is targeted, the affected systems of the ship should be relevant to the area of the vehicle that is being
+		hit. 
+	An attacker might attmept to target specific areas of another vehicle for this reason, if possible, although the viability 
+		of certain targets might be limited by the attacker's weapon.
+		For instance, while a sky-sailing ships gundecks can target any area they can see with relative ease, a Lancer 
+			attempting to attack above the main deck of an enemy ship might find themselves more vulnerable to 
+			attacks from that ships crew.
+		In general, the potential consequences of the situation created by an attempted attack should be consider by the GM
+			and the player, and allow that to guide both the roleplay and the mechanical gameplay, affecting what might
+			happen as the result of Failures from the attack or how player characters or enemies might respond to 
+			particular assaults.  
+	
+	Note regarding vehicles being attacked:
 	Attacks from individuals on foot deal 1/4 the value of successful dice, rounded down (minimun of 1) when targeting vehicles,
 		unless with attacking with a weapon that states otherwise.
 	
@@ -312,12 +352,12 @@ Vehicle Roles:
 				when the ship is changing altitude. The threshold for this roll is 6 plus the modifier from 
 				the ship's Lift-Drive Class.
 			
-			System Stabilization - When a ship's systems become "Critical" due to the ship's Damage value meeting its 
+			System Stabilization - When a ship's systems become Critical due to the ship's Damage value meeting its 
 				Ship Health, an Engineer can make a Engineering Roll (Acuity + Memory) to attempt damage control
-				and stabilize the affected systems. This removes the "Critical" status and it's associated penalties.
-				Note: Anytime a ship is hit and its Damage meets or exceeds its Ship Health, the "Critical" status is
+				and stabilize the affected systems. This removes the Critical status and it's associated penalties.
+				Note: Anytime a ship is hit and its Damage meets or exceeds its Ship Health, the Critical status is
 				applied, even if the a System Stabilization action succeeded previously. System Stabilization can be
-				used again to remove the "Critical" status if reapplied, but it does not prevent the reapplication 
+				used again to remove the Critical status if reapplied, but it does not prevent the reapplication 
 				of the status.
 			
 			Repairs - Outside of Combat, Engineers can lead the effort to repair a ship, lowering its Damage value.
@@ -461,7 +501,7 @@ Auxillary Vehicle Roles:
 
 
 
-Sky-ship Attributes:
+Sky-ship Attributes (& Components):
 	
 	Build:
 		Size Class	- Small, Medium, Large, Huge <- Describes general size of the ship, determines available 
