@@ -343,6 +343,23 @@ Attacks:
 
 Vehicle Roles:
 	
+	Vehicle Roles are in essence the "jobs" that player characters or npcs can perform in order to crew a vehicle.
+	A vehicle description will have a list of its required Roles, and may include optional or unique Roles for that vehicle there
+		as well.
+	Roles, unlike Classes, are not set or permanent in any way. As long as a character meets the requirements to perform the
+		Role, they may act in that Role as a crew member of a vehicle.
+	 Different vehicles may have different requirements as a minumun to perform a particular Role on that craft, and occasionally
+		Roles maybe restricted to particular Classes, with characters of incorrect class being heavily penalized if 
+		attempting to perform that Role. The most notable example of this is the Lancer Role, which is uniquely restricted 
+		to the Lancer Class, for the Lancer Craft. Other classes could attempt to perform in the Lancer Role, but are heavily
+		penalized when attempting to manuever in combat or attack. 
+		(Note: other classes can instead use the Pilot Role to manuever Lancer Craft, but are entirely prevented 
+			from attacking when doing so.)
+	Switching from one Role to another while crewing a vehicle typically requires a regular Action and the expense of some AP.
+		Depending on the difficulty of the transition, the GM may require more than one Action Point to make the change, or
+			even require a dice roll.
+
+ 
 
 	Engineer - Manages craft's technological systems.
 		Typical Rolls:
