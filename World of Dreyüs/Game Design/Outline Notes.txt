@@ -277,8 +277,6 @@ Starting Conditions/Progression:
 			learn 1 new ability and gain 1 related piece of equipment related to that ability if not provided by the 
 				ability automatically
 	
-		Each Character also gets 2 free attributes to spend at will,
-	 	however, no attribute can be raised above 3 during character creation
 
 
 	Progression
