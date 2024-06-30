@@ -237,7 +237,7 @@ Class System:
 	- BattleTech: starts with choice: 1 combat ability, 1 tech ability at journeyman, and 1 tech ability at novice
 		tech abilities for less AP, access to unique m-fab upgrades and integrations 
 						(automates certain m-fab actions like material or wound analysis + handsfree)
-	- Experts: starts with 2 knowledge abilities at journeyman, and 2 tech or knowledge abilities at novice
+	- Experts: starts with 2 general abilities at journeyman, and 2 tech or general abilities at novice
 		learns non-combat abilities faster via acuity, bonus to ability rolls outside of foot-combat
 		takes stress passively per turn of foot combat
 		m-fab upgrades 
