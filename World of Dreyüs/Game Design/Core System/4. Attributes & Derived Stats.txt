@@ -1,0 +1,206 @@
+
+
+Attributes are the primary stats of the system.
+
+
+
+They are represented as integer values from 1 to 5, with 1 being the minimum a character may have, representing a "below average"
+	human ability, and 5 five being the maximum they might have, representing a "near super-human" ability.
+
+
+
+Derived stats such as a character's Health, Defense, Action Points, and Carry Weight are derived from Attributes.
+
+
+
+Primarily, Attributes determine the character's Potential, or the available number of dice, for an associated roll.
+	Some simple actions, such as moving a heavy object or recalling a piece of information, may rely on one Attribute alone,
+		In these cases, Potential is equal to the associated Attribute. 
+			E.g. Move Object (Power) or Recall (Memory), Potential = Power or Memory.
+	More skilled or complex actions, such as attacking or operating a device or machine, may rely on a combination of two 
+		different Attributes.
+		In these cases, Potential equals half the sum of the two Attributes, rounded down.
+			E.g. Markmanship (Finesse + Acuity) or Engineering (Acuity + Memory), 
+				Potential = (Finesse + Acuity) / 2 or (Acuity + Memory) / 2. 
+	
+	This means that more complicated and difficult actions will require characters to develop their capability in multiple fields.
+	Likewise simpler actions are less demanding on a character's capability, and thus be performed more consistently at first. 
+
+
+
+
+All characters start with a "1" in each Attribute, with the character's class providing a starting a bonus of +1 or +2 to different
+	Attributes related to the class's archetype. 
+
+
+
+Character's can raise their Attributes via Experience Points earned through significant accomplishments. 
+Attributes take significantly more Experience Points as their value increases.
+
+
+\\\\\\\\\\\\\\\\\
+
+
+
+The following is the list of Attributes, and their general description:
+
+	Heartiness: Represents a character's physical endurance, directly deriving Health and contributing to Defense.
+		Hearty characters are harder to hurt, and can absorb more damage than the average person.
+	
+	Tenacity: Represents a characer's mental resilience, and their ability to stay calm and handle Stress. Derives Control stat.
+		Tenacious characters can endure stressful situations longer, and maintain self-control better than the average person.
+
+	Speed: Represents a character's alacrity, deriving Actions Points and the character's Movement Value. 
+		Speedy characters cover ground more quickly, and act more often than the average person.
+
+	Finesse: Represents a character's physical precision and deftness, and contributes to Defense alongside Heartiness.
+		Fine characters can aim better, act more subtly, and avoid attacks easier than the average person.
+
+	Acuity: Represents a character's ability to perceive, understand, and conceptualize accurately, as well as one's skillfullness.
+		Acute characters notice things others don't, are more analytical, and are more technically capable than the average person.
+	
+	Power: Represents a character's physical strength, contributing to one's melee damage and directly deriving Carry Weight.
+		Powerful characters can hit harder and bear more weight than the average person.
+
+	Charm: Represents a character's charisma, their ability to appeal to others in various aways, and get the best from cooperation.
+		Charming characters are better at intimidating, persuading, or convincing others, and are better leaders than the average person.
+
+	Memory: Represents a character's depth of knowledge and ability to recall experiences or information accurately, especially under stress.
+		Rentitive characters are do the best technical work, and are normally regarded as more intelligent than the average person.
+
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\
+
+
+
+The following is a list of the stats derived from Attributes, and any counterparts to those stats.
+
+
+	Health: Equal to ten times the character's Heartiness. 
+		Represents a character's ability to withstand physical Damage.
+
+
+	Damage: Counterpart to Health.
+		
+		Whenever a character is physically harmed Damage increases.
+			Wounded: Applied when Damage increases and the result is equal to or higher than the character's Health.
+				Wounded characters have a -1 Potential on all actions.
+				Wounded characters must roll 1d6 whenever their Damage increases,
+					 if the result is higher than their Heartiness they receive an Injury.
+						This roll is called the Injury Save.
+						Injuries are explained in more detail in the Statuses section. 
+				The Wounded status is removed automatically if Damage is 
+					lowered to a value less than the character's Health.
+
+			Dieing: Applied when Damage increases and the result is equal to or higher than twice the character's Health.
+				Dieing characters become permanantly dead if their Damage increases.
+				Dieing characters must roll 1d6 at the end of each of their turns, 
+					if the result is higher than their Heartiness, they permanently die.
+					This roll is called the Death Save.
+				The Dieing status is removed automatically if Damage is 
+					lowered to a value less than twice the character's Health.
+				
+		Character's can instantly receive an Injury or die if a single attack increases Damage by a significant amount.
+			
+			If a single attack increases Damage by a value equal to or greater than half of a character's Health, 
+				they receive an Injury and they do not make an Injury Save.
+				
+			If a single attack increases Damage by value equal to or greater than a character's Health,
+				 that character instantly and permanantly dies and they do not make a Death Save.	
+	
+		(Note: Dieing, Wounded, and Injured characters have opportunities for survival, mitigation, and remediation,
+			however, truly dead characters are forever lost.)
+
+		Damage must be lowered by medical treatment and recovery time, typically from resting.
+	
+		Some abilities do exist for lowering Damage during combat as well as removing, ignoring, or preventing 
+			its associated statuses or their effects.	    
+	
+
+	Control: Equal to ten times the character's Tenacity.
+		Represents a character's ability to withstand mental Stress.
+
+
+	Stress: Counterpart to Control.
+		
+		Character's Stress can increase as a result of various situations and effects.
+
+		Several sources of Stress exist, here are a few of the most common:
+			
+			Whenever a character's Damage increases, their Stress increases by half of the same value, rounded up.
+				Note: The Lancer Class is immune to this source of Stress.
+		
+			Whenever a character receives an Injury, their Stress increases by an amount equal to half of their Control.
+  
+			Wounded characters take 1d4 Stress at the end of each of their turns.
+			
+			If a character makes a Death Save and doesn't die, their Stress increases by the amount rolled on 
+				the Death Save instead.
+
+			The Expert Class must roll 1d6 at the end of each of their turns in Personal Combat (non-vehicle combat).
+				If the result is higher than their Tenacity, their Stress increases by 1.
+		
+		These Statuses can occur as Stress increases:
+			
+			Shaken: Applied when Stress increases and the result is equal to or higher than the character's Control.
+				Shaken characters have a -1 Potential on all actions.
+
+			Panicked: Applied when Stress increases and the result is equal to or higher than twice the character's Control.
+				Panicked characters must roll 2d6 at the start of each of their turns,
+					if both dice land on a value higher than the character's Tenacity,
+						they suffer a -3 Action Point penalty for the turn.
+					If only one dice lands on a value higher than the character's Tenacity, 
+						they suffer a -1 Action Point penalty for the turn instead.
+					If no dice land on a value higher than the character's Tenacity, 
+						they suffer no Action Point penalty for the turn.
+
+			Unconcious: Applied when Stress increases and the result is equal to or higher than three times the character's Control.
+				Unconcious characters cannot act or move, and their Defense becomes 1.
+				Unconcious characrers can be awoken by an allies Medicine (Acuity + Memory) roll.
+					The threshold for this roll is always 3, on success the unconcious character awakens and the status is removed.
+						However, this roll does not reduce the character's Stress, leaving the character 
+						vulnerable to the Unconcious status if their Stress increases again.
+					 
+		Stress is normally lowered by resting, although some abilities exist that can lower Stress during combat.
+		Likewise, some abilities can remove, ignore, or prevent Stress from increasing, as well as preventing, ignoring, or
+			preventing its associated statuses or their effects. 
+
+	
+	Defense: Equal to the sum of a character's Heartiness and Finesse.
+		Represents a characters ability remain unaffected by attacks.
+		If a dice rolled for an attack meets or exceeds the target's Defense, their Damage increases by the amount rolled.
+
+
+	Movement Value: a number of meters equal to the character's Speed.
+		A character moves a distance up to their Movement Value whenever they take the Move action.
+		A character moves a distance up to twice their Movement Value whenever they take the Sprint action.
+
+
+	Action Points: equal to 1 plus a character's Speed.
+		Characters must expend Action Points to perform actions during combat, such as moving, attacking,
+			interacting with equipment, or using abilities.
+		Action Points reset at the start of a character's turn.
+
+
+	Carry Weight: a number of kilos equal to 10 times a character's Power.
+		Characters can normally carry an amount up to their Carry Weight without penalty.
+		A character can carry amounts greater than their Carry Weight up to twice their Carry Weight, but gained the 
+			Burdened status when doing so.
+		A Burdened character can use the Move action, but cannot use the Sprint action or the Attack action.
+	
+		A character can attempt to hold up amounts greater than twice their Carry Weight, but cannot use other actions while doing so.
+			If a characters attempts to hold up extreme weight in this way, they must use an action to make a dice roll.
+			The roll is Athletics (Power), and the GM determines the threshold based on the apparent difficulty of the situation.
+				Note: if a character attempts to hold up unrealistic amounts of weight, the GM can set the threshold
+					high enough to make the roll impossible, or simply declare the action an automatic failure.
+			The GM may require repetitions of this roll to hold up the weight for extended periods of time.
+			
+				
+\\\\\\\\\\\\\\\\\\\\
+
+

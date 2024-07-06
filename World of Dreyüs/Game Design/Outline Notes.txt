@@ -27,6 +27,8 @@ Dice System: Stat + Skill (I think we go with Attribute + Abilities)
 
 	Roll vs Effect modifiers (per dice before check vs added to total after check)
 
+
+
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 

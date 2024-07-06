@@ -1,0 +1,23 @@
+Core System Overview
+
+TODO
+
+2. Dice System - TODO
+
+3. Turn Economy - TODO
+
+4. Attributes & Derives Stats - REVIEW READY
+
+5. Statuses - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
+
+6. Ability System - TODO
+
+7. Ability List - TODO
+
+8. Item System - TODO
+
+9. Class System - TODO
+
+10. Character Creation - TODO
+
+11. Character Progression - TODO

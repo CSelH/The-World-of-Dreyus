@@ -1,0 +1,216 @@
+This game makes use of 4-sided, 6-sided, 8-sided, 10-sided, and 12-sided dice. In notation, these will be referenced in the normal 
+XdY format, where X is the number of dice to be rolled, and Y is the number of sides those dice should have.
+
+For instance, 1d4 refers to rolling one singular 4-sided dice, while 3d4 refers to rolling three 4-sided dice. 
+5d12 would refer to five 12-sided dice, 4d8 is four 8-sided dice, 2d6 is two 6-sided dice, and so on. 
+
+
+
+There a three kinds of dice rolls used in this game to determine the outcome of uncertain events.
+
+These rolls are Action Rolls, Struggle Rolls, Vehicle Rolls, and Saves.
+
+Action Rolls are made by a character when they attempt to perform some feat, such as attacking, crafting, or coercing.
+	Characters choose to perform these rolls actively, and typically must expend Action Points in order to do so. 
+
+Struggle Rolls are a variation of an Action Roll that can be made by a character whenever they lack the Ability or Potential to 
+	perform a particular action. These rolls have a low success rate and are typically made only in desperation and with an
+	expectation of failure. 
+
+Vehicle Rolls are similiar to Action Rolls, and involve one or more characters performing certain duties as part of a crew.
+	These rolls modify the basic Action Roll rules, and are described in the in the Vehicle System Rules section.
+	For now, it is enough to know that they are simply Action Rolls for vehicles, rather than lone individuals.
+
+Saves are rolls a character maybe forced to perform in order to determine if they succumb to some effect.
+	These rolls are typically not chosen by the character, and instead are the result of something happening to the character.
+	Saves should never require Action Points to perform. 
+
+
+
+
+This section will describe the mechanics of Action Rolls and Saves.
+Vehicle Rolls are described in the Vehicle System Rules section.
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\
+
+
+
+
+Action Rolls
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------
+A GM may call for a character to make a roll of this kind whenever the character is actively attempting to do something.
+
+A normal Action Roll should involve a character attempting to use some Ability they possess to perform some related action.
+	For example, a character might use their Marksmanship Ability to attempt to shoot a target, or use their First-Aid Ability
+	to provide initial treatment to a wound.
+
+Characters can only perform one Action Roll at a time, and must resolve any current actions before attempting a new one.
+
+For Action Rolls, a character's player, or the GM in the case of NPCs, rolls one or more dice and compares the result of each to
+the target threshold for the roll. Normally, the GM determines the threshold for the roll, and should use higher values to reflect
+more difficult situations. Sometimes the threshold for a roll is predetermined, most notably in the case of attacking actions, where
+the threshold is determined by the target's Defense. Occasionally Abilities will provide rules that determine thresholds for specific
+actions.
+
+Thresholds normally range from 2 to 12, representing the possible range of acheivable values. However, if the GM determines that
+an action is so difficult that is either completely impossible or only possible under extraordinary circumstances, they may set 
+a threshold higher than 12. 
+The GM may tell players the threshold outright, or choose to withold the information. (Note: Player's normally should not be told a 
+target's Defense unless their character learns or deduces that information.)
+
+
+
+
+
+
+Success and Extra Successes
+-------------------------------------------------------------------------------------------------------------------------------------
+If one or more of the dice rolled give a value equal to or higher than the threshold, then the character performs the action
+sucessfully. 
+Only one successful dice is required to perform an action. If multiple dice succeed, the one with the highest value among them is 
+used to perform the action. All successful dice after the primary one are called Extra Successes.
+
+Extra Successes maybe used to increase the potency of the action, and sometimes can be used for additional effects. 
+For instance, Damage done by attacks is equal to the value of the successful die, and the value of the Extra Successes can 
+be added to the initial value.
+
+Abilities may grant unique uses of Extra Successes for related actions, and will describe their uses and limitations.
+
+If the GM determines it to be appropriate, Extra Successes can be used in ways not explicitly described, so long as it does not
+conflict with or bypass the game's intended limitations. Use this as a tool to enhance roleplaying by thinking of dynamic and 
+interesting functions that reflect the details of the situation. As a guideline, no dice should perform more than one function, each 
+function should have roughly equivalent value, and the amount of different functions performed in one action should be limited to
+a reasonable degree.
+If considering a new way of using an Extra Success, familiarize yourself with the existing ways of doing so already described by
+different Abilities to ensure there isn't a distinct overlap and to provide a reference for balancing the effect. 
+
+
+
+
+
+
+Unsuccessful
+-------------------------------------------------------------------------------------------------------------------------------------
+If none of the dice rolled for the action meet or exceed the threshold, then the GM determines if the character either fails to 
+perform the action, or performs it in an unsuccessful way.
+
+
+
+
+
+
+Openings and Mistakes
+-------------------------------------------------------------------------------------------------------------------------------------
+If one or more dice rolled as part of an Action Roll land on a 1, then the character experiences one or more Mistakes or Openings.
+Mistakes and Openings represent some significant oversight, miscalculation, carelessness, or other error from the character.
+Mistakes and Openings can occur during successful and unsuccessful actions. 
+
+Openings occur whenever the character rolls a 1 for an action that is actively contested by at least one other character, such as in
+combat or during a competition. Openings provide an opportunity for other character's to act in response to the initial action. 
+Whenever Openings occur, the GM decides which character or characters get to act, but should prioritize the most relevant characters.
+The chosen characters are given the option to expend Action Points up to the number of rolled 1s in order to perform their own
+actions, which may involve their own Action Roll.
+
+Actions taken during Openings resolve before the action that caused the Opening, and thus can affect the outcome of the initial 
+action. For instance, if a character makes a successful roll for an attack against another character, but creates an opening and the
+attacked character successfully uses a guard or parry action to increase their Defense, the original attack may not have a high 
+enough roll to meet the target's new, elevated Defense. In this case, the original attack would then become unsuccessful.
+
+Actions taken during Openings can themselves provoke Openings, but can only be taken advantage of by a third party, as the 
+primary and secondary actions are still in the process of resolving.
+
+Mistakes occur whenever a character rolls a 1 for an action when alone, or if an Opening is unreasonable or no characters are able
+to act on an Opening. 
+Mistakes take the form of direct errors on the part of the acting character. These occur most often when the character is 
+obtaining information in some way, or when performing some isolated, uncontested action, such as attempting to coerce an individual
+or crafting an item.
+The GM determines the exact nature of any Mistakes, and should try to use them in a way that creates interesting complications
+for the character. 
+For instance, a Mistake might result in a character obtaining misleading or incorrect information, potentially in addition to 
+correct information if the roll was a success. A character who makes Mistakes while attempting to sway a crowd may find a portion
+of the crowd abandoning them or outright becoming hostile, even if another portion is in agreement with the character.
+An artisan who makes too many Mistakes while crafting an object might find the quality of the object diminished and not 
+up to their own expected standards. 
+
+
+
+
+
+
+Ability Level and Potential
+-------------------------------------------------------------------------------------------------------------------------------------
+The size and number of dice used for an Action Roll are determined by two aspects of a character: Ability Level and Potential.
+	
+	
+
+Ability Level describes how proficient a character is with a particular Ability and determines the size of the dice a character may 
+use for actions related to the Ability. There a four Ability Levels to describe a character's skill.
+
+Each of the four levels have a name and corresponding dice size:
+	1. Novice 	- d6
+	2. Journeyman 	- d8
+	3. Master	- d10
+	4. Legend	- d12
+
+If a character does not know a particular Ability, they are said to be Unskilled in that Ability.
+
+
+
+
+Potential describes the character's upper limit of capability for a particular action, and determines the number of dice a character 
+may use for the action. Potential is represented as value between 1 and 5. When deciding to perform an action, the character may 
+choose to use a number of dice up to their Potential for the roll. So, if a character's Potential for a roll is 3, they may use 
+1, 2, or 3 dice to determine the outcome of the action.
+
+A character's Potential for a roll is determined by the value of one or more of the character's Attributes.
+
+The Attribute or Attributes called for should reflect what qualities of the character the rolls relies upon.
+For instance, coercing an individual through persuasiveness should call for a character's Charm, in order to reflect
+the charismatic nature of the interaction. Likewise, lifting a heavy object would rely upons a character's Power, since it 
+represents their raw physical strength. 
+
+The more complex or detailed an action is, the more likely it should be to call for two Attributes rather than one.
+This reflects the need for the character to rely on a combination of their qualities in order to do their best.
+For instance, this is why regular attacks with the Melee Weapon Ability require Finesse + Power in order to reflect the need for both
+strength and precision when making attacks of that nature. 
+	
+Abilities typically describe what Attribute or Attributes are required for a related action, and may vary slightly in different 
+context. For instance, the Marksmanship Ability calls for Finesse and Acuity when shooting small arms, but requires Actuiy and Charm 
+when directing fire from a crewed weapon instead. 
+
+Since Abilities can be open-ended or even player-created, generic applcations of an Ability might be underdefined.
+
+In these cases, the GM should assess what Attribute or Attributes make the most sense in context. The GM may take player input into
+consideration, but will always retain the final decision.
+ 
+For instance, if a player employs an Acrobatic Ability to attempt to jump a gap the GM might decide to simply call for the 
+character's Speed in one instance, and then later decide to call for Speed and Finesse for a similiar jump to reflect
+the necessity of the character to land in a particular way or at a particular spot in order to avoid some hazard, such as
+a crumbling cliff or patch of ice.
+
+If only one Attribute is called for, then the character's Potential for that roll is equal to their value for that Attribute.
+	I.e. Potential = Attribute
+	
+If two Attribute are called for, the the character's Potential for that rolls is equal to half of the sum of their values for those 
+Attributes, rounded down.
+	I.e. Potential = ( Attribute "A" + Attribute "B" ) / 2 , rounded down. 
+
+Normally, character's have a value of at least 1 for every Attribute, and therefor always have at least 1 Potential for any action. 
+However, a character's Attributes or Potential might be lowered as the effect of some Status, such as having an Injury or being 
+Panicked. In these cases it is possible for a character's Potential for a roll to be lowered below 1, and  whenever this occurs that 
+character becomes unable to perform the regular Action Roll.
+
+
+
+
+Order of Operations
+-------------------------------------------------------------------------------------------------------------------------------------
+When a character attempts to use one of their Abilities to perform some action, the following steps occur:
+
+	 
+
