@@ -28,7 +28,7 @@ Saves are rolls a character maybe forced to perform in order to determine if the
 
 
 
-This section will describe the mechanics of Action Rolls and Saves.
+This section will describe the mechanics of Action Rolls, Struggle Rolls, and Saves.
 Vehicle Rolls are described in the Vehicle System Rules section.
 
 
@@ -316,9 +316,108 @@ When a character attempts an Action Roll, the following steps occur:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-Struggle Rolls - TODO
+Struggle Rolls
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------
+Struggle Rolls are essentially a variation of a normal Action Roll can be taken under certain conditions.
+
+Whenever a character would attempt an Action Roll, but they do not know an associated Ability (i.e. they have no Ability Level for
+that Ability) or their Potential for the roll is less than 1, they may attempt the action as a Struggle Roll instead. 
+
+To do so, the character spends the normal amount of Action Points for that action, and the GM sets the threshold for the action as 
+though it were a normal Action Roll. The GM should treat the theshold difficulty as the normally would, and should never tell a 
+player if a Struggle Roll will automatically fail. 
+
+The character may then roll 1d4 to attempt the action, following the normal rules and order of operations for Action Rolls. 
+These rolls can provoke Openings and Mistakes. 
+Whoever is controlling the character should always describe what the character is doing as they make the roll.
+
+Characters may never roll more than 1d4 for a Struggle Roll.
 
 
+Mechanical Importance
+-------------------------------------------------------------------------------------------------------------------------------------
+Struggle Rolls are intended to provide desperate attempts at actions that a character is inhibited from performing normally, due to 
+either a lack of knowledge or skill, or due to an impairment.
+
+These rolls do not automatically succeed upon a rolled 4, and instead must meet or exceed the threshold of the roll as though it were
+a normal roll. Thus, these rolls should expect a high rate of failure, and often are impossible, even though the player or character 
+can not be made explicitly aware of this beforehand. 
 
 
+Struggle Rolls in Roleplay 
+-------------------------------------------------------------------------------------------------------------------------------------
+While roleplaying these rolls, consider why the character is making a Struggle Roll for this action instead of an Action Roll.
 
+If it because the character is attempting something they have no Ability for, they might be portrayed as trying to puzzle out the 
+correct method, bumbling through the attempt, or otherwise behaving in a way that reflects their lack of knowledge. A character
+with no Marksmanship Ability could have difficulty getting a sight picture, or a character that lacks the Engineering Ability might
+make random inputs on an m-fab while trying to get it to run a preset program.
+
+If it due to the character's Potential being reduced, the character is likely currently suffering from some mental or physical 
+impairment, such as from an Injury. The nature of the impairment could be factored into the description of what they are doing.
+Perhaps they are blinded and struggling to press a certain button, or one of their feet has been crushed and now they find themselves
+needing to clear a small gap over a large drop while unassisted. Scenarios such as these naturally impart the desperate nature of 
+the Struggle Roll. 
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+Saves
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------
+A Save is a roll a character can be forced to perform in order to see if they resist the effects of some action or Status. 
+
+An effect or Status will describe if it will force a character to make a Save, and will also describe the nature of that Save. 
+The GM may also call for a Save of their own design if they deem it appropriate for the situation at hand.
+
+All saves involve the affected character rolling one or more d6 dice, and then comparing the result to the specified Attribute. 
+If any of the values rolled are higher than the character's associated Attribute, then the character fails the Save and suffers the 
+described consequences.
+
+If a character succeeds on a Save, they resist, ignore, or are otherwise immune to the described consequences at that time.
+
+
+Examples
+-------------------------------------------------------------------------------------------------------------------------------------
+Death Save: Characters affected by the Dieing Status must roll 1d6 at the end of each of their turns. If the result is higher than 
+their Heartiness, they permanantly die.
+
+Injury Save: Whenever a Character affected by the Wounded Status takes Damage they must roll 1d6. If the result is higher than their
+Heartiness, they receive an Injury.
+
+Panic Save: Characters affected by the Panicked Status must roll 2d6 at the start of each of their turns.
+	If the result of both dice is higher than the character's Tenacity, they suffer a -3 Action Point penalty for the turn.
+
+	If the result of only one dice is higher than the character's Tenacity, they suffer a -1 Action Point penalty for the turn.
+
+
+Saves in Roleplay
+-------------------------------------------------------------------------------------------------------------------------------------
+Saves provide a unique opportunity in roleplay where the GM or Players maybe required to describe why or how a character either
+does or does not succumb to some effect.
+
+Consider how the character would be reacting to what has happened to them, and what they might do or not do that could explain why 
+outcome was what it was.
+
+All aspects of the character can be used to inform these descriptions, including not only mechanical aspects such as the character's
+Abilities or Attributes, but also roleplaying aspects such as their personality, disposition, and goals.
+
+For instance, a character with a high Attribute might be described as succeeding the save in a graceful or easy way, or failing
+in an unlikely and heartbreaking way. Low Attribute characters might succeed through dumb luck, or fail due to being overwhelmed
+and completely unable to resist. 
+
+Since Abilities reflect the actual knowledge and skills a character possesses, these too might inform the description of how they 
+act in the moment. An acrobat might succeed an Agility-based Save through some practiced maneuver, meditative characters may attempt
+known mantras when making a Tenacity-based save.
+
+The character's more abstract qualities can be even more informative. Perhaps the desire to see a loved one is what compelled a 
+fighter when he resists several Death Saves in a row. Maybe a swordsman losing one eye due to an Injury Save is met with callous 
+disregard, while losing a hand sees the swordsman far more distressed. Knowledgeable characters might be upset if they fail a 
+Memory-based Save, while more here-and-now type personalities are unbothered.
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

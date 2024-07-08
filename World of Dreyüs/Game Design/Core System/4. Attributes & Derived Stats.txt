@@ -58,7 +58,7 @@ The following is the list of Attributes, and their general description:
 
 	Acuity: Represents a character's ability to perceive, understand, and conceptualize accurately, as well as one's skillfullness.
 		Acute characters notice things others don't, are more analytical, and are more technically capable than the average person.
-	
+	injury
 	Power: Represents a character's physical strength, contributing to one's melee damage and directly deriving Carry Weight.
 		Powerful characters can hit harder and bear more weight than the average person.
 

@@ -2,7 +2,7 @@ Core System Overview
 
 TODO
 
-2. Dice System - TODO
+2. Dice System - Review Ready
 
 3. Turn Economy - TODO
 
