@@ -6,7 +6,7 @@ For instance, 1d4 refers to rolling one singular 4-sided dice, while 3d4 refers 
 
 
 
-There a 4 kinds of dice rolls used in this game to determine the outcome of uncertain events.
+There a four general kinds of dice rolls used in this game to determine the outcome of uncertain events.
 
 These rolls are Action Rolls, Struggle Rolls, Vehicle Rolls, and Saves.
 
@@ -31,7 +31,9 @@ Saves are rolls a character maybe forced to perform in order to determine if the
 This section will describe the mechanics of Action Rolls, Struggle Rolls, and Saves.
 Vehicle Rolls are described in the Vehicle System Rules section.
 
-
+(Note: some situation-specific unique rolls exist, most notably the Initiave Roll. Explanations for each of those specific rolls are 
+contained within their corresponding section, being described in context to the rules governing that situation. 
+This section is only concerned with the rules for the general rolls that occur commonly in a variety of different situations.)
 
 
 \\\\\\\\\\\\\\\\\\\\\

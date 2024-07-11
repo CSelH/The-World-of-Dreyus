@@ -50,7 +50,7 @@ The following is the list of Attributes, and their general description:
 	Tenacity: Represents a characer's mental resilience, and their ability to stay calm and handle Stress. Derives Control stat.
 		Tenacious characters can endure stressful situations longer, and maintain self-control better than the average person.
 
-	Speed: Represents a character's alacrity, deriving Actions Points and the character's Movement Value. 
+	Speed: Represents a character's alacrity, deriving Actions Points and the character's Movement Value.
 		Speedy characters cover ground more quickly, and act more often than the average person.
 
 	Finesse: Represents a character's physical precision and deftness, and contributes to Defense alongside Heartiness.

@@ -4,7 +4,7 @@ TODO
 
 2. Dice System - Review Ready
 
-3. Turn Economy - TODO
+3. Open Roleplay, Turn Economy, and Actions - TODO
 
 4. Attributes & Derives Stats - REVIEW READY
 

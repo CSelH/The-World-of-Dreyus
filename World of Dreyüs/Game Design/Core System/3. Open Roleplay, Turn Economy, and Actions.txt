@@ -1,0 +1,140 @@
+TODO - Describe how turns and rounds work, both in and out of combat. Including Action Points, basic actions, ability actions, and
+Openings.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Out of Combat
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Whenever no Players are in combat, strict turn order is not required. Instead, normally the game follows the concept of "open 
+
+The GM is free to control the game as they desire, deciding what is happening in world and what the consequences of the various
+character's behaviours will be. If you are new to roleplaying or tabletop games in general, you can skip the following and instead
+go down to the "Roleplaying Introduction" section below for a primer on roleplaying in a tabletop game. 
+
+If you are familiar with tabletop roleplaying games then the general concept of open roleplay is likely already familiar, and so this
+game will likely seem intuitive, and should mirror the normal roleplaying experience you are used to. You can expect to act through
+your character, question the GM, and make dice rolls when the GM demands it. 
+
+However, this game is meant to allow the GM a lot of freedom to run the roleplaying, and the game in general, however they desire, 
+be it with or without turns, whether or not to allow one individual to "face" and lead social interactions on behalf of the party,
+whether the party may split, etc. It is the GM's table, and their rules are paramount. So as always, make sure there is clear 
+communication between the GM and the Players regarding what the expectations at the table will be, and if there are any special 
+considerations. As with all social games, most conflict is rooted in unfulfilled expectations and miscommunication. 
+
+
+
+Roleplaying Introduction (For Beginners)
+-------------------------------------------------------------------------------------------------------------------------------------
+TODO - Give a introductory description of open roleplaying in a ttrpg.
+shit, why did i think this was a good idea.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Turn-Based Gameplay
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------
+This game uses individual turns for each player and the GM whenever one or more Players are in combat, non-hostile conflicts, or 
+whenever else the GM desires. If the GM controls multiple characters at once, especially during combat, they may have multiple 
+turns in between the Players' turns depending on the scenario. 
+
+During a character's turn, whoever controls that character can engage directly in roleplay, choose what the character will do, ask
+questions to the GM, and are the only ones allowed to do so, with some exceptions. Each character active in the scenenario will
+typically have a turn, with the set of all turns being referred to as a "round". A round can be said to last from the start of the 
+turn of the first character to act until the the start of that same character's next turn.
+
+Some situations allow a character to act when it is not their turn, typically as part of Openings provoked on other character's turns. 
+A character acting outside of their turn should not be considered as having gained another turn, and should not affect any abilities 
+or effects that are dependent on that character's turn starting or ending. 
+
+
+Turn-Order and Initiative
+-------------------------------------------------------------------------------------------------------------------------------------
+TODO
+
+
+
+Initiative Roll
+--
+Whenever the game must transition from open roleplay to turn-based gameplay an Initiative Roll can be used to determine turn order.
+
+If the GM calls for Iniative Rolls, such as at the start of combat or other turn-based scenarios, each character rolls 
+1d4 and adds the sum of their Tenacity and Speed Attributes. 
+(Initiative = 1d4 + Tenacity + Speed)
+
+The value of each character's result is compared, and the character with the highest value goes first. Subsequent turns follow in
+order of descreasing value from highest to lowest.
+If any characters roll the same value, the character with the highest Tenacity goes before the others unless their Tenacity 
+Attributes are equivalent, in which case the character with the highest Speed goes first. If any characters get the same result and 
+share the same Tenacity and Speed values, then the GM determines who acts first.
+
+
+
+Ambush and Surprise
+--
+Normally, when all or most of the involved characters are aware of one another and/or expecting conflict, all characters will
+make an Initiave Roll. However, if one or more characters ambush or surprise their opponents with an unexpected action, then the
+character or characters doing so go first in the turn order, with their beginning actions being considered their turn for that round.
+(Note: if multiple characters encounter one another unexpectedly and immediately come into conflict, they will all make Initiative
+Rolls in the normal way.)
+
+When a conflict starts in this way, turn-order for the offensive characters is determined simply by the order in which they performed 
+their starting actions. A well-planned ambush can leave the offensive characters with a distinct turn-order advantage, while a 
+surprise attack made in haste or carelessness might yield significantly less benefit.
+
+Characters typically can only start a conflict together in this way whenever they coordinate and prepare beforehand, this might
+involve laying in wait, using a "go phrase" or signal of some kind, or waiting until a particular event occurs to que everyone to 
+act at once. Other methods might be use, but must follow a clear and consistent reasoning that all involved characters are aware of
+ahead of time. 
+
+If one character simply surprises another spontaneously, the initiating character's allies can not participate if they did not 
+reasonably anticipate the act and prepare a response ahead of time. In this case, those allies may only act in the way they 
+determined ahead of time, and cannot modify those decisions. If a Player believes their character should act in this way, then they 
+should describe the character's intentions to the GM before the other character acts. 
+
+After the initiating character or characters perform their actions all other characters involved, friend and foe, make Initiative 
+Rolls in the normal way, and the first among them begins their turn immediately.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Gameplay Actions
+-------------------------------------------------------------------------------------------------------------------------------------
+Whenever a character wants to perform a specific act in the game, such as moving, attacking, or using an Ability, they must expend
+a corresponding amount of Action Points and whoever controls the character can provide a description or roleplay the character's 
+behaviour. 
+There are two primary kinds of actions a character can make: Basic Actions and Ability Actions, both of which require the character
+to expend Action Points. 
+
+
+Action Points
+--
+TODO
+In order to perform Basic Actions or Ability Actions a character must expend a one or more Action Points as noted in the action's 
+description. 
+The number of total Action Points a character can have is equal to 1 plus the character's Speed Attribute ( 1 + Speed ), with the
+maximum possible being six (6) Action Points. 
+All of character's Action Points are restored at the start of their turn  
+
+Basic Actions
+--
+TODO
+
+
+Ability Actions
+--
+TODO
