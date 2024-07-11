@@ -1,2 +1,71 @@
 TODO - Describe how turns and rounds work, both in and out of combat. Including Action Points, basic actions, ability actions, and
 Openings.
+
+Out of Combat
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Whenever no Players are in combat, strict turn order is not required. Instead, normally the game follows the concept of "open 
+
+The GM is free to control the game as they desire, deciding what is happening in world and what the consequences of the various
+character's behaviours will be. If you are new to roleplaying or tabletop games in general, you can skip the following and instead
+go down to the "Roleplaying Introduction" section below for a primer on roleplaying in a tabletop game. 
+
+If you are familiar with tabletop roleplaying games then the general concept of open roleplay is likely already familiar, and so this
+game will likely seem intuitive, and should mirror the normal roleplaying experience you are used to. You can expect to act through
+your character, question the GM, and make dice rolls when the GM demands it. 
+
+However, this game is meant to allow the GM a lot of freedom to run the roleplaying, and the game in general, however they desire, 
+be it with or without turns, whether or not to allow one individual to "face" and lead social interactions on behalf of the party,
+whether the party may split, etc. It is the GM's table, and their rules are paramount. So as always, make sure there is clear 
+communication between the GM and the Players regarding what the expectations at the table will be, and if there are any special 
+considerations. As with all social games, most conflict is rooted in unfulfilled expectations and miscommunication. 
+
+
+
+Roleplaying Introduction (For Beginners)
+-------------------------------------------------------------------------------------------------------------------------------------
+TODO - Give a introductory description of open roleplaying in a ttrpg.
+shit, why did i think this was a good idea.
+
+
+
+
+Turn-Based Gameplay
+-------------------------------------------------------------------------------------------------------------------------------------
+This game uses individual turns for each player and the GM whenever one or more Players are in combat, non-hostile conflicts, or 
+whenever else the GM desires. If the GM controls multiple characters at once, especially during combat, they may have multiple 
+turns in between the Players' turns depending on the scenario. 
+
+During a character's turn, whoever controls that character can engage directly in roleplay, choose what the character will do, ask
+questions to the GM, and are the only ones allowed to do so, with some exceptions. Each character active in the scenenario will
+typically have a turn, with the set of all turns being referred to as a "round". A round can be said to last from the start of the 
+turn of the first character to act until the the start of that same character's next turn.
+
+Some situations allow a character to act when it is not their turn, typically as part of Openings provoked on other character's turns. 
+A character acting outside of their turn should not be considered as having gained another turn, and should not affect any abilities 
+or effects that are dependent on that character's turn starting or ending. 
+
+
+
+Gameplay Actions
+-------------------------------------------------------------------------------------------------------------------------------------
+Whenever a character wants to perform a specific act in the game, such as moving, attacking, or using an Ability, they must expend
+a corresponding amount of Action Points and whoever controls the character can provide a description or roleplay the character's 
+behaviour. 
+There are two primary kinds of actions a character can make: Basic Actions and Ability Actions, both of which require the character
+to expend Action Points. 
+
+
+Action Points
+--
+TODO
+
+
+Basic Actions
+--
+TODO
+
+
+Ability Actions
+--
+TODO
