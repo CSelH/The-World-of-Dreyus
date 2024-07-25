@@ -58,7 +58,7 @@ The following is the list of Attributes, and their general description:
 
 	Acuity: Represents a character's ability to perceive, understand, and conceptualize accurately, as well as one's skillfullness.
 		Acute characters notice things others don't, are more analytical, and are more technically capable than the average person.
-	injury
+	
 	Power: Represents a character's physical strength, contributing to one's melee damage and directly deriving Carry Weight.
 		Powerful characters can hit harder and bear more weight than the average person.
 
@@ -191,7 +191,7 @@ The following is a list of the stats derived from Attributes, and any counterpar
 		Characters can normally carry an amount up to their Carry Weight without penalty.
 		A character can carry amounts greater than their Carry Weight up to twice their Carry Weight, but gained the 
 			Burdened status when doing so.
-		A Burdened character can use the Move action, but cannot use the Sprint action or the Attack action.
+		A Burdened character can use the Move action, but cannot use the Sprint action or any action with the Attack Tag.
 	
 		A character can attempt to hold up amounts greater than twice their Carry Weight, but cannot use other actions while doing so.
 			If a characters attempts to hold up extreme weight in this way, they must use an action to make a dice roll.

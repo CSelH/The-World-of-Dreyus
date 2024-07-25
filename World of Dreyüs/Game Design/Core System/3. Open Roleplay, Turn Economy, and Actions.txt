@@ -1,4 +1,4 @@
-TODO - Describe how turns and rounds work, both in and out of combat. Including Action Points, basic actions, ability actions, and
+TODO - Describe how turns and rounds work, both in and out of combat. Including Action Points, Basic Actions, Roll Actions, and
 Openings.
 
 
@@ -12,7 +12,7 @@ Out of Combat
 Overview
 -------------------------------------------------------------------------------------------------------------------------------------
 
-Whenever no Players are in combat, strict turn order is not required. Instead, normally the game follows the concept of "open 
+Whenever no Players are in combat, strict turn order is not required. Instead, the game normally makes use of generic "open roleplay". 
 
 The GM is free to control the game as they desire, deciding what is happening in world and what the consequences of the various
 character's behaviours will be. If you are new to roleplaying or tabletop games in general, you can skip the following and instead
@@ -61,8 +61,6 @@ or effects that are dependent on that character's turn starting or ending.
 
 Turn-Order and Initiative
 -------------------------------------------------------------------------------------------------------------------------------------
-TODO
-
 
 
 Initiative Roll
@@ -117,24 +115,123 @@ Gameplay Actions
 Whenever a character wants to perform a specific act in the game, such as moving, attacking, or using an Ability, they must expend
 a corresponding amount of Action Points and whoever controls the character can provide a description or roleplay the character's 
 behaviour. 
-There are two primary kinds of actions a character can make: Basic Actions and Ability Actions, both of which require the character
+There are two primary kinds of actions a character can make: Basic Actions and Roll Actions, both of which require the character
 to expend Action Points. 
 
 
 Action Points
 --
-TODO
-In order to perform Basic Actions or Ability Actions a character must expend a one or more Action Points as noted in the action's 
+In order to perform Basic Actions or Roll Actions a character must expend a one or more Action Points as noted in the action's 
 description. 
 The number of total Action Points a character can have is equal to 1 plus the character's Speed Attribute ( 1 + Speed ), with the
 maximum possible being six (6) Action Points. 
-All of character's Action Points are restored at the start of their turn  
+All of character's Action Points are restored at the start of their turn.  
 
 Basic Actions
 --
-TODO
+There are some generic actions that all characters have access to. These do not require Action Rolls, and instead only demand that
+the character the expend the required amount of Action Points.
+
+The following is the list of the Basic Actions:
+
+	Move - The character spends 1 AP to move a distance up to their Movement Value. A character can only Move or Sprint once per 
+		turn or opening. (Note: a character can use Move or Sprint during their turn AND use Move or Sprint during any 
+		opening they exploit on the same round.)
 
 
-Ability Actions
+	Sprint - The character spends 2 AP to move a distance up to twice their Movement Value. Cannot be used while affected by the 
+		Burdened Status. A character can only Move or Sprint once per turn or opening. (Note: a character can use Move or 
+		Sprint during their turn AND use Move or Sprint during any opening they exploit on the same round.)
+
+	(Note: both Move and Sprint essentially "give" the character the specified amount of movement for the turn or opening, and
+		do not restrict the character to one instance of motion. In other words, a character can use part a their Movement 
+		Value, perform some other actions, and then use the rest of their leftover Movement Value, as long as it is done on
+		the same turn or opening. Movement value is not retained between any turns or openings, and is instead lost at the 
+		end of the turn or opening that Move/Sprint was activated on.)   
+
+
+
+				\\\\\\\\\
+TODO: This shit is aweful, fix it by breaking up and creating list of limited scope actions? fix by rewording? IDK 
+
+
+	Use/Ready - The character spends 1 AP to either pick up one or more nearby objects or withdraw objects from their
+		inventory, they may then use this object in a unskilled way, stow it into their inventory, drop it, or simply hold it. 
+				
+		If the character is already holding something with the hand they intend to use for this action, then they may drop 
+		whatever they are holding or stow that object into their inventory as part of this action. 
+		If the character requires more than one hand to complete this action, they may empty their other hand in a similar
+		way. The number and size of objects that can be targeted with this action are limited to what they can reasonably 
+		hold in their hands.
+
+		If the character is already holding the object they intend to use with this action, then they can instead utilize the
+		object , then either drop that object or stow it into their inventory, and finally retrieve either a different 
+		nearby object, or withdraw one from their inventory.
+		
+		For example, a character holding weapons in both hands might use this action to sheathe one weapon, produce a key, 
+		and then unlock a lock with that key. 
+		(Note: stowing the key and drawing their weapon would require another action from this character.)
+	
+		In the second case: a character holding firewood in both hands might use this action to stack the wood nearby, and 
+		then draw their axe afterwards.
+	
+	Interact/Manipulate - The character spends 1 AP to interact with or manipulate something nearby. This should be limited to
+		unskilled actions only, such as opening a door, manipulating a switch, or interfacing with a device in a basic way.
+		
+		If the character is already holding something with the hand they intend to use for this action, then they may drop 
+		whatever they are holding or stow that object into their inventory as part of this action. 
+		If the character requires more than one hand to complete this action, they may empty their other hand in a similar
+		way.
+		If the character stowed one or more objects into their inventory to perform this action, they may retrieve those 
+		objects as part of this action once they are finished interacting with the target.
+		
+		For example, a character holding weapons in both hands might use this action to sheathe both weapons, interact with 
+		a digital interface to open a doorway, and then draw their weapons again.  
+		
+
+Roll Actions
 --
-TODO
+Unlike Basic Actions, the outcome of this kind of action is not guaranteed. Instead, they rely upon the Ability and Potential of the 
+character attempting them, and are mostly unachievable by those who are lacking in either.
+
+The GM may call for a roll whenever they decide that the action a character is attempting is difficult enough that the outcome should
+be determined by the character's relevant capabilities.
+
+If the character has a relevant Ability to the action, or is using a specific Technique granted by an Ability, then they make an
+Ability Roll to determine the outcome of the action. 
+
+If the character lacks the Ability Level or Potential to perform the specific Ability Roll, a Struggle Roll can be made instead.
+
+The Action Point cost for a Roll Action is dependent on the action and its relevant Ability.
+Typically this information is found in the Ability's description, or its Ability Tags. 
+(Note: Action Point cost does not vary between the Ability Roll and Struggle Roll for a specific action.)
+
+
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+Turn Passing, Openings, and Turn-Only Actions
+-------------------------------------------------------------------------------------------------------------------------------------
+Characters are not required to act or expend any or all Action Points during their turn. They are also not limited to acting only 
+during their turn, if certain conditions are met.
+
+A character who does not wish to act on their turn may pass, at which point the next character in the turn order begins their turn.
+A character may pass their turn even after completing an action. Since a character's AP does not reset until the start of their next
+turn, a character might pass their turn if they wish to retain AP in order to exploit Openings.
+
+Openings are situations that can occur whenever a character makes a Roll Action. If a character rolls any "1's" on their dice when 
+determining the outcome of a Roll Action, then an Opponent may expend a number of Action Points up to the number of rolled "1's" to 
+perform an action at the same time. This allows characters to occassionally act when it is not their turn, so long as they have 
+available Action Points.
+Openings themselves are described in greater detail in the "Opening and Mistakes" rule section.
+
+While most actions can be performed during an Opening, some actions are restricted to only being performed during a character's turn.
+Abilities with actions or Techniques limited in this way are marked with the "Turn-Only" Tag. An Ability's decription should describe
+what actions are restricted to the character's turn.
+

@@ -45,8 +45,7 @@ Action Rolls
 
 Overview
 -------------------------------------------------------------------------------------------------------------------------------------
-A GM may call for a character to make a roll of this kind whenever the character is actively attempting to do something.
-They also occur whenever a character takes an Ability Action.
+A GM may call for a character to make a roll of this kind whenever a character takes a Roll Action.
 
 --
 A normal Action Roll should involve a character attempting to use some Ability they possess to perform some related action.

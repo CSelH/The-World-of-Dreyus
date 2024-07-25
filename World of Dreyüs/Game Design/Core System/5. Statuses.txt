@@ -76,5 +76,5 @@ Unconcious: Applied when Stress increases and the result is equal to or higher t
 
 
 Burdened: Applied when a character carries an amount greater than their Carry Weight.
-	Burdened characters cannot use the Sprint action or Attack action, but may use the Move action.
+	Burdened characters cannot use the Sprint action or any action with the Attack Tag, but may use the Move action.
 	Abilities might specifiy limitations for Burdened characters.	
