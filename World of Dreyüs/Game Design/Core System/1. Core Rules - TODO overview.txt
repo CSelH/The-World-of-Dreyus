@@ -14,7 +14,8 @@ TODO
 6a. Ability List - TODO
 
 7. Item System - REVIEW READY
-7a. Item Details - TODO
+7a. Item Details - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
+
 
 8. Class System - TODO
 

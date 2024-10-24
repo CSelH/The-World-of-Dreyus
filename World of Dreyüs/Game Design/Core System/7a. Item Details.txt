@@ -94,12 +94,14 @@ anesthetic, coagulant, sterilizer, and temporary field dressing. Rudimentary tra
 materials used in conjunction, such as individual painkillers, iodine ampules, and fabric bandages. Cultures with more advanced
 medical technology are capable of producing traumapaks that take the form of a singular multi-function substance that can be applied
 as a fluid over an area before rapidly solidifying, creating an immediate, if temporary, bandage designed to be easily removed later
-via exposure to concentrated amounts of light at specific frequencies. 
+via exposure to concentrated amounts of light at specific frequencies. Traumapaks are generally much cheaper and much more widely
+avaialble than Regen-Stims, which are capable of truly healing a wound.
 
 Regardless of the specific makeup, characters will use any given traumapak for the same purpose.
 Players can expend 2 AP to make a Medicine(Acuity + Memory) Action Roll to attempt to use a traumapak to give the Stabilized status
-to a Wounded or Dying character. The threshold for this roll is 4, and the traumapak is only consumed when the roll succeeds.
-The Item Quality level modifier for the traumapak can be applied as a roll modifier to one of the dice rolled for this action.
+to a Wounded or Dying character within their reach. This Action Roll requires the use of both hands. The threshold for this roll is 4, 
+and the traumapak is only consumed when the roll succeeds. The Item Quality level modifier for the traumapak can be applied as a roll
+modifier to one of the dice rolled for this action.
 
 
 
@@ -114,8 +116,8 @@ millenia to the peak of m-fab innovation. While occasionally scavenged, the simp
 technology inclined culture reverse engineering the design and establishing some sort of production of their own. 
 
 
-Characters may expend 1 AP and make a Basic Action to fully refill the Material Pool of their m-fab with a Resupply Pod. Regardless 
-of how much material is restored, the Resupply Pod is fully consumed upon use. 
+Characters may expend 1 AP and make a Basic Action with a free hand to fully refill the Material Pool of their m-fab with a 
+Resupply Pod. Regardless of how much material is restored, the Resupply Pod is fully consumed upon use. 
 
 
 
@@ -128,11 +130,31 @@ Resupply Pods can be relatively easily purchased, and some engineers can use raw
 
 
 
-RegenaStim
+Regen-Stim
 -----
 
-???? Healing potion rules
+Regen-Stim is the name given to various medical concoctions that are able to immediately stimulate the body's natural regenerative 
+ability. Rare and costly to produce at any quality or quantity, these drugs are fairly uncommon and rarely seen in normal medical
+treatments. Reserved for buyers able to pay a high premium, most of the supply of Regen-Stims are held by official state entities.
+Typically they are only used sparingly among elite combat units, as well as for emergency trauma surgeries for VIPs. 
+The exception to this norm on Dreyüs are the Chonistalan jungle enclaves, whose medical technology and resources are far more 
+advanced then any other culture on the continent.
 
+
+Characters may gain access to Regen-Stims through expensive purchases or via crafting if a character can gain access to the rare 
+materials as well as possess the appropriate knowledge.
+
+ 
+Characters may spend 1 AP and make a Basic Action with a free hand to use a Regen-Stim on themself or another character within their
+reach. The Regen-Stim reduces the target's Damage by an amount equal to xd4, where x is equal to the Item Quality level modifier of 
+the Regen-Stim, plus 1. 
+	
+	Regen-Stim Item Quality | Healing
+	----------------------------------	
+	Novice	 		| 1d4
+	Journeyman  		| 2d4
+	Master			| 3d4
+	Legend  		| 4d4	
 
 
 

@@ -57,6 +57,9 @@ A character acting outside of their turn should not be considered as having gain
 or effects that are dependent on that character's turn starting or ending. 
 
 
+
+
+
 Turn-Order and Initiative
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -147,12 +150,6 @@ The following is the list of the Basic Actions:
 		the same turn or opening. Movement value is not retained between any turns or openings, and is instead lost at the 
 		end of the turn or opening that Move/Sprint was activated on.)   
 
-
-
-				\\\\\\\\\
-TODO: This shit is aweful, fix it by breaking up and creating list of limited scope actions? fix by rewording? IDK 
-
-
 	Use/Ready - The character spends 1 AP to either pick up one or more nearby objects or withdraw objects from their
 		inventory, they may then use this object in a unskilled way, stow it into their inventory, drop it, or simply hold it. 
 				
@@ -223,10 +220,10 @@ A character who does not wish to act on their turn may pass, at which point the 
 A character may pass their turn even after completing an action. Since a character's AP does not reset until the start of their next
 turn, a character might pass their turn if they wish to retain AP in order to exploit Openings.
 
-Openings are situations that can occur whenever a character makes a Roll Action. If a character rolls any "1's" on their dice when 
-determining the outcome of a Roll Action, then an Opponent may expend a number of Action Points up to the number of rolled "1's" to 
-perform an action at the same time. This allows characters to occassionally act when it is not their turn, so long as they have 
-available Action Points.
+Openings are situations that can occur whenever a character makes a Roll Action. If a character rolls a "1" on any of their dice used 
+to determine the outcome of a Roll Action, then an Opponent may expend a number of Action Points up to the number of dice that rolled
+a "1" to perform an action at the same time. This allows characters to occassionally act when it is not their turn, so long as they 
+have available Action Points. 
 Openings themselves are described in greater detail in the "Opening and Mistakes" rule section.
 
 While most actions can be performed during an Opening, some actions are restricted to only being performed during a character's turn.
