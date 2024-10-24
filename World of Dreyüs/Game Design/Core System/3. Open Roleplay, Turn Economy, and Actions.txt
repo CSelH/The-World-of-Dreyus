@@ -1,7 +1,5 @@
-TODO - Describe how turns and rounds work, both in and out of combat. Including Action Points, Basic Actions, Roll Actions, and
-Openings.
-
-
+This document gives an overview of the normal flow of the game, including an explanation of open roleplaying, turn-based gameplay,
+and actions.
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -198,13 +196,13 @@ The GM may call for a roll whenever they decide that the action a character is a
 be determined by the character's relevant capabilities.
 
 If the character has a relevant Ability to the action, or is using a specific Technique granted by an Ability, then they make an
-Ability Roll to determine the outcome of the action. 
+Action Roll to determine the outcome of the action. 
 
-If the character lacks the Ability Level or Potential to perform the specific Ability Roll, a Struggle Roll can be made instead.
+If the character lacks the Ability Level or Potential to perform the specific Action Roll, a Struggle Roll can be made instead.
 
 The Action Point cost for a Roll Action is dependent on the action and its relevant Ability.
 Typically this information is found in the Ability's description, or its Ability Tags. 
-(Note: Action Point cost does not vary between the Ability Roll and Struggle Roll for a specific action.)
+(Note: Action Point cost does not vary between the Action Roll and Struggle Roll for a specific action.)
 
 
 

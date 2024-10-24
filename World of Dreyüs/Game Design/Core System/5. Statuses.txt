@@ -12,11 +12,18 @@ Wounded: Applied when Damage increases and the result is equal to or higher than
 
 
 
-Dieing: Applied when Damage increases and the result is equal to or higher than twice the character's Health.
-	Dieing characters become permanantly dead if their Damage increases.
-	Dieing characters must roll 1d6 at the end of each of their turns, if the result is higher than their Heartiness
+Dying: Applied when Damage increases and the result is equal to or higher than twice the character's Health.
+	Dying characters become permanantly dead if their Damage increases.
+	Dying characters must roll 1d6 at the end of each of their turns, if the result is higher than their Heartiness
 		they permanently die. This roll is called the Death Save.
-	The Dieing status is removed automatically if Damage is lowered to a value that is less than twice the character's Health.
+	The Dying status is removed automatically if Damage is lowered to a value that is less than twice the character's Health.
+
+
+Stabilized: Applied to Wounded or Dying characters by some medical treatments, particularly Traumapaks or medical m-fab Techniques.
+	Whenever a Wounded character that is Stabilized fails an Injury Save, the Injury is prevented and the Stabilized condition
+		is removed.
+	Whenever a Dying character that is Stabilized takes damage or fails a Death Save, they do not die and the Stabilized
+		condition is removed.
 
 
 

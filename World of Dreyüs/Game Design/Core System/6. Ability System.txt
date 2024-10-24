@@ -1,0 +1,120 @@
+TODO: Describe the Ability system, including an overview of Abilities and Techniques, as well as an explanation of Primary and
+Secondary Abilities, and Ability Tags. 
+
+\\\\\\\\\\\\\\\\\\\\
+
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Abilities represent the knowledge and skill a character possesses, and are used in game whenever a character makes an Action Roll.
+As previously described, whenever a character attempts an action where the outcome was uncertain they may make a dice roll where the
+size of dice is determined by the character's Ability Level, and the number of available dice is determined by their Potential.
+Along with this function, Abilties can also give character's new capabilities, including Techniques that provide new actions they may 
+use, or improvements to actions they already know.
+
+All Player characters start with some known Abilties that reflect their class's fundamental skillset. 
+Characters can learn new Abilities or improve known Abilities by accumulating Experience Points through both training and successful
+feats during real action.
+
+Following is an explanation of Primary and Secondary Abilities, including Ability Level and Techniques. This explanation
+is prefaced by a section on Ability Tags, which provide common set of general rules that pertain to many seperate abilities.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Ability Tags
+-------------------------------------------------------------------------------------------------------------------------------------
+
+An Ability's description might include an Ability Tag, which marks it as part of a set of Abilities that share some common rules.
+Ability Tags apply their rules in the same way to all Abilites that have that tag, although occasionally Abilities can provide 
+features that create explicit exceptions.
+
+As a reference, some of the most common Ability Tags relate to Abilities that can be used in combat, including the Attack, Defend,
+and Ranged Tags. These tags describe the basic rules for how those Abilities are used in combat. 
+Other common tags include the M-Fab Tag, which marks Abilties that make use of Micro-Fabricators, and the Crafting Tag, denoting 
+Abilities that can produce items or consumables.
+
+A reference list of Ability Tags and their descriptions can be found in section 6a, prefacing the list of abilities. 
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Primary Abilities
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Primary Abilities are the main representation of a character's knowledge and skill pertaining to a particular field. They typically
+represent fairly generalized fields or concepts, such as Marksmanship, Engineering, Piloting, Biology, or Anthropology. All Player
+Characters start with some Primary Abilities already known, representing their character's background qualifications to perform the
+jobs typically given to their class.
+
+Characters can only perform Action Rolls for which they possess a related Primary Ability. Characters can make desperate "Struggle 
+Rolls" whenever they do not possess a related Primary Ability, however these rolls have a very high failure rate and often only allow
+for diminished results, thus they should not be relied upon.
+
+Typically, the Player in control of a Character will describe to the GM how a Primary Ability relates to the Action Roll they wish to
+attempt. For instance, a Player may suggest that a Character attempts to analyze a corpse with their Biology ability, or shoot at
+a target with a slingshot using their Marksmanship ability. All Primary Abilities can be used in this way, allowing the Player to 
+creatively interpret their abilities to find uses for them in various situations. 
+
+Section 6a contains a list of Primary Abilities included in the system, however the list is not meant to be exclusive, and Players are
+encouraged to suggest new Primary Abilities that represent areas of skill and knowledge that have been overlooked. In other words:
+Basketweaving isn't provided in the seciton 6a list, but you can absolutely request for your GM to allow your character to learn it.
+
+ 
+
+Ability Levels
+--
+All Primary Abilities are stratified into Ability Levels, which denote the character's expertise in that Ability, and increases the
+size of the dice the character can use for Action Rolls with that Ability. Access to Techniques and Secondary Abilities related to 
+the Primary Ability is often only given once a character reaches a certain Ability Level in that Primary Ability.
+ 
+These are the 4 Ability Levels and the size of dice they grant:
+	Novice 		- 6-sided (d6)
+	Journeyman	- 8-sided (d8)
+	Master		- 10-sided (d10)
+	Legend		- 12-sided (d12)
+
+Characters start as a Novice, representing a basic understanding and capability. The highest level possbile is Legend, which denotes
+an exceptional individual with the capability of absolute perfection in their field. 
+
+Characters can learn new abilities as well as increase their Ability Level for a known Primary Ability by expending Experience Points,
+although the cost increases significantly at each level. 
+
+
+
+Techniques
+--
+Some Abilities may include Techniques in their description. Techniques are advanced applications of an ability, taking the form of
+specific Action Rolls a player can perform with that ability, granting unique and powerful effects. 
+
+It is important to note that Primary Abilities that provide Techniques can still be used for other Action Rolls described by the 
+Player in the normal way. In other words: Techniques are not the only Action Rolls that the Primary Ability can be used for. 
+Techniques are additional bonus functions for an ability, are not the lone use case.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\
+
+
+Secondary Abilities
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Secondary Abilities represent specializations, offshoots, and intersections of knowledge governed by Primary Abilities. 
+These abilities modify or add to one or more related Primary Abilties. They typically allow for the Primary Ability to be used in new 
+ways, and often grant new, powerful Techniques. 
+
+Secondary Abilities do not have an Ability Level, and do not contribute to dice scaling. 
+
+Secondary Abilities have prequisites that must be met before a character can learn them. Normally this takes the form of requiring 
+the character to have a minimum Ability Level in one or more specific Primary Abilities. Some Secondary Abilities are also restricted 
+to specific Classes. Once a character meets the requirements for a Secondary Ability, they may acquire that ability by expending 
+Experience Points, similiar to acquiring or upgrading a Primary Ability.
+
+A list of Secondary Abilities is provided in section 6a.

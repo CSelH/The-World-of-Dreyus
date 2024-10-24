@@ -10,14 +10,14 @@ TODO
 
 5. Statuses - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
 
-6. Ability System - TODO
+6. Ability System - REVIEW READY
+6a. Ability List - TODO
 
-7. Ability List - TODO
+7. Item System - REVIEW READY
+7a. Item Details - TODO
 
-8. Item System - TODO
+8. Class System - TODO
 
-9. Class System - TODO
+9. Character Creation - TODO
 
-10. Character Creation - TODO
-
-11. Character Progression - TODO
+10. Character Progression - TODO

@@ -72,7 +72,7 @@ Attributes:
 
 	Derived Stats:
 		
-		->Health: derived from Heartiness ( x 10), use threshold = wounded, double = dieing, dieing = next hit dead
+		->Health: derived from Heartiness ( x 10), use threshold = wounded, double = dying, dying = next hit dead
 								one hit deal 4x health = instakill (direct hits from ships could) 
 		
 		->Defense: Heartiness + Finesse (caps at 10, i like this)
@@ -236,10 +236,10 @@ Class System:
 		does not take stress from being attacked but can from wounded, etc.
 	- Marksman: starts shooting skill, observation(searching/noticing), analysis (gain info on enemy/attack better)
 		shoot for less AP, access to shooting skill upgrades: sniping (range + crit), gunslinger (shoot+shoot)
-	- BattleTech: starts with choice: 1 combat ability, 1 tech ability at journeyman, and 1 tech ability at novice
+	- BattleTech: starts with choice: 1 combat ability, 1 tech ability at journeyman, and 1 tech secondary ability 
 		tech abilities for less AP, access to unique m-fab upgrades and integrations 
 						(automates certain m-fab actions like material or wound analysis + handsfree)
-	- Experts: starts with 2 general abilities at journeyman, and 2 tech or general abilities at novice
+	- Experts: starts with 2 general abilities at journeyman, and 2 tech or general abilities at novice or secondary
 		learns non-combat abilities faster via acuity, bonus to ability rolls outside of foot-combat
 		takes stress passively per turn of foot combat
 		m-fab upgrades 
