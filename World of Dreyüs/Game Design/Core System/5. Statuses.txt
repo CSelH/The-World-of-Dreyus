@@ -5,18 +5,22 @@ Character Statuses are various states a character can be in, causing harmful or 
 
 
 Wounded: Applied when Damage increases and the result is equal to or higher than the character's Health.
+	When a character becomes Wounded, they take 2d4 Stress. 
 	Wounded characters have a -1 Potential on all actions.
 	Wounded characters must roll 1d6 whenever their Damage increases, if the result is higher than their Heartiness 
 		they receive an Injury. This roll is called the Injury Save.
 	The Wounded status is removed automatically if Damage is lowered to a value that is less than the character's Health.
+	When the Wounded status is removed from a character, their Stress lowers by an amount equal to their Tenacity.
 
 
 
 Dying: Applied when Damage increases and the result is equal to or higher than twice the character's Health.
+	When a character starts Dying, they take 3d4 Stress.
 	Dying characters become permanantly dead if their Damage increases.
 	Dying characters must roll 1d6 at the end of each of their turns, if the result is higher than their Heartiness
 		they permanently die. This roll is called the Death Save.
 	The Dying status is removed automatically if Damage is lowered to a value that is less than twice the character's Health.
+	When the Dying status is removed from a character, their Stress lowers by an amount equal to their Tenacity.
 
 
 Stabilized: Applied to Wounded or Dying characters by some medical treatments, particularly Traumapaks or medical m-fab Techniques.
@@ -43,6 +47,12 @@ Injury: Can be applied when a character fails the Injury Save, or when a single 
 		Hand		| -1 Finesse
 		Leg/Foot	| -1 Speed
 
+	
+	When a character recieves an Injury, their Stress increases by 2d4.
+	When an Injury is removed from a character, their Stress lowers by an amount equal to their Tenacity.
+	
+	
+
 	These injuries should be considered severe. Eye, arm, hand, leg, and foot injuries should involve either the loss of the 
 		body part or significant enough damage to inhibit its functionality. Head injuries should be at least severe
 		concussion, and probably involve significant damage to the brain. Face injuries should be disfiguring in an 
@@ -51,8 +61,14 @@ Injury: Can be applied when a character fails the Injury Save, or when a single 
 	Determining what body part is injured can be done in several ways. Attackers may choose to attack specific targets, and
 		the GM may determine if those targets are damaged if the attacker rolls decently enough. Otherwise, the GM may
 		decide what injury occurs in whatever way they choose, such as simply selecting one that fits the story and scenario
-		or utilizing dice to determine one at random. 
+		or utilizing dice to determine one at random.
 
+	Optionial Rule:
+		To lower the potential for a Wounded character to recieve multiple Injuries in a row the GM may choose to make use
+		of this rule. Whenever a character recieves an Injury, the Injury Save changes until the end of the current fight.
+		The Injured character adds an extra d6 to the Injury Save each time they take an Injury during the fight, and the
+		character must fail on each of the dice rolled (i.e. roll higher than their Heartiness on every dice) in order to 
+		take another Injury during the same fight. 
 
 
 Shaken: Applied when Stress increases and the result is equal to or higher than the character's Control.
@@ -74,7 +90,7 @@ Panicked: Applied when Stress increases and the result is equal to or higher tha
 	This roll is called the Panic Save.
 
 
-Unconcious: Applied when Stress increases and the result is equal to or higher than three times the character's Control.
+Unconscious: Applied automatically when Stress increases and the result is equal to or higher than three times the character's Control.
 	Unconcious characters cannot act or move, and their Defense becomes 1.
 	Unconcious characters can be awoken by an allies Medicine (Acuity + Memory) roll.
 		The threshold for this roll is always 3, on success the unconcious character awakens and the status is removed.
@@ -83,5 +99,25 @@ Unconcious: Applied when Stress increases and the result is equal to or higher t
 
 
 Burdened: Applied when a character carries an amount greater than their Carry Weight.
-	Burdened characters cannot use the Sprint action or any action with the Attack Tag, but may use the Move action.
+	Burdened characters cannot use the Sprint action or any Attack action, but may use the Move action.
 	Abilities might specifiy limitations for Burdened characters.	
+
+
+Knocked Down: Applied when a character fails a Thrown Save.
+	Knocked Down characters cannot normally attack or defend themselves, and most use a Move Action and expend half of their 
+	Movement Value, rounded up, to stand up before taking other Actions. (Note: some Abilities can provide bonuses allowing
+	for character's to act in certain ways while Knocked Down.)
+	The normal Thrown Save requires the character to roll 1d6, and if the result is higher than their Finesse, they fail.
+		Some Techniques can force a character to roll extra d6's during a Thrown Save, and require the character to succeed
+		on each dice in order to avoid being Knocked Down.
+
+
+Restrained: Applied when a character fails a Restrained Save.
+	Restrained characters cannot move away from the source of the Restrained effect without first freeing themself.
+	To free themself, the affected character must expend 1 AP and repeat the Restrained Save that they originally failed.
+	If they fail on any dice, they remained Restrained.
+	Other than the movement restriction, Restrained characters can act normally. 
+	The normal Restrained Save requires the character to choose between their Finesse or Power, and then roll 1d6. If the result
+	is higher than the chosen Attribute, they fail. 
+		Some Techniques can force a character to roll extra d6's during a Restrained Save, and require the character to 
+		succeed on each dice in order to avoid being Knocked Down.

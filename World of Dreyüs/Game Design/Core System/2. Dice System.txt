@@ -60,7 +60,7 @@ For Action Rolls, a character's player, or the GM in the case of NPCs, rolls one
 the target threshold for the roll. Normally, the GM determines the threshold for the roll, and should use higher values to reflect
 more difficult situations. Sometimes the threshold for a roll is predetermined, most notably in the case of attacking actions, where
 the threshold is determined by the target's Defense. Occasionally Abilities will provide rules that determine thresholds for specific
-actions.
+actions. To succeed, at least 1 dice rolled for the Action Roll must meet or exceed the target threshold.
 
 --
 Thresholds normally range from 2 to 12, representing the possible range of acheivable values. However, if the GM determines that
@@ -220,7 +220,7 @@ represents their raw physical strength.
 
 The more complex or detailed an action is, the more likely it should be to call for two Attributes rather than one.
 This reflects the need for the character to rely on a combination of their qualities in order to do their best.
-For instance, this is why regular attacks with the Melee Weapon Ability require Finesse + Power in order to reflect the need for both
+For instance, this is why regular attacks with the Melee Weapons Ability require Finesse + Power in order to reflect the need for both
 strength and precision when making attacks of that nature. 
 
 --	
@@ -228,7 +228,7 @@ Abilities typically describe what Attribute or Attributes are required for a rel
 context. For instance, the Marksmanship Ability calls for Finesse and Acuity when shooting small arms, but requires Actuiy and Charm 
 when directing fire from a crewed weapon instead. 
 
-Since Abilities can be open-ended or even player-created, generic applications of an Ability might be underdefined.
+Since Abilities can be open-ended or even player-created, generic applications of an Ability might be undefined.
 
 In these cases, the GM should assess what Attribute or Attributes make the most sense in context. The GM may take player input into
 consideration, but will always retain the final decision.

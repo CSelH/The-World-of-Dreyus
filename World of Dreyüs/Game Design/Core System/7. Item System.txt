@@ -43,11 +43,11 @@ Legend M-fab that a Legend Engineer can.
 
 
 
-Microfabricators
+Microfabricators (M-fabs)
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Microfabricators take many shapes and sizes, but are ubiquitous to the technologically advanced societies on the continent. Most 
-skilled technicians make use of them, as they are invaluable tool for diagnosing, repairing, and small-scale custom manufacturing.
+skilled technicians make use of them, as they are an invaluable tool for diagnosing, repairing, and small-scale custom manufacturing.
 They are a highly customizable platform, with some abilities providing characters methods to upgrade their m-fabs capabilities 
 at particular tasks.
 

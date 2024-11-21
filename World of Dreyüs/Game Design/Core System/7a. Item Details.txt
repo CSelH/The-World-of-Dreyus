@@ -1,8 +1,6 @@
-TODO: Explain details around trib-guns, provide list of example consumables, add any other needed unique item rules.
 
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 
@@ -47,7 +45,7 @@ Be sure to use the correct Armor Mitigation value when calculating damage from t
 Destruction and Injuries
 -----
 
-The laser produced by trib-guns are incredibly powerful, and there is always some consequence to pulling the trigger on a charged 
+The laser produced by trib-guns is incredibly powerful, and there is always some consequence to pulling the trigger on a charged 
 weapon. 
 
 Materials hit by the laser could be ignited, blasted away, or even vaporized depending on the material. Some anti-laser materials
