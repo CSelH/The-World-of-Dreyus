@@ -21,9 +21,9 @@ Vehicle Rolls are similiar to Action Rolls, and involve one or more characters p
 	These rolls modify the basic Action Roll rules, and are described in the in the Vehicle System Rules section.
 	For now, it is enough to know that they are simply Action Rolls for vehicles, rather than lone individuals.
 
-Saves are rolls a character maybe forced to perform in order to determine if they succumb to some effect.
-	These rolls are typically not chosen by the character, and instead are the result of something happening to the character.
-	Saves should never require Action Points to perform. 
+Saves are rolls a character might be forced to perform in order to determine if they succumb to some effect, or avoid some sort of
+	failure. These rolls are typically not chosen by the character, and instead are the result of something happening to the 
+	character.
 
 
 
