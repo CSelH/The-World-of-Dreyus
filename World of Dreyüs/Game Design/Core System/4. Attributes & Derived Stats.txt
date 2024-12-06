@@ -14,9 +14,11 @@ Derived stats such as a character's Health, Defense, Action Points, and Carry We
 
 
 Primarily, Attributes determine the character's Potential, or the available number of dice, for an associated roll.
+	
 	Some simple actions, such as moving a heavy object or recalling a piece of information, may rely on one Attribute alone,
 		In these cases, Potential is equal to the associated Attribute. 
 			E.g. Move Object (Power) or Recall (Memory), Potential = Power or Memory.
+	
 	More skilled or complex actions, such as attacking or operating a device or machine, may rely on a combination of two 
 		different Attributes.
 		In these cases, Potential equals half the sum of the two Attributes, rounded down.
@@ -117,7 +119,12 @@ The following is a list of the stats derived from Attributes, and any counterpar
 			however, truly dead characters are forever lost.)
 
 		Damage must be lowered by medical treatment and recovery time, typically from resting.
-	
+		A normal amount of rest (~1/3 of a day) allows a character to roll a number of d4s up to their Heartiness, and reduce
+		their Damage by up to the amount rolled.
+		Spending a full day resting uninterrupted allows a character to roll a number of d4s up to their Heartiness plus 3, 
+		and reduce their Damage by up to the amount rolled. 
+		Damage cannot be lowered below 0.	
+
 		Some abilities do exist for lowering Damage during combat as well as removing, ignoring, or preventing 
 			its associated statuses or their effects.	    
 	
@@ -167,8 +174,14 @@ The following is a list of the stats derived from Attributes, and any counterpar
 						vulnerable to the Unconcious status if their Stress increases again.
 					 
 		Stress is normally lowered by resting, although some abilities exist that can lower Stress during combat.
-		Likewise, some abilities can remove, ignore, or prevent Stress from increasing, as well as preventing, ignoring, or
-			preventing its associated statuses or their effects. 
+		A normal amount of rest (~1/3 of a day) allows a character to roll a number of d4s up to their Tenacity, and reduce
+		their Stress by up to the amount rolled.
+		Spending a full day resting uninterrupted allows a character to roll a number of d4s up to their Tenacity plus 3, 
+		and reduce their Stress by up to the amount rolled. 		
+		Stress cannot be lowered below 0.
+
+		Some abilities can remove, ignore, or prevent Stress from increasing, as well as preventing, ignoring, or preventing 
+			its associated statuses or their effects. 
 
 	
 	Defense: Equal to the sum of a character's Heartiness and Finesse.

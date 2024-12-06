@@ -1,0 +1,50 @@
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in X. Acquiring this Ability grants the character the X Technique.
+
+Novice Technique
+-
+This Technique
+
+
+Journeyman
+--
+A journeyman in X. After advancing to this Ability Level in x characters gain access to the x Technique. 
+
+Journeyman Technique
+-
+This Technique
+
+
+Master
+--
+A master in X. After advancing to this Ability Level in x characters gain access to the x Technique. 
+
+Master Tech 1 
+-
+This Technique
+
+Master Tech 2
+-
+This Technique
+
+
+Legend
+--
+A legend in X. After advancing to this Ability Level in x characters gain access to the x Technique. 
+
+Legend Tech 1
+-
+This Technique
+
+Legend Tech 2
+-
+This Technqiue      
+
+
+\\\

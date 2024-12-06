@@ -234,12 +234,12 @@ Class System:
 	- Lancer: starts melee, shooting, and piloting ability
 		melee for less AP, acess to unique advanced combat skill upgrades: swashbuckler (swing+shoot), brawler (swing+swing)
 		does not take stress from being attacked but can from wounded, etc.
-	- Marksman: starts shooting skill, observation(searching/noticing), analysis (gain info on enemy/attack better)
+	- Marksman: starts shooting skill, analysis, 1 freebie primary
 		shoot for less AP, access to shooting skill upgrades: sniping (range + crit), gunslinger (shoot+shoot)
-	- BattleTech: starts with choice: 1 combat ability, 1 tech ability at journeyman, and 1 tech secondary ability 
+	- BattleTech: 1 combat ability OR medicine at novice, Engineering at journeyman, and 1 secondary ability with the "M-fab" tag 
 		tech abilities for less AP, access to unique m-fab upgrades and integrations 
 						(automates certain m-fab actions like material or wound analysis + handsfree)
-	- Experts: starts with 2 general abilities at journeyman, and 2 tech or general abilities at novice or secondary
+	- Experts: starts with 2 primary abilties without Attack Tag at journeyman, and 2 secondary abilities
 		learns non-combat abilities faster via acuity, bonus to ability rolls outside of foot-combat
 		takes stress passively per turn of foot combat
 		m-fab upgrades 
@@ -264,21 +264,15 @@ Starting Conditions/Progression:
 			choose: 2 small melee weapons or 1 large melee weapon 
 			choose: 1 small tribgun, 1 small melee weapon, or an m-fab
 			choose: novice armor or 1 small tribgun
-			learn 1 new combat or tech ability
 		- Marksman: +1 Tenacity, +1 Finesse, +2 Acuity
 			1 large tribgun
 			choose: 2 small tribguns or 1 large tribgun
 			choose: 1 small melee weapon, 1 small tribgun, or an m-fab 
-			learn 1 new ability
 		- BattleTech: +1 Tenacity, +1 Acuity, +2 Memory
 			an m-fab 
 			choose twice: 1 small tribgun or 1 small melee weapon
-			learn 1 new ability
 		- Expert: +2 Acuity, +1 Charm, +2 Memory
 			an m--fab
-			learn 1 new ability and gain 1 related piece of equipment related to that ability if not provided by the 
-				ability automatically
-	
 
 
 	Progression

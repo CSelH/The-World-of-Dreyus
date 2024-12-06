@@ -23,13 +23,6 @@ Dying: Applied when Damage increases and the result is equal to or higher than t
 	When the Dying status is removed from a character, their Stress lowers by an amount equal to their Tenacity.
 
 
-Stabilized: Applied to Wounded or Dying characters by some medical treatments, particularly Traumapaks or medical m-fab Techniques.
-	Whenever a Wounded character that is Stabilized fails an Injury Save, the Injury is prevented and the Stabilized condition
-		is removed.
-	Whenever a Dying character that is Stabilized takes damage or fails a Death Save, they do not die and the Stabilized
-		condition is removed.
-
-
 
 Injury: Can be applied when a character fails the Injury Save, or when a single attack increases a character's Damage by an amount 
 		equal to or greater than half the Character's Health.
@@ -71,6 +64,15 @@ Injury: Can be applied when a character fails the Injury Save, or when a single 
 		take another Injury during the same fight. 
 
 
+
+Stabilized: Applied to Wounded or Dying characters by some medical treatments, particularly Traumapaks or Medicine Techniques.
+	Whenever a Wounded character that is Stabilized fails an Injury Save, the Injury is prevented and the Stabilized condition
+		is removed.
+	Whenever a Dying character that is Stabilized takes damage or fails a Death Save, they do not die and the Stabilized
+		condition is removed.
+
+
+
 Shaken: Applied when Stress increases and the result is equal to or higher than the character's Control.
 	
 	Shaken characters have a -1 Potential on all actions.
@@ -92,7 +94,7 @@ Panicked: Applied when Stress increases and the result is equal to or higher tha
 
 Unconscious: Applied automatically when Stress increases and the result is equal to or higher than three times the character's Control.
 	Unconcious characters cannot act or move, and their Defense becomes 1.
-	Unconcious characters can be awoken by an allies Medicine (Acuity + Memory) roll.
+	Unconcious characters can be awoken by an ally's Medicine (Acuity + Memory) roll.
 		The threshold for this roll is always 3, on success the unconcious character awakens and the status is removed.
 		However, this roll does not reduce the character's Stress, leaving the character vulnerable 
 			to the Unconcious status if their Stress increases again.	

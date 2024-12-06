@@ -13,9 +13,17 @@ On success, the target's Damage is reduced by an amount equal to the value of al
 
 Attack
 --
-This tag indicates the Ability or Technique can be used for Action Rolls to assault and damage a target. The Target Threshold for 
-Attack Action Rolls is always at least equal to the target's Defense. Successful dice deal Damage equal to their value. 
-The default cost for Attack actions is 2 Action Points.
+This tag indicates the Ability or Technique can be used for Action Rolls to attempt to increase the Damage of a target. 
+The Target Threshold for Attack Action Rolls is always at least equal to the target's Defense. Successful dice deal Damage equal to 
+their value. The default cost for Attack actions is 2 Action Points.
+Characters normally may only make one Attack Action per turn, however you can make multiple Attacks per round by exploiting
+Openings in order to Attack during other character's turns in addition to during your own turn. 
+(Note: Some effects can allow characters to bypass the "one Attack Action per turn" rule.)
+
+Primary Abilities marked with this Tag in their title indicate the ability has some basic Attack Action that is typically always 
+available as long as a character meets its basic conditions, such as wielding the correct kind of weapon.
+Some abilities that do not have the Attack Tag in their title might still provide Techniques that do have the Attack Tag, allowing 
+the ability to be used for some kind of Attack Action via the Technique. 
 
 
 Evade
@@ -24,6 +32,8 @@ This tag indicates the Ability or Technique can be used for Action Rolls to atte
 Evade actions cost 1 Action Point and have a Target Threshold of 4. On success, the character's Defense increases by 2 until the end
 of their next turn. If a character succeeds on an Evade action during an Opening created by an Attack action that would damage them, 
 the +2 Defense bonus is applied for that Attack, potentially turning a hit into a miss.
+
+Characters cannot take this Action while they are already under it's effects (i.e. this Action cannot be repeated to stack the effect.)
 
 
 Parry
@@ -35,6 +45,8 @@ an Opening created by a melee Attack action that would damage them, the +2 Defen
 turning a hit into a miss. Parry actions have no effect against ranged attacks, and the Defense bonus from Parry actions cannot
 stack with the Defense bonus from Evade actions. This effect ends automatically after the Defense bonus affects an incoming
 Attack Action (i.e. you can only affect one attack per Parry Action performed).
+
+Characters cannot take this Action while they are already under it's effects (i.e. this Action cannot be repeated to stack the effect.)
 
 Some effects trigger from a "successful Parry", this refers to anytime an opponent fails on 1 or more dice on an melee Attack 
 Action against you while the Defense bonus from your Parry Action in active. The Parry effect itself does not need to be the reason
@@ -225,8 +237,8 @@ Pressure
 -
 Targets you successfully Attack with your Melee Weapons Ability have this effect applied to them automatically. Enemies affected
 by this Technique have a -1 Roll Modifier on ranged attacks against you, and a -1 Roll Modifier on melee attacks aginst anyone 
-except you. This effect ends at the end of an affected character's turn, or if the affected character successfully Attacks you, or
-successfully Evades or Parries one of your Attacks. 
+other than you. This effect ends at the end of an affected character's turn, or if the affected character successfully Attacks you,
+or successfully Evades or Parries one of your Attacks. 
 Additionally, Enemies affected by this Technique within range of your Melee Attacks automatically provoke a Melee Weapon Ability 
 Attack from you if they attempt to move out of your range. The first Attack made this way does not cost AP, however any subsequent
 Attacks you would make this way cost 2 AP until the end of your next turn. 
@@ -335,7 +347,7 @@ equal to the number of dice the attacker failed on during their Attack Action.
 Pin (Attack)
 -
 This Attack Action can only be made against a target you are currently restraining with your Hand-to-Hand Ability.
-This Attack Action deals no Damage on success, instead it forces the target to make a normal Thrown Save.
+This Attack Action deals no Damage on success, and instead it forces the target to make a normal Thrown Save.
 If the target fails and becomes Knocked Down, you maintain your hold on them and continue to restrain them.
 While the target is Knocked Down and Restrained by you, they cannot stand up and remove the Knocked Down condition without first
 freeing themselves from your Restrained effect. 
@@ -359,7 +371,6 @@ This Attack Action requires you to succeed on an least 3 dice, and provoke no Op
 If successful, this Attack deals no Damage, instead the opponent is forced to let go of the weapon or weapons they used in the 
 parried Attack, which then drop to the ground at their feet. If your hands are free enough to hold any of the weapons that would be
 dropped, you may choose to take them instead of letting them fall to the ground. 
-
 
 Subdue (Attack)
 -
@@ -399,7 +410,6 @@ target they are automatically Restrained by you, in addition to being Knocked Do
 (Note: even if the target fails the Thrown Save, you may still choose to take the dropped weapons instead of restraining the target.
 You are not forced to hold onto the target automatically.)
 
-
 Rapid Submission
 --
 Whenever you succeed with your Subdue Attack Action against a Knocked Down target, you can choose to activate this Technique to 
@@ -412,6 +422,333 @@ allows the target to attack you, and only once during their turn.
 
 
 \\\
+
+
+
+
+
+\\\\\\\\\\
+
+Engineering
+-----
+This ability represents a character's general scientific knowledge as well as their skill in its practical application. Engineering
+in Dreyüs is incredibly advanced, and many casual technologies there would be wonders in our own world. The extremes of both the
+environment and the resources of the continent means that nearly every society relies on the advanced Engineering knowledge that has 
+been handed down, recovered, or discovered over Dreyüs's long history of advanced technological development. The sophistication of 
+the available technology allows this ability to intersect with many practical fields, and Engineering expertise is useful in a wide
+variety of situations.
+
+Engineers are invaluable to sky-sailing crews, not only keeping the ship sailing the sky, but also able to repair the ship and keep
+its systems functional while under duress. Practically every crew has a dedicated engineer on board, and larger crews may make use of 
+several.
+
+This ability is also the Primary Ability governing most uses for microfabricators. The most basic engineers have some understanding
+of their use, and higher Ability Levels provide opportunities to use m-fabs in more creative and powerful ways. Most Battletechs
+and Experts make heavy use of this ability thanks to this capability.
+
+While there is no standard roll for this ability, the Acuity and Memory Attributes are the most common sources of Potential for 
+rolls using Engineering. Memory represents the character's capability to understand and recall knowledge, and Acuity represents their
+capability to effectively apply that knowledge. A character recalling how to fix a particular issue with a device would rely on their
+Memory. A character fixing an issue by following directions might only need their Acuity. A character simultaneously recalling their
+knowledge as they are diagnosing and repairing a device themself would be using both Acuity and Memory at once.   
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in Engineering has an essential understanding of the scientific principles most commonly taught among the cultures of the 
+continent. They also have some familiarity with m-fabs, as well as how to make use of their flexible capabilties, albeit to a limited
+degree. Acquiring this Ability grants the character the Bullet m-fab Technique.
+
+Bullet (M-fab, Attack)
+-
+This Technique allows you to use an m-fab as a firearm by manufacturing a small amount of frangible material as a projectile and
+enough chemical propellant to accelerate it to supersonic speeds.
+You may expend 2 AP and 5 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity). 
+The projectile from this attack is very fragile, and cannot penetrate most surfaces intact, requiring you to have a direct angle 
+to the target.
+The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
+stable product again. After using this Technique, you cannot use the m-fab for any action that requires Material to be expended.
+
+
+Journeyman
+--
+A journeyman in Engineering is typically a reliable profesional, thouroughly familiar with most common technologies and fairly adept
+with a microfabricator. Many Secondary Abilities related to in-combat uses for m-fabs become available to learn at this Ability Level. 
+
+
+Master
+--
+A master in Engineering is often an expert in one or more fields, and is generally very adept with any technology given enough time
+to study it. After advancing to this Ability Level in Engineering characters gain access to the Familiarization and Expertise 
+Techniques.
+
+Familiarization
+-
+This Technique can be used to study unfamiliar devices and quickly deduce their use. To do so, you must spend ten minutes studying
+the device. You cannot take any other actions during this time that would break your character's focus. Actions such as eating,
+drinking, or speaking are possible, but fighting, crafting, and most actions requiring an Action Roll are not possible.
+After spending the required time studying the device, you uncover its primary use and how to activate it. 
+You may continue studying the device with this Technique to reveal additional functions, if any are present. However, each period
+of time required to discover a function is doubled from the period before it. 
+
+(Note: You can normally attempt to discover a device's function by expending AP and making an Action Roll per your GM's discretion,
+however that Action Roll might fail, potentially rendering the device useless if it is abusively mishandled. This Technique provides
+a method to safely and consistently identify the function of a device, albeit with the requirement of time spent studying the device.)
+
+The following table gives examples of the time required to reveal multiple functions: 
+	
+	Familiarization Time Required
+	------------------------------------------------
+	Function | Time Required | Total Sequential Time 
+	---------|---------------|----------------------
+	   1st   |  10 minutes   |    10 minutes
+	   2nd   |  20 minutes   |    30 minutes
+	   3rd   |  40 minutes   |    1 hour 10 minutes
+	   4th   |  80 minutes   |    2 hours 30 minutes
+
+
+Expertise
+-
+Whenever you make a non-combat Engineering Action Roll and you know another Primary Ability at Journeyman Ability Level or higher
+related to action being made, you may add a +1 Roll Modifier to each of the dice rolled for that action. Examples of uses of this 
+Technique include repairing a weapon or device related to a weapon skill you know, or using a medical device when your character has 
+sufficient Medicine Ability Level.  
+
+
+Legend
+--
+A legend in Engineering is able to instantly understand not only the intended functions of most technologies, but also the potential
+uses outside of their original design. After advancing to this Ability Level in Engineering characters gain access to the Rigged 
+Adaptation and Epic Crafter Techniques.
+
+Rigged Adaptation
+-
+Whenever you would make an Engineering Action Roll to attempt to reconfigure a device to perform some function outside of its 
+original purpose, you gain a +1 Roll Modifier for each dice rolled for that action. If you succeed in reconfiguring a device, its
+makeshift nature does not impose any penalties to Action Rolls you make to use the device's new function.
+
+Epic Crafter
+-
+Whenever you would craft a non-consumable item or device, such as a piece of equipment or a machine, with either your Engineering 
+ability or any other Primary Ability that you have at Legend Ability Level, you gain a +1 Roll Modifier to any dice rolled for 
+any Action Roll made for crafting. 
+Whenever you finish crafting an item that activated this Technique, you may choose to make an Engineering (Acuity) roll with a 
+target threshold of 12 (you may apply the Roll Modifier from this Technique to this roll, as well as any other Roll Modifiers used 
+in the other crafting rolls). If this roll succeeds, the item's Item Quality modifier permanently becomes +4 instead of the normal
++3 for Legend items.        
+
+
+\\\
+
+
+
+
+\\\\\\\\\\
+
+Medicine
+-----
+This ability represents a character's practical understanding and effective use of medical knowledge. The exact nature of this 
+knowledge will largely depend on the cultural background from which a character receives training. More advanced societies make use
+of formal schools and training periods, while more remote societies might rely on oral traditions and dedicated apprenticeships. 
+No matter the origin of the knowledge, effective medical treatment relies on the same biological facts, and proven methods may emerge
+from many sources. While a certain amount of biological knowledge is inherent to medicine, this ability does not reflect a 
+character's wider understanding of Biology, which should be considered its own seperate Primary Ability. Likewise, Biology Ability 
+Levels do not reflect a character's practical medical knowledge.
+
+All captains know that a ship is a only as good as her crew, and thus universally place great value on good doctors. While human 
+resilience allows men to recover from most wounds and ailments, given enough food, water, and rest. However, some wounds will never
+heal on their own, and most wounds can only benefit from the careful eye of a knowing doctor. Whether maligned for their rough
+handling or praised for a deft touch, all crewmates worth their salt know that their doctor is an indispensable asset.
+
+While this Primary Ability does not grant any m-fab Techniques itself, there are several Secondary Abilities that require Ability 
+Levels in both the Engineering and Medicine Primary Abilities. Medical m-fab Techniques include a powerful array of methods for 
+reducing both Damage and Stress, relieving Injuries, and preventing death. A handful of Secondary Abilities even provide 
+opportunities to weaponize one's medical knowledge.
+
+Most Medicine rolls rely on Acuity, Memory, or both in combination, although occassionally other Attributes might be called for if
+the situation demands it. 
+Some Techniques associated with this ability make use of the Treatment Save, which is used to check if a character can effectively 
+understand and treat a patient at that moment. Despite most Saves relying on a singular Attribute, the Treatment Save relies on 
+the combination of your Acuity and Memory values. Similiar to how Attributes are sometimes combined to determine Potential, the 
+value a character uses for the Treatment Save is equal to half of the sum of their Acuity and Memory Attributes, rounded down. Thus,
+this value will range from 1 to 5, which is the normal range for Save thresholds. A Technique may call for a character to make a 
+Treatment Save with one or more d6 dice, giving various results depening on how many dice roll above the combined Attribute value.   
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in Medicine understands the fundamentals of how to properly treat and dress wounds, along with the other fundamentals of 
+first aid. Acquiring this Ability grants the character the Stabilize Technique. 
+
+Stabilize
+-
+This Technique allows the user to attempt apply the Stabilized Status to a Wounded or Dying Character without requiring access to a
+Traumapak or M-fab. 
+
+To use this Technique you expend 2 AP to begin treating the target. 
+
+You must remain within reach of the target for the duration of the treatment, and the treatment is cancelled if the target takes 
+Damage from an attack before the Stabilized Status is applied.
+
+Each time you spend AP as part of this Technique you make a 1d6 Treatment Save, and if successful the Stabilzied Status is applied to
+the target and the Technique finishes. If the Treatment Save is not successful, you can choose to end the Technique without applying 
+the Status or continue the treatment. If you choose to continue the treatment your character cannot make any other actions other than 
+to spend 2 AP to repeat the Treatment Save, or to end the treatment. If fail the Treatment Save twice but continue the treatment, the 
+third time you spend AP the Stabilized Status is automatically applied without making the Treatment Save.
+
+If you target yourself with this technique, the Status isn't applied automatically until after you fail 3 Treatment Saves and spend
+AP a fourth time.
+
+If you are within range to use this Technique on a target you may first expend 1 AP to make an Analysis (Acuity) roll to inspect 
+their wounds more closely before treating them. The threshold for this roll is always 4. On success, the number of failed Treatment
+Saves required before treatment automatically succeeds is lowered by 1. This means treating someone else can only ever require 2 
+attempts total, and treating yourself can only ever require 3 attempts total if you succeed on an Analysis (Acuity) roll first. 
+
+
+Journeyman
+--
+A journeyman in Medicine is a fairly qualified to provide general care. Many greenhorn Ship's Doctors come aboard at this Ability 
+Level. After advancing to this Ability Level in Medicine characters gain access to the Enhanced Recovery Technique.
+
+Enhanced Recovery
+-
+This Technique increases the effect of resting for patients under your care. Any characters resting under your medical supervision,
+such as in a sick bay or hospital ward you are working in, roll d6s instead of d4s when determining the amount of Damage reduced by
+their rest. 
+
+
+Master
+--
+A master in medicine typically has a lot of practical experience in saving lives, and are often very knowledgeable in several
+medical fields. After advancing to this Ability Level in Medicine characters gain access to the Life Support Technique.
+
+Life Support
+-
+This Technique causes all Dying characters under your treatment, such as those with a Stabilized Status you applied or resting
+in your medical facility, to automatically succeed the Death Save at the end of their turns. (Note: characters affected by this 
+Technique can still die due to other means.)
+
+
+Legend
+--
+A legend in medicine is often a once in a generation talent in their field among an advanced society, or someone who is spoken of
+with semi-mythical awe for decades after their life. After advancing to this Ability Level in Medicine characters gain access to the 
+Reliable Care Technique.
+
+Reliable Care 
+-
+This Technique primarily affects the Stabilize Technique, reducing the number of failed attempts required before the treatment 
+automatically succeeds. This Technique lowers the required number by 1, and can stack with the reduction from an Analysis (Acuity)
+roll. The following table can be referenced to determined the adjusted values once this Technique is acquired:
+
+	|-----------------------------------------------|	
+	|	         Reliable Care 			|		
+	|-----------------------------------------------|
+	|		 |	Failed Attempts		|
+	|----------------|------------------------------|
+	|	Target	 |    Self     |      Other     |
+	|----------------|-------------|----------------|  
+	|  With Analysis |     1       |       0	|
+	|----------------|-------------|----------------|
+	|Without Analysis|     2       |       1	|
+	|----------------|-------------|----------------|
+	
+      (Note: 0 Failed Attempts mean the treatment automatically applies the first time you spend AP on it.)
+
+
+Whenever you use a Traumapak item on a target you automatically succeed on the Medicine (Acuity + Memory) roll.
+If an m-fab Technique you use can apply the Stabilized Status, it does so automatically, regardless of any roll made for the Technique.
+
+Additionally, your Enhanced Recovery Technique now changes the resting dice to d8s instead of d6s. 
+
+
+
+\\\
+
+
+
+
+\\\\\\\\\\
+
+Analysis
+-----
+This ability represents a character's skill at observing and collecting information with their senses, as well as critically
+assessing information within their head. In other words, it is their combined observation and critical thinking skills. 
+
+This ability is fundamentally tied to the Acuity Attribute. Where the Acuity Attribute represents the character's Potential to
+gather and assess information, this ability represents the character's cognitive efforts to do so. This ability is the deliberate 
+behaviour a character performs, behaviours that can be learned or taught, regardless of one's biological limits. 
+
+This ability can often interact with other Primary Abilities by giving you extra information about people and objects related
+to those abilities, potentially giving bonuses for various kinds of rolls or saves. 
+
+Rolls for this ability nearly exclusively on the Acuity Attribute for Potential, although occassionally another Attribute could be 
+called for in addition if the GM thinks it is appropriate to the situation. 
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in X. Acquiring this Ability grants the character the X Technique.
+
+Novice Technique
+-
+This Technique
+
+
+Journeyman
+--
+A journeyman in X. After advancing to this Ability Level in x characters gain access to the x Technique. 
+
+Journeyman Technique
+-
+This Technique
+
+
+Master
+--
+A master in X. After advancing to this Ability Level in x characters gain access to the x Technique. 
+
+Master Tech 1 
+-
+This Technique
+
+Master Tech 2
+-
+This Technique
+
+
+Legend
+--
+A legend in X. After advancing to this Ability Level in x characters gain access to the x Technique. 
+
+Legend Tech 1
+-
+This Technique
+
+Legend Tech 2
+-
+This Technqiue      
+
+
+\\\
+
+
+
 
 
 

@@ -96,7 +96,7 @@ via exposure to concentrated amounts of light at specific frequencies. Traumapak
 avaialble than Regen-Stims, which are capable of truly healing a wound.
 
 Regardless of the specific makeup, characters will use any given traumapak for the same purpose.
-Players can expend 2 AP to make a Medicine(Acuity + Memory) Action Roll to attempt to use a traumapak to give the Stabilized status
+Players can expend 2 AP to make a Medicine (Acuity + Memory) Action Roll to attempt to use a traumapak to give the Stabilized status
 to a Wounded or Dying character within their reach. This Action Roll requires the use of both hands. The threshold for this roll is 4, 
 and the traumapak is only consumed when the roll succeeds. The Item Quality level modifier for the traumapak can be applied as a roll
 modifier to one of the dice rolled for this action.
