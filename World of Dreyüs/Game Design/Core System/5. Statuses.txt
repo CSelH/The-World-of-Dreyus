@@ -123,3 +123,15 @@ Restrained: Applied when a character fails a Restrained Save.
 	is higher than the chosen Attribute, they fail. 
 		Some Techniques can force a character to roll extra d6's during a Restrained Save, and require the character to 
 		succeed on each dice in order to avoid being Knocked Down.
+
+
+Inflamed: Applied when a character is set of fire.
+	Inflamed characters take Damage at the start of each of their turns until the fire burns out, or is directly extinguished.
+	The duration of this Status and the amount of Damage taken each turn is determined by the source of the Status.
+	Damage dealt by this Status is not affected by Armor Mitigation. 
+	A character affected by this Status can expend 1 AP and roll 2d6 to attempt to put out the fire. The fire is extinguished
+	if the result of both dice is less than or equal to the character's Finesse.
+	Alternatively, a character affected by this Status can expend 2 AP and roll 1d6 to attempt to put out the fire. The fire is
+	extinguished if the result of the die is less than or equal to the character's Finesse.  
+ 	Either of these rolls are referred to as a Extinguish Save.
+	Other individuals can also attempt to make an Extinguish Save to end the Inflamed Status on an ally.

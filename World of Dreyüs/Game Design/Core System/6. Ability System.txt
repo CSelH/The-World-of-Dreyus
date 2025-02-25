@@ -38,7 +38,7 @@ and Ranged Tags. These tags describe the basic rules for how those Abilities are
 Other common tags include the M-Fab Tag, which marks Abilties that make use of Micro-Fabricators, and the Crafting Tag, denoting 
 Abilities that can produce items or consumables.
 
-A reference list of Ability Tags and their descriptions can be found in section 6a, prefacing the list of abilities. 
+A reference list of Ability Tags and their descriptions can be found in section 6a, prefacing the list of primary abilities. 
 
 
 
@@ -115,6 +115,33 @@ Secondary Abilities do not have an Ability Level, and do not contribute to dice 
 Secondary Abilities have prequisites that must be met before a character can learn them. Normally this takes the form of requiring 
 the character to have a minimum Ability Level in one or more specific Primary Abilities. Some Secondary Abilities are also restricted 
 to specific Classes. Once a character meets the requirements for a Secondary Ability, they may acquire that ability by expending 
-Experience Points, similiar to acquiring or upgrading a Primary Ability.
+Experience Points, similiar to acquiring or upgrading a Primary Ability. Acquiring Secondary Abilities represents a character
+spending additional time training and studying beyond what would normally be done for someone with that Ability Level.
 
-A list of Secondary Abilities is provided in section 6a.
+A list of Secondary Abilities is provided in section 6b.
+
+\\
+
+Optional Rule: 
+Some Secondary Abilities provided as specializations for broader Primary Abilities could be transformed and used as independent 
+Primary Abilities instead. 
+
+For example, Astronomy is given as a Secondary Ability tied to the Navigation Primary Ability. If a player thinks it appropriate 
+that their character have knowledge of Astronomy without an investment into Navigation and their GM approves, they could construct a 
+new Primary Ability for Astronomy and use it independetly of the Navigation ability. 
+
+Remember, Secondary Abilities use the Dice Scaling from the associated Primary Ability, so it is typically a less efficient use of 
+Experience Points to transform a Secondary Ability into a Primary Ability. 
+
+This rule should be used for more knowledge based fields, and should never be used for Secondary Abilities for Melee Weapons, 
+Marksmanship, Hand-to-Hand, Engineering, or Medicine. 
+
+A Secondary Ability transformed in this way may retain any Techniques they normally obtain, if appropriate, and may add this 
+Technique to be acquired once the ability is at Journeyman level:
+
+Subject Matter Expert:
+--
+This Technique automatically gives you a +1 Roll Modifier to one die of your choice whenever you make an Ability Roll with this
+Primary Ability. This bonus can only be used once per round.
+
+\\

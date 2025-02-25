@@ -1,0 +1,31 @@
+Primary:
+
+Marksmanship (Attack)
+Melee Weapons (Attack, Parry)
+Hand-to-Hand (Attack, Parry, Evade)
+Engineering
+Medicine
+Analysis
+Communication
+Kinesiology (Evade)
+Navigation
+Subtlety
+Ecology
+Warfare?? (group fighting)
+
+
+Secondary:
+
+Marskmanship - Sniping (CR), Gunslinging (CR)
+Melee Weapons - Swashbuckling (CR), Brawling (CR)
+Hand-to-Hand - Grappling (??), Striking (??), Defending (??)
+Engineering - m-fab:thermal, explosive, repair, ???. Repair, Salvage, Fabrication
+Medicine - m-fab:healing, poison. surgery? psychology cross with Communication? natural medicine cross with ecology?
+Communication - Deceit, Persuasion, Imperative, Performance, Literature, ???
+Navigation - Vehicles, Cartography, Astronomy, Meteorology, Aerodynamics (split with engi)
+Subtlety - locksmithing (or w/ Engi), trapping, sneaking/surprise attacking, misdirection
+Ecology -  Zoology, Entomology, Botany, Mycology, Microbiology (or w/ medicine), anthropology (or w/ communication)
+Warfare - small unit tactics, campaign strategy, battlefield tactics, sky-sailing tactics, logistics and supply (or w/ Navigation)
+
+Consider having option to take some secondaries as independent primaries instead
+Also, some secondaries could have an OR primary requirement e.g. Aerodynamics as Engineering OR Navigation. 

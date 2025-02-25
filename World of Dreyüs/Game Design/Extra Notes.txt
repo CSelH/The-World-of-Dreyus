@@ -1,0 +1,19 @@
+
+
+
+
+
+\\\\\\\\\\\
+Econmy Note:
+
+Need to derive economy backwards from ships.
+
+Repair costs equal to some % of ship cost based on damage to the ship (maybe direct 1-1?).
+
+This should derive to raw material avg values per metric tonne (standard unit of storage).
+That should led to method of cost determination for smaller objects and other vehicles.
+\\\\\\\\\\\
+
+
+
+

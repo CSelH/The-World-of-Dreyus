@@ -1,0 +1,367 @@
+
+
+Secondary Abilities 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+Sniper
+--
+Req: Marksman Class, Journeyman Marksmanship
+Cost:
+Learning this ability locks a character out of learning the Gunslinger Secondary Ability.
+
+This ability provides a number of passive benefits:
+- Whenever you make an Attack with your Marksmanship ability against a target you are actively tracking with your Analyze Technique, 
+	the +1 Roll Modifier from the Analyze buff becomes +2 instead.
+- The cost for your Prepare Shot Technique is now 1 Action Point instead of 2.
+- Whenever you make an Attack using your Prepare Shot Technique you may spend an additional 2 Action Points immediately after 
+	and make another Attack with your Marksmanship ability against any target in that area targeted by your Prepare Shot 
+	Technique. You automatically recharge or reload your weapon to make the 2nd attack, if you choose to take it.
+	You cannot make any other attacks during your turn after using this feature.
+
+\\\
+
+
+Gunslinger
+--
+Req: Marksman Class, Journeyman Marksmanship
+Cost:
+Learning this ability locks a character out of learning the Sniper Secondary Ability.
+
+You design a custom holster rig that can be crafted by anyone with at least Journeyman Engineering and access to a workshop and 
+appropriate raw materials. 
+
+This rig can carry up to 6 small trib-guns, which must be modified to be compatible with the rig's mechanism. This modification
+is done at the same time the rig is crafted. 
+The main function of this rig and its mechanism to charge each weapon holstered in it simulatneously.
+
+Whenever wearing the rig, you may expend 1 Action Point to charge each weapon you are carrying in the rig's holsters.
+Weapons modified to work in this rig do not have independent charging handles and can only be charged by the rig's mechanism. 
+
+Additionally, you gain the following benefits:
+- You may draw and store weapons paired to your custom holster rig without expending Action Points.
+- Whenever you spend 2 Action Points to make an Attack using small ranged weapons with your Marksmanship ability you may expend 1 
+	Action Point immediately after and make another Attack with your Marksmanship ability against any target you can see in range. 
+	You cannot make any other attacks during your turn after using this feature.
+
+
+\\\
+
+
+Heavy Weapons Expert
+--
+Req: Journeyman Marksmanship
+Cost:
+
+This ability provides a number of passive benefits to wielding a ranged Anti-Vehicle Weapon:
+- The Power Attribute requirement to wield a ranged Anti-Vehicle weapon for you is now 2, rather than the normal 3.
+- You can reload or recharge a ranged Anti-Vehicle weapon by expending 1 Action Point, rather than the normal 2 Action Points.
+- You no longer recieve a -1 Roll Modifier when targeting individuals with a ranged Anti-Vehicle Weapon.
+
+
+\\\
+
+
+Swashbuckler
+--
+Req: Lancer Class, Journeyman Melee Weapons
+Cost:
+Learning this ability locks a character out of learning the Brawler Secondary Ability.
+
+This ability provides a number of benefits:
+-  Whenever you spend 2 Action Points to make an Attack using a small weapon with either your Melee Weapons Ability or Marksmanship 
+	Ability, you may expend 1 Action Point immediately after and make another Attack against any target you can see in range with
+	a small weapon in your other hand using the Ability not used in the first attack. 
+	(You can make a melee attack then a ranged attack, or make a ranged attack then a melee attack, but you cannot make two 
+	attacks of the same type.)
+	You cannot make any other attacks during your turn after using this feature.
+-  You can reload or recharge a small ranged weapon with a hand holding a melee weapon, rather than an open hand.
+-  Whenever you expend 1 Action Point to reload or recharge a small ranged weapon while wielding a melee weapon in the other hand,
+	you automatically make a Parry action using your Melee Weapons Ability. You do not need to spend additional Action Points
+	for this effect.
+
+
+\\\
+
+
+Brawler
+--
+Req: Lancer Class, Journeyman Melee Weapons
+Cost:
+Learning this ability locks a character out of learning the Swashbuckler Secondary Ability.
+
+This ability provides a number of benefits:
+- You gain +1 Armor Mitigation to against both melee and ranged attacks, and you do not need to have armor equipped to benefit from
+	the Armor Mitigation granted by this feature.
+- The debuffs applied to enemies by your Pressure Technique are doubled, becoming -2 instead of -1. 
+- Whenever you expend 2 Action Points to make an Attack with your Melee Weapons Ability you may expend 1 Action Point immediately
+	after and make another Attack with your Melee Weapons Ability against any target you can see within range, or any target 
+	whose distance from your first target is less than or equal to your Movement Value. You automatically move within range of 
+	a second target before attacking them.  
+
+
+\\\
+
+
+Manipulative Duelist
+--
+Req: Master Melee Weapons
+Cost:
+
+This ability gives you access to the Unbalancing Strike and the Disarming Strike Techniques.
+
+Unbalancing Strike
+-
+This Technique allows you to choose to deal less damage with a successful Melee Weapons Attack and instead force the target into
+provoking an Opening. 
+Once per round, you may choose up to two successful dice rolled for a Melee Weapons Attack to deal 0 Damage. If you do so, the target
+provokes an Opening where the number of Action Points that can be spent are equal the number of dice used for this effect (maximum 2).
+Any dice used to activate this effect cannot count as successful dice for any other effect.
+
+Disarming Strike (Attack)
+-
+This Technique allows you to launch a special attack with the goal of forcing your target to drop their weapons.
+You cannot use this Attack Action if you current Potential for a Melee Weapons (Finesse + Power) roll is less than 3.
+You may expend 2 Action Points to make a Melee Weapons Attack against a target you can see within range and use at least 3 dice
+in the roll for the attack.  
+This Attack Action requires you to succeed on an least 3 dice, and provoke no Openings, otherwise it fails. 
+If successful, this attack forces the target to forced to let go of any weapons they are holding,  which then drop to the ground at 
+their feet. If your hands are free enough to hold any of the weapons that would be dropped, you may choose to take them instead of 
+letting them fall to the ground. 
+Any successful dice after the 3 used to trigger the disarming effect may be used to inflict Damage or trigger some other effect, 
+however the primary 3 dice cannot be counted for Damage or any other effects.
+
+
+\\\
+
+
+Conditioned Fighter
+--
+Req: Journeyman Hand-to-Hand, Journeyman Kinesiology
+Cost:
+
+This ability affects your Throw, Restrain, and Pin Techniques from the Hand-to-Hand Ability. 
+You can now perform these Techniques by expending 1 Action Point, instead of 2. 
+Additionally, you may expend 2 Action Points immediately after succesfully attacking with your Throw, Restrain, or Pin Technique to
+make a regular Hand-to-Hand attack against the same target. (Note: your target does not need to fail any saves inflicted by your
+successful attack in order to trigger this effect. You only need to succeed on the initial Technique attack.)
+
+
+\\\
+
+
+Masterful Discipline
+--
+Req: Master Hand-to-Hand
+Cost:
+
+This ability passively reduces the Stress you recieve, a result of your extensive internal reflection in combination with the 
+physicaly commitment to your training. While some may achieve martial mastery through physical effort alone and never achieve this
+inner resilience, this ability represents those who have dedicated themselves to a more complete mastery of the self, extending to
+both the mental and physical.
+ 
+Whenever your Stress would increase from any source, your Stress instead only increases by half the normal amount, rounded up.
+
+
+\\\
+
+
+Microfabricator-Weapon Integration (M-fab)
+--
+Req: Battletech Class, Journeyman Engineering, Journeyman Marksmanship OR Journeyman Melee Weapons. 
+Cost:
+Learning this ability locks a character out of learning the Microfabricator Advanced Cooling System Secondary Ability.
+
+You spend time fabricating and modifying your m-fab and your chosen weapon, combining to the two in order to streamline your use
+of both on the battlefield. You can use a pre-existing weapon you possess, or fabricate a new one of your choice if you are able,
+however the weapon must be of a type governed by the Primary Ability you used to meet the requirement for this Secondary Ability.
+
+Your new hybrid m-fab/weapon starts with Journeyman Quality, and can be upgraded by you as you progress your Engineering Ability.
+
+Whenever you make an attack using the m-fab component of your weapon, you may expend 1 Action Point immediately after and make a
+normal (non-Technique) attack against a target you can see using the weapon Primary Ability governing your weapon. 
+
+
+\\\
+
+
+Microfabricator Advanced Cooling System (M-fab)
+--
+Req: Battletech Class, Journeyman Engineering, Thermals Expert (Secondary Ability) 
+Cost:
+Learning this ability locks a character out of learning the Microfabricator-Weapon Integration Ability.
+
+You research and design a new custom housing for your microfabricator that features a robust cooling system. With the appropriate 
+materials and time you can build the device, reconfiguring an m-fab core into the new device. Despite the increase in overall bulk,
+your modified microfabricator can sustain higher rates of production and emission without damaging the systems.
+
+Your new m-fab starts with Journeyman Quality, and can be upgraded by you as you progress your Engineering Ability.
+
+When wielding a MACS m-fab, you may use two m-fab actions with the Cooldown tag during a turn, rather than one. If you've made no 
+other attack actions during a turn, one or both of m-fab actions can be attack actions. 
+
+
+\\\
+
+
+Fabrication Expert
+--
+Req: Journeyman Engineering
+Cost:
+
+This ability represents specialized experience and knowledge in general manufacturing and material sciences. 
+You gain the following benefits after acquiring this ability:
+- The time it takes for you to manufacture any item is halved.
+- If you are crafting an item related to another Primary Ability you possess (such as weapons or medicinal drugs) and the associated
+	Primary Ability is a higher Ability Level than your Engineering Ability, you may use the other Primary Ability instead of 
+	Engineering for rolls made for crafting the item. If you do so, the items Quality Level is determined by the alternate 
+	Primary Ability instead of your Engineering Ability.
+- You gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning manufacturing and materials. This 
+	modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+
+
+\\\
+
+
+Scavcycling Expert
+--
+Req: Journeyman Engineering
+Cost:
+
+This ability represents specialized experience and knowledge in the methods of recovering old and/or damaged technology, as well as
+use of such goods to maintain or improve current technology. 
+You gain the following benefits after acquiring this ability:
+- You gather 50% more usuable scrap whenever scavenging sites for raw material.
+- Whenever performing Repairs as the Engineer of a vehicle, your Potential for the roll is always at least 3, and you gain a +1 Roll
+	Modifier to each dice for the roll.
+- You gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning scavenging, recycling, and repair. This 
+	modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+
+
+\\\
+
+
+Combat Mechanic
+--
+Req: Journeyman Engineering
+Cost:
+
+This ability represents specialized experience in vehicular fighting as an Engineer.
+Whenever serving as the Engineer for a vehicle, you gain a +1 Roll Modifier to each dice rolled for Engineer Role actions other than
+the Repairs action.
+
+Additionally, you gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning the Engineer vehicle role. 
+This modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+
+
+\\\
+
+
+Explosives Expert
+--
+Req: Journeyman Engineering
+Cost: 
+
+This ability represents specialized experience and knowledge in the field of explosive materials and devices. 
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning explosives. This modifier cannot stack 
+	with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+- You gain access to the Blast and Micro-Grenade Techniques
+
+
+Blast (M-fab, Attack, Cooldown, Energy-Based Attack)
+-
+This Technique allows you to use your m-fab as a firearm to deliver a projectile composed of powerful high explosives directly 
+onto a target.
+You may expend 2 AP and 5 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity).
+The projectile from this attack is very fragile, and explodes on contact, requiring you to have a direct angle to the target.
+The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
+stable product again. After using this Technique, you cannot use the m-fab for any action that requires Material to be expended for
+rest of the turn.
+
+
+Micro-Grenade (M-fab, Attack, Cooldown)
+-
+This Technique allows you to use your m-fab as a firearm to deliver a small airburst grenade composed of fragible material and 
+high explosives.
+You may expend 2 AP and 10 Material to make a ranged Attack Action against each target within a 5m diameter sphere centered at a spot
+of your choice within 50m using Engineering (Finesse + Acuity). You make only one roll for this attack, but compare the results
+against each of the targets' Defense values individually to determine success.
+Targets hit by this attack take Damage equal to half the value of the successful dice, rounded down. 
+If the trajectory of the grenade is blocked before it reaches its target point it may deflect, bounce, roll, or drop before 
+detonating before the end of the action.
+The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
+stable product again. After using this Technique, you cannot use the m-fab for any action that requires Material to be expended for
+rest of the turn.
+
+
+\\\
+
+
+Thermals Expert
+--
+Req: Journeyman Engineering
+Cost:
+
+This ability represents specialized experience and knowledge in the field of thermal engineering. 
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning topics within thermal engineering. This 
+	modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+- You gain access to the Ignite and Freeze Techniques.
+
+
+Ignite (M-fab, Attack, Cooldown, Energy-Based Attack)
+-
+This Technique allows you to use your m-fab as a firearm to deliver a small container of incendiary material and flammable adhesive 
+fluid.
+You may expend 2 AP and 10 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity). 
+The projectile from this attack is very fragile, and explodes on contact, requiring you to have a direct angle to the target.
+
+If the attack is successful, the target is inflicted with the Inflamed Status in addition to the normal Damage inflicted.
+The "Statuses" section describes the rules for the Inflamed Status.
+The Damage caused by this Inflamed Status, as well as the duration of the effect, is based of your Engineering Ability Level and is
+described by the following table:
+	-------------------------------------
+	| Ability Level | Damage | Duration |
+	|---------------|--------|----------|
+	|  Journeyman	|  2d4   | 3 Turns  |
+	|    Master     |  3d4   | 4 Turns  |
+	|    Legend     |  4d4   | 5 Turns  |
+	-------------------------------------
+Damage from the Inflamed Status is dealt at the start of the target's turn, and ends automatically after dealing Damage on the last 
+turn of its duration. Damage from the Inflamed Status is not affected by Armor Mitigation.
+The Inflamed Status can be ended early via a successful Extinguish Save, as described in the "Statuses" section.
+
+The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
+stable product again. After using this Technique, you cannot use the m-fab for any action that requires Material to be expended for
+rest of the turn.
+
+
+Freeze (M-fab, Attack, Cooldown, Energy-Based Attack)
+-
+This Technique allows you to use your m-fab as a firearm to deliver a small container of cryogenic material and a thermally 
+superconductive adhesive. 
+You may expend 2 AP and 10 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity).
+The projectile from this attack is very fragile, and explodes on contact, requiring you to have a direct angle to the target.
+
+If the attack is successful, the target is forced to make a special Injury Save in addition to receiving the normal Damage inflicted.
+If the target fails on every dice for the Injury Save (i.e. roll higher than their Heartiness Attribute on every dice), they suffer 
+an Injury due to the extreme freezing effect. The number of d6 dice used for this special Injury Save is determined by your 
+Engineering Ability Level and is described by the following table:
+	-------------------------------
+	| Ability Level | Injury Save |
+	|---------------|-------------|
+	|  Journeyman	|     3d6     |
+	|    Master     |     2d6     |
+	|    Legend     |     1d6     |
+	------------------------------- 
+If the target fails the Injury Save inflicted by this Technique and you do not provoke any Openings or Mistakes during the attack,
+you may choose what body part receives the Injury. If an Opening or Mistake was provoked, the Injury is applied to random body part.
+(Note: The GM can choose what the Injury is, or have the player roll 1d6 and use that result to determine what part is injured.)
+
+The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
+stable product again. After using this Technique, you cannot use the m-fab for any action that requires Material to be expended for
+rest of the turn.
+
+
+\\\

@@ -64,7 +64,26 @@ severe burns, destroyed flesh, even vaporized or otherwise destroyed limbs and o
 
 
 
+Anti-Vehicle Weapons
+-------------------------------------------------------------------------------------------------------------------------------------
 
+Vehicles take only half damage from most small arms (i.e. weapons carried by individual people), however some ranged weapons are 
+designed to allow infantry to engage vehicles. These weapons will have the "Anti-Vehicle" tag to indicate that they have this trait.
+
+These weapons are always considered Large, and are exceptionally heavy and unwieldy. Due to this, these weapons require that an 
+individual to have at least 3 Power in order to wield them. 
+
+These weapons require an individual to expend 2 Actions Points, rather than 1, to recharge or reload the weapon.
+No Abilities or Techniques may cause these weapons to recharge or reload automatically.
+
+Additionally, if a character targets individuals with one of these weapons, they recieve a -1 Roll Modifier to each of the dice they
+roll to determine the outcome of the attack. If an individual is hit by one of these weapons, their attacker may roll an additional
+2d8 as extra damage. (Note: Large Ranged weapons always deal an extra 1d8 damage on a successful hit, so 3d8 bonus damage total 
+should be rolled when an Anti-Vehicle Ranged weapon hits an individual rather than a vehicle.)  
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 

@@ -423,3 +423,62 @@ Memory-based Save, while more here-and-now type personalities are unbothered.
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+Roll and Effect Modifiers
+-------------------------------------------------------------------------------------------------------------------------------------
+Modifiers are values that are added to or subtracted from the value of a dice, with the new value being treated as the result of 
+the modified dice. Modifiers are normally expressed as a "+" or "-" symbol, to indicate addition or subtraction, followed by a whole
+integer value. This is followed by the type of modifier, which describes how the modifier should be applied. Two kinds of modifiers 
+are used in this game: Roll Modifiers and Effect Modifiers. Whenever a description calls for a "+1 Roll Modifier" or a "-2 Effect
+Modifier", these are the rules to follow.
+
+Multiple modifiers of either or both types can be applied to the same action, and can counteract one another if they are the same 
+type of modifier (i.e. a +1 Roll Modifier negates a -1 Roll Modifier).
+
+
+Effect Modifiers
+--
+Effect Modifiers affect the value of a successful action, but cannot affect whether or not that action is successful. 
+Effect Modifiers should be applied after the dice are rolled and the success of the action is determined. Effect Modifiers do not
+affect unsuccessful actions in any way. An Effect Modifier will raise or lower the value of an effect applied by a successful action,
+such as a successful attack or medical treatment. 
+
+The value of an Effect Modifier is applied in one of two ways, depending on the source of the modifier. 
+Normally, an Effect Modifier is applied to the value of each of the sucessful dice of an action, which are then combined after the
+modification. These values are typically small, since they accumulate to a greater effect across multiple dice.
+Occassionally, an Effect Modifier is only applied once to the total value of the successful dice together. These values are normally
+larger, as they are only applied once.
+The description that calls for the Effect Modifier should include which method of application should be used. 
+
+Effect Modifiers can never lower the value of an effect below 0.
+
+
+Roll Modifiers
+--
+Roll Modifiers affect the value of the dice roll itself, and can potentially change the success of an action. Roll Modifiers should 
+be applied after the dice are rolled but before the success of the action is determined. Therefor, if the Roll Modifier increases or
+decreases the value of a rolled dice such that the new value succeeds or fails when it otherwise would not have, the new outcome is 
+followed.
+
+However, Roll Modifiers cannot prevent or cause Mistakes or Openings. If a Roll Modifier reduces a rolled value to 1 or less, it 
+cannot provoke a Mistake or Opening. Likewise, a Roll Modifier cannot increase the value of a rolled 1 in order to prevent a
+Mistake or Opening. Rolling a 1 always provokes an Opening or Mistake, and is the only source of those phenomena.
+
+Roll Modifiers also are inherently Effect Modifiers. If the value of an effect is determined by the value of the successful dice
+rolled for that action, and those dice are modified by a Roll Modifier, then the modified value is used. 
+ 
+Roll Modifiers cannot lower the value of a die below 1 (Note: the minimun threshold for success of any action is at least 2).
+
+
+Summary
+--
+Actions can be affected by any number and type of modifiers are the same time, however Roll Modifiers are generally more powerful
+than Effect Modifiers alone. Whenever applying both kinds of modifiers to the same action, keep in mind that Roll Modifiers are 
+applied before the success is determined, and Effect Modifiers are applied only if the action is successful. 
+Note again that Roll Modifiers cannot cause or prevent an Opening or Mistake. Rolled 1's always provoke an Opening or Mistake, and 
+are the only source of those events. 
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

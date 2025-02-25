@@ -449,7 +449,18 @@ Vehicle Roles:
 				Engineering Roll (Acuity + Memory) to attempt damage control and stabilize a Critical system. 
 				This removes the Critical status and it's associated penalties, returning the system to
 					the Functioning status. 
-				
+				The target threshold hold for this roll is based off the vehicle's Size Class.
+				The following table shows the target thresholds used when rolling for this feature:
+					--------------------------------
+					- Size Class| Target Threshold -
+					------------|-------------------    
+					-   Small   |        3	       -
+					-   Medium  |        4         -
+     					-   Large   |        5         -
+    					-   Huge    |        6         -
+					--------------------------------
+			
+	
 			
 			Repairs - Outside of Combat, Engineers can lead the effort to repair a vehicle, lowering its Damage value.
 				This roll can be made once per day, and the work associated with the roll occupies that day. 
@@ -459,7 +470,7 @@ Vehicle Roles:
 					If the Engineer is alone, the roll is Engineering (Acuity + Memory), 
 						but suffers from -2 Potential for the roll. (Potential cannot be reduced below 1.)
 					
-					If the Engineer has one assistant, the roll is Engineering (Acuity + Memory), but suffers
+					If the Engineer has one assistant, the roll is Engineering (Acuity + Memory), 
 						but suffers from -1 Potential for the roll. (Potential cannot be reduced below 1.)
 					
 					If the Engineer is leading 2 or 3 others, the roll is Engineering (Acuity + Memory).

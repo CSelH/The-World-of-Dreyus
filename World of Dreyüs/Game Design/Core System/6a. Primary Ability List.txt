@@ -1,0 +1,1176 @@
+
+
+Ability Tags Reference List
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Healing
+--
+This tag indicates the Ability or Technique can be used for Action Rolls to reduce the Damage on a target. 
+The Action Point cost and Target Threshold for these rolls can vary depending on the situation, as well as the Ability or 
+Technique providing the Healing capability. 
+On success, the target's Damage is reduced by an amount equal to the value of all successful dice. 
+
+
+Attack
+--
+This tag indicates the Ability or Technique can be used for Action Rolls to attempt to increase the Damage of a target. 
+The Target Threshold for Attack Action Rolls is always at least equal to the target's Defense. Successful dice deal Damage equal to 
+their value. The default cost for Attack actions is 2 Action Points.
+Characters normally may only make one Attack Action per turn, however you can make multiple Attacks per round by exploiting
+Openings in order to Attack during other character's turns in addition to during your own turn. 
+(Note: Some effects can allow characters to bypass the "one Attack Action per turn" rule.)
+
+Primary Abilities marked with this Tag in their title indicate the ability has some basic Attack Action that is typically always 
+available as long as a character meets its basic conditions, such as wielding the correct kind of weapon.
+Some abilities that do not have the Attack Tag in their title might still provide Techniques that do have the Attack Tag, allowing 
+the ability to be used for some kind of Attack Action via the Technique. 
+
+
+Evade
+--
+This tag indicates the Ability or Technique can be used for Action Rolls to attempt to avoid all kinds of incoming attacks.
+Evade actions cost 1 Action Point and have a Target Threshold of 4. On success, the character's Defense increases by 2 until the end
+of their next turn. If a character succeeds on an Evade action during an Opening created by an Attack action that would damage them, 
+the +2 Defense bonus is applied for that Attack, potentially turning a hit into a miss.
+
+Characters cannot take this Action while they are already under it's effects (i.e. this Action cannot be repeated to stack the effect.)
+
+
+Parry
+--
+This tag indicates the Ability or Technique can be used for Action Rolls to attempt block to incoming melee attacks.
+Parry actions cost 1 Action Point and have a Target Threshold of 4. On success, melee attacks against the user must treat the 
+character's Defense as having been increased by 2 until the end of their next turn. If a character succeeds on an Parry action during
+an Opening created by a melee Attack action that would damage them, the +2 Defense bonus is applied for that Attack, potentially 
+turning a hit into a miss. Parry actions have no effect against ranged attacks, and the Defense bonus from Parry actions cannot
+stack with the Defense bonus from Evade actions. This effect ends automatically after the Defense bonus affects an incoming
+Attack Action (i.e. you can only affect one attack per Parry Action performed).
+
+Characters cannot take this Action while they are already under it's effects (i.e. this Action cannot be repeated to stack the effect.)
+
+Some effects trigger from a "successful Parry", this refers to anytime an opponent fails on 1 or more dice on an melee Attack 
+Action against you while the Defense bonus from your Parry Action is active. The Parry effect itself does not need to be the reason
+the the dice failed. This means anytime a character takes a Parry Action during an Opening created by an incoming melee Attack Action
+it is always considered a "successful Parry" for the purposes of triggering secondary effects. A "successful Parry" indicates the 
+character actively defended themself enough to establish some control, even if they incurred some Damage from the Attack.
+
+
+Energy-based Attack
+--
+This tag indicates the Ability or Technique produces an Energy-based Attack. Energy-based Attacks are treated the same as melee 
+attacks for the purposes of Armor Mitigation. (see "Armor" rule in "Section 7. Item System")
+
+
+M-fab
+--
+This tag indicates the Ability or Technique makes use of a microfabricator for some or all of it's related Action Rolls.
+M-fabs are handheld 3-D printers capable of manipulating most periodic elements at a molecular level in order to create a large
+potential variety of effects. See the "Microfabricators" rules in "Section 7. Item System" for a more in-depth explanation.
+M-fab actions often have a Material cost that reduces the m-fab's current Material pool, and cannot be perform unless the user's 
+m-fab has enough Material.  
+
+
+Turn-Only
+--
+This tag indicates the Ability or Technique has some or all of its use restricted to the character's turn, and thus cannot make use 
+of it during an Opening.
+
+
+Cooldown
+--
+This tag indicates the Ability or Technique prevents the character from using related actions until a specified amount of time has 
+passed, typically until the end of a turn or round. This is common for microfabricator abilities that produce a material, typically
+limiting a character to doing so once per turn. 
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Primary Abilities Reference List
+-------------------------------------------------------------------------------------------------------------------------------------
+--
+A character's Primary Abilities represent the character's knowledge and capability in the corresponding fields. In other words, 
+Primary Abilities are the main "skills" a character will posses. Any task that relies upon a character's skill or understanding 
+will require an Action Roll based upon some relevant Primary Ability. 
+--
+
+
+
+
+
+\\\\\\\\\\
+
+Marksmanship (Attack)
+-----
+This ability represents a character's skill with ranged weapons in general. Advancement in Marksmanship typically reflects refinement
+of the related physical skills (e.g. hand-eye coordination, sighting, breathe control, etc.) as well as the character's depth of 
+knowledge on the subject (e.g. range-finding, ballistics for kinetic and/or energy weapons, history).
+
+Marksmanship is foundational to its eponymous character class, the Marksman. All Marksman begin the game with this Ability,
+and have exclusive access to unique Secondary Abilities that become available after advancing their Marksmanship Ability Level.
+
+While this Ability should be useful for essentially any kind of ranged weapon, a GM may choose to require a character to have some
+amount of training or familiarity with a weapon before being allowed to apply their Marksmanship Ability to rolls involving that 
+weapon. 
+
+For instance, most player characters are assumed to be from societies that make use of tribguns (the default ranged weapon supplied
+to player characters), and likely have never trained with or have never seen traditional ranged weapons such as bows or 
+spear-throwing tools. Thus, the GM might not allow a character with this kind of background to immediately apply their 
+Marksmanship Ability if they attempt to use such a weapon, or allow them to do so with some penalty of their choice in place. 
+
+The standard roll for Attack Actions made with this ability is Marksmanship (Finesse + Acuity).
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A Novice in Marksmanship has learned the fundamentals of the use and maintenance of one or more ranged weapons, and can readily 
+recall basic information about the this field.
+
+
+Journeyman
+--
+A Journeyman in Marksmanship has developed a practical, experience-based understanding of the use of ranged weapons, and can 
+typically hold their own in a shootout. After advancing to this Ability Level in Marksmanship characters gain access to the
+Steady Aim Prepare Shot Techniques.
+
+Steady Aim (Turn-Only)
+-
+During your turn, you may spend 1 AP to activate this Technique. Until the end of your next turn, your next Attack Action using your
+Marksmanship Ability gains a +1 Roll Modifier for each of the dice rolled to determine the outcome of the Attack Action.
+This Technique is cancelled if your character moves or is moved.
+
+Prepare Shot (Turn-Only)
+-
+During your turn, you may spend 2 AP to activate this Technique. You choose one location your character can aim towards, such as 
+an entryway, chokepoint, or some other area within a roughly 90° field of view from the character's position, enter a ready position
+to aim at that area, and automatically end your turn. As long as your character can remain waiting in that position, you may make an 
+Attack Action using one weapon with your Marksmanship Ability against any target as it it moves through the area. You do not spend 
+additional AP for this attack. You charge or load your weapon automatically before making an attack with this Technique. 
+This Technique ends if your character takes any Attack Action (including one taken through this Technique), moves, or is otherwise 
+forced to abandon their readied postion.  
+
+You do not have to attack the first target that moves into range, but can instead wait for any target so long as your character can
+remain ready.  
+
+
+Master
+--
+A Master in Marksmanship can count themselves among the best. Mostly exceptional in combat, Masters in Marksmanship can often
+boast of supreme achievements in accuracy, precision, and understanding of what exactly makes the perfect shot. 
+After advancing to this Ability Level in Marksmanship characters gain access to the Calculated Shot Technique.
+
+Calculated Shot
+-
+Whenever you would take an Attack Action using your Prepare Shot Technique, you also gain the benefit of your Steady Aim Technique.
+This effect occurs automatically, and does not require you to spend any additiona AP.
+
+
+Legend
+--
+A Legend in Marksmanship is normally unrivaled in the average skirmish, often able to dispatch multiple enemies with efficient and 
+overwhelming firepower. 
+After advancing to this Ability Level in Marksmanship characters gain access to the Dire Shot Technique.
+
+Dire Shot (Attack)
+-
+This Attack Action can be made at any other time you would take an Attack Action, however you must always expend 2 AP at the time
+you would use this Attack Action. (i.e. you can take a Dire Shot when making an Attack Action with your Prepare Shot Technique, 
+however you must spend the additional 2 AP to activate Dire Shot when you make the attack.)
+
+Your character's maximum Potential for this Attack Action is reduced by half (minimum 1 die), however the Attack Action gains a bonus
++3 Roll Modifier for each of the dice rolled to determine the outcome of the Attack Action.
+
+
+\\\
+
+
+
+
+
+\\\\\\\\\\
+
+Melee Weapons (Attack, Parry)
+-----
+This ability represents a character's skill with close-ranged weapons used primarily for striking, thrusting, or cutting. 
+Advancement in Melee Weapons typically reflects refinement of the related physical skills (e.g. hand-eye coordination, 
+posturing/footwork, reflexes, etc.) as well as the character's depth of knowledge on the subject (e.g. timing/rhythm, 
+point/line control, leverage).
+
+The Melee Weapons Ability is fundamental to the Lancer Class. All Lancer's begin the game with this Ability, and have exclusive 
+access to unique Secondary Abilities that become available after advancing their Melee Weapons Ability Level. Notably, Lancers 
+are the only class able to use the Lancer-variant of sail-boards, allowing them to make use of their Melee Weapons Ability during
+vehicular combat.
+
+While this Ability should be useful for essentially any kind of melee weapon, a GM may choose to require a character to have some
+amount of training or familiarity with a weapon before being allowed to apply their Melee Weapon Ability to rolls involving that 
+weapon.
+
+For instance, a character with a background based around fencing or some kind of one-handed bladed weapon fighting might not 
+be able to make immediate use of large two-handed clubs. The GM might require the character to go through a period of familiarization
+before using the weapon, or allowing the character to do so with some penalty until the character becomes familiar with the weapon.
+
+The standard roll for Attack and Parry Actions made with this ability is Melee Weapons (Finesse + Power).
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A Novice in Melee Weapons has learned the fundamentals of the use and maintenance of one or more melee weapons, and can readily 
+recall basic information about the this field. 
+
+
+Journeyman
+--
+A Journeyman in Melee Weapons is typically an experienced brawler and capable striker, and is capable of scoring hits on most
+opponents. After advancing to this Ability Level in Melee Weapons characters gain access to the Riposte and Pressure Techniques.
+
+Riposte
+-
+Whenever use your Melee Weapons Ability to successfully Parry an enemy's Melee Weapon Attack, your next Melee Weapon Attack Action 
+against that target before the end of your next turn gains a +1 Roll Modifier for each of the dice rolled to determine the outcome 
+of the Attack Action. You cannot gain the bonus from this Technique if you move out of melee range from your target before you 
+take the Attack Action.
+
+Pressure
+-
+Targets you successfully Attack with your Melee Weapons Ability have this effect applied to them automatically. Enemies affected
+by this Technique have a -1 Roll Modifier on ranged attacks against you, and a -1 Roll Modifier on melee attacks aginst anyone 
+other than you. This effect ends at the end of an affected character's turn, or if the affected character successfully Attacks you,
+or successfully Evades or Parries one of your Attacks. 
+Additionally, Enemies affected by this Technique within range of your Melee Attacks automatically provoke a Melee Weapon Ability 
+Attack from you if they attempt to move out of your range. The first Attack made this way does not cost AP, however any subsequent
+Attacks you would make this way cost 2 AP until the end of your next turn. 
+
+
+Master
+--
+A Master in Melee Weapons is a proven fighter who has brushed with death several times, living by virtue of their talents and skill.
+A reputable fencing school might be headed by a singular Master, and only the most prestigous can boast of employing multiple 
+Masters as instructors simulatneously. 
+After advancing to this Ability Level in Melee Weapons characters gain access to the Charge Technique.  
+
+Charge
+-
+If you move for at least 2 meters in a straight line towards a target before making a Melee Weapons Ability Attack Action against 
+them, you gain a +1 Roll Modifier for each of the dice used to determine the outcome of that Attack Action.
+If you use the Charge Technique against a target, you cannot use the Charge Technique against that target again until the end of
+your next turn (however, you can Charge a different target).  
+
+
+Legend
+--
+A Legend in Melee Weapons is often capable of dispatching multiple lesser opponents at the same time without suffering as much as
+a scratch. A Legend's skill might be so great as to defeat fully armed and armored opponents with little more that a sturdy stick. 
+After advancing to this Ability Level in Marksmanship characters gain access to the Dire Strike Technique.
+
+Dire Strike (Attack)
+-
+This Attack Action can be made at any other time you would take an Attack Action, however you must always expend 2 AP at the time
+you would use this Attack Action.
+
+Your character's maximum Potential for this Attack Action is reduced by half (minimum 1 die), however the Attack Action gains a bonus
++3 Roll Modifier for each of the dice rolled to determine the outcome of the Attack Action.
+
+
+\\\
+
+
+
+
+
+\\\\\\\\\\
+
+Hand-to-Hand (Attack, Parry, Evade)
+-----
+This ability represents a character's skill when fighting without a weapon. Advancement in Hand-to-Hand typically reflects refinement
+of the related physical skills (e.g. hand-eye coordination, posturing/footwork, reflexes, etc.) as well as the character's depth of 
+knowledge on the subject (e.g. conditioning, training techniques, biomechanics). 
+
+The Hand-to-Hand ability lacks the lethal potential of a proper weapon-based martial art, and its attacks only deal half of the 
+Damaged Roll. However, it may still be useful in a variety of situations such as a prizefight, the occassional donnybrook, or even as 
+a last-ditch effort when facing an armed opponent when you're unprepared and lacking any other option but to stand your ground. 
+
+Higher Ability Levels for this ability provide useful techniques for subduing opponents without killing them, as well as disarming
+and disabling reckless foes. 
+
+The standard roll for Attack and Parry Actions made with this ability is Hand-to-Hand (Finesse + Power).
+Attack Actions made with this ability deal Damage equal to half the value of the successful dice, rounded down (minimum 1). 
+Parry Actions made with this ability increase your Defense against melee attacks by 1 instead of the normal 2.
+Anytime a target's Stress would increase as a result of some Action made with this ability, their Stress increases by half of the 
+regular amount (this effect cannot lower Stress inflicted below 1).
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A Novice in Hand-to-Hand has learned the basics of punching, kicking, and blocking attacks, but lacks the proper form and confidence
+to deal significant damage. Acquiring this Ability grants the character the Throw and Restrain Techniques.
+
+Throw (Attack)
+-
+This Attack Action requires the character to succeed against the opponents Defense on at least 1 die and also provoke no Openings,
+otherwise it fails. This Attack deals no Damage on success, instead it forces the target to make a normal Thrown Save, potentially
+resulting in the target becoming Knocked Down. 
+
+Restrain (Attack)
+-
+This Attack Action deals no Damage on success, instead it forces the target to make an xd6 Restrained Save where x is the number of 
+successful dice rolled for this Attack Action. If the target fails, they become Restrained by you until they free themselves, or 
+until you choose to or are forced to let them go. 
+You can perform other Actions while restraining a target, and you can drag the target with you when you take a Move or Sprint Action.
+However, your Movement Value is reduced by half, rounded down, whenever you attempt to Move or Sprint while restraining a target.
+The Movement Value penalty from this Technique cannot reduce your Movement Value below 1.
+If you are Knocked Down while restraining a target, you let go of them unless they are Knocked Down at the same time.
+
+If you use your Throw Technique successfully against a target that you are actively restraining you automatically let go of the 
+target, but the Thrown Save becomes xd6 instead. The x is equal to the number of dice that succeeded against the target's Defense 
+during the Throw Attack roll. 
+
+
+Journeyman
+--
+A Journeyman in Hand-to-Hand has developed respectable striking, and has started becoming more confident with riskier takedowns and
+throws. After advancing to this Ability Level in Hand-to-Hand characters gain access to the Disruptive Throw and Pin Techniques.
+
+Disruptive Throw
+-
+Whenever you successfully Parry an incoming melee Attack with your Hand-to-Hand Ability, you can attempt to knock down the attacker
+without expending any AP or taking an Action. The Thrown Save inflicted by the this Technique requires xd6 to be rolled, where x is 
+equal to the number of dice the attacker failed on during their Attack Action.
+
+Pin (Attack)
+-
+This Attack Action can only be made against a target you are currently restraining with your Hand-to-Hand Ability.
+This Attack Action deals no Damage on success, and instead it forces the target to make a normal Thrown Save.
+If the target fails and becomes Knocked Down, you maintain your hold on them and continue to restrain them.
+While the target is Knocked Down and Restrained by you, they cannot stand up and remove the Knocked Down condition without first
+freeing themselves from your Restrained effect. 
+You do not become Knocked Down from holding onto the target when you throw them. (Note: Openings could provide a chance for the
+target to throw you at the same time.)
+ 
+
+Master
+--
+A Master in Hand-to-Hand is an experienced combatant, and is very likely to be a capable tutor. Blows from a Master can 
+theoretically kill fragile opponents. After advancing to this Ability Level in Hand-to-Hand characters gain access to the Disarm and
+Subdue Techniques.
+ 
+Disarm (Attack)
+-
+You cannot use this Attack Action if your current Potential for a Hand-to-Hand (Finesse + Power) roll is less than 3. 
+You can only use this Attack Action whenever you successfully Parry an incoming melee Attack with your Hand-to-Hand Ability.
+To do so you may spend 1 AP and make a Hand-to-Hand (Finesse + Power) Attack roll against the parried attacker, and use at least 3 
+dice. This Action does not require the target to provoke an Opening first. 
+This Attack Action requires you to succeed on an least 3 dice, and provoke no Openings, otherwise it fails.
+If successful, this Attack deals no Damage, instead the target is forced to let go of the weapon or weapons they used in the 
+parried Attack, which then drop to the ground at their feet. If your hands are free enough to hold any of the weapons that would be
+dropped, you may choose to take them instead of letting them fall to the ground. 
+
+Subdue (Attack, Turn-Only)
+-
+You cannot use this Attack Action if your current Potential for a Hand-to-Hand (Finesse + Power) roll is less than 3. 
+You may only take this Attack Action against a target that you are actively restraining with your Hand-to-Hand Ability.
+This Attack Action requires you to succeed on an least 3 dice, and provoke no Openings, otherwise it fails.
+If successful, this Attack deals no Damage, and instead you begin to subdue the target. This immediately ends your turn. 
+You cannot take other actions while subduing the target, and the target is freed if you are hit with any Attack where at least 2 dice
+succeed. If you start you turn while subduing a target, you choose whether or not to continue the Attack. If you do, you expend 2 AP 
+and immediately end your turn, otherwise you free the target from the submission. 
+If you end your turn by expending AP this way two times in a row you complete the submission and the target has the Unconscious 
+Status applied to them.
+(Note: the turn on which you took the Subue Attack Action does not count towards the turns required to complete the submission.
+You must succeed on the Attack, and then pass two more turns by expending AP.)
+
+Targets are automatically Restrained while being subdued, and must first succeed on ending the submission via an Attack as mentioned
+above. The submission process does not prevent a Target from taking Attack Actions, however other Statuses or effects could be active
+at the same time, preventing the target from attacking.
+ 
+
+Legend
+--
+A Legend in Hand-to-Hand is legitimate threat to any fighter, despite the inherent recklessness of fighting unarmed. Characters of
+this Ability Level can, in theory, make unarmed attacks that are damaging enough individually to inflict injuries. After advancing
+to this Ability Level in Hand-to-Hand characters gain access to the Combination Throw and Rapid Submission Techniques.
+
+Combination Throw (Attack)
+--
+You cannot use this Attack Action if your current Potential for a Hand-to-Hand (Finesse + Power) roll is less than 3. 
+This Attack Action requires you to succeed on an least 3 dice, and provoke no Openings, otherwise it fails.
+If successful, this Attack deals no Damage, instead it forces the target to make an xd6 Thrown Save, where x is the number of 
+successful dice rolled for this Attack Action. Whether or not the target fails the Thrown Save, they are forced to let go of any 
+weapons they are holding, which then drop to the ground at their feet. If your hands are free enough to hold any of the weapons that 
+would be dropped, you may choose to take them instead of letting them fall to the ground. If the target fails the Thrown Save and you 
+choose not to take the dropped weapons, you may choose to hold onto the target instead as they fall. If you choose to hold onto the 
+target they are automatically Restrained by you, in addition to being Knocked Down. 
+(Note: even if the target fails the Thrown Save, you may still choose to take the dropped weapons instead of restraining the target.
+You are not forced to hold onto the target automatically.)
+
+Rapid Submission (Turn-Only)
+--
+Whenever you succeed with your Subdue Attack Action against a Knocked Down target, you can choose to activate this Technique to 
+attempt to subdue the target one turn faster. This means you can begin subduing a target and then finish the submission after 
+spending 2 AP to pass during your next turn, rather than needing to do so for two turns in a row. 
+
+Normally, Knocked Down targets cannot take Attack Actions, however targets affected by this Technique are instead allowed to make
+one Attack Action against you on their turn as a final attempt to free themselves. This exception to the Knocked Down rule only 
+allows the target to attack you, and only once during their turn.    
+
+
+\\\
+
+
+
+
+
+\\\\\\\\\\
+
+Engineering
+-----
+This ability represents a character's general scientific knowledge as well as their skill in its practical application. Engineering
+in Dreyüs is incredibly advanced, and many casual technologies there would be wonders in our own world. The extremes of both the
+environment and the resources of the continent means that nearly every society relies on the advanced Engineering knowledge that has 
+been handed down, recovered, or discovered over Dreyüs's long history of advanced technological development. The sophistication of 
+the available technology allows this ability to intersect with many practical fields, and Engineering expertise is useful in a wide
+variety of situations.
+
+Engineers are invaluable to sky-sailing crews, not only keeping the ship sailing the sky, but also able to repair the ship and keep
+its systems functional while under duress. Practically every crew has a dedicated engineer on board, and larger crews may make use of 
+several.
+
+This ability is also the Primary Ability governing most uses for microfabricators. The most basic engineers have some understanding
+of their use, and higher Ability Levels provide opportunities to use m-fabs in more creative and powerful ways. Most Battletechs
+and Experts make heavy use of this ability thanks to this capability.
+
+While there is no standard roll for this ability, the Acuity and Memory Attributes are the most common sources of Potential for 
+rolls using Engineering. Memory represents the character's capability to understand and recall knowledge, and Acuity represents their
+capability to effectively apply that knowledge. A character recalling how to fix a particular issue with a device would rely on their
+Memory. A character fixing an issue by following directions might only need their Acuity. A character simultaneously recalling their
+knowledge as they are diagnosing and repairing a device themself would be using both Acuity and Memory at once.   
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in Engineering has an essential understanding of the scientific principles most commonly taught among the cultures of the 
+continent. They also have some familiarity with m-fabs, as well as how to make use of their flexible capabilties, albeit to a limited
+degree. Acquiring this Ability grants the character the Bullet m-fab Technique.
+
+Bullet (M-fab, Attack, Cooldown)
+-
+This Technique allows you to use an m-fab as a firearm by manufacturing a small amount of frangible material as a projectile and
+enough chemical propellant to accelerate it to supersonic speeds.
+You may expend 2 AP and 5 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity). 
+The projectile from this attack is very fragile, and cannot penetrate most surfaces intact, requiring you to have a direct angle 
+to the target.
+The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
+stable product again. After using this Technique, you cannot use the m-fab for any action that requires Material to be expended for
+rest of the turn.
+
+
+Journeyman
+--
+A journeyman in Engineering is typically a reliable profesional, thouroughly familiar with most common technologies and fairly adept
+with a microfabricator. Many Secondary Abilities related to in-combat uses for m-fabs become available to learn at this Ability Level. 
+
+
+Master
+--
+A master in Engineering is often an expert in one or more fields, and is generally very adept with any technology given enough time
+to study it. After advancing to this Ability Level in Engineering characters gain access to the Familiarization and Expertise 
+Techniques.
+
+Technological Familiarization
+-
+This Technique can be used to study unfamiliar devices and quickly deduce their use. To do so, you must spend ten minutes studying
+the device. You cannot take any other actions during this time that would break your character's focus. Actions such as eating,
+drinking, or speaking are possible, but fighting, crafting, and most actions requiring an Action Roll are not possible.
+After spending the required time studying the device, you uncover its primary use and how to activate it. 
+You may continue studying the device with this Technique to reveal additional functions, if any are present. However, each period
+of time required to discover a function is doubled from the period before it. 
+
+(Note: You can normally attempt to discover a device's function by expending AP and making an Action Roll per your GM's discretion,
+however that Action Roll might fail, potentially rendering the device useless if it is abusively mishandled. This Technique provides
+a method to safely and consistently identify the function of a device, albeit with the requirement of time spent studying the device.)
+
+The following table gives examples of the time required to reveal multiple functions: 
+	
+	Familiarization Time Required
+	------------------------------------------------
+	Function | Time Required | Total Sequential Time 
+	---------|---------------|----------------------
+	   1st   |  10 minutes   |    10 minutes
+	   2nd   |  20 minutes   |    30 minutes
+	   3rd   |  40 minutes   |    1 hour 10 minutes
+	   4th   |  80 minutes   |    2 hours 30 minutes
+
+
+Expertise
+-
+Whenever you make a non-combat Engineering Action Roll and you know another Primary Ability at Journeyman Ability Level or higher
+related to the action being made, you may add a +1 Roll Modifier to each of the dice rolled for that action. Examples of uses of this 
+Technique include repairing a weapon or device related to a weapon skill you know, or using a medical device when your character has 
+sufficient Medicine Ability Level.  
+
+
+Legend
+--
+A legend in Engineering is able to instantly understand not only the intended functions of most technologies, but also the potential
+uses outside of their original design. After advancing to this Ability Level in Engineering characters gain access to the Rigged 
+Adaptation and Epic Crafter Techniques.
+
+Rigged Adaptation
+-
+Whenever you would make an Engineering Action Roll to attempt to reconfigure a device to perform some function outside of its 
+original purpose, you gain a +1 Roll Modifier for each dice rolled for that action. If you succeed in reconfiguring a device, its
+makeshift nature does not impose any penalties to Action Rolls you make to use the device's new function.
+
+Epic Crafter
+-
+Whenever you would craft a non-consumable item or device, such as a piece of equipment or a machine, with either your Engineering 
+ability or any other Primary Ability that you have at Legend Ability Level, you gain a +1 Roll Modifier to any dice rolled for 
+any Action Roll made for crafting the item or device. 
+Whenever you finish crafting an item that activated this Technique, you may choose to make an Engineering (Acuity) roll with a 
+target threshold of 12 (you may apply the Roll Modifier from this Technique to this roll, as well as any other Roll Modifiers used 
+in the other crafting rolls). If this roll succeeds, the item's Item Quality modifier permanently becomes +4 instead of the normal
++3 for Legend items.        
+
+
+\\\
+
+
+
+
+\\\\\\\\\\
+
+Medicine
+-----
+This ability represents a character's practical understanding and effective use of medical knowledge. The exact nature of this 
+knowledge will largely depend on the cultural background from which a character receives training. More advanced societies make use
+of formal schools and training periods, while more remote societies might rely on oral traditions and dedicated apprenticeships. 
+No matter the origin of the knowledge, effective medical treatment relies on the same biological facts, and proven methods may emerge
+from many sources. While a certain amount of biological knowledge is inherent to medicine, this ability does not reflect a 
+character's wider understanding of Biology, which should be considered its own seperate Primary Ability. Likewise, Biology Ability 
+Levels do not reflect a character's practical medical knowledge.
+
+All captains know that a ship is a only as good as her crew, and thus universally place great value on good doctors. While human 
+resilience allows men to recover from most wounds and ailments, given enough food, water, and rest. However, some wounds will never
+heal on their own, and most wounds can only benefit from the careful eye of a knowing doctor. Whether maligned for their rough
+handling or praised for a deft touch, all crewmates worth their salt know that their doctor is an indispensable asset.
+
+While this Primary Ability does not grant any m-fab Techniques itself, there are several Secondary Abilities that require Ability 
+Levels in both the Engineering and Medicine Primary Abilities. Medical m-fab Techniques include a powerful array of methods for 
+reducing both Damage and Stress, relieving Injuries, and preventing death. A handful of Secondary Abilities even provide 
+opportunities to weaponize one's medical knowledge.
+
+Most Medicine rolls rely on Acuity, Memory, or both in combination, although occassionally other Attributes might be called for if
+the situation demands it. 
+Some Techniques associated with this ability make use of the Treatment Save, which is used to check if a character can effectively 
+understand and treat a patient at that moment. Despite most Saves relying on a singular Attribute, the Treatment Save relies on 
+the combination of your Acuity and Memory values. Similiar to how Attributes are sometimes combined to determine Potential, the 
+value a character uses for the Treatment Save is equal to half of the sum of their Acuity and Memory Attributes, rounded down. Thus,
+this value will range from 1 to 5, which is the normal range for Save thresholds. A Technique may call for a character to make a 
+Treatment Save with one or more d6 dice, giving various results depening on how many dice roll above the combined Attribute value.   
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in Medicine understands the fundamentals of how to properly treat and dress wounds, along with the other fundamentals of 
+first aid. Acquiring this Ability grants the character the Stabilize Technique. 
+
+Stabilize
+-
+This Technique allows the user to attempt apply the Stabilized Status to a Wounded or Dying Character without requiring access to a
+Traumapak or M-fab. 
+
+To use this Technique you expend 2 AP to begin treating the target. 
+
+You must remain within reach of the target for the duration of the treatment, and the treatment is cancelled if the target takes 
+Damage from an attack before the Stabilized Status is applied.
+
+Each time you spend AP as part of this Technique you make a 1d6 Treatment Save, and if successful the Stabilzied Status is applied to
+the target and the Technique finishes. If the Treatment Save is not successful, you can choose to end the Technique without applying 
+the Status or continue the treatment. If you choose to continue the treatment your character cannot make any other actions other than 
+to spend 2 AP to repeat the Treatment Save, or to end the treatment. If fail the Treatment Save twice but continue the treatment, the 
+third time you spend AP the Stabilized Status is automatically applied without making the Treatment Save.
+
+If you target yourself with this technique, the Status isn't applied automatically until after you fail 3 Treatment Saves and spend
+AP a fourth time.
+
+If you are within range to use this Technique on a target you may first expend 1 AP to make an Analysis (Acuity) roll to inspect 
+their wounds more closely before treating them. The threshold for this roll is always 4. On success, the number of failed Treatment
+Saves required before treatment automatically succeeds is lowered by 1. This means treating someone else can only ever require 2 
+attempts total, and treating yourself can only ever require 3 attempts total if you succeed on an Analysis (Acuity) roll first. 
+
+
+Journeyman
+--
+A journeyman in Medicine is a fairly qualified to provide general care. Many greenhorn Ship's Doctors come aboard at this Ability 
+Level. After advancing to this Ability Level in Medicine characters gain access to the Enhanced Recovery Technique.
+
+Enhanced Recovery
+-
+This Technique increases the effect of resting for patients under your care. Any characters resting under your medical supervision,
+such as in a sick bay or hospital ward you are working in, roll d6s instead of d4s when determining the amount of Damage reduced by
+their rest. 
+
+
+Master
+--
+A master in medicine typically has a lot of practical experience in saving lives, and are often very knowledgeable in several
+medical fields. After advancing to this Ability Level in Medicine characters gain access to the Life Support Technique.
+
+Life Support
+-
+This Technique causes all Dying characters under your treatment, such as those with a Stabilized Status you applied or resting
+in your medical facility, to automatically succeed the Death Save at the end of their turns. (Note: characters affected by this 
+Technique can still die due to other means.)
+
+
+Legend
+--
+A legend in medicine is often a once in a generation talent in their field among an advanced society, or someone who is spoken of
+with semi-mythical awe for decades after their life. After advancing to this Ability Level in Medicine characters gain access to the 
+Reliable Care Technique.
+
+Reliable Care 
+-
+This Technique primarily affects the Stabilize Technique, reducing the number of failed attempts required before the treatment 
+automatically succeeds. This Technique lowers the required number by 1, and can stack with the reduction from an Analysis (Acuity)
+roll. The following table can be referenced to determined the adjusted values once this Technique is acquired:
+
+	|-----------------------------------------------|	
+	|	         Reliable Care 			|		
+	|-----------------------------------------------|
+	|		 |	Failed Attempts		|
+	|----------------|------------------------------|
+	|	Target	 |    Self     |      Other     |
+	|----------------|-------------|----------------|  
+	|  With Analysis |     1       |       0	|
+	|----------------|-------------|----------------|
+	|Without Analysis|     2       |       1	|
+	|----------------|-------------|----------------|
+	
+      (Note: 0 Failed Attempts mean the treatment automatically applies the first time you spend AP on it.)
+
+
+Whenever you use a Traumapak item on a target you automatically succeed on the Medicine (Acuity + Memory) roll.
+If an m-fab Technique you use can apply the Stabilized Status, it does so automatically, regardless of any roll made for the Technique.
+
+Additionally, your Enhanced Recovery Technique now changes the resting dice to d8s instead of d6s. 
+
+
+
+\\\
+
+
+
+
+\\\\\\\\\\
+
+Analysis
+-----
+This ability represents a character's skill at observing and collecting information with their senses, as well as critically
+assessing information within their head. In other words, it is their combined observation and critical thinking skills. 
+
+This ability is fundamentally tied to the Acuity Attribute. While the Acuity Attribute represents the character's Potential to
+gather and assess information, this ability represents the character's cognitive efforts to do so. This ability is the deliberate 
+behaviour a character performs, behaviours that can be learned or taught, regardless of one's biological limits. 
+
+This ability can often interact with other Primary Abilities by giving you extra information about people and objects related
+to those abilities, potentially giving bonuses for various kinds of rolls or saves. 
+
+Rolls for this ability nearly exclusively on the Acuity Attribute for Potential, although occassionally another Attribute could be 
+called for in addition if the GM thinks it is appropriate to the situation. 
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in Analysis has learned basic methods of conscious watchfulness as well as focus-enchancing practices for sharpening their
+critical mind. Acquiring this Ability grants the character the Analyze Technique.
+
+Analyze Technique
+-
+This Technique allows you to focus on a particular target, attempting to search it for useful information. 
+To use this Technique, you must expend 1 AP a choose a target you can detect with some physical sense.
+You make an Analysis (Acuity) roll against the target; the target threshold for this roll is typically, but not always, the target's 
+Defense value if it has one. (Note: the difficulty of the roll should vary based on the perceived difficulty of acquiring and 
+understanding information from the target.)
+
+If you fail the roll you gather no information, however you are not barred from attempting the action again. 
+
+If the roll succeeds you gain some basic information about the target, and if the target is a combative you can choose to learn 
+either their current Damage, Stress, or the Ability Level of one their Primary Abilities. 
+You also gain a buff for other rolls against that target: any non-Analysis Action Roll you make against the target gets a 
++1 Roll Modifier to one die of your choice. You may choose which die to apply the bonus to after you roll all your dice used to 
+determine the outcome of the action. 
+This buff can only apply for one target at a time, and if you use this technique successfully on another target you lose any previous
+instance of the buff that you might have.
+
+Journeyman
+--
+A journeyman in Analysis has refined their cognitive awareness through practical experience, and is an effective critical thinker who
+is now capable of more combinatorial analytics. After advancing to this Ability Level in Analysis characters are allowed to maintain 
+their Analyze buff on two targets rather than one. If you successfully Analyze another target while already maintaining the maximum 
+number of instances, you may choose which target you lose the buff against.
+
+Master
+--
+A master in Analysis has accumulated vast amounts of practical problem-solving experience, and are rarely incapable of assessing a 
+target. After advancing to this Ability Level in analysis characters are allowed to maintain their Analyze buff on four targets 
+rather than two. If you successfully Analyze another target while already maintaining the maximum number of instances, you may choose
+which target you lose the buff against.
+
+
+Legend
+--
+A legend in Analysis possess both a vast amount of practical experience, as well as a very well-refined speculative sense that can 
+be used to reliably conjecture when dealing with unfamiliar targets. After advancing to this Ability Level in Analysis, the 
++1 Roll Modifier buff from your Analyze Technique applies to each dice rolled to determine the outcome of the action, rather than 
+just one. 
+
+
+
+\\\
+
+
+
+
+\\\\\\\\\\
+
+Communication
+-----
+This ability represents a character's cognisant skill at both reading and utilizing the various ways people transmit information to 
+one another. This includes obvious methods of communicating, such as how the voice, body language, and eye contact are used, as well
+as communication via technology such as written, visual, and audio media, both recorded and transmitted. 
+
+Charm is strongly associated with this ability, and it is typically called for whenever a character is using this ability
+outwardly, such as to persuade, coerce, or otherwise perform. Acuity is also important for this ability, and is used whenever a 
+character is attempting to understand or discern incoming communications, such as identifying a cultural or idiosyncratic norm, 
+recognizing deceitfulness, or reconstructing damaged or incomplete media. Memory can also be important for this ability, and is often
+used with Charm or Acuity when appropriate, such as reciting memorized information or recalling particular details about something a 
+character observed.
+
+Due to the flexible scope of abilities there is some intuitive overlap between this ability and the Analysis ability, depending on
+your mode of thought. While the GM has the ultimate say of what ability is necessary, the following example can be used as a guiding
+mentality: Communication would allow a character to identify whether or not an individual is lying, and Analysis would allow one to
+identify the likely reasons for an individual to lie. A similiar thought process can be used to distingush this ability and the 
+Engineering ability when concerning communication technology: Engineering might repair the apparatus or identify its origin, while
+Communication governs the skill and knowledge required to effectively create or interpret media involving the device. 
+
+Following the previously described association, rolls for this ability typically use Charm, Acuity, or Memory, either alone or in 
+combination. 
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in Communication can recognize and control a lot of the common unconscious tendencies people have. They tend to be fairly 
+literate and knowledgeable when concerning common media, and are able to recall the most basic related information.  
+
+
+Journeyman
+--
+A journeyman in Communication is practiced enough to perform to the level of most professional actors, and are typically able to 
+recognize when others are behaving similiarly. Their depth of knowledge might extend to the nuances of one or more mediums, 
+potentially possesing a keen critical sense when working within their area of expertise. 
+
+
+Master
+--
+A master in Communication has impeccable self-control and is able to identify all but the most disarming of deceivers. Many possess
+a ferocious amount of knowledge about their favorite mediums, and can often be very respectable artists themselves.
+
+Legend
+--
+A legend in Communication is typically unrivaled in social perception, and is a completed performer, in many ways able to fool 
+themselves despite maintaining absolute control. Artists at this level create works that echo through generations, so long as they 
+manage to not be lost to time. 
+
+
+\\\
+
+
+
+
+\\\\\\\\\\
+
+Kinesiology (Evade)
+-----
+This ability represents a character's knowledge and skill with the physical use of the body. This ability is generally useful for 
+physical feats that don't involve specialized equipment and training. At higher levels this ability can enhance the performance of
+physical actions governed by other abilities as well.
+
+Athletes, Doctors, Combatants, and Explorers can all find utility in this ability. In truth, nearly any individual with a body who 
+relies on their physicality or their understanding of it should find this ability invaluable.
+
+There is no standard roll for this ability, and a wide variety of attributes might be called for. However, Speed, Finesse, Acuity, 
+and Power are the most likely to be used either alone or in combination. 
+
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in Kinesiology likely practices the most rudimentary of exercises, and can perform basic physical feats with ease. 
+
+
+Journeyman
+--
+A journeyman in Kinesiology has a well-developed understanding of physicality, and is capable of more athletic acheivements.
+
+
+Master
+--
+A master in Kinesiology is capable of combining many layers of knowledge pertaining to the human body, and is typically capable of 
+incredible efficiency with their movements and use of force. 
+After advancing to this Ability Level in Kinesiology characters gain access to the Athletic Efficiency Technique. 
+
+Athletic Efficiency 
+-
+This Technique allows your knowledge of bio-mechanics to be applied to more complex physical feats.
+You gain a +1 Roll Modifier whenever you make an Ability Roll that uses only Speed, Finesse, and/or Power either alone or in 
+combination with one another. (Clarification Note: this Technique cannot be used on rolls that use Heartiness, Tenacity, Acuity, 
+Charm, or Memory to any degree.) 
+This bonus can be applied to Ability Rolls made using other Primary Abilities in addition to ones made with Kinesiology. 
+
+
+Legend
+--
+A legend in Kinesiology has an extreme understanding of the use of the human body, and can often display that knowledge with a
+practiced ease. After advancing to this Ability Level in Kinesiology characters gain access to the Perfect Efficiency Technique. 
+
+Perfect Efficiency 
+-
+This Technique acts as an upgrade to your Athletic Efficiency Technique. 
+The +1 Roll Modifier bonus from your Athletic Efficiency Technique becomes a +2 Roll Modifier instead, so long as the Ability Roll
+being performed is not an Attack.
+
+   
+
+
+\\\
+
+
+
+
+\\\\\\\\\\
+
+Navigation
+-----
+The ability represents a character's capability to pilot various vehicles, including terrestial, naval, and aerial craft, as well as
+their knowledge of the various methods used for pathfinding, chartering, or otherwise guiding a party's movements through the world.
+In other words, this ability governs how effectively a character knows the way to get somehwere, as well as how they will do so.
+
+This ability is indispensable to any sky-sailing crew, and is necessary for variety of the normal functions of a ship. Beyond the
+obvious importance of this ability for Navigators and Helmsmen, Engineers also make use of this ability when manipulating the output
+of a ship's lift-drives in order to facillitate altitude changes. Notable as well is the use of this ability by both Lancers and
+unarmed sail-boarders whenever they pilot their craft.
+
+This ability is also useful to more scholarly individuals who might find the related knowledge useful for interpreting maps and 
+travel logs. Knowledge in this field may provide greater context to the general geo-politics of the continent, as each culuture 
+relies upon fundamentally similiar phenomena in order to make their way through the world.
+
+Nearly all rolls using this ability rely on Acuity, and many make use of Memory, typically in combination with Acuity. Occasionally
+other Attributes can be called for, typically due to unique properties of a given vehicle, mode of travel, or environment.   
+
+\\\
+
+
+Ability Levels:
+
+Novice
+--
+A novice in Navigation understands the basic principles of piloting and navigating. Most novices are typically only familiar with
+one vehicle, often sail-boards, however they are often capable of piloting other basic vehicles after briefly familiarizing 
+themselves with the controls. Novices should be able to interpret most normal maps in a utilitarian way, but typically are unfamiliar
+with the details of any region beyond those areas they themselves frequent.  
+
+
+Journeyman
+--
+A journeyman in Navigation is fairly experienced, and many are professional commerical and military pilots. Many journeymen choose
+to specialize within the field, either through developing experience with a particular vehicle, or studying the more academic
+areas such as cartography, astronomy, meteorology, etc.  
+
+
+Master
+--
+A master in Navigation is rarely surprised by unforseen navigational conditions. Master helmsmen and pilots can easily perform 
+manuevers that make their inferiors appear foolish and slow. Master scholars in this field might be found on dangerous research
+expeditions, designing optimal trades routes for merchant guilds, or heading academic departments in imperial colleges. 
+
+
+Legend
+--
+A legend in Navigation has achieved feats that are dreamed of by novices and thought impossible by journeymen. Whether guiding 
+a ship through Squall winds, making headway into lost territories, attempting journeys to the limits of sailable skys, or redefining
+the practices within their field, the only challenges left to Legends truly are the impossible ones.      
+
+
+\\\
+
+
+
+\\\\\\\\\\
+
+Subtlety
+-----
+This ability represent's a character's proficiency at physically employing deceit, misdirection, and stealth in order to obscure or
+conceal your actions. 
+
+While some actions, such as taking an item unnoticed or performing simple sleight of hand can be performed directly as a
+Subtlety Ability Roll, other normal actions and Ability rolls that could be done steathily instead rely on the use of Techniques from 
+this ability that affect subsequent actions, or perform specific actions in a stealthy way. 
+Finesse is the most common Attribute called for with this ability, however Speed and Acuity are sometimes appropriate as well.
+
+\\\
+
+
+Ability Levels:
+
+Novice - Sneak, Trick
+
+Sneak
+--
+This Technique allows you to expend 2 AP to move a distance up to your Movement Value while attempting to conceal your movements.
+Whenever you use this Technique, you make a Subtlety (Finesse) roll to determine how effective you are. This roll cannot benefit
+from any Roll or Effect Modifiers from other Abilities or Techniques. The highest value out of the dice rolled is considered the 
+result.
+
+This Technique provokes Openings if you start the movement within sight of an enemy and roll any number of 1's on the 
+Subtlety (Finesse) roll. If you provoke any Openings with this Technique, the enemies who saw you know your location and notice where
+you move to. If you roll any number of 1's on the roll for this Technique but you are not within sight of an enemy, it provokes 
+Mistakes instead. The result of your roll for this Technique gets a -1 for each Mistake made during its duration.
+
+If you do not provoke any Openings, enemies do not automatically detect your presence unless their Passive Perception is higher than
+the result of your roll for this Technique, or after you take any other unobscured actions such as the Move action or an Attack
+action. If you and any enemies present are not in combat and you reveal yourself after going undetected with this Technique, you 
+surprise those enemies, skipping the Initiative Roll and starting at the top of the turn order.
+
+In order to actively attempt to detect you an individual must expend 1 AP to make an Analysis (Acuity) roll where the threshold is 
+equal to the result of your roll for this Technique. This roll cannot provoke Openings, but any 1's rolled cause Mistakes, each of
+which negates the currently highest active value of the roll. Any enemy not in combat automatically receives a +1 Roll Modifier to 
+each of the dice rolled whenever attempting to detect a sneaking character. 
+
+
+Trick
+--
+This Technique allows you to spend 1 AP to attempt to misdirect the attention of others, potentially allowing you to perform a 
+subsequent action undetected. Whenever you take this action, you make a Subtlety (Finesse) roll where the target threshold is equal
+to the target's Passive Perception. Provoking any Openings or Mistakes by rolling any number of 1's during this roll causes the 
+Trick to automatically fail and yield no bonuses, even if other dice would have succeeded.
+
+Succeeding on any number of dice without rolling any 1's allows you to deceive and misdirect the target, causing them to become
+unaware of your next action. If you and the target are not in combat and the undetected action incites the target to become hostile,
+you surprise that enemy, skipping the Initiative Roll and starting at the top of the turn order.
+For each successful dice you gain a +1 Roll Modifier on your next Ability Roll against the tricked target before the start of your 
+next turn. You may choose which dice rolled for the subsequent Ability Roll receive the +1 Roll Modifier, and you can choose a number
+of dice up to the number of successes from the Trick Subtlety (Finesse) roll. 
+
+This Technique can target a number of individuals up to your Acuity Attribute. This Technique does not stack with itself.
+
+
+Journeyman - Carefulness
+--
+This Technique provides a passive benefit to your Sneak and Trick Techniques. Whenever you make a Subtlety (Finesse) roll for your
+Sneak or Trick Technqiue, you may reroll 1 die from that action, however you must keep the new result. This Technique can prevent
+Mistakes and Openings by rerolling a 1, however if the result of this Technique is a 1 it provokes a Mistake or Opening. 
+
+
+Master - Technique Improvement
+-- 
+This Technique provides seperate benefits to your Sneak and Trick Techniques.
+
+Enemies no longer gain a +1 Roll Modifier for the Analysis (Acuity) roll when attempting to detect you while using your Sneak
+Technique while outside of combat. Additionally, you may move up to twice your Movement Value when using your Sneak Technique.
+
+Your Trick Technique can now target a number of individuals up to twice your Acuity Attribute.
+
+
+Legend - Improved Trickery
+--
+This Technique provides a passive benefit to your Trick Technique. The +1 Roll Modifier from your Trick Technique becomes a +2 Roll
+Modifier instead.
+
+
+\\\
+
+
+
+\\\\\\\\\\
+Ecology
+-----
+This ability represents a character's knowledge in the study of living enviroments. In Dreyüs this field is broad discipline due in 
+part to the presence of a wide variety of biomes that all react uniquely to the seasonal Squalls. Salvaging the resources and 
+technology of the ruined civilizations is a dire need to most peoples of the continent, however the exetreme environments and complex,
+sometimes hazardous nature of the old tech has led to ecologists naturally incorporating some aspects of archeology into their field.
+This has morphed the discipline into one that understands the incorporation of the artificial as a part of the natural system itself.
+
+Having an understanding of the natural environment provides many practical benefits far-ranging crews. Whether identifying natural 
+and salvagable resources, assisting in navigation by providing details of the local environment, or anticipating the potential
+threats that can swoop out from the wilds to ruthlessly claim a life, an understanding of Ecology can sometimes mean the difference 
+between great profit, and complete demise. 
+
+This ability often provides information that can be useful when performing action with other abilities. While you might use that 
+information to directly act yourself, you can also use this ability to inform the use of your teammates abilities, allowing them to
+benefit from your heightened understanding of the enviroment. 
+
+Memory is the most commonly used Attribute for this ability, however Acuity is commonly used as well. 
+
+
+Ability Levels:
+
+Novice - Enviromental Familiarization
+--
+This Technique allows you to passively gain some information about new environments as you experience them directly. 
+After spending 24 hours in an area you obtain the following information:
+- The average atmospheric conditions, providing a baseline that allows you to predict weather changes via environmental cues such as 
+	pressure fluctuations and cloud formation.
+- If their is obvious life you gain a basic understanding of the complexity of the local energy cycle, becoming able to predict the 
+	the different kinds of life as well as begin to readily identify the place of any further observed species.
+- If signs of life are not immediate and obvious you become able to predict what life, if any, might be able to exist in the 
+	environment and the likelihood that such life is actually present.
+- How recently the environment has been affected by artificial influences, the level of technological advancement of the society, 
+	and the likelihood of any salvagable materials in the area. 
+
+The quality of information you gather should improve as you gain Ability Levels for your Ecology Ability, allowing you to more 
+accurately assess the area and correctly predict more details. More subtle or extreme environments are more difficult to accurately
+analyze without spending dedicated research time. Dreyüs contains a wide variety of biomes, and the seasonal Squalls cause each one 
+vary extremely throughout the year. Given the complexity of the world, Novice Ecologists will eventually struggle to understand the
+more complex areas such as the many deserts, tundras, or dense temperate and tropical jungles.
+
+
+Journeyman - Natural Improvisation
+--
+This Technique allows you to search your environment for some natural feature that could help you achieve your immediate goals.
+This Technique can only be used whenever you character is able to act, such as during your turn or during an Opening that you have
+priority on. Using this Technique does not require you to spend any Action Points.
+Once you use this Technique, you cannot use it again until the start of your next turn.
+
+Your GM will set the target threshold for a Ecology (Acuity) roll to determine if you successfully identify a resource.
+If successful, your GM will describe what you find, if anything. This roll does not provoke Openings, but can provoke Mistakes.
+If you have at least a Journeyman Ability Level in Analysis, you may apply a +1 Roll Modifier to one die of your choice on the roll
+for this Technique.
+
+
+Master - Rapid Acclimation
+--
+This Technique provides a passive improvement to you Enviromental Familiarization Technique.
+You now only need to spend 12 hours in a new enviroment before gaining the information.
+
+
+Legend
+
+
+\\\
+
+
+
+\\\\\\\\\\
+Warfare
+-----
+This ability represents a character's knowledge and skill at managing, coordinating, and leading a combat force. This ability focuses
+on methods of fighting as a group, and thus does not provide the capability of direct Attack actions against individuals. However, 
+this ability does provide valuable knowledge in strategy, tactics, logistics, and leadership. Whether coordinating an infantry squad
+or leading a sky-fleet into battle, this ability is responsible for the quality of planning and leadership you can provide.
+
+This ability provides benefits both in and out of combat, and its Secondary Ability options provide specialization options including
+Small Unit Tactics, Ship Tactics, Fleet Warfare, and Battlefield Strategy, among others. These Secondary Abilities provide additional
+benefits and capabilities when working within the given specialization.
+
+Acuity, Memory, and Charm are the most frequently used Attributes for this ability.
+
+
+Ability Levels:
+
+Novice - Combat Leadership
+--
+This Technique allows you to spend 2 Action Points to attempt to direct your allies and provide strategic information and advice,
+effectively allowing them to focus more on their own actions in the fight.
+
+Whenever you use this Techique you must make a Warfare (Acuity + Charm) roll with a target threshold of 3. 
+For each succesful dice, you may select two allies, those allies gain +1 Action Points until the start of your next turn.
+Multiple instances of this Technique do not stack, and you cannot benefit from another character's use of this Technique while 
+anyone is benefiting from your use of this Technique.
+This roll can provoke Openings and Mistakes. Mistakes made during this roll reduce the number of allies you can target by 1 per each
+Mistake made.
+
+If you have at least a Journeyman Ability Level in Analysis, you may apply a +1 Roll Modifier to one die of your choice on the roll
+for this Technique.
+If you have at least a Journeyman Ability Level in Communication, you may apply a +1 Roll Modifier to one die of your choice on the 
+roll for this Technique.
+These modifiers can be stacked onto one die or spread across separate dice. 
+
+
+Journeyman -- Morale Management
+--
+This Technique provides a passive benefit to you and your allies. You've developed a habit of working to maintain morale as part of
+your daily routine. These can be through a variety of direct and indirect actions and decisions made to benefit crew, such as the 
+subtle management of the quality of life or the occasional charasmatic display. Regardless of the methods, the effects are noticable
+and the crew as a whole becomes more relaxed and at home in their environment.
+
+Whenever you and your allies roll to reduce Stress after resting you may roll an additional die and increase the value by that amount.
+The size of the additional die is determined by your Ability Level in Warfare. 
+	------------------------
+	- Ability Level | Size -
+	----------------|-------
+	-  Journeyman	|  d8  -
+	-    Master	|  d10 -
+	-    Legend	|  d12 - 
+	------------------------
+
+Multiple instaces of this Technique do not stack, and if multiple members of a group posses this Technique the highest Ability Level
+amongst them is the one used.
+	
+
+Master -- Veteran Ofiicer
+--
+This Technqiue upgrades your Combat Leadership Technique.
+Now you only need to succeed on 1 die in order to provide the +1 Action Point to each ally in the same combat as you.
+Each additional succesful dice past the first allow you to choose 1 ally for each extra dice and change their bonus to 
++2 Action Points instead.
+Mistakes now reduce the number of allies that can recieve the +2 Actions Points by 1 for each Mistake.
+
+
+Legend
+
+
+
+\\\
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\

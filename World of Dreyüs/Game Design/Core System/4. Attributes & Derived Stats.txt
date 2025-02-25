@@ -49,7 +49,7 @@ The following is the list of Attributes, and their general description:
 	Heartiness: Represents a character's physical endurance, directly deriving Health and contributing to Defense.
 		Hearty characters are harder to hurt, and can absorb more damage than the average person.
 	
-	Tenacity: Represents a characer's mental resilience, and their ability to stay calm and handle Stress. Derives Control stat.
+	Tenacity: Represents a character's mental resilience, and their ability to stay calm and handle Stress. Derives Control stat.
 		Tenacious characters can endure stressful situations longer, and maintain self-control better than the average person.
 
 	Speed: Represents a character's alacrity, deriving Actions Points and the character's Movement Value.
@@ -185,8 +185,13 @@ The following is a list of the stats derived from Attributes, and any counterpar
 
 	
 	Defense: Equal to the sum of a character's Heartiness and Finesse.
-		Represents a characters ability remain unaffected by attacks.
-		If a dice rolled for an attack meets or exceeds the target's Defense, their Damage increases by the amount rolled.
+		Represents a character's ability remain unaffected by attacks.
+		If a die rolled for an attack meets or exceeds the target's Defense, their Damage increases by the amount rolled.
+
+
+	Passive Perception: Equal to the sum of a character's Tenacity and Acuity.
+		Represents a character's ability to automatically detect hidden or out of place things.
+		Responsible for determing if a character notices stealth enemies or misdirection	
 
 
 	Movement Value: a number of meters equal to the character's Speed.
