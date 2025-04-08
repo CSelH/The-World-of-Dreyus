@@ -231,18 +231,19 @@ Class System:
 		Experts	   <- specialists who excel at learning non-combat abilities, excellent pilots, surgeons, ecologists, etc.
 	
 	Notes:
-	- Lancer: starts melee, shooting, and piloting ability
-		melee for less AP, acess to unique advanced combat skill upgrades: swashbuckler (swing+shoot), brawler (swing+swing)
+	- Lancer: starts melee journeyman, navigation, and 1 freebie novice
+		melee multiatteck, acess to unique advanced combat skill upgrades: swashbuckler (swing+shoot), brawler (swing+swing)
 		does not take stress from being attacked but can from wounded, etc.
-	- Marksman: starts shooting skill, analysis, 1 freebie primary
-		shoot for less AP, access to shooting skill upgrades: sniping (range + crit), gunslinger (shoot+shoot)
-	- BattleTech: 1 combat ability OR medicine at novice, Engineering at journeyman, and 1 secondary ability with the "M-fab" tag 
-		tech abilities for less AP, access to unique m-fab upgrades and integrations 
-						(automates certain m-fab actions like material or wound analysis + handsfree)
-	- Experts: starts with 2 primary abilties without Attack Tag at journeyman, and 2 secondary abilities
+	- Marksman: starts shooting skill journeyman, analysis, 1 freebie novice
+		shoot multiattack, access to shooting skill upgrades: sniping (range + crit), gunslinger (shoot+shoot)
+	- BattleTech: novice marksman or novice melee, Engineering or Medicine at journeyman, and 2 secondary abilities, at least one
+		of which must have the "M-fab" tag on the ability or one of techniques provided by ability.
+		tech multiattack, access to unique m-fab upgrades and integrations 				
+	- Experts: starts choice of 5 abilities, any combination of primaries at Journeyman or secondaries that qualify.
+		choices cant have attack, evade, or defend tags on ability or techniques provided by ability.
 		learns non-combat abilities faster via acuity, bonus to ability rolls outside of foot-combat
 		takes stress passively per turn of foot combat
-		m-fab upgrades 
+		 
 
 	Note: All PC's end up with at least 2 Acuity as a baseline. 
 		This can be explained by the fact that participating in a sky-sailing crew is a difficult job, that not all can do. 
@@ -260,19 +261,19 @@ Class System:
 Starting Conditions/Progression: 
 	
 	Class starts (see class system for static skill starts):
-		- Lancer: +1 Heartiness, +1 Speed, +1 Tenacity, +1 Acuity, +1 Power
+		- Lancer: +1 Heartiness, +1 Speed, +1 Tenacity, +1 Acuity, +1 Power, +1 Finesse
 			choose: 2 small melee weapons or 1 large melee weapon 
 			choose: 1 small tribgun, 1 small melee weapon, or an m-fab
-			choose: novice armor or 1 small tribgun
-		- Marksman: +1 Tenacity, +1 Finesse, +2 Acuity
+			choose: novice armor, 1 small melee weapon, or 1 small tribgun
+		- Marksman: +1 Tenacity, +2 Finesse, +1 Acuity
 			1 large tribgun
 			choose: 2 small tribguns or 1 large tribgun
 			choose: 1 small melee weapon, 1 small tribgun, or an m-fab 
-		- BattleTech: +1 Tenacity, +1 Acuity, +2 Memory
+		- BattleTech: +1 Tenacity, +2 Acuity, +1 Memory
 			an m-fab 
 			choose twice: 1 small tribgun or 1 small melee weapon
 		- Expert: +2 Acuity, +1 Charm, +2 Memory
-			an m--fab
+			an m--fab or a set of tools appropriate to your starting abilities.
 
 
 	Progression

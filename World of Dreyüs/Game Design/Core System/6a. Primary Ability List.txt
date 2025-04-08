@@ -68,6 +68,12 @@ M-fabs are handheld 3-D printers capable of manipulating most periodic elements 
 potential variety of effects. See the "Microfabricators" rules in "Section 7. Item System" for a more in-depth explanation.
 M-fab actions often have a Material cost that reduces the m-fab's current Material pool, and cannot be perform unless the user's 
 m-fab has enough Material.  
+You must prepare M-fab actions for a day, pre-programming the "recipe" into your m-fab for ready access later.
+You may prepare a number of M-fab actions you know at the start of each day equal to 1 plus your Memory Attribute.
+To use an M-fab action you have not prepared for, you must expend Action Points for the action as normal and then make a 
+1d6 Memory Save in order to remember the precise formula. You lose the AP spent on the action if you fail the save, in addition to 
+not performing the action.
+
 
 
 Turn-Only
@@ -476,7 +482,8 @@ Bullet (M-fab, Attack, Cooldown)
 -
 This Technique allows you to use an m-fab as a firearm by manufacturing a small amount of frangible material as a projectile and
 enough chemical propellant to accelerate it to supersonic speeds.
-You may expend 2 AP and 5 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity). 
+You may expend 2 AP and 5 Material to make a ranged Attack Action against one target you can see within 50m using 
+Engineering (Finesse + Acuity). 
 The projectile from this attack is very fragile, and cannot penetrate most surfaces intact, requiring you to have a direct angle 
 to the target.
 The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
@@ -574,10 +581,9 @@ resilience allows men to recover from most wounds and ailments, given enough foo
 heal on their own, and most wounds can only benefit from the careful eye of a knowing doctor. Whether maligned for their rough
 handling or praised for a deft touch, all crewmates worth their salt know that their doctor is an indispensable asset.
 
-While this Primary Ability does not grant any m-fab Techniques itself, there are several Secondary Abilities that require Ability 
-Levels in both the Engineering and Medicine Primary Abilities. Medical m-fab Techniques include a powerful array of methods for 
-reducing both Damage and Stress, relieving Injuries, and preventing death. A handful of Secondary Abilities even provide 
-opportunities to weaponize one's medical knowledge.
+While this Primary Ability does not grant any m-fab Techniques itself, there are several Secondary Abilities grant such Techniques. 
+Medical m-fab Techniques include a powerful array of methods for reducing both Damage and Stress, relieving Injuries, and preventing 
+death. A handful of Secondary Abilities even provide opportunities to weaponize one's medical knowledge.
 
 Most Medicine rolls rely on Acuity, Memory, or both in combination, although occassionally other Attributes might be called for if
 the situation demands it. 
@@ -676,7 +682,8 @@ roll. The following table can be referenced to determined the adjusted values on
 
 
 Whenever you use a Traumapak item on a target you automatically succeed on the Medicine (Acuity + Memory) roll.
-If an m-fab Technique you use can apply the Stabilized Status, it does so automatically, regardless of any roll made for the Technique.
+If an m-fab Technique you use can apply the Stabilized Status, it does so automatically, regardless of any roll made for the 
+Technique.
 
 Additionally, your Enhanced Recovery Technique now changes the resting dice to d8s instead of d6s. 
 
@@ -1123,6 +1130,8 @@ effectively allowing them to focus more on their own actions in the fight.
 
 Whenever you use this Techique you must make a Warfare (Acuity + Charm) roll with a target threshold of 3. 
 For each succesful dice, you may select two allies, those allies gain +1 Action Points until the start of your next turn.
+You must be able to communicate with an ally in some way in order to target them with this Technique.
+
 Multiple instances of this Technique do not stack, and you cannot benefit from another character's use of this Technique while 
 anyone is benefiting from your use of this Technique.
 This roll can provoke Openings and Mistakes. Mistakes made during this roll reduce the number of allies you can target by 1 per each
@@ -1165,7 +1174,9 @@ Each additional succesful dice past the first allow you to choose 1 ally for eac
 Mistakes now reduce the number of allies that can recieve the +2 Actions Points by 1 for each Mistake.
 
 
-Legend
+Legend -- Inspiring Command
+--
+The +2 Action Point bonus from your Veteran Officer Technique can be applied to 2 allies per additional success rather only 1 ally.
 
 
 

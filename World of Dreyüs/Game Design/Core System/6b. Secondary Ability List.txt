@@ -33,7 +33,7 @@ appropriate raw materials.
 
 This rig can carry up to 6 small trib-guns, which must be modified to be compatible with the rig's mechanism. This modification
 is done at the same time the rig is crafted. 
-The main function of this rig and its mechanism to charge each weapon holstered in it simulatneously.
+The main function of this rig and its mechanism to charge each weapon holstered in it simultaneously.
 
 Whenever wearing the rig, you may expend 1 Action Point to charge each weapon you are carrying in the rig's holsters.
 Weapons modified to work in this rig do not have independent charging handles and can only be charged by the rig's mechanism. 
@@ -64,7 +64,7 @@ This ability provides a number of passive benefits to wielding a ranged Anti-Veh
 
 Swashbuckler
 --
-Req: Lancer Class, Journeyman Melee Weapons
+Req: Lancer Class, Journeyman Melee Weapons, Novice Marksmanship
 Cost:
 Learning this ability locks a character out of learning the Brawler Secondary Ability.
 
@@ -181,6 +181,12 @@ Your new hybrid m-fab/weapon starts with Journeyman Quality, and can be upgraded
 Whenever you make an attack using the m-fab component of your weapon, you may expend 1 Action Point immediately after and make a
 normal (non-Technique) attack against a target you can see using the weapon Primary Ability governing your weapon. 
 
+You gain one of two additional benefits depending on what kind of weapon you create:
+- If you create a melee weapon, you can perform your m-fab attack actions as melee weapon attacks, and use Power + Acuity as the 
+	Potential for the roll instead of the normal Attributes for that attack whenever you do so. Using m-fab attacks this way
+	cannot bypass the Cooldown requirements inflicted by those Techniques.
+- If you create a ranged weapon, any ranged m-fab attack actions you can perform have their maximum range doubled.
+
 
 \\\
 
@@ -211,12 +217,13 @@ Cost:
 
 This ability represents specialized experience and knowledge in general manufacturing and material sciences. 
 You gain the following benefits after acquiring this ability:
-- The time it takes for you to manufacture any item is halved.
+- The time it takes for you to manufacture any equipment or consumable is halved.
 - If you are crafting an item related to another Primary Ability you possess (such as weapons or medicinal drugs) and the associated
 	Primary Ability is a higher Ability Level than your Engineering Ability, you may use the other Primary Ability instead of 
 	Engineering for rolls made for crafting the item. If you do so, the items Quality Level is determined by the alternate 
-	Primary Ability instead of your Engineering Ability.
-- You gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning manufacturing and materials. This 
+	Primary Ability instead of your Engineering Ability. Rolls made this way can benefit from your Expertise Technique if you
+	gain Master Engineering.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge concerning manufacturing and materials. This
 	modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
 
 
@@ -234,8 +241,8 @@ You gain the following benefits after acquiring this ability:
 - You gather 50% more usuable scrap whenever scavenging sites for raw material.
 - Whenever performing Repairs as the Engineer of a vehicle, your Potential for the roll is always at least 3, and you gain a +1 Roll
 	Modifier to each dice for the roll.
-- You gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning scavenging, recycling, and repair. This 
-	modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge concerning scavenging, recycling, and repair.
+	This modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
 
 
 \\\
@@ -250,8 +257,207 @@ This ability represents specialized experience in vehicular fighting as an Engin
 Whenever serving as the Engineer for a vehicle, you gain a +1 Roll Modifier to each dice rolled for Engineer Role actions other than
 the Repairs action.
 
-Additionally, you gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning the Engineer vehicle role. 
-This modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+Additionally, you gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge concerning the Engineer vehicle 
+role. This modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+
+
+\\\
+
+
+Microfabricator Combat Drone (M-fab)
+--
+Req: Battletech Class, Master Engineering, Fabrication Expert (Secondary Ability)
+Cost:
+
+You spend time designing and fabricating a custom drone system, decoupling your m-fab's user interface from the core to allow the 
+latter to serve as the heart of the drone, and linking the systems together via radio to allow the user interface to serve as the 
+remote control. The new microfabricator-bearing drone can serve as your proxy during combat, allowing you to extend your presence on
+the battlefield without incurring additional risk to yourself. The drone is terrestial, but can traverse most surfaces.
+
+
+(Optional Rule: you and your GM can discuss the specific design of the drone, adjusting its situational capability to match its 
+unique features if your GM thinks it appropriate. Think of the following as suggestions for roleplay, rather than stone-set rules.
+You could take inspiration from the following, or work out the specifics of your own creative vision. As always, try to keep game
+balance in mind, any specific design should have strengths and weaknesses that account for capability and cost.
+
+For instance, the simplest, cheapest drones might use wheels or tracks, sacrificing enviromentally-specific capabilities for easier 
+availability as well as decent ground-pressure distribution that allows for a jack-of-all-trades approach that can handle reasonable
+amounts of harzards such as mud, ice, and sand roughly equally.
+
+Drones with powerful, surface-piercing legs might have incredible climbing capabilities and handle uneven or broken surfaces well,
+but may suffer from mechanical complexity as well as high ground-pressure that makes them less reliable on many surfaces. They might
+bog down in bad conditions and be more expensive to repair when disabled. 
+
+Ground-effect or Lift-Drive motivated drones would be very costly to create and maintain, but could effectively ignore enviromental 
+variability, limited only by the incline of the surface itself. These drones cannot truly fly, and are thus unable to traverse 
+in the vertical extreme. They are unlikely to suffer in performance until disabled completely, but their monolithic design makes them
+more costly to repair in comparison to modular designs that allows for individual pieces, such as wheels, tracks or leg-segments to
+be replaced instead of the entire apparatus.
+
+In terms of game mechanics, the drone could be forced to make saves or rolls to traverse unfavorable terrain, and/or suffer movement
+value penalties. Some drones would be able to move in ways others cannot, and some designs may suffer drom Damage in different ways.
+They might have small variations in their Attributes and abilities. Material expense should also vary based on capability and a 
+sense of technological scaling. Your GM can set a common set a rules, or choose to rule dynamically based on the specific scenario 
+that you have collaborated to create.)
+
+
+The drone acts directly through your commands, which you give through the controller you carry on your person. The drone can receive 
+commands from up to 1km away. If the drone leaves the 1km range, it will attempt to execute the last command given before attempting 
+to reestablish connection by returning to the last position it was at when it received a command. The drone will stay in this holding
+position until the connection returns and a new command is given. The drone is small enough to be carried by one individual, but is
+likely heavy enough to affect the movement anyone attempting to do so (~30-40 kilos). 
+
+The drone has its own stat block, but derives some of its non-physical Attributes from your own. Additionally, it does not follow the
+standard rules for basic actions, including movement, or the rules for Damage and Stress. These are instead governed by special rules
+specific to the drone. 
+
+You can only ever deploy and control one drone at a time, however you could theoretically craft and store additional copies as a 
+reserve in the event of a complete loss.
+
+M-fab Drone
+-
+H: 2 | T: - | S: 4 | F: 4 | A: X | P: 3 | C: - | M: X |
+
+Values marked with an "X" use your value for that Attribute.
+
+Health: 20
+Control: -
+Defense: 6
+Passive Perception: Uses yours
+Movement Value: 4m
+AP: the drone cannot act on its own, instead requiring you to expend your own Action Points to issue various commands.
+Carry Weight: The drone cannot carry objects beyond its integrated equipment, but can exert enough extra force readily free itself
+	from roughly 30 kilos of force inhibiting it, such as fallen debris. 
+Cost: The cost of the materials to build the drone represented as an amount of Credits. 
+
+
+Mechanical: the drone is immune to Stress, and reacts differently to Damage.
+	Degraded: Applied when Damage increases and the result is equal to or higher than the drone's Health. 
+		The drone has -1 Potential on all actions while Degraded.
+		The Degraded Status is removed automatically if the drone's Damage is lowered and the result is less than the drone's 
+		Health.
+	Disabled: Applied when Damage increases and the result is equal to or higher than twice the drone's Health.
+		The drone cannot perform any actions, including movement, while Disabled. Additionally, its Defense becomes 1.
+		The Disabled Status is removed automatically if the drone's Damage is lowered and the result is less than twice the
+		drone's Health.
+	Destroyed: Applied when Damage increases and the result is equal to or higher than three times the drone's Health.
+		The drone is near-completely demolished, and requires a total rebuild or replacement to return to service.
+	Non-biologic: The drone cannot benefit from healing sources designed for living beings, instead requiring material servicing.
+		The Medicine Primary Ability cannot heal the drone, and actions and consumables such as the Combat Regeneration
+		Technique and Regen-Stims do not affect the drone.
+
+Move: You can expend 1 AP and order the drone to move a number of meters up to twice its movement value.
+
+M-fab use: Whenever you perform an action using your m-fab, you expend the normal amount of AP for that action and issue a command
+	to your drone to carry out the act. Additionally, the drone can move a number of meters up to its movement value whenever 
+	you issue a command in this way. The drone performs any rolls required by the action, using its own Attribute values but
+	relying on your relevant Ability Level. 
+
+M-fab resupply: You may expend 1 AP to have the drone restore the Material Pool of the integrated m-fab.
+	The drone can carry a number of resupply pods equal to its Power Attribute, and must be manually restocked once they are
+	expended.
+
+Field Repair: You may expend 2 AP to have the drone diagnose and self-repair using its m-fab. Its uses your Engineering Ability Level
+	for this roll, however the Potential is determined by the amount of Material you choose to expend. For every 5 Material you
+	choose to use, the Potential increases by 1. You must always expend at least 5 Material to have the minimum 1 Potential for 
+	roll, and you can expend no more than 25 Material to achieve the maximum 5 Potential.
+	
+	This action has the M-fab and Cooldown Tags, and prevents the drone from expending further Material during that turn.
+	
+	The threshold for this roll is always 3, and the drone's Damage is reduced by an amount equal to the combined value of all
+	successful dice. Additionally, the Degraded and Disabled Statuses are removed if any number of dice succeed, regardless of 
+	the drone's total Damage. 
+
+Maintenance: Outside of combat you can repair the drone directly if you have access to sufficient tools and supplies.
+	You can spend half a day's work and use materials equal to half the Cost of the drone to remove an amount of Damage equal to 
+	twice the drone's Health.
+	You can spend a whole day's work and use materials equal to the Cost of the drone to remove all Damage from the drone and
+	remove the Destroyed Status.
+	
+Rebuild: If the drone is completely lost you may build a new one from scratch.
+	You spend a day and half's work and use materials equal to the Cost of the drone to reconstruct the complete device.
+
+
+
+The drone can gain additional benefits from advancing your Engineering Primary Ability, as well as some Secondary Abilities:
+
+Attribute Improvement: Your drone's Attributes increase if you become a Legend Engineer.
+	The drone's Heartiness, Speed, Finesse, and Power increase by 1, and the related Derived Stats (Health, Defense, etc.)
+	increase accordingly.
+	
+Weapon Integration: you can equip your drone with a normal weapon if you have the Microfabricator-Weapon Integration Ability.
+	The drone is equipped with a small or large weapon corresponding to the type governed by the Primary Ability used to unlock
+	the Microfabricator-Weapon Integration Ability (either ranged for Marksmanship or melee for Melee Weapons).
+	The drone's weight and cost should increase as a result of this addition.
+	You can expend the regular amount of AP required to make an attack with weapon, ordering the drone to carry out the act
+		instead. Additionally, the drone can move a number of meters up to its movement value whenever you issue a command 
+		in this way.
+	The drone also benefits from all the features of the Microfabricator-Weapon Integration Ability.
+	If your drone would perform an attack and an m-fab action in one turn, it can only benefit from the additional movement one
+		time.
+
+MACS Integration: your drone can be equipped with a MACS m-fab, if you have the Microfabricator Advanced Cooling System Ability.
+	The drone's weight and cost should increase from the addition of the MACS system.
+	Your drone gains all the benefits of the Microfabricator Advanced Cooling System Ability.
+	If your drone would perform two m-fab actions in one turn, it can only benefit from the additional movement one time. 
+
+Armor Integration: If you have the Armorer Ability you may craft and equip armor to your drone.
+	The drone's weight and cost should increase from the addition of the armor. 
+	Your drone can benefit from the Ablative Shield Technique.
+
+Mechanist: The benefits from the Fabrication Expert Ability, if you have it, apply to the creation and maintenance of your drone
+	outside of combat.
+
+Experienced Repair: If you have the Combat Mechanic Ability, your drone's Field Repair action gains the following benefits.
+	The minium Potential for the roll becomes 2, however the minimum cost remains 5 Material.
+	Additional Potential after the first 2 still costs an extra 5 Material per dice.
+	The maxium Material that can be expended is 20 for 5 Potential, and the minimum is 5 Material for 2 Potential.
+
+Medical Drone: your drone can perform m-fab actions related to the Medicine Primary Ability if you have the Microfabricator
+	Physician Ability. It can perform specific actions granted by Techniques, as well as generic Medicine Ability Rolls that
+	make use of the m-fab.
+	
+
+\\\
+
+
+Armorer
+--
+Req: Novice Engineering
+Cost:
+
+This ability represents specialized knowledge in the design and construction of protective armor and shielding. 
+You gain the following benefits after acquiring this ability:
+- You may use your Engineering Primary Ability to craft body armor (see Section 7. Item System) if you have access to a workstation, 
+	as well as sufficient time and resources. You may craft armor for individuals other than yourself as well, however the armor 
+	must be sized to each individual. 
+- If you gain Master Engineering you may use the benefit from your Expertise ability when making any Ability Rolls related to this 
+	Secondary Ability. 
+	(Note: there is no Primary Ability related to armor, so Expertise would never affect armor-related rolls normally.)
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge concerning protective armors and shieldings.
+	This modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+- You gain access to the Ablative Shield Technique.
+
+
+Ablative Shield (M-fab)
+-
+This Technqiue allows you to apply a temporary one-use coating to your or another individual's armor, boosting its effectiveness.
+You may expend 1 AP and 5 Material, targeting youself or an individual within arm's reach, and use your m-fab to spray a material
+across the surface of the target's armor that instantly forms a hardened layer.
+This layer of shielding increases the target's Armor Mitigation against all attacks by an amount determined by your Engineering
+Ability Level, and is described by the following table:
+	------------------------------
+	| Ability Level |   Amount   |
+	|---------------|------------|
+	|    Novice	|      1     |
+	|  Journeyman	|      2     |
+	|    Master     |      3     |
+	|    Legend     |      4     |
+	------------------------------ 	
+
+This effect ends after the target is hit by an attack that deals Damage, or after 5 rounds, at which point it readily sheds off with
+negligible energy.
+This Technique cannot not be applied to a character affected by the Inflamed Status.
 
 
 \\\
@@ -264,8 +470,8 @@ Cost:
 
 This ability represents specialized experience and knowledge in the field of explosive materials and devices. 
 You gain the following benefits after acquiring this ability:
-- You gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning explosives. This modifier cannot stack 
-	with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+- You gain a +1 Roll Modifier to each dice used in any Abiltiy Roll related to knowledge concerning explosives. This modifier cannot 
+	stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
 - You gain access to the Blast and Micro-Grenade Techniques
 
 
@@ -273,7 +479,8 @@ Blast (M-fab, Attack, Cooldown, Energy-Based Attack)
 -
 This Technique allows you to use your m-fab as a firearm to deliver a projectile composed of powerful high explosives directly 
 onto a target.
-You may expend 2 AP and 5 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity).
+You may expend 2 AP and 5 Material to make a ranged Attack Action against one target you can see within 50m using 
+Engineering (Finesse + Acuity).
 The projectile from this attack is very fragile, and explodes on contact, requiring you to have a direct angle to the target.
 The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
 stable product again. After using this Technique, you cannot use the m-fab for any action that requires Material to be expended for
@@ -305,8 +512,8 @@ Cost:
 
 This ability represents specialized experience and knowledge in the field of thermal engineering. 
 You gain the following benefits after acquiring this ability:
-- You gain a +1 Roll Modifier to each dice used in any roll related to knowledge concerning topics within thermal engineering. This 
-	modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge concerning topics within thermal engineering.
+	This modifier cannot stack with any other modifier provided by Engineering or one of its dependent Secondary Abilities.
 - You gain access to the Ignite and Freeze Techniques.
 
 
@@ -314,13 +521,14 @@ Ignite (M-fab, Attack, Cooldown, Energy-Based Attack)
 -
 This Technique allows you to use your m-fab as a firearm to deliver a small container of incendiary material and flammable adhesive 
 fluid.
-You may expend 2 AP and 10 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity). 
+You may expend 2 AP and 10 Material to make a ranged Attack Action against one target you can see within 50m using 
+Engineering (Finesse + Acuity). 
 The projectile from this attack is very fragile, and explodes on contact, requiring you to have a direct angle to the target.
 
 If the attack is successful, the target is inflicted with the Inflamed Status in addition to the normal Damage inflicted.
 The "Statuses" section describes the rules for the Inflamed Status.
-The Damage caused by this Inflamed Status, as well as the duration of the effect, is based of your Engineering Ability Level and is
-described by the following table:
+The Damage caused by this Inflamed Status, as well as the duration of the effect, is determined by your Engineering Ability Level and 
+is described by the following table:
 	-------------------------------------
 	| Ability Level | Damage | Duration |
 	|---------------|--------|----------|
@@ -341,7 +549,8 @@ Freeze (M-fab, Attack, Cooldown, Energy-Based Attack)
 -
 This Technique allows you to use your m-fab as a firearm to deliver a small container of cryogenic material and a thermally 
 superconductive adhesive. 
-You may expend 2 AP and 10 Material to make a ranged Attack Action against one target within 50m using Engineering (Finesse + Acuity).
+You may expend 2 AP and 10 Material to make a ranged Attack Action against one target you can see within 50m using 
+Engineering (Finesse + Acuity).
 The projectile from this attack is very fragile, and explodes on contact, requiring you to have a direct angle to the target.
 
 If the attack is successful, the target is forced to make a special Injury Save in addition to receiving the normal Damage inflicted.
@@ -365,3 +574,633 @@ rest of the turn.
 
 
 \\\
+
+
+Digital Technician
+--
+Req: Journeyman Engineering
+Cost:
+
+This ability represents specialized experience and knowledge in computer engineering, especially in security and combat use. 
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge concerning topics within computer 
+	engineering. This modifier cannot stack with any other modifier provided by Engineering or one of its dependent 
+	Secondary Abilities. This modifier can be applied whenever attempting to bypass a computer's security system with an 
+	Engineering Ability Roll.
+- You gain access to the Disrupt Technique.
+
+Disrupt (M-fab, Attack, Cooldown, Energy-Based Attack)
+-
+
+
+\\\
+
+Surgeon
+--
+Req: Novice Medicine
+Cost:
+
+This ability represents specialized experience and knowledge in the general use of surgical intervention in a medical context.
+Surgical expertise is invaluable to sky-ship crews, as the potential for intense physical trauma is high and surgeons are often 
+responsible for the preservation of life and limb.
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to referencing or employing surgical techniques. This 
+	modifier cannot stack with any other modifier provided by Medicine or one of its dependent Secondary Abilities, except for
+	the bonus provided by the Microfabricator Physician Secondary Ability.
+- Whenever you would roll a number of d6 dice for a Treatment Save you are performing as part of a surgery you are participating in,
+	you may reroll any dice that fail once. 
+	**Note: this benefit can stack with the buff from the Unconcious Status (see Section 5. Statuses) that allows rerolling 
+		failed Treatment Saves, potentially allowing you to reroll Treament Saves twice if performing surgery on an 
+		Unconscious target.**
+
+
+\\\
+
+
+Microfabricator Physician
+--
+Req: Journeyman Medicine
+Cost:
+
+You've learned how to apply some of the essential functions of microfabricators within a medicial context, allowing you to utilize
+an m-fab when using your Medicine Primary Ability. Common applications include the use of the m-fab's material analysis capabilities 
+for diagnostics, and the immediate production and application of medicines, especially ones that are too unique or unstable to 
+reliably carry. Other Medicine-dependent Secondary Abilities grant more advanced medicial m-fab Techniques that can only be used 
+if the character knows this ability as well.
+
+Additionally, after acquiring this ability you gain the following benefits:
+- You gain a +1 Roll Modifier to each dice whenever you are attempting to use your Medicine Primary Ability to medically diagnose a
+	target, if you can make use of an m-fab while doing so.
+- When using your Stabilzie Technique you can choose to expend 5 Material from your m-fab, doing so causes the Technique to succeed
+	automatically without requiring the Treatment Save and immediately apply the Stabilzied Status to the target.
+- You gain access to the Combat Regeneration Technique.
+
+
+Combat Regeneration (M-fab, Healing, Cooldown)
+-
+This Technique allows you to use your m-fab to treat wounds on yourself or another individual.
+You may expend 2 AP and 10 Material to make a Medicine (Acuity + Memory) roll targeting yourself or another individual within arm's
+reach. The target threshold for this roll is 3, and the target's Damage is reduced by a value equal to the sum of all successful dice.
+Damage cannot be reduced below 0, and the roll for this action cannot benefit from any Roll or Effect Modifiers.
+If an individual is healed by any combination of Regen-Stims and/or the Combat Regeneration Technique more than once a day, they 
+receive an amount Stress equal to 6 minus their Tenacity each time they are healed after the first.
+The effect of this Technique is blocked by the Toxified Status (see Section 5. Statuses).
+
+Generating a strong dose requires pushing the core of the m-fab over a short period, causing it to generate extra heat, and requires 
+a cooldown period to become cool enough to produce a stable product again. After using this Technique, you cannot use the m-fab for 
+any action that requires Material to be expended for rest of the turn.
+
+
+\\\
+
+
+Psychologist
+--
+Req: Journeyman Medicine, Novice Communication
+Cost: 
+
+This ability represents specialized experience and knowledge in the communication-based medical care of an individual's mental health.
+Stress management capabilities can be invaluable both in and out of combat, allowing allies to recover from stress faster and be less
+likely to hesitate during critical moments.
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to referencing or employing psycological techniques. This 
+	modifier cannot stack with any other modifier provided by Medicine or one of its dependent Secondary Abilities, except for
+	the bonus provided by the Microfabricator Physician Secondary Ability.
+- You gain access to the Therapist and Bolster Techniques.
+
+
+Therapist
+-
+This Technique provides a passive benefit to you and your allies. You've taken to incorporating subtle therapeutic methods into your
+everyday interactions with the crew. These efforts help to ensure a healthy enviroment that allows crewmates to more easily process
+the Stress of their adventures.
+
+Whenever you and your allies roll to reduce Stress after resting you may roll an additional die and increase the value by that amount.
+The size of the additional die is determined by your Ability Level in Communication. 
+	------------------------
+	- Ability Level | Size -
+	----------------|-------
+	-    Novice	|  d6  - 
+	-  Journeyman	|  d8  -
+	-    Master	|  d10 -
+	-    Legend	|  d12 - 
+	------------------------
+
+
+Bolster
+-
+This Technique allows you to expend 1 AP to target yourself or any individual you have some means of direct communication with.
+Until the end of their current turn, or their next turn if it is not currently their turn, the target ignores the -1 Potential 
+penalty from the Shaken Status, and may reroll one dice rolled for a Panic Save.
+
+
+
+\\\
+
+
+Anaesthesiologist
+--
+This ability represents specialized experience and knowledge in the use of drugs to induced altered states of both conscious and 
+sensitory awareness in individuals, particularly within a medical context to enable other procedures that would be painful, 
+dangerous, or outright impossible to perform. 
+In ideal conditions, dedicated anaesthesiologists participate in any procedure requiring use of these sorts of substances, however 
+the expeditionary and frontier enviroments a ship's crew find themselves in can rarely allow for anything considered ideal by 
+civilized standards. While some individuals may work primarily within this field as their specialty, it is not uncommon for more 
+adventuring medical experts to also study in it extensively alongside other topics in order to create a more monolithic practice. 
+Seasoned ship's surgeons will tell you that performing amputations is notably eaiser whenever you're able to provide more to a 
+patient than alcohol and common narcotics.
+ 
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge of anesthetic substances and practices. 
+	This modifier cannot stack with any other modifier provided by Medicine or one of its dependent Secondary Abilities, except 
+	for the bonus provided by the Microfabricator Physician Secondary Ability.
+- You gain access to the Sedate and Tranquilize Techniques.
+
+
+Sedate (M-fab)
+-
+This Technique allows you to use your m-fab to immediately reduce Stress for yourself or another individual, or prepare them for
+a medical procedure.
+You may expend 1 AP and 5 Material to make a Medicine (Acuity + Memory) roll targeting yourself or another individual within arm's
+reach. The target threshold for this roll is 3, and the target's Stress is reduced by a value equal to the sum of all successful dice.
+Stress cannot be reduced below 0, and the roll for this action cannot benefit from any Roll or Effect Modifiers.
+If you are not in combat, you can choose to apply the Unconcious Status to the target of this Technique.
+If you can make use of a medical workstation, med-bay, or hospital facilities, then you can use this Technique without an m-fab, 
+and doing so removes the Material cost of the Technique as well.
+
+If an individual is affected by any combination of Stress-reducing drugs and/or the Sedate Technique more than once a day, they 
+receive an amount Damage equal to 6 minus their Heartiness each time they do so after the first.
+
+
+Tranquilize (M-fab, Attack, Cooldown)
+-
+This Technique allows you to use your m-fab as a firearm to deliver a non-lethal projectile containing a fast-acting drug that can
+temporarily disable a target.
+You may expend 2 AP and 10 Material to make a ranged Attack Action against one target you can see within 50m using 
+Engineering (Finesse + Acuity). The projectile is a fragile apparatus made of up small syringe with a kinetic plunger, and will
+easily break when hitting hard surfaces.
+
+If this attack is successful, it deals no Damage, instead the target is immediately put into a special version of the Unconscious
+Status (Section 5. Statuses contains the base rules for the Unconscious Status). 
+This version of the Unconscious Status follows all the base rules for the status, in addition to the following rules:
+- The status ends automatically after the target ends a number of their turns equal to the number of dice that succeeded on the 
+	roll for the attack that triggered the status.
+- The status ends immediately after the target takes any amount of Damage, or is hit by any form of attack, regardless of if that
+	attack dealt Damage or not. 
+- Any individual within arm's reach of a target affected by this status can choose to expend 1 AP to deal 1 Damage to the target,
+	immediately ending the status.  
+
+The m-fab absorbs the excess heat from firing the projectile, and requires a cooldown period to become cool enough to produce a 
+stable product again. After using this Technique, you cannot use the m-fab for any action that requires Material to be expended for
+rest of the turn.
+
+
+\\\
+
+
+Toxicology
+--
+Req: Journeyman Medicine
+Cost:
+
+This ability represents specialized experience and knowledge concerning medically toxic substances, their effect on the body and mind,
+as well as the treatment of affected individuals.
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge of toxic substances. This modifier cannot 
+	stack with any other modifier provided by Medicine or one of its dependent Secondary Abilities, except for the bonus provided
+	by the Microfabricator Physician Secondary Ability.
+- If you know the Microfabricator Physician Secondary Ability, you gain access to the Toxify and Antidote Techniques.
+
+
+Toxify (M-fab, Attack, Cooldown)
+-
+This Technique allows you to use your m-fab to deliver a potent concoction of various toxins, including some psychoactive agents.
+The substance causes immediate mental and bodily harm while also inducing a ongoing effect that can potentially debiliate the target
+indefinitely unless treated.
+
+You may expend 2 AP and 10 Material to make a melee attack action against one target you can see within range using 
+Medicine (Finesse + Acuity). This attack involves directly injecting the target with the agent.
+Alternatively, if you possess at least a Novice Ability Level in Engineering, you may instead make the attack as a ranged attack 
+action against one target you can see within 50m using Medicine (Finesse + Acuity). When performed this way the attack is instead 
+fired as a small projectile that delivers the toxins, however the projectile is fragile and cannot penetrate hard surfaces.
+
+If successful, the target must also perform the Toxify Save, rolling 2d6 and comparing the results against their Heartiness Attribute.
+A die "fails" if the result is higher than the target's Heartiness.
+	If the target fails on both dice, they receive the Toxified Status permanantly until they are treated, or until they die.
+	If the target fails on only one die, they receive the Toxified Status for a number of turns equal to your Acuity Attribute, 
+		until they are treated, or until they die.
+	If the target succeeds on all dice, they resist the Toxified Status entirely.
+	(Note: Section 5. Statuses constains a description of the Toxified Status, including the methods of removing it.)	
+
+If the target becomes Toxified, they roll 1 die of equal size to the die provided by your Medicine Ability Level, and take Damage 
+equal to the amount rolled. 
+
+All Damage inflicted by this Technique, including the initial attack action as well as the subesquent Toxified Status, causes Stress
+equal to the value of Damage inflicted, instead of merely half that amount. Additionally, Lancers do not ignore Stress inflicted by
+this Damage source.
+Damage inflicted by this Technique and the Toxified Status also ignore Armor Mitigation.
+The Toxified Status prevents a target from healing via the Combat Regeneration Technique, however the status is removed by 
+Regen-Stims and does not block that healing.
+
+If the attack is delivered as a projectile, the m-fab absorbs the excess heat from firing the projectile, and requires a cooldown 
+period to become cool enough to produce a stable product again. After using this Technique, you cannot use the m-fab for any action 
+that requires Material to be expended for rest of the turn.
+
+
+Antidote (M-fab)
+-
+This Technique allows you to use your m-fab to generate and administer a generalized concoction designed to quickly and safely block
+the mechanisms by which most toxins and poisons attack the body.  
+
+You may expend 1 AP and 5 Material to use this Technique on a target within arm's reach.
+
+This Technique automatically ends the Toxified Status on a target, and should cure most common poisons and toxins a character might
+encounter. It also ends the effects of the Tranquilize Technique automatically.
+However, if the GM determines that a source is strong enough or rare enough that it could potentially not be affected by this 
+Technique, you should make a Treatment Save with a number of d6 dice determined by your GM, who can then decide the outcome of the 
+action based on the number of successful saves they desire. The GM may also choose to simply forgo the Treatment Save and determine
+that this Technique cannot cure a particular source. 
+
+After being the target of this Technique an individual should make a 3d6 Heartiness Save. They are unable to benefit from the Sedate
+Technique for a number of rounds equal to the amount of dice they failed on during the save.
+
+
+\\\
+
+
+Deceit
+--
+Req: Journeyman Communication
+Cost:
+
+This ability represents expertise in convincing deception through communication, or in other words: skillful lying. While most people
+see little honor in trickery, it still may be a useful tool, especially when lives are on the line.
+You gain the following benefits after acquiring this ability:
+- You gain a +2 Roll Modifier to each dice rolled whenever using your Communication Ability to decieve another person or group of 
+	people. This modifier cannot stack with any other modifier provided by Communication or one of its dependent Secondary 
+	Abilities.
+
+
+\\\
+
+
+Persuasion
+--
+Req: Journeyman Communication
+Cost:
+
+This ability represents expertise in the use of reason and argument to influence the opinions and behaviours of others. Skilled
+negotiators and charming ambassadors can often be more powerful than fleets and armies.
+You gain the following benefits after acquiring this ability:
+- You gain a +2 Roll Modifier to each dice rolled whenever using your Communication Ability to convince another person or group of
+	people through honest reasoning, appeal, or negotiation. This modifier cannot stack with any other modifier provided by 
+	Communication or one of its dependent Secondary Abilities.
+
+
+\\\
+
+
+Imperative
+--
+Req: Journeyman Communication
+Cost:
+
+This ability represents expertise in the use of commanding and authoritative language in order to dictate or direct others. Whether
+through convinction, confidence, prescence, or even fear, the ability to ensure orders are understood and followed is invaluable
+to a leader.
+You gain the following benefits after acquiring this ability:
+- You gain a +2 Roll Modifier to each dice rolled whenever using your Communication Ability to issue an order or when attempting
+	to influence another person or group of people through a dictatorial command. This modifier cannot stack with any other 
+	modifier provided by Communication or one of its dependent Secondary Abilities.
+
+
+\\\
+
+
+Performance
+--
+Req: Journeyman Communication
+Cost:
+
+This ability represents experience and knowledge in one or more performing arts. Good entertainment can can ease dispositions, 
+cross cultural bondaries, and help unwind amongst comrades.
+You gain the following benefits after acquiring this ability:
+- You may pick a number of performing arts equal to half the sum of your Acuity and Memory, these are the arts you "know". 
+	If an increase in your Acuity or Memory would increase the maximum value you may know, you may pick an additional art.
+	Additionally, you may choose to expend Experience Points equal to half the cost of this ability in order to increase the
+	number of arts you know by 2. 
+	Examples of performing arts include dancing, allocution, acting, comedy, stage or parlor magic, singing, or a category of
+	instruments such a keyed instruments, stringed instruments, horns, percussion, etc.
+- You gain a +3 Roll Modifier to each dice rolled for a Communication Ability roll to perform an art you know.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll for general knowledge about an art you know. This modifier cannot
+	stack with any other modifier provided by Communication or one of its dependent Secondary Abilities.
+- You gain the Ship's Bard Technique.
+
+Ship's Bard
+-
+This Technique provides a passive benefit to you and your allies. Regular performances throughout your journey help mitigate the
+accumulation of Stress on you and your allies.  
+
+Whenever you and your allies roll to reduce Stress after resting you may roll an additional die and increase the value by that amount.
+The size of the additional die is determined by your Ability Level in Communication. 
+	------------------------
+	- Ability Level | Size -
+	----------------|-------
+	-  Journeyman	|  d8  -
+	-    Master	|  d10 -
+	-    Legend	|  d12 - 
+	------------------------
+
+Multiple allies with this Technique can contribute extra dice when reducing Stress this way. 
+If more than one ally uses this Technqiue, crew members get a +X Roll Modifier to one of the dice added by this Technique, where X
+total number of allied characters using this Technique, minus 1. 
+
+
+\\\
+
+
+Literacy
+--
+Req: Journeyman Communication
+Cost:
+
+This ability represents a history of well-rounded consumption of available media. This ability doesn't strickly refer to the written
+word, instead including music, theatre, or any other consumable media appropriate to the character.
+You gain the following benefits after acquiring this ability:
+- You gain a +2 Roll Modifier to each dice used in any Ability Roll for recalling knowledge about existing media, such as authorship,
+	publication history, cultural significance, etc. This modifier cannot stack with any other modifier.
+- The Roll Modifier provided by this ability improves as you gain additional Ability Levels in Communication, improving to +3 once
+	you gain Master Communication, and to +4 once you gain Legend Communication.
+
+
+
+\\\
+
+
+Piloting
+--
+Req: Journeyman Navigation
+Cost:
+
+This ability represents specialized training and experience in the navigational operation of various vehicles. Characters with this
+ability make superior Navigators, Pilots, and Helmsmen.
+You gain the following benefits after acquiring this ability:
+- When serving as the Pilot or Helmsman of a vehicle, you gain a +2 Roll Modifier to each dice rolled when taking a Vehicle Action.
+	If you are serving as a Navigator of a vehicle that is not using a Pilot or Helmsman, then you may apply the Roll Modifier
+	to the Vehicle Actions that would normally be taken by those Roles.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll for recalling general knowledge about a vehicle, such as its
+	typical configurations, crew sizes, origin, etc. This modifier cannot stack with any other modifier provided by Navigation or 
+	one of its dependent Secondary Abilities, other than the Vehicle Construction Ability.
+
+
+\\\ 
+
+
+Cartography
+--
+Req: Journeyman Navigation
+Cost:
+
+This ability represents practical expertise in the creation and use of various kinds of maps. Navigators with this ability are 
+indispensable to a ship's crew, being able to create reliable maps of where they go, as well as more accuraturely interpret 
+foreign maps when exploring unfamiliar places	 
+You gain the following benfits after acquiring this ability:
+- You gain a +2 Roll Modifier to each dice rolled when using your Navigation Ability to read a map.
+	(Note: this includes actions such as identifying what data the map presents, or where you are located on a map.)
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll for recalling general knowledge about maps and mapmaking, such
+	as determining the age and origin of a map. This modifier cannot stack with any other modifier provided by Navigation or 
+	one of its dependent Secondary Abilities.
+- You gain access to the Surveying Technique.
+
+
+Surveying
+-
+This Technique allows you to passively gather data of enviroments you explore, which you can then dedicate work hours to creating
+your own maps from.
+
+Once you gain access to this Technique you begin memorizing the navigational and observational data required to create a map of your
+travels. You gather data on a day-to-day basis, and can retain the data for a particular day for a number of days equal to your 
+Memory Attribute (If your Memory is 1 you forget the data each day once you go to sleep, or 24 hours pass).
+
+If you have sufficient materials you may spend an hour creating a map based off the data of a particular that day you can recall.
+If you already possess another map of an area that you can use as a reference when you yourself are creating a map of the same  
+using this Technique, then you only need to spend half an hour per day of data when creating your map.
+
+When reading a map you created, your +2 Roll Modifier to each dice rolled with your Navigation Ability becomes a +3 Roll Modifier 
+instead.
+
+
+\\\
+
+
+Astronomy
+--
+Req: Journeyman Navigation
+Cost:
+
+This ability represents experience and knowledge in the field of identifying cosmic bodies as well as using them as reference points
+for navigating and timekeeping.
+You gain the following benefits after acquiring this ability:
+- During the day, you can estimate the time so long as you can see the sky. 
+- During the night, you can estimate the date so long as you can see the sky.
+- If you can see the sky, you have a +2 Roll Modifier to each dice rolled when using your Navigation Ability to determine your 
+	location.
+-  You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge of celestial bodies. This modifier cannot
+	stack with any other modifier provided by Navigation or one of its dependent Secondary Abilities.
+
+
+\\\
+
+
+Meteorology
+--
+Req: Journeyman Navigation
+Cost:
+
+This ability represents experience and knowledge in the study of the weather, including acute weather formations, climate cycles, 
+and various levels of predictive forecasting. Given the extreme weather patterns on Dreyüs as well as the reliance on wind-driven
+transportation, meterologists are highly valued for their ability to keep people safe in addition to making transporation efficient.
+You gain the following benefits after acquiring this ability:
+- You have a +2 Roll Modifier to each dice rolled when using your Navigation Ability to determine wind conditions at an Altitude 
+	Level above or below your current Altitude Level.
+-  You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge of the weather or climate, including
+	forecasting future weather conditions. This modifier cannot stack with any other modifier provided by Navigation or one of 
+	its dependent Secondary Abilities. 
+
+
+\\\
+
+
+Vehicle Construction
+--
+Req: Journeyman Navigation, Journeyman Engineering
+Cost:
+
+This ability represents experience and knowledge concerning the design and manufacturing of the unique vehicles of Dreyüs. While
+several different kinds of locomotion and structural designs can be found, the predominance of certain varieties, such as the 
+common reliance on wind-driven technology, means that most well-rounded educations in this field cover enough of the limited outliers
+such that craftsmen are equipped with the knowledge needed to design or work on nearly any kind of vehicle on the continent.
+You gain the following benefits after acquiring this ability:
+- You can design and lead construction on a vehicle, and have a +2 Roll Modifier to each dice rolled for any Ability Roll directly
+	concerning the construction of the vehicle.
+- You gain a +2 Roll Modifier to each dice used in any Ability Roll for recalling general knowledge about a vehicle, such as its
+	typical configurations, crew sizes, origin, etc.
+
+
+\\\
+
+
+Locksmithing
+--
+Req: Journeyman Subtlety OR Journeyman Engineering
+Cost:
+
+This ability represents experience and knowledge concerning the design and manufacturing of locks and other security devices.
+Security devices on Dreyüs are not limited to traditional physical locks, but include a large variety of different combinations of
+electronic and mechanical apparatus. The creation or defeat of these kind of devices can be valuable to many kinds of people.
+You gain the following benefits after acquiring this ability:
+- You can design and construct security devices, and have a +1 Roll Modifier to each dice rolled for any Ability Roll directly 
+	concerning the creation or defeat of security devices.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to general knowledge of security devices. 
+	This modifier cannot stack with any other modifier provided by Subtley, Engineering, or one of their dependent 
+	Secondary Abilities. 
+
+
+\\\
+
+
+Trapper
+--
+Req: Journeyman Subtlety
+Cost:
+
+This ability represents practical expertise in creating, deploying, and defeating traps of various kinds. Trappers can feed a 
+populace, protect a fortress, or allow for the safe exploration of the protected hoards of lost societies. 
+You gain the following benefits after acquiring this ability:
+- You can design and construct traps for the purpose of ensnarement or harm, and have a +1 Roll Modifier to each dice rolled for any 
+	Ability Roll directly concerning the creation or defeat of traps.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to general knowledge of traps. 
+	This modifier cannot stack with any other modifier provided by Subtley or one of its dependent Secondary Abilities.
+- You gain access to the Adaptive Micro-Mine Technique.
+
+
+Adaptive Micro-Mine
+-
+This Technique allows you to craft and utilize Adaptive Micro-Mines, or AMMs.
+AMMs are small, modular, "smart", anti-personnel mines design to provide greater flexibility to combat M-fab Techniques.
+
+You can spend 1 hour working to create a batch of AMMs. When you do so, you make a Subtley (Acuity) or Engineering (Acuity) roll.
+The threshold for this roll is 3, and you create a number of AMMs (minimum 1) equal to the number of successes on that roll.
+You must use XX credit value of raw materials for each AMM you create. 
+As long as you have this Technique you are not limited to using only your own AMMs, but can use those crafted by others as well.
+
+A character with access to this Technique can choose to use an AMM to deploy an M-fab Technique with the Attack Tag instead of 
+making a direct attack, if they currently are carrying expendable AMMs. 
+To do so, roll the Attack Action as normal, and note the value of each dice rolled, including any Modifiers. 
+This Attack Action is "stored" in the AMM, which is planted within 1m of the user as part of the action. 
+
+The AMM lasts for a number of hours equal to the user's Acuity, and can be deactivated remotely by the user at any time.
+
+After being deployed, the AMM has a 5m range and will attack the first creature that enters into its range that is not a known ally
+of the user.
+
+When activated, the AMM launches the stored attack against the triggering creature, comparing the stored values against the 
+creature's Defense as normal. Successful dice apply Damage normally and activate any effects that would the stored Technique would
+typically active.
+
+
+\\\ 
+
+
+Assassination
+--
+Req: Journeyman Subtlety
+Cost:
+
+This ability represents practical expertise in dealing lethal damage to unsuspecting or vulnerable targets. While many might view
+this kind of behaviour as dishonorable and underhanded, very few can deny its deadliness.
+You gain the following benefits after acquiring this ability:
+- Whenever you successfully make an Attack against a target who is unaware of your location, has not yet acted in combat, or is under
+	effects of your Trick Technique, may add a +2 Effect Modifier to each of the successful dice used in the Attack.
+- Attacks you make against unaware enemies do not immediately give away your location. Instead you may make a Subtlety (Acuity) roll
+	contested by the relevant individuals' Passive Perception and/or Analysis (Acuity) rolls, with you becoming detected
+	if their values meet or exceed yours. If you provoke any Openings or Mistakes on the Attack roll or Subtlety roll, you have
+	a -3 Roll Modifier to each of the dice rolled as part of any Subtlety Ability rolls until the end of your next turn.
+
+
+\\\
+
+
+Misdirection
+--
+Req: Journeyman Subtlety
+Cost:
+
+This ability represents practical expertise in the use of physical misdirection as a form of deception. Whether harmless parlor 
+tricks or deadly and deceitful swordplay, controlling a target's perception can be a powerful thing.
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifer to each of the dice rolled as part of the Subtlety (Finesse) roll for your Trick Technique.
+- The +1 Roll Modifers granted by your Trick Technique become +2 instead.
+- If you have the Performance Communication Secondary Ability, whenever you make a Communication Ability roll that would benefit
+	from your Performance Ability directly after succeeding with your Trick Technique against the target you may choose to forgo
+	rolling one of your available die to instead count it as an automatic successful roll on that die.
+
+
+\\\
+
+
+Small Unit Tactics
+--
+Req: Journeyman Warfare
+Cost:
+
+This ability represents experience and knowledge in typical small-scale infantry tactics. Fleets and armies may determine the 
+outcome of campaigns, but good leaders know that the success of those grand structures inevitably rely on the direct actions of
+tight-knit groups of soldiers, marines, and sailors.
+You gain the following benefits after acquiring this ability:
+- Each ally affected by your Combat Leadership Technique also gain a Roll Modifier for actions granted by Abiltiies and Techniques 
+	with the Attack, Evade, or Parry tags. The Roll Modifier's value is equal to the number of bonus Action Points granted to 
+	them by the Combat Leadership Technique. Allies can only benefit from this effect while not serving in a Vehicle Role.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to general knowledge of small-unit tactics. 
+	This modifier cannot stack with any other modifier provided by Warfare or one of its dependent Secondary Abilities. 
+
+
+\\\
+
+
+Vehicle Officer
+--
+Req: Journeyman Warfare
+Cost:
+
+This ability represents experience and knowledge in leadership roles for military vehicles. While typically not directly utilizing
+the vehicle's systems, except for communication or observation, leaders are responsible for the coordination of the crew and the
+accomplishment of their mission. Good leaders lighten the mental load on crewmates by facilitating communication, and analyzing
+the situation to give clear and accurate direction.
+You gain the following benefits after acquiring this ability:
+- Each ally affected by your Combat Leadership Technique use your Charm Attribute instead of theirs when making Vehicle Role actions.
+- Each ally affected by your Combat Leadership Technique can benefit from the Roll Modifier granted against targets of your
+	Analyze Technique when making Vehicle Role actions.
+- You gain a +2 Roll Modifer to each dice rolled for Analysis Ability actions while you or an ally are serving in a Vehicle Role.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll related to general knowledge of vehicle combat. 
+	This modifier cannot stack with any other modifier provided by Warfare or one of its dependent Secondary Abilities. 
+
+
+\\\
+
+
+Logistics
+--
+Req: Master Warfare OR Master Navigation
+Cost:
+
+This ability represents practical expertise in the shipment and storage of cargo. Logistical knowledge can greatly increase the 
+efficiency of any mobile organization. 
+You gain the following benefits after acquiring this ability:
+- Vehicles you serve on have a 50% increase to their total Cargo Space. 
+	A vehicle can only benefit from one instance of this effect.
+- You gain a +2 Roll Modifier to each dice used in any Ability Roll related to general knowledge of logistics and supply. 
+	This modifier cannot stack with any other modifier provided by Warfare or one of its dependent Secondary Abilities.
+
+
+\\\ 

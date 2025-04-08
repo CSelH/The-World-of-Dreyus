@@ -138,14 +138,16 @@ The following is a list of the stats derived from Attributes, and any counterpar
 		Character's Stress can increase as a result of various situations and effects.
 
 		Several sources of Stress exist, here are a few of the most common:
+
+			Character's Stress increases by 1d4 anytime they are targeted by an attack.
+				Note: Lancer's are immune to this source of Stress.
 			
 			Whenever a character's Damage increases, their Stress increases by half of the same value, rounded up.
-				Note: The Lancer Class is immune to this source of Stress.
 		
 			Whenever a character receives an Injury, their Stress increases by an amount equal to half of their Control.
   
 			Wounded characters take 1d4 Stress at the end of each of their turns.
-			
+
 			If a character makes a Death Save and doesn't die, their Stress increases by the amount rolled on 
 				the Death Save instead.
 

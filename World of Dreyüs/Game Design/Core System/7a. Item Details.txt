@@ -174,8 +174,8 @@ the Regen-Stim, plus 1.
 	Legend  		| 4d4	
 
 
-
-
+If an individual is healed by any combination of Regen-Stims and/or the Combat Regeneration Technique more than once a day, they 
+receive an amount Stress equal to 6 minus their Tenacity each time they are healed after the first.
 
 
 

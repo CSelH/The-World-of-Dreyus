@@ -11,14 +11,15 @@ TODO
 5. Statuses - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
 
 6. Ability System - REVIEW READY
-6a. Ability List - TODO
+6a. Primary Ability List - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
+6b. Secondary Ability List - Needs only Ecology Secondaries
 
 7. Item System - REVIEW READY
 7a. Item Details - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
 
 
-8. Class System - TODO
+8. Class System - In progress
 
-9. Character Creation - TODO
+9. Character Creation - Review ready
 
 10. Character Progression - TODO

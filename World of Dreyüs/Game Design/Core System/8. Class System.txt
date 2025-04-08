@@ -1,0 +1,12 @@
+There a four classes a player may choose between when creating a character. These classes mostly determine what Attributes and 
+Abilities a character starts with, and somewhat affect a character's progression, such as access to class-restricted Abilities.
+
+The four classes represent archetypes of the kinds of individuals who serve on sky-ship crews, and are sometimes referred to in world
+by these names in a way similiar to a job title. These classes essentially represent a training background possessed by the character
+before the tale begins. While certain commonalities will exist between individuals that share a particular class, individuals are 
+free to pursue a wide variety advancements as they see fit. A Lancer might have incredible medical knowledge, a Marksman could be a 
+proficient Hand-to-Hand fighter, a Battletech might be a renowed fencing master, and an Expert might even happen to be crack shot.
+
+
+The following section provides general descriptions of each class and their typical playstyles and characteristics. 
+The later section on character creation contains the exact rules describing the starting benefits of each class.

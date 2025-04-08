@@ -11,21 +11,19 @@ Kinesiology (Evade)
 Navigation
 Subtlety
 Ecology
-Warfare?? (group fighting)
+Warfare
 
 
 Secondary:
 
-Marskmanship - Sniping (CR), Gunslinging (CR)
-Melee Weapons - Swashbuckling (CR), Brawling (CR)
-Hand-to-Hand - Grappling (??), Striking (??), Defending (??)
-Engineering - m-fab:thermal, explosive, repair, ???. Repair, Salvage, Fabrication
-Medicine - m-fab:healing, poison. surgery? psychology cross with Communication? natural medicine cross with ecology?
-Communication - Deceit, Persuasion, Imperative, Performance, Literature, ???
-Navigation - Vehicles, Cartography, Astronomy, Meteorology, Aerodynamics (split with engi)
-Subtlety - locksmithing (or w/ Engi), trapping, sneaking/surprise attacking, misdirection
+Marskmanship - Sniper, Gunslinging, Heavy Weapons Expert
+Melee Weapons - Swashbuckler, Brawler, Manipulative Duelist
+Hand-to-Hand - Conditioned Fighter, Masterful Discipline
+Engineering - Microfabricator-Weapon Integration, Microfabricator Advanced Cooling System, Fabrication, Scavcycling, Combat Mechanic,
+	Armorer, Explosives, Thermals, Digital Technician
+Medicine - Microfabricator Physician, Surgeon, Psychologist, Anaesthesiologist, Toxicology
+Communication - Deceit, Persuasion, Imperative, Performance, Literacy
+Navigation - Piloting, Cartography, Astronomy, Meteorology, Vehicle Construction (split with engi)
+Subtlety - locksmithing (or w/ Engi), trapper, Assassination, misdirection
 Ecology -  Zoology, Entomology, Botany, Mycology, Microbiology (or w/ medicine), anthropology (or w/ communication)
-Warfare - small unit tactics, campaign strategy, battlefield tactics, sky-sailing tactics, logistics and supply (or w/ Navigation)
-
-Consider having option to take some secondaries as independent primaries instead
-Also, some secondaries could have an OR primary requirement e.g. Aerodynamics as Engineering OR Navigation. 
+Warfare - small unit tactics, vehicle officer, logistics and supply (or w/ Navigation)

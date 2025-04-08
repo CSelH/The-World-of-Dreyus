@@ -16,4 +16,17 @@ That should led to method of cost determination for smaller objects and other ve
 
 
 
-
+\\\\\\\\\\\\
+M-fab abilities:
+- shoot (basic attack)
+- temp armor
+- upgraded shoot
+- grenade/aoe attack
+- burn (DoT)
+- freeze (causes injures)
+- healing (uses Medicine)
+- anaesthesiologist (uses Medicine, reduces stress on allies, inflicts weak Unconcious to enemies)
+- offensive pharmacology (uses Medicine, stress attack, temp debuffs?)
+- enhancement pharmacology (uses Medicine, buff allies/temp alleviate statuses?, causes stress/has tradeoff?)
+???
+\\\\\\\\\\\\\\

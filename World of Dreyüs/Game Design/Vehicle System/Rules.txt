@@ -252,6 +252,16 @@ Movement:
 			(Note: Downwind and Windward movement cannot reduce a vehicle's speed below 1 m/s.)
 			(Additional Note: similiar to Wind Intensity, if an altitude change is made as part of a movement, the inital
 				Direction relative to the wind is used to determine possible speed.)
+		Wind intensity and Direction can vary depending on altitude. In lieu of definite measurements of altitude using
+			distance from the surface, instead stratified Altitude Levels are used to describe altitude, similiar to the
+			ascending floors of a building. Altitude Level 1 is the airspace directly above and including the surface,
+			and each Altitude Level above 1 representing a significant increase in altitude.
+		Characters automatically know the Wind Intesity and Direction for their location at their current Altitude Level.
+			Characters can make a Navigation Roll (Acuity) to determine the wind conditions for an Altitude Level above 
+			or below them. The Threshold for this roll is equal to 3 plus the number of Altitude Levels that the target
+			Altitude Level is above or below your current Altitude Level (e.g. if you are on Altitude Level 2 the 
+			Threshold to determine wind conditions at Altitude Level 4 would be 5, since Altitude Level 4 is 2 levels 
+			above Altitude Level 2, making the Threshold equal to 3 + 2). 
 
 		
 		All together, a vehicle's movement is determined using the following process:
