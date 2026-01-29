@@ -1,0 +1,25 @@
+Core System Overview
+
+TODO
+
+2. Dice System - Review Ready
+
+3. Open Roleplay, Turn Economy, and Actions - Review Ready (PENDING: Open Roleplay Tutorial)
+
+4. Attributes & Derives Stats - REVIEW READY
+
+5. Statuses - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
+
+6. Ability System - REVIEW READY
+6a. Primary Ability List - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
+6b. Secondary Ability List - REVIEW READY
+
+7. Item System - REVIEW READY
+7a. Item Details - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
+
+
+8. Class System - In progress
+
+9. Character Creation - Review ready
+
+10. Character Progression - TODO

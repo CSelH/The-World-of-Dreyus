@@ -1,0 +1,804 @@
+Vehicle System ---- Primary Document
+
+Vehicle Actions - REVIEW READY
+
+Vehicle Status - REVIEW READY
+
+Movement - REVIEW READY
+
+Attacks - REVIEW READY
+
+Vehicle Roles - REVIEW READY
+
+Sky-ship Attributes - REVIEW READY
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Vehicle Actions - 
+	Individuals can spend AP while crewing a vehicle to take various Vehicle Actions.
+
+	Unless stated otherwise, individuals can typically only take one Vehicle Action per round.
+
+	Vehicle Actions can result in the vehicle moving, attacking, or performing some other function.
+	
+	Rolls for Vehicle Actions resolve in three ways: Excellent, Inadequate, or Failure.
+		
+		-> Failure occurs when at least half of all dice rolled for a Vehicle Action roll a "1". If this happens, 
+			the vehicle does not perform its action at all or performs the action incorrectly in a non-beneficial way.
+		
+		-> Inadequate occurs when no dice meet or exceed the threshold of the roll.
+			The vehicle will either perform its action poorly, or performed incompletely.
+		
+		-> Excellent occurs when the threshold for the roll is met, and a Failure does not occur.
+			The vehicle will perform the action correctly and to its best capability.
+
+	Cooperative Rolls - Sometimes, particularly on Sky-ships, multiple individuals will make rolls to contribute to a 
+		Vehicle Action.
+			
+		This most often occurs with Navigation Rolls, but can occur elsewhere, such as when multiple Engineers make
+			Repair Rolls.
+			
+		When performing Cooperative Rolls all individuals must meet the threshold on their roles in order to achieve
+			Excellent. 
+			
+		However, if an individual succeeds with multiple dice, they may choose one partner from the roll and have
+			that partner's roll be considered successful as well. An individual may only do this for one partner
+			at a time.    
+		
+		All individuals rolling as part of cooperative roll have their rolled 1's counted collectively and 
+				compared against the total dice rolled in order to determine if it is a Failure instead. 
+		
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Vehicle Status
+	
+	Describe the general conditions of a vehicle. Such as its Ship Health and Systems, and the various statuses they can be in.
+
+	Vehicles are not monolithic objects, instead they are comprised of a various systems that may work either independently from 
+		or in coordination with other systems.
+	
+	To reflect this, the various systems and components of a vehicle can be affected whenever it takes significant Damage.
+		Attacks against vehicles can target specific areas and systems of the vehicle, depending on the situation.
+		Attacking is explained in more detail later in the "Attacks" section.
+		For now it is enough to understand that Attacks may target specific systems, if reasonable, or may target the vehicle
+			generally, in which case the GM will determine what, if any, systems are affected. 
+
+	There are three statuses a vehicle and its systems may have: 
+		
+		Functioning - The vehicle or system is working normally. 
+			This is base state where no penalties occur. 
+		
+		Critical - The vehicle or system is significantly damaged, incurring a penalty to use.
+			When a system becomes Critical, all rolls to use that system have their Potential reduced by half.
+			If every system in a vehicle is currently Critical or Disabled, the vehicle itself can be called Critical.
+		
+		Disabled - The vehicle or system is heavily damaged, being unable to be used and requiring significant repair.
+			If a system is Disabled it cannot be used again until an Engineer makes Repairs.
+			If every system in a vehicle is currently Disabled, the vehicle itself can be called Disabled.
+			Disabled vehicles are completely inoperable, and likely face imminent destruction, particularly if
+				flying at high altitude.
+			Vehicles that are Disabled can be returned to service after significant Repairs, but only if the vehicle
+				is recoverable and was not completely destroyed. 
+
+		Note: The Critical status can be removed during combat via the System Stabilization action, however the Repairs 
+			action required to lower the vehicle's Damage value and remove the Disabled status normally cannot be 
+			performed during combat. 
+			
+			Systems restored from Critical to Functioning via System Stabilization can become Critical again later.
+			
+			The System Stabilization and Repairs actions are explained in greater detail in
+			the "Vehicle Roles" section. 
+	
+	
+	All vehicle's have their own Health value, with successful incoming attacks increasing the vehicle's Damage value.
+	
+	The vehicle's overall state is represented by the amount of Damage it has taken in comparison to its Health.
+	Additionally, whenever Damage is increased, the value is compared to the vehicle's Health to determine if any status changes
+		occur.
+
+	1. If a single attack causes the vehicle's Damage to increase by a value equal to at least half of the vehicle's Health, 
+		then the targeted system becomes Critical. If no system was targeted, the GM decides what system becomes Critical.
+	
+	2. If a single attack causes the vehicle's Damage to increase by a value equal to or higher than the vehicle's Health,
+		then the targeted system becomes Disabled. If no system was targeted, the GM decides what system becomes Disabled.
+	
+	3. If a vehicle's Damage increases and the resulting total is equal to or higher than the vehicle's Health, then one quarter
+		of all the vehicle's systems become Critical. If the attack targeted a specific system, then that system is always
+		one of the systems that becomes Critical, unless it was already affected by that status. The GM decides which of the
+		other systems becomes Critical. 
+	
+	4. If a vehicle's Damage increases and the resulting total is equal to or higher than twice the vehicle's Health, then one
+		quarter of all the vehicle's systems become Disabled. If the attack targeted a specific system, then that system is 
+		always one of the systems that becomes Disabled, unless it was already affected by that status. Otherwise, systems
+		that are already Critical should be the first to become Disabled. The GM decides which of the other systems becomes
+		Disabled.
+	
+	If a single attack causes situation 1 or 2 to occur at the same as situation 3 or 4, then the attacked system becomes 
+		Critical or Disabled AND a quarter of the vehicle's systems become Critical or Disabled in addition.
+	In other words, a powerful attack might affect one specific system in addition to a quarter of the vehicle's systems.
+
+	Note for GMs: in situations where players don't specificy a targeted system, or when systems besides the targeted one are
+		affected, you are free to determine what systems are affected in whatever way you choose.
+		
+		You may decide to have the affected systems be based simply off of what feels correct for the roleplaying and 
+			storytelling of the scenario, or you may roll and allow the dice to decide, or formulate so other method.
+
+	
+	To summarize, Functioning systems can become Critical or Disabled when a vehicle takes Damage.
+		Critical systems can still be used at a penalty, and can be restored during combat.
+		Disabled systems cannot be used, and typically cannot be restored during combat.
+		Finally, if all of vehicle's systems are Disabled, then that vehicle is Disabled and currently completely inoperable.  	
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+Movement: 
+	All vehicles require an individual to roll to determine the quality of the vehicle's movement.
+
+
+	Terrestial Vechicles
+		These are vehicles that are propelled by interacting with the ground directly, such as with wheels or tracks.
+		This contrasts with grounded wind-driven vehicles, which use the wind for propulsion, despite not truly flying.
+		
+		These are typically driven by one character directly as the Pilot Role. 
+		Normally these vehicles require the Pilot to make a Driving(Finesse + Acuity) roll.
+			The threshold for these rolls is determined by the Vehicle's base Handling plus the Terrain Difficulty.
+				Handling is a Vehicle Attribute represented as an integer value of 1 or greater, 
+					it describes the general difficulty of controlling the vehicle.
+				Terrain Difficulty, also represented as an integer value or 0,
+					describes the ease of maneuvering a vehicle through a given area.
+						Examples:
+							Paved Surface 	- 0
+							Unpaved Road 	- 1
+							Loose Dirt/Sand - 2
+							Shallow Mud 	- 3
+							Deep Dirt/Sand 	- 4
+							Deep Mud	- 5
+							Steep Slope	- +2 (Added modifier to base Terrain Difficulty)
+							(Note: it is possible for certain Handling + TD combinations to create values
+								great than 12, making the manuever impossible to perform with an
+								Excellent result. The roll may still be attempted, but the best 
+								possible result is instead simply Inadequate.)
+		These vehicles have a Land Speed, which describes their maximum movement distance.
+			The quality of the roll's result (Excellent, Inadequate, Failure) interact with Land Speed to determine 
+				the acutal distance travelled as the result of the roll.
+					Excellent 	- Full Land Speed
+					Inadequate	- Movement Penalty (Half Speed?)
+					Failure		- No movement at all, minimal movement, or catastrophy
+						(Note: Failure on rolls when the vehicle is already moving at speed from a previous 
+							turn might cause the vehicle to crash or otherwise go out of control.)
+	
+
+	Wind-driven Vehicles
+		These are vehicles that are propelled by natural wind currents, with or without other sources of propulsion.
+		The most iconic of this class of vehicles would by the Sky-sailing Ships in all their various forms,
+			however many other sorts of vehicles exist in this class, such as sail-boards, sea-sailing ships, and 
+			other surface-based craft that use weak LDs to hover a small distance above the ground or water.
+		
+
+		Depending on the vehicle, the Pilot, Helmsman, and/or Navigator Roles are used to control movement.
+			Large, fully-crewed Sky-sailing Ships may even require a Helmsman, Navigator, and Engineer all working 
+			together in order to achieve optimal movement.
+		
+
+
+		Nearly all vehicles in this class utilize Navigation rolls for their movement, however the number of such rolls,
+			as well as the Attributes used for the roll, can vary between vehicles and related roles. 
+			Typically these will nearly always involve Acuity, either alone or split with another Attribute.
+		
+		Typically the Navigational Difficulty (ND), which describes the difficulty of guiding the vehicle, is used to 
+			determine the threshold for Navigation rolls to move the vehicle.
+		Navigational Difficulty varies for each vehicle, with a seperate value for each relative Direction.
+		Besides ND, Lift-Drive Class (LDC) is the other Vehicle Attribute that affects the threshold for movement rolls, 
+			it is added to Navigational Difficulty whenever altitude changes are made as part of a unified movement roll. 
+		If an Engineer is handling the altitude change independently, the threshold for their roll is 4 + Lift-Drive Class.
+			
+
+	
+		
+		While the maximum achievable speed is determined by the combination of the Vehicle's Speed, its Direction of travel 
+			relative to the wind, and the Wind Intensity, the quality of the result of the roll determines how much of
+			that potential speed is actually achieved.
+				Excellent	- Full Speed
+				Inadequate	- Half Speed (Note: If this would result in < 1 m/s, the vehicle does not move.)
+				Failure		- No movement at all or incorrect movement, and catastrophy (possibly turn penalty)		
+
+		These vehicles will have a surface-speed and/or sky-speed (depending on the vehicle) that describes their maximum
+			movement distance under ideal conditions (i.e. Reaching during Strong Winds)
+			Surface-speed and/or Sky-speed are listed in a vehicle's description.
+			These values are used as the base value when deriving the actual movement speed of the vehicle for a round.
+				Wind Intensity subtracts from this base value, limiting the maximum speed of the vehicle.
+				Direction of travel determines what percentage of that adjusted value is achievable. 
+		
+	
+
+
+		Wind Intensity describes the general strength of the wind along its direction of travel.
+			Wind Intensity is described as either Strong, Normal, Weak, or Calm (no wind).
+			(Note: these general descriptions are used in lieu of exact wind speeds for simplicity.)
+				Strong Winds are the most intense. While they do allow for the greatest speed, they frequently 
+					acompany storms and other unsafe conditions.
+				Normal Winds are moderate intensity. Little danger is associated with this intensity, 
+					however vehicles cannot achieve their true maximum speed under these conditions.
+				Weak Winds are low intensity. While completely non-threatening, vehicles' max speed is further
+					reduced at this intensity.
+				Still Winds are non-intensive, being essentially of negligible speed. Vehicles will either be unable
+					to move, or only drift slowly.
+	
+		Wind Intensity affects the maximum speed of a vehicle in the following ways:
+			Strong - Full Speed
+			Normal - -5 m/s
+			Weak   - -10 m/s
+			Calmed - Max speed = 1 m/s
+			
+			At the surface, Normal and Weak winds only reduce maximum speed by 2 m/s and 5 m/s, respectively.
+		
+			(Note: Normal and Weak winds cannot reduce a vehicle's speed below 1 m/s.)
+			(Additional Note: if an altitude change is made as part of a movement, the Wind Intensity of the initial
+				position is used to determine possible speed.)
+	
+
+	
+
+
+		Direction - wind-driven vehicles have three directions of lateral movement relative to the wind.
+			These are Reaching, Downwind, and Windward.
+			Reaching is movement that is roughly perpendicular to the wind's direction.
+			Downwind is movement along the wind's direction.
+			Windward is movemnt against the wind's direction.
+				(Note: For simplicity, tacking is performed automatically for Windward movement, and does not 
+					require the players to calculate or describe a true-to-life course. In other words, Players
+					can consider Windward movement as a straight line and describe it as such, with the 
+					understanding that characters in-world are utilizing realistic techniques, and are not
+					defying the laws of physics insofar as sailing techniques are concerned.) 
+
+		The direction of travel relative to the wind's direction affects the actual travelling speed of the vehicle.
+			Reaching movement allows for the maximum possible speed in the given Wind Intensity.
+			Downwind movement restricts a vehicle to 75% of its maximum possible speed in the given Wind Intensity.
+			Windward movements restricts a vehicle to 50% of its maximum possible speed in the given Wind Intensity.
+			(Note: Downwind and Windward movement cannot reduce a vehicle's speed below 1 m/s.)
+			(Additional Note: similiar to Wind Intensity, if an altitude change is made as part of a movement, the inital
+				Direction relative to the wind is used to determine possible speed.)
+
+
+
+
+		Wind intensity and Direction can vary depending on altitude. In lieu of definite measurements of altitude using
+			distance from the surface, instead stratified Altitude Levels are used to describe altitude, similiar to the
+			ascending floors of a building. Altitude Level 1 is the airspace directly above and including the surface,
+			and each Altitude Level above 1 representing a significant increase in altitude.
+
+		Characters automatically know the Wind Intesity and Direction for their location at their current Altitude Level.
+			Characters can make a Navigation Roll (Acuity) to determine the wind conditions for an Altitude Level above 
+			or below them. The Threshold for this roll is equal to 3 plus the number of Altitude Levels that the target
+			Altitude Level is above or below your current Altitude Level (e.g. if you are on Altitude Level 2 the 
+			Threshold to determine wind conditions at Altitude Level 4 would be 5, since Altitude Level 4 is 2 levels 
+			above Altitude Level 2, making the Threshold equal to 3 + 2). 
+
+		
+
+		All together, a vehicle's movement is determined using the following process:
+			A crew member, typically the Navigator, decides the intended course. 
+			Once the Direction is determined (Reaching, Downwind, Windward), and whether or not an altitude change is 
+				desired, the roll threshold is set based on the vehicle's Navigational Difficulty for that direction
+				and/or the Lift-Drive Class.
+				(Note: Depending on the how responsibilities are divided, different Crew Roles may have different
+					thresholds for the same movement roll. This is most notable whenever a crew is using a 
+					Navigator, Helmsman, and Engineer in cooperation. This is explained in detail in the 
+					Crew Roles segment.)
+
+			Starting from the vehicle's relevant speed (surface or sky), first any reduction from Wind Intensity 
+				is applied, if appropriate. Then, any reduction due to Direction is applied, rounded down to the 
+				nearest whole number if necessary. The resulting value is the vehicle's maximum speed for that round. 
+			After the threshold and speed is determined, all relevant rolls are made and the quality of the result is
+				revealed. 
+				If the result was Excellent, the vehicle moves at 100% of the determined speed.
+				If it was Inadequate, the vehicle suffers a 50% reduction to the determined speed, rounded down, 
+					if this goes below 1 m/s, the vehicle doesn't move, but is otherwise uninhibited.
+				If it was a Failure, the vehicle doesn't move at all or moves in a way that is harmful to the crew's
+					efforts, and suffers from some catastrophy that requires one or more crew members to take
+					corrective actions before full control of the vehicle is regained. 
+
+		A few specific examples to demonstrate the process:
+			
+			The Navigator of a 3-masted Full-rigged sky-ship of average width (in this case also equipped with automated
+				rigging and a Lift-Drive class of Normal) sets a Reaching course in Strong Winds, 
+				along with an altitude change. (Note: the ship is already at altitude, rather than the surface.)
+			This ship requires the Navigator, Helmsman, and Engineer to make seperate rolls in cooperation.
+				The Navigator's roll is Navigation (Acuity + Memory), with a threshold equal to the Reaching ND for 
+					this ship (7).
+				The Helmsman's roll is Navigation (Acuity), with the same threshold as the Navigator's roll.
+				The Engineer's roll is Navigation (Acuity + Memory), with a threshold equal to 4 plus the modifier 
+					from the ship's Lift-Drive Class (+0 for a LDC of Normal, so the threshold in this case is
+					simply 4).
+			This ship's sky speed is 15 m/s, the winds are Strong (no reduction), and the ship is reaching (no reduction).
+				So the ship's maximum speed for this round is the full 15 m/s. 
+			The Navigator, Helmsman, and Engineer all roll, each manage to meet or beat the threshold, and the total 
+				amount of 1's rolled is less than half the total amount of dice rolled. 
+				With these rolls, the result of the overall Cooperative Roll is Excellent, and thus the ship moves
+					at 15 m/s in the desired direction while making the desired altitude change.
+			(Note: any Failures or Inadequecies from some, but not all, of the involved crew leaves the exact nature of 
+				the outcome to the GM, however it's recommended to associate the result with the aspect of the roll
+				that was unsuccessful. E.g. a failed Engineer roll might cause the craft to simply not change 
+				altitude, or change in the wrong direction, or a failed Navigator's roll might incur the movement
+				speed penalty, but not affect the altitude change.)
+
+			
+			A Lancer operating a Lancer Sail-Board decides to move Windward while the Wind Intensity is Normal. 
+				(Note: altitude changes do not affect the roll for these craft).
+			The Lancer's roll is Navigation (Finesse + Acuity), and the threshold is the ND of this craft, in this
+				case we'll say it is 4.
+			This Sail-Board's Sky-Speed is 30 m/s, reduced by 5 m/s down to 25 m/s due to Normal Wind Intensity, and the 
+				Direction is Windward, so the 25 m/s is reduced by 50%, rounded down, for a result of 12 m/s.
+				So the craft's maximum speed for this round is 12 m/s.
+			The Lancer rolls and does not meet or beat the threshold of 4, but less than half of the dice rolled are 1's,
+				so the result of the roll is just Inadequate.
+			The Inadequate result applies another 50% reduction to the 12 m/s speed, down to merely 6 m/s. However the 
+				movement does still occur since the final speed speed is not < 1 m/s.
+			The action resolves, and the craft moves 6 m/s along the desired course.
+
+
+
+			The lone Navigator of an average width Cutter sky-ship equipped with a High Power Lift-Drive sets a 
+				Downwind course with an altitude change during Weak Winds.
+			The Navigator's roll is Navigation (Acuity + Memory), with a threshold equal to the ship's Downwind ND, 
+				plus the Lift-Drive Class Modifier. This threshold is used because the Navigator is handling the 
+				altitude change, rather than delegating the task to a dedicated Engineer.
+				So, the threshold for this roll is 2 (3 *Downwind ND* + -1 *High Power Lift-Drive Class* = 2 )
+			The Cutter's Sky-Speed is 20 m/s, Weak Winds reduce this by 10 m/s, then the Downwind penalty is applied,
+				rounded down, bringing the speed to 7 m/s ( 20 - 10 = 10, 10 x .75 = 7.5, round down to 7).
+				So the ship's maximum speed for this round is 7 m/s.
+			The Navigator rolls, and half of the dice rolled are 1's, so the result of the roll is a Failure, regardless
+				of if any other dice meet or beat the threshold. 
+			The action resolves, and the GM decides that the Navigator's Failure manifests as the character having
+				mishandled the controls, leading to the rigging becoming tangled before the Navigator could get
+				the ship to move. Thus the ship fails to move at all, due to the Navigator halting the process in 
+				order to begin to untangle the rigging. The GM determines that the untangling process will take the 
+				crew 1 round to complete, resulting in the ship being unable to utilize the wind until a round is 
+				spent fixing the problem. (Note: this exact situation, as formulated by the theoretical GM, would 
+				still allow the ship to change altitude. The GM is free to determine to what exact extent a 
+				Failure will inhibit the Players, but GM's are encouraged to avoid multiple-round penalties unless 
+				it seems appopriate for the circumstances.)
+
+
+		Alternatively, the order of operations performed for movements can be changed slightly if desired, so long as it is
+			not done in a way that provides the Players any undue insight or unfair meta-gaming. Changes to this order 
+			should only be made out of personal preference or for ease of use, and never to gain any mechanical advantage.
+
+			For instance, Players might calculate the potential speed for all 3 directions before deciding which one 
+				to attempt. In fact, Players dedicated to being Navigators might keep a chart of the exact potential
+				speed of their ship for every combination of Wind Intensity and Direction, though this is not
+				a requirement.
+			Or, dice rolls might be made immediately after determining the thresholds, and then calculating the potential
+				speed of the movement before applying the result of the roll. 
+			
+		Regardless, rolls should NEVER be revealed before determining the direction or the threshold of the roll. 
+			Players might roll preemptively if the course of action was previously agreed upon, but knowledge of the roll
+			result should not be used to incentivize any change to the actions being taken. (I.e. don't meta-game rolls).
+		Likewise, calculating speed should always take the following order:
+			Vehicle Speed -> Wind Intensity -> Direction Penalty -> Roll Result
+			Performing this operation in any other order could result in unintended outcomes. 
+			
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Attacks: 
+	
+
+	Attacks from vehicles are generally similiar to attacks made from individuals on foot.
+	
+	First, as when making regular attacks, an attacker determines the size of the dice they will roll and the maximum number of 
+		dice they may throw.
+		Size is determined by the user's Level in the relevant Ability.
+		Quantity is determined by their Potential for the roll, derived from the Attributes used from the roll, as well as
+			any Bonus Potential provided by the Force of the vehicle's weapons.
+			
+	After choosing how many dice to roll, the attacker rolls those dice.
+	
+	Unlike regular attacks, vehicle attacks, like other vehicle rolls, suffer a Failure if at least half of the dice 
+		rolled land on a "1". 
+	
+	If the result of the roll is a Failure, the attack cannot hit even if other dice rolled at or over the target's defense.
+		Additionally, at the GM's discretion, a Failure can be accompanied other negative consequences, such as the attack
+			hitting an unintended target instead or the weapons malfunctioning and requiring time and/or effort to reset.
+			(Note: GM's are heavily encouraged to be dynamic with the consequences of Failures, and make use of them 
+				as storytelling tools that can be adapted to the situation at hand.)
+			(Suggestion: if you desire a standard or default consequence for a Failure from a Vehicle Attack, you
+				may simply have the weapon system have a "Malfunction" and become Critical status requiring a 
+				System Stabilization roll with a threshold for the roll equal to either 3 or twice the Force from the 
+				relevant vehicle weapon, whichever is higher.)
+
+	If the result of the roll is Inadequate, where no dice met or exceeded the target's defense but a Failure did not occur,
+		then the attack either hits for no damage or misses entirely, but without other negative consequences.
+
+	If the result of the roll is Excellent, then the attack succeeds and the target takes damage equal to the value of the 
+		successful dice that met or exceeded the target's Defense.
+
+	Whenever a vehicle is targeted, the affected systems of the ship should be relevant to the area of the vehicle that is being
+		hit. 
+	An attacker might attmept to target specific areas of another vehicle for this reason, if possible, although the viability 
+		of certain targets might be limited by the attacker's weapon.
+		For instance, while a sky-sailing ships gundecks can target any area they can see with relative ease, a Lancer 
+			attempting to attack above the main deck of an enemy ship might find themselves more vulnerable to 
+			attacks from that ships crew.
+		In general, the potential consequences of the situation created by an attempted attack should be consider by the GM
+			and the player, and allow that to guide both the roleplay and the mechanical gameplay, affecting what might
+			happen as the result of Failures from the attack or how player characters or enemies might respond to 
+			particular assaults.  
+	
+	Note regarding vehicles being attacked:
+	Attacks from individuals on foot deal 1/4 the value of successful dice, rounded down (minimun of 1) when targeting vehicles,
+		unless with attacking with a weapon that states otherwise.
+	
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Vehicle Roles:
+	
+	Vehicle Roles are in essence the "jobs" that player characters or npcs can perform in order to crew a vehicle.
+	A vehicle description will have a list of its required Roles, and may include optional or unique Roles for that vehicle there
+		as well.
+	Roles, unlike Classes, are not set or permanent in any way. As long as a character meets the requirements to perform the
+		Role, they may act in that Role as a crew member of a vehicle.
+	 Different vehicles may have different requirements as a minumun to perform a particular Role on that craft, and occasionally
+		Roles maybe restricted to particular Classes, with characters of incorrect class being heavily penalized if 
+		attempting to perform that Role. The most notable example of this is the Lancer Role, which is uniquely restricted 
+		to the Lancer Class, for the Lancer Craft. Other classes could attempt to perform in the Lancer Role, but are heavily
+		penalized when attempting to manuever in combat or attack. 
+		(Note: other classes can instead use the Pilot Role to manuever Lancer Craft, but are entirely prevented 
+			from attacking when doing so.)
+	Switching from one Role to another while crewing a vehicle typically requires a regular Action and the expense of some AP.
+		Depending on the difficulty of the transition, the GM may require more than one Action Point to make the change, or
+			even require a dice roll.
+
+ 
+
+	Engineer - Manages craft's technological systems.
+		Typical Rolls:
+			
+			Altitude Change - On Size Class Medium and larger sky-ships an Engineer must make a 
+				Navigation Roll (Acuity + Memory) seperate from the Navigator's and/or Helmsman's Navigation Rolls
+				when the ship is changing altitude. The threshold for this roll is 4 plus the modifier from 
+				the ship's Lift-Drive Class.
+			
+			System Stabilization - When a vehicle's systems become Critical, an Engineer can make an 
+				Engineering Roll (Acuity + Memory) to attempt damage control and stabilize a Critical system. 
+				This removes the Critical status and it's associated penalties, returning the system to
+					the Functioning status. 
+				The target threshold hold for this roll is based off the vehicle's Size Class.
+				The following table shows the target thresholds used when rolling for this feature:
+					--------------------------------
+					- Size Class| Target Threshold -
+					------------|-------------------    
+					-   Small   |        3	       -
+					-   Medium  |        4         -
+     					-   Large   |        5         -
+    					-   Huge    |        6         -
+					--------------------------------
+			
+	
+			
+			Repairs - Outside of Combat, Engineers can lead the effort to repair a vehicle, lowering its Damage value.
+				This roll can be made once per day, and the work associated with the roll occupies that day. 
+				Engineers must have access to appropriate materials. The roll is affected by the number of
+				individuals assisting in repairs.
+					
+					If the Engineer is alone, the roll is Engineering (Acuity + Memory), 
+						but suffers from -2 Potential for the roll. (Potential cannot be reduced below 1.)
+					
+					If the Engineer has one assistant, the roll is Engineering (Acuity + Memory), 
+						but suffers from -1 Potential for the roll. (Potential cannot be reduced below 1.)
+					
+					If the Engineer is leading 2 or 3 others, the roll is Engineering (Acuity + Memory).
+					
+					If the Engineer is leading at least 4 others, the roll is Engineering (Charm + Memory),
+						and gains a bonus to Potential for the roll equal to half the number of assistants.
+				
+				The threshold for this roll is always 6, and the Damaged reduced is equal to the combined value of
+					successful dice.
+				Whenever the vehicle's Damage is reduced below twice its Health value, all Disabled systems become
+					Critical instead.
+				Whener the vehicle's Damage is reduced below its Health value, all Critical systems become 
+					Functioning instead.
+
+	
+
+	Gunner/Gunnery Officer - Operates a craft's guns or directs Auxillary Crew in their use.
+		
+		Gunnery Rolls when the Gunner operates guns directly themself are Marksmanship (Acuity) Rolls.
+			Note: this can be when the craft only has a single weapon, when a craft has fully automated gunnery, 
+				or when their is insufficient crew to man a ship's gundecks.
+		
+		Gunnery Rolls when a Gunnery Officer directs crew members use of guns are Marksmanship (Acuity + Charm) Rolls.
+			Note: only the Gunnery Officer needs to roll when these attacks are made.
+		
+		Typical Rolls:
+			
+			Shoot - Gunner attacks with the weapon system of the craft. Always a Marksmanship (Acuity) Roll.
+				Note: This is the typical action when the craft possess a singular primary projectile weapon.
+			
+			Broadside Volley - Gunner or Gunnery Officer attacks with the broadside weapons to the port or starboard side.
+				Receives bonus Potential equal to the ship's Broadside Power.
+			
+			Chaser Volley - Gunner or Gunnery Officer attacks with the chaser weapons in the ship's fore or aft direction.  
+				Receives bonus Potential equal to the ship's Chaser Power.
+	
+	
+
+	Helmsman - Operates the helm of a ship and directs the Rigging Crew, or operates the automated rigging system.
+		
+		The Helmsman is only a required role on ships with at least 3 masts. However, a Helmsman can be used seperately from
+			a Navigator on smaller craft if there is enough crew members.
+		
+		A Helmsman can make Navigation (Acuity) Rolls to set a craft's course.
+		
+		On Size Class: Small ships, the Helmsman can combine the Engineer's roll for altitude changes into their own
+			Navigation roll instead of the Navigator or Engineer. 
+			The threshold for this roll is Navigational Difficulty plus Lift-Drive Class modifier.
+				(ND + LD Class)
+		
+		If a Helmsman must direct a manual rigging crew as part of the action, their roll becomes Navigation (Acuity + Charm).
+		
+
+
+	Lancer - Operates a Lancer craft deployed at altitude from a Lancer Bay on a sky-ships.
+		
+		Only applicable when a sail-board is outfitted as a Lancer craft, otherwise the Pilot role is used instead.
+		
+		Lancers can always make a Vehicle Movement Action and some kind of Attack Action each round while on their craft.
+
+		Typical Rolls:
+			
+			-> Movement: Navigation (Finesse + Acuity) Roll. Threshold is equal to Navigational Difficulty.
+
+			-> Lance Attack: Melee Weapon (Acuity + Power) Roll to attack another craft with the mounted explosive
+				lance. Threshold is target craft's Defense.
+
+			-> Small Arms Attack: Melee Weapon (Finesse + Power) or Marksmanship (Finesse + Acuity) roll to attack with
+				a handheld weapon while moving with the craft. Counts as a on-foot attack rather than a vehicle one.
+				Typically used to target other individual Lancers directly mid-air.
+
+
+
+	Navigator - Determines the course a craft should take to reach its desired destination.
+		
+		Required Role on most wind-driven craft.
+
+		Makes Navigation (Acuity + Memory) Rolls to set a craft's course, determining the craft's movement. 
+			The threshold for this roll is the Navigational Difficulty for the course's direction.
+
+		On craft that do not require seperate rolls from the Engineer for altitude changes, the Navigator can incorporate
+			that roll into their primary Navigation roll to make them one combined roll.
+			The threshold for this roll is Navigational Difficulty plus Lift-Drive Class modifier.
+				(ND + LD Class)
+
+		On craft with less than 3 masts the Nagivator can both determine the course of the ship while handling the ship's
+			controls and directing the rigging crew, if any. 
+			This roll is the normal Navigation (Acuity + Memory) Roll, unless interacting with a riging crew.
+			If directing a rigging crew, the roll becomes Navigation (Acuity + Charm).	
+
+
+
+	Pilot - Similiar to a Navigator or Helmsman, this role primarily directs the movement of a craft, but may also perform
+			other rolls depending on the craft.
+		
+		Most commonly used for terrestial vehicles, or one-person wind-driven vehicles such as sail-boards.
+		
+		Typical Rolls:
+		
+			-> Movement: Vehicle-Dependent roll to move a vehicle or set its course.
+				Threshold varies by vehicle type.
+				Ability and Attribute requirement varies by vehicle.
+					E.g. Driving (Finesse + Acuity) Rolls for wheeled vehicles, or
+						Navigation (Finesse + Acuity) Rolls for sail-boards, or
+						Navigation (Acuity + Memory) Rolls for other one-person wind-driven craft.
+		
+			-> Attack: Attack with vehicle-mounted weapon or handheld weapons.
+				Threshold is target's Defense. 
+				Ability and Attribute requirement varies for vehicle and weapon type.
+				Attacks made from a vehicle with handheld weapons count as on-foot attacks rather than vehicle ones.
+		
+
+
+Auxillary Vehicle Roles:
+
+	Gunnery Crew - Operates Manual Gundecks on sky-ships as Auxillary Crew Members.
+		
+		Gunnery Rolls made when interacting with Gunnery Crews become Marksmanship (Acuity + Charm) Rolls.
+			
+			(Note: if their is insufficient auxillary crew for Manual Gunnery, PC's can only
+				use half their Acuity, rounded down, as Potential for Attacks with the ship. 
+				You recieve half the total bonus Potential from Broadside or Chase Power, rounded down.
+				You can only roll 1 dice for bonus damage from the ship's Gun Class.
+				Bonus Damage dealt from Gun Class is reduced to half the amount rolled, rounded down.)
+
+
+
+	Rigging Crew - Operates Manual Rigging on sky-ships Auxillary Crew Members.
+			
+		Navigation Rolls made when interacting with Rigging Crews becomes Navigation (Acuity + Charm) Rolls.
+		
+			(Note: if their is insufficient auxillary crew for Manual Rigging, PC's will need to use AP to 
+				make additional Navigation Rolls to manually rig the sails. These rolls should be Acuity + Power.
+				These count as Vehicle Actions, and thus may cause course-changes to take multiple rounds to
+				complete, with the ship drifting until the changes are complete.)
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Sky-ship Attributes (& Components):
+	
+	Build:
+		Size Class	- Small, Medium, Large, Huge <- Describes general size of the ship, determines available 
+					Sail Plans, Gun Classes, etc.
+		Sail Plan	- Rigging layout, options differ per Size Class. Derives many other Ship Attributes.
+		Hull Style	- Clinker or Carvel <- Affects cost, durability, and ability to have gundecks below the topdeck.
+							Note: Limited to Small and Medium ships.
+		Ship Width	- Narrow, Average, Wide <- Affects the following:
+			Compartments Per Deck Change:
+				Small: -3, 0, +3 
+				Medium: -5, 0, +5
+				Large: N/A, 0, +7
+				Huge:
+			Navigational Difficulty Change:
+				All Sail Plans: -1, 0, +1
+			Construction Cost Change per deck:
+				Small: -500, 0, +500
+				Medium: -2000, 0, +2000
+				Large: N/A, 0, +2500
+				Huge:
+	
+	Berth and Capacity:
+		Deck Limit	- Maximum number of Decks a Sail Plan can have.
+					Adding multiple decks increases the cost of a ship during construction, but also increases
+						number of available compartments, maximum number of possible gundecks, and generally
+						increases the size, value, and impressiveness of a ship.
+		Deck Number	- The real number of decks on a constructed ship.
+		Dedicated Hold 	- The number of compartments on a ship only usable as cargo space. Determined by Sail Plan.
+					Unaffected by Deck Limit or Deck Number.
+					1 compartment is about 1 tonne (metric) of capacity, or roughly a cubed meter of space.
+						(Note: this is not an exact description of such a space, but a representation of
+							the usable area of the space, i.e. the effective value. In reality the size 
+							would likely be at least slightly larger.)
+		Compartments
+		Per Deck	- The number of compartments a ship has for each of its decks. Derives from Sail Plan and Ship Width.
+		Compartment
+		Number		- The real number of assignable compartments on a ship during construction. 
+					Equal to Compartments Per Deck x Deck Number.
+		Reserved 
+		Compartments	- Total number of Compartments set aside for living spaces, lift drive, gunnery, 
+					and other ship components such as Doctor's Cabin, Holding Cells, Workshops, Lancer Bays, etc.
+					This value is subtracted from Compartment Number to determine the number of empty
+					compartments added with Dedicated Hold when determining Cargo Space. 
+		Berth		- Maximum number of people the craft can accomodate comfortably. 
+					Increases by reserving compartments as Crew Spaces during construction.
+					Crew Spaces: 
+						Bunk Cabin 	- +5 Berth  | Space: 1 Compartment
+						Officer Cabin	- +2 Berth  | Space: 1 Compartment
+						Captain Cabin   - +1 Berth  | Space: 1 Compartment
+						Bunk Deck 	- +10 Berth | Space: 2 Compartments
+							Note: Ships will require 1 or more compartments reserved as Cabins, 
+								representing a norm of ship construction, however any combination of
+								cabins can be built to fulfil this requirement.
+		Cargo Space	- Total cargo capacity of ship as a number of compartments. 
+					Equal to the number of unreserved compartments 
+						plus the number of compartments described by Dedicated Hold.
+					1 compartment is about 10 tonnes (metric) of capacity.	
+					
+					Additional Note: Unused cargo space can be used as makeshift living spaces to accomodate
+						up to 5 individuals per compartment, but compartments used this way cannot hold
+						cargo at the same time, and any individuals sleeping there should experience
+						1d4 Stress Damage per day.
+
+	Movement:
+		Sky-Speed 	- Maximum movement speed while Reaching in the sky. While Downwind = 75%, Windward 50%	
+		Surface-Speed	- Maximum movement speed while Reaching at the surface. While Downwind = 75%, Windward 50%	
+		Navigational 
+		Difficulty	- 3 values (Reaching, Downwind, and Windward) used as to determine roll threshold for Navigator's and 
+					Helmsman's Navigation Rolls.
+		Lift-Drive
+		Class		- Relative power of Lift-Drive for the ship's Size Class
+				 	Acts as a modifier to the Navigational Roll when changing altitude.
+						Added to the base 4 used for Engineering Navigation Rolls.
+						Added to the base Navigational Difficulty when incorporated into regular 
+							Navigation Rolls.
+					Low, Normal, High - +1, 0, -1
+					Affects construction cost relative to the Ship's Size Class
+						Small: -2000, 0, +2000
+						Medium: -3000, 0, +3000
+						Large: -4000, 0, +4000
+						Huge:
+					Note: on Small ships this affects the Navigator's singular Navigation Roll along with the 
+						ship's Navigational Difficulty ONLY when changing altitude. Otherwise, the roll
+						is only modified by Navigational Difficulty. 
+						Engineer's dedicated Navigation Rolls when changing altitude on a Medium or larger
+						ship is always modified by Lift-Drive Class alone, and never Navigational Difficulty. 
+		Rigging Style - For ships of Size Class Medium or larger only, all Small ships are rigged as part of the singular
+					Navigational Roll (Acuity + Memory) used when navigating Small ships. 		
+				Manual or Automated. Dependent of whether or not automated system is installed.
+					Automated	- Helmsman's Navigator Roll is Acuity
+					Manual		- Helmsman's Navigator Roll is Acuity + Charm 
+						(Note: if their is insufficient auxillary crew for Manual Rigging, PC's will 
+							need to use AP to make additional Navigation Rolls to manually rig the sails.
+							These rolls should be Acuity + Power.)
+	
+	Combat:
+		Durability	- Derived from Sail Plan and affected by Hull Style, used to calculate Ship HP
+		Ship Health	- 50 x Durability
+		Defense		- Threshold for landing Damage dealing hits on the ship.
+		Lancer Bays	- Number of compartments set aside to allow Lancer deployment at altitude.
+					Limited per deck by Size Class:
+						Small: 2
+						Medium: 4
+						Large: 6
+						Huge:	
+		Full Gundeck(s)	- Contributes to Broadside Power and Chaser Power, requires 1/2 compartments on dedicated deck
+		Half Gundeck(s) - Contributes to Broadside Power, requires 1/2 the compartments and crew of a Full Gundeck
+				Note: A ship CANNOT have multiple Gundecks, Full or Half, on a single deck of a ship, regardless of
+					the number of available compartments.
+		Broadside Force - Added Potential for Gunnery rolls from the side.
+					Derived from the number of full and half gundecks: +2 per full, +1 per half.
+						Note: can be 0 if craft has no gundecks at all, and therefore is unable to attack.
+		Chaser Force	- Added Potential for Gunnery rolls from the front or back.
+					Derived from number of full gundecks: +1 per full.
+						Note: can be 0 if craft has no full gundecks,
+							and therefore is unable to attack forward or aft. 
+		Gun Class	- Dice added as bonus damage to successful attacks with the craft's guns.
+					Light	 - 2d10 Broad, 1d10 Chaser
+					Moderate - 2d12 Broad, 1d12 Chaser
+					Heavy 	 - 2d20 Broad, 1d20 Chaser
+					Limited by Size Class.
+						Small  - up to Light
+						Medium - up to Moderate
+						Large  - up to Heavy
+					 	Huge   - up to Heavy
+							Note: Huge craft get to roll 1 extra GC dice when hitting, 
+								no matter their GC. (3 dice for broadside, 2 dice chaser)
+		Gunnery Style	- For ships of Size Class Medium or larger only, all Small ships require only a single Gunnery Roll
+					The Gunnery Roll on Small ships is always Acuity only.
+				Manual or Automated. Dependent of whether or not automated system is installed.
+					Automated	- Gunnery Roll is Acuity
+					Manual		- Gunnery Roll is Acuity + Charm
+						(Note: if their is insufficient auxillary crew for Manual Gunnery, PC's can only
+							use half their Acuity, rounded down, as Potential for Attacks with the ship. 
+							You recieve half the total bonus Potential from 
+								Broadside or Chase Power, rounded down.
+							You can only roll 1 dice for bonus damage from the ship's Gun Class.
+							Bonus Damage dealt from 
+								Gun Class is reduced to half the amount rolled, rounded down.)
+
+	Other/Misc:
+		
+		Auxillary Crew
+		Requirement	- Number of individuals required to man any manual rigging or gunnery on the ship.
+					Differs by Sail Plan, Rigging Style, and Gunnery Style.
+					Can be 0, requiring no additional crew.
+					A ship's Berth should be increased to make room for auxillary crew by the addition of more
+						Crew Spaces, as it is unlikely individuals can be convinced to join a ship with 
+						insufficient Berth. Overly-stressed auxillary crew maybe prone to revolt.
+
+		Accomodations	- Extra facilities a ship may contain beyond the basic necessities of operation.
+					May include kitchens, medical facilities, armories, holding cells, workshops, etc.
+		
+		
+
+

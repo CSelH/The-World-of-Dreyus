@@ -1,0 +1,232 @@
+This document gives an overview of the normal flow of the game, including an explanation of open roleplaying, turn-based gameplay,
+and actions.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Out of Combat
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Whenever no Players are in combat, strict turn order is not required. Instead, the game normally makes use of generic "open roleplay". 
+
+The GM is free to control the game as they desire, deciding what is happening in world and what the consequences of the various
+character's behaviours will be. If you are new to roleplaying or tabletop games in general, you can skip the following and instead
+go down to the "Roleplaying Introduction" section below for a primer on roleplaying in a tabletop game. 
+
+If you are familiar with tabletop roleplaying games then the general concept of open roleplay is likely already familiar, and so this
+game will likely seem intuitive, and should mirror the normal roleplaying experience you are used to. You can expect to act through
+your character, question the GM, and make dice rolls when the GM demands it. 
+
+However, this game is meant to allow the GM a lot of freedom to run the roleplaying, and the game in general, however they desire, 
+be it with or without turns, whether or not to allow one individual to "face" and lead social interactions on behalf of the party,
+whether the party may split, etc. It is the GM's table, and their rules are paramount. So as always, make sure there is clear 
+communication between the GM and the Players regarding what the expectations at the table will be, and if there are any special 
+considerations. As with all social games, most conflict is rooted in unfulfilled expectations and miscommunication. 
+
+
+
+Roleplaying Introduction (For Beginners)
+-------------------------------------------------------------------------------------------------------------------------------------
+TODO - Give a introductory description of open roleplaying in a ttrpg.
+shit, why did i think this was a good idea.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Turn-Based Gameplay
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------
+This game uses individual turns for each player and the GM whenever one or more Players are in combat, non-hostile conflicts, or 
+whenever else the GM desires. If the GM controls multiple characters at once, especially during combat, they may have multiple 
+turns in between the Players' turns depending on the scenario. 
+
+During a character's turn, whoever controls that character can engage directly in roleplay, choose what the character will do, ask
+questions to the GM, and are the only ones allowed to do so, with some exceptions. Each character active in the scenenario will
+typically have a turn, with the set of all turns being referred to as a "round". A round can be said to last from the start of the 
+turn of the first character to act until the the start of that same character's next turn.
+
+Some situations allow a character to act when it is not their turn, typically as part of Openings provoked on other character's turns. 
+A character acting outside of their turn should not be considered as having gained another turn, and should not affect any abilities 
+or effects that are dependent on that character's turn starting or ending. 
+
+
+
+
+
+Turn-Order and Initiative
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+Initiative Roll
+--
+Whenever the game must transition from open roleplay to turn-based gameplay an Initiative Roll can be used to determine turn order.
+
+If the GM calls for Iniative Rolls, such as at the start of combat or other turn-based scenarios, each character rolls 
+1d4 and adds the sum of their Tenacity and Speed Attributes. 
+(Initiative = 1d4 + Tenacity + Speed)
+
+The value of each character's result is compared, and the character with the highest value goes first. Subsequent turns follow in
+order of descreasing value from highest to lowest.
+If any characters roll the same value, the character with the highest Tenacity goes before the others unless their Tenacity 
+Attributes are equivalent, in which case the character with the highest Speed goes first. If any characters get the same result and 
+share the same Tenacity and Speed values, then the GM determines who acts first.
+
+
+
+Ambush and Surprise
+--
+Normally, when all or most of the involved characters are aware of one another and/or expecting conflict, all characters will
+make an Initiave Roll. However, if one or more characters ambush or surprise their opponents with an unexpected action, then the
+character or characters doing so go first in the turn order, with their beginning actions being considered their turn for that round.
+(Note: if multiple characters encounter one another unexpectedly and immediately come into conflict, they will all make Initiative
+Rolls in the normal way.)
+
+When a conflict starts in this way, turn-order for the offensive characters is determined simply by the order in which they performed 
+their starting actions. A well-planned ambush can leave the offensive characters with a distinct turn-order advantage, while a 
+surprise attack made in haste or carelessness might yield significantly less benefit.
+
+Characters typically can only start a conflict together in this way whenever they coordinate and prepare beforehand, this might
+involve laying in wait, using a "go phrase" or signal of some kind, or waiting until a particular event occurs to que everyone to 
+act at once. Other methods might be use, but must follow a clear and consistent reasoning that all involved characters are aware of
+ahead of time. 
+
+If one character simply surprises another spontaneously, the initiating character's allies can not participate if they did not 
+reasonably anticipate the act and prepare a response ahead of time. In this case, those allies may only act in the way they 
+determined ahead of time, and cannot modify those decisions. If a Player believes their character should act in this way, then they 
+should describe the character's intentions to the GM before the other character acts. 
+
+After the initiating character or characters perform their actions all other characters involved, friend and foe, make Initiative 
+Rolls in the normal way, and the first among them begins their turn immediately.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Gameplay Actions
+-------------------------------------------------------------------------------------------------------------------------------------
+Whenever a character wants to perform a specific act in the game, such as moving, attacking, or using an Ability, they must expend
+a corresponding amount of Action Points and whoever controls the character can provide a description or roleplay the character's 
+behaviour. 
+There are two primary kinds of actions a character can make: Basic Actions and Roll Actions, both of which require the character
+to expend Action Points. 
+
+
+Action Points
+--
+In order to perform Basic Actions or Roll Actions a character must expend a one or more Action Points as noted in the action's 
+description. 
+The number of total Action Points a character can have is equal to 1 plus the character's Speed Attribute ( 1 + Speed ), with the
+maximum possible being six (6) Action Points. 
+All of character's Action Points are restored at the start of their turn.  
+
+Basic Actions
+--
+There are some generic actions that all characters have access to. These do not require Action Rolls, and instead only demand that
+the character the expend the required amount of Action Points.
+
+The following is the list of the Basic Actions:
+
+	Move - The character spends 1 AP to move a distance up to their Movement Value. A character can only Move or Sprint once per 
+		turn or opening. (Note: a character can use Move or Sprint during their turn AND use Move or Sprint during any 
+		opening they exploit on the same round.)
+
+
+	Sprint - The character spends 2 AP to move a distance up to twice their Movement Value. Cannot be used while affected by the 
+		Burdened Status. A character can only Move or Sprint once per turn or opening. (Note: a character can use Move or 
+		Sprint during their turn AND use Move or Sprint during any opening they exploit on the same round.)
+
+	(Note: both Move and Sprint essentially "give" the character the specified amount of movement for the turn or opening, and
+		do not restrict the character to one instance of motion. In other words, a character can use part a their Movement 
+		Value, perform some other actions, and then use the rest of their leftover Movement Value, as long as it is done on
+		the same turn or opening. Movement value is not retained between any turns or openings, and is instead lost at the 
+		end of the turn or opening that Move/Sprint was activated on.)   
+
+	Use/Ready - The character spends 1 AP to either pick up one or more nearby objects or withdraw objects from their
+		inventory, they may then use this object in a unskilled way, stow it into their inventory, drop it, or simply hold it. 
+				
+		If the character is already holding something with the hand they intend to use for this action, then they may drop 
+		whatever they are holding or stow that object into their inventory as part of this action. 
+		If the character requires more than one hand to complete this action, they may empty their other hand in a similar
+		way. The number and size of objects that can be targeted with this action are limited to what they can reasonably 
+		hold in their hands.
+
+		If the character is already holding the object they intend to use with this action, then they can instead utilize the
+		object , then either drop that object or stow it into their inventory, and finally retrieve either a different 
+		nearby object, or withdraw one from their inventory.
+		
+		For example, a character holding weapons in both hands might use this action to sheathe one weapon, produce a key, 
+		and then unlock a lock with that key. 
+		(Note: stowing the key and drawing their weapon would require another action from this character.)
+	
+		In the second case: a character holding firewood in both hands might use this action to stack the wood nearby, and 
+		then draw their axe afterwards.
+	
+	Interact/Manipulate - The character spends 1 AP to interact with or manipulate something nearby. This should be limited to
+		unskilled actions only, such as opening a door, manipulating a switch, or interfacing with a device in a basic way.
+		
+		If the character is already holding something with the hand they intend to use for this action, then they may drop 
+		whatever they are holding or stow that object into their inventory as part of this action. 
+		If the character requires more than one hand to complete this action, they may empty their other hand in a similar
+		way.
+		If the character stowed one or more objects into their inventory to perform this action, they may retrieve those 
+		objects as part of this action once they are finished interacting with the target.
+		
+		For example, a character holding weapons in both hands might use this action to sheathe both weapons, interact with 
+		a digital interface to open a doorway, and then draw their weapons again.  
+		
+
+Roll Actions
+--
+Unlike Basic Actions, the outcome of this kind of action is not guaranteed. Instead, they rely upon the Ability and Potential of the 
+character attempting them, and are mostly unachievable by those who are lacking in either.
+
+The GM may call for a roll whenever they decide that the action a character is attempting is difficult enough that the outcome should
+be determined by the character's relevant capabilities.
+
+If the character has a relevant Ability to the action, or is using a specific Technique granted by an Ability, then they make an
+Action Roll to determine the outcome of the action. 
+
+If the character lacks the Ability Level or Potential to perform the specific Action Roll, a Struggle Roll can be made instead.
+
+The Action Point cost for a Roll Action is dependent on the action and its relevant Ability.
+Typically this information is found in the Ability's description, or its Ability Tags. 
+(Note: Action Point cost does not vary between the Action Roll and Struggle Roll for a specific action.)
+
+
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+Turn Passing, Openings, and Turn-Only Actions
+-------------------------------------------------------------------------------------------------------------------------------------
+Characters are not required to act or expend any or all Action Points during their turn. They are also not limited to acting only 
+during their turn, if certain conditions are met.
+
+A character who does not wish to act on their turn may pass, at which point the next character in the turn order begins their turn.
+A character may pass their turn even after completing an action. Since a character's AP does not reset until the start of their next
+turn, a character might pass their turn if they wish to retain AP in order to exploit Openings.
+
+Openings are situations that can occur whenever a character makes a Roll Action. If a character rolls a "1" on any of their dice used 
+to determine the outcome of a Roll Action, then an Opponent may expend a number of Action Points up to the number of dice that rolled
+a "1" to perform an action at the same time. This allows characters to occassionally act when it is not their turn, so long as they 
+have available Action Points. 
+Openings themselves are described in greater detail in the "Opening and Mistakes" rule section.
+
+While most actions can be performed during an Opening, some actions are restricted to only being performed during a character's turn.
+Abilities with actions or Techniques limited in this way are marked with the "Turn-Only" Tag. An Ability's decription should describe
+what actions are restricted to the character's turn.
+

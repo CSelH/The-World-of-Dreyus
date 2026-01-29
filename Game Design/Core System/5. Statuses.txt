@@ -1,0 +1,166 @@
+
+
+Character Statuses are various states a character can be in, causing harmful or beneficial effects while character has the Status.
+
+
+
+Wounded: Applied when Damage increases and the result is equal to or higher than the character's Health.
+	When a character becomes Wounded, they take 2d4 Stress. 
+	Wounded characters have a -1 Potential on all actions.
+	Wounded characters must roll 1d6 whenever their Damage increases, if the result is higher than their Heartiness 
+		they receive an Injury. This roll is called the Injury Save.
+	The Wounded status is removed automatically if Damage is lowered to a value that is less than the character's Health.
+	When the Wounded status is removed from a character, their Stress lowers by an amount equal to their Tenacity.
+
+
+
+Dying: Applied when Damage increases and the result is equal to or higher than twice the character's Health.
+	When a character starts Dying, they take 3d4 Stress.
+	Dying characters become permanantly dead if their Damage increases.
+	Dying characters must roll 1d6 at the end of each of their turns, if the result is higher than their Heartiness
+		they permanently die. This roll is called the Death Save.
+	The Dying status is removed automatically if Damage is lowered to a value that is less than twice the character's Health.
+	When the Dying status is removed from a character, their Stress lowers by an amount equal to their Tenacity.
+
+
+
+Injury: Can be applied when a character fails the Injury Save, or when a single attack increases a character's Damage by an amount 
+		equal to or greater than half the Character's Health.
+
+	Injuries are permanant physical maladies that can impart various penalties. 
+	Medical aid and technology can help reverse, counteract, or occassionally overcome an Injury.
+	However, advanced medicine is not universal in Dreyüs, nor without complications.
+
+	Injuries:
+		
+		Eye 		| -1 Acuity
+		Face		| -1 Charm
+		Head		| -1 Memory
+		Arm		| -1 Power
+		Hand		| -1 Finesse
+		Leg/Foot	| -1 Speed
+
+	
+	When a character recieves an Injury, their Stress increases by 2d4.
+	When an Injury is removed from a character, their Stress lowers by an amount equal to their Tenacity.
+	
+	
+
+	These injuries should be considered severe. Eye, arm, hand, leg, and foot injuries should involve either the loss of the 
+		body part or significant enough damage to inhibit its functionality. Head injuries should be at least severe
+		concussion, and probably involve significant damage to the brain. Face injuries should be disfiguring in an 
+		unsettling way, and could even involve loss of bone mass from the skull or jaw. 
+
+	Determining what body part is injured can be done in several ways. Attackers may choose to attack specific targets, and
+		the GM may determine if those targets are damaged if the attacker rolls decently enough. Otherwise, the GM may
+		decide what injury occurs in whatever way they choose, such as simply selecting one that fits the story and scenario
+		or utilizing dice to determine one at random.
+
+	Optionial Rule:
+		To lower the potential for a Wounded character to recieve multiple Injuries in a row the GM may choose to make use
+		of this rule. Whenever a character recieves an Injury, the Injury Save changes until the end of the current fight.
+		The Injured character adds an extra d6 to the Injury Save each time they take an Injury during the fight, and the
+		character must fail on each of the dice rolled (i.e. roll higher than their Heartiness on every dice) in order to 
+		take another Injury during the same fight. 
+
+
+
+Stabilized: Applied to Wounded or Dying characters by some medical treatments, particularly Traumapaks or Medicine Techniques.
+	Whenever a Wounded character that is Stabilized fails an Injury Save, the Injury is prevented and the Stabilized condition
+		is removed.
+	Whenever a Dying character that is Stabilized takes damage or fails a Death Save, they do not die and the Stabilized
+		condition is removed.
+
+
+
+Shaken: Applied when Stress increases and the result is equal to or higher than the character's Control.
+	
+	Shaken characters have a -1 Potential on all actions.
+
+
+
+Panicked: Applied when Stress increases and the result is equal to or higher than twice the character's Control.
+	
+	Panicked characters must roll 2d6 at the start of each of their turns,
+		
+		if both dice land on a value higher than the character's Tenacity, they suffer a -3 Action Point penalty for the turn.
+		
+		If only one dice lands on a value higher than the character's Tenacity, they suffer a -1 Action Point penalty for 
+			the turn instead.
+		
+		If no dice land on a value higher than the character's Tenacity, they suffer no Action Point penalty for the turn.
+	This roll is called the Panic Save.
+
+
+Unconscious: Applied automatically when Stress increases and the result is equal to or higher than three times the character's Control.
+	Unconcious characters cannot act or move, and their Defense becomes 1.
+	Unconcious characters can be awoken by an ally's Medicine (Acuity + Memory) roll.
+		The threshold for this roll is always 3, on success the unconcious character awakens and the status is removed.
+		However, this roll does not reduce the character's Stress, leaving the character vulnerable 
+			to the Unconcious status if their Stress increases again.
+		During combat this action should require at least 1 AP to be expended.
+	Unconscious characters undergoing medical treatment gain a buff granting one reroll for each dice that failed during a 
+		Treatment Save.
+
+
+Burdened: Applied when a character carries an amount greater than their Carry Weight.
+	Burdened characters cannot use the Sprint action or any Attack action, but may use the Move action.
+	Abilities might specifiy limitations for Burdened characters.	
+
+
+Knocked Down: Applied when a character fails a Thrown Save.
+	Knocked Down characters cannot normally attack or defend themselves, and most use a Move Action and expend half of their 
+	Movement Value, rounded up, to stand up before taking other Actions. (Note: some Abilities can provide bonuses allowing
+	for character's to act in certain ways while Knocked Down.)
+	The normal Thrown Save requires the character to roll 1d6, and if the result is higher than their Finesse, they fail.
+		Some Techniques can force a character to roll extra d6's during a Thrown Save, and require the character to succeed
+		on each dice in order to avoid being Knocked Down.
+
+
+Restrained: Applied when a character fails a Restrained Save.
+	Restrained characters cannot move away from the source of the Restrained effect without first freeing themself.
+	To free themself, the affected character must expend 1 AP and repeat the Restrained Save that they originally failed.
+	If they fail on any dice, they remained Restrained.
+	
+	Other than the movement restriction, Restrained characters can act normally. 
+	
+	The normal Restrained Save requires the character to choose between their Finesse or Power, and then roll 1d6. If the result
+	is higher than the chosen Attribute, they fail. 
+		Some Techniques can force a character to roll extra d6's during a Restrained Save, and require the character to 
+		succeed on each dice in order to avoid being Knocked Down.
+
+
+Inflamed: Applied when a character is set of fire.
+	Inflamed characters take Damage at the start of each of their turns until the fire burns out, or is directly extinguished.
+	The duration of this Status and the amount of Damage taken each turn is determined by the source of the Status.
+	Damage dealt by this Status is not affected by Armor Mitigation. 
+	
+	A character affected by this Status can expend 1 AP and roll 2d6 to attempt to put out the fire. The fire is extinguished
+	if the result of both dice is less than or equal to the character's Finesse.
+	
+	Alternatively, a character affected by this Status can expend 2 AP and roll 1d6 to attempt to put out the fire. The fire is
+	extinguished if the result of the die is less than or equal to the character's Finesse.  
+ 	Either of these rolls are referred to as a Extinguish Save.
+	
+	Other individuals can also attempt to make an Extinguish Save to end the Inflamed Status on an ally.
+
+
+Toxified: Applied when a character fails the Toxify Save.
+	This status can take two forms: permanent or temporary. The temporary form ends automatically after a determined number of 
+	turns, and can also be ended if treated, or if the affected individual dies. The permanent form only ends when treated, or 
+	if death occurs.
+	
+	While affected by this Status, an individual takes Damage and Stress at the start of each of their turns. The amount is 
+	determined by a singular die, however the size of that die varies based on the source of the Status. Typically it is 
+	equivalent to the die provided by the corressponding Ability Level (1d6, 1d8, 1d10, or 1d12).
+	Damage and Stress taken is equal to the amount rolled.
+	Additionally, individuals affected by this Status cannot benefit from the Combat Regeneration Technique.
+	
+	This Status can always be ended by a use of the Antidote Technique, or a Regen-Stim, however it cannot be ended by the 
+	Combat Regeneration Technique. A Journeyman or higher rank Traumapak will also end this Status. 
+	An individual can expend 1 AP and make a 2d6 Treatment Save to diagnose a target and determine the presence of this Status.
+	This Status can always be treated by a medical workstation, med-bay, or hospital. 
+
+	A character cannot be affected by multiple sources of this Status, if multiple sources of this Status would be applied, the
+	source with the highest Ability Level is the one that is used unless a lower Ability Level source is permanent and the
+	highest Ability Level source is only temporary.

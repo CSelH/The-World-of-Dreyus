@@ -1,0 +1,184 @@
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Trib-guns
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Typically player characters that use ranged weapons will have access to trib-guns as their default option. These are the standard
+among any scavcycling culture, and traditional weapons are seen mostly in specific situations. Trib-guns do, however, have some
+properties that differentiate them from traditional projectile weapons. Some special rules govern how those properties are 
+represented in the game mechanics:
+
+
+The Triboelectric Drive, Charging Shots, and Modifications
+-----
+
+Trib-guns derive their name from their power source: triboelectric drives. These are relatively simple devices that generate an 
+electric current from the moving contact of two surfaces. Trib-guns use a hand-crank to provide a source of rotational movement,
+storing the resulting charge from the triboelectric drive in capacitors before being discharged to power the laser-gun.
+
+Characters wielding a trib-gun must expend 1 AP and use one free hand to generate enough charge for a shot. Once charged the trib-gun 
+will remain ready to fire until the end of the character's next turn. Once the trib-gun is fired it loses its charged state, 
+requiring it to be recharged before another shot can be made.
+
+This is the standard for most trib-guns, however some Abilities and equipment available to characters can change this interaction.
+Special heavy weapons may require extra charging, gunslingers can make use of rigs that allow for the charging of multiple trib-guns
+simultaneously, and engineers have the potential to create specialized drives for storing charges longer or allowing for multiple
+charges to be stored at once. 
+
+
+Energy-based Attack
+-----
+
+As mentioned in the Armor rules in section 7, some attacks are considered Energy-based for the purpose of Armor Mitigation.
+Energy-based attacks are treated as melee attacks when determining damage reduction from Armor Mitigation, meaning they will deal
+more damage than regular ranged attacks.
+
+Trib-guns, being a laser weapon, inherently deliver an Energy-based attack. 
+Be sure to use the correct Armor Mitigation value when calculating damage from the laser shot of any trib-gun.
+
+
+
+Destruction and Injuries
+-----
+
+The laser produced by trib-guns is incredibly powerful, and there is always some consequence to pulling the trigger on a charged 
+weapon. 
+
+Materials hit by the laser could be ignited, blasted away, or even vaporized depending on the material. Some anti-laser materials
+can be found, but are often expensive and only available im limited amounts. 
+
+Bladed or blunt melee weapons can lead to fairly intuitive Injuries, such as concussions, lacerations, broken bones, or even 
+amputations. The lasers produced from Trib-guns do not want for similiar capability. Injuries from trib-guns could see victims suffer
+severe burns, destroyed flesh, even vaporized or otherwise destroyed limbs and organs. 
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Anti-Vehicle Weapons
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Vehicles take only half damage from most small arms (i.e. weapons carried by individual people), however some ranged weapons are 
+designed to allow infantry to engage vehicles. These weapons will have the "Anti-Vehicle" tag to indicate that they have this trait.
+
+These weapons are always considered Large, and are exceptionally heavy and unwieldy. Due to this, these weapons require that an 
+individual to have at least 3 Power in order to wield them. 
+
+These weapons require an individual to expend 2 Actions Points, rather than 1, to recharge or reload the weapon.
+No Abilities or Techniques may cause these weapons to recharge or reload automatically.
+
+Additionally, if a character targets individuals with one of these weapons, they recieve a -1 Roll Modifier to each of the dice they
+roll to determine the outcome of the attack. If an individual is hit by one of these weapons, their attacker may roll an additional
+2d8 as extra damage. (Note: Large Ranged weapons always deal an extra 1d8 damage on a successful hit, so 3d8 bonus damage total 
+should be rolled when an Anti-Vehicle Ranged weapon hits an individual rather than a vehicle.)  
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+Consumables
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Some items may have limited or one-time uses that provide specific effects. Typically a character will have to expend one or more AP
+in order to use the item, consuming it gain its benefits. 
+
+The following is a non-exhaustive list of some example consumables, as well as their specific rules, that players may commonly
+encounter:
+
+
+
+
+
+
+
+Traumapak
+-----
+
+More of a general term than a standardized product, traumapak is the common name for a kind of battlefield first-aid kit that is 
+useful for temporarily preventing damaged characters from dying or recieving an Injury. Normally traumapaks are a combination of
+anesthetic, coagulant, sterilizer, and temporary field dressing. Rudimentary traumapaks might consist of seperate substances and 
+materials used in conjunction, such as individual painkillers, iodine ampules, and fabric bandages. Cultures with more advanced
+medical technology are capable of producing traumapaks that take the form of a singular multi-function substance that can be applied
+as a fluid over an area before rapidly solidifying, creating an immediate, if temporary, bandage designed to be easily removed later
+via exposure to concentrated amounts of light at specific frequencies. Traumapaks are generally much cheaper and much more widely
+avaialble than Regen-Stims, which are capable of truly healing a wound.
+
+Regardless of the specific makeup, characters will use any given traumapak for the same purpose.
+Players can expend 2 AP to make a Medicine (Acuity + Memory) Action Roll to attempt to use a traumapak to give the Stabilized status
+to a Wounded or Dying character within their reach. This Action Roll requires the use of both hands. The threshold for this roll is 4, 
+and the traumapak is only consumed when the roll succeeds. The Item Quality level modifier for the traumapak can be applied as a roll
+modifier to one of the dice rolled for this action.
+
+
+
+
+
+
+M-fab Resupply Pods
+-----
+
+These modular containers contain a variety of raw materials necessary for m-fab function and are a standard design dating back 
+millenia to the peak of m-fab innovation. While occasionally scavenged, the simplicity of the design has resulted in nearly every
+technology inclined culture reverse engineering the design and establishing some sort of production of their own. 
+
+
+Characters may expend 1 AP and make a Basic Action with a free hand to fully refill the Material Pool of their m-fab with a 
+Resupply Pod. Regardless of how much material is restored, the Resupply Pod is fully consumed upon use. 
+
+
+
+Resupply Pods can be relatively easily purchased, and some engineers can use raw materials and a workstation to produce Ressuply Pods.
+
+
+
+
+
+
+
+
+Regen-Stim
+-----
+
+Regen-Stim is the name given to various medical concoctions that are able to immediately stimulate the body's natural regenerative 
+ability. Rare and costly to produce at any quality or quantity, these drugs are fairly uncommon and rarely seen in normal medical
+treatments. Reserved for buyers able to pay a high premium, most of the supply of Regen-Stims are held by official state entities.
+Typically they are only used sparingly among elite combat units, as well as for emergency trauma surgeries for VIPs. 
+The exception to this norm on Dreyüs are the Chonistalan jungle enclaves, whose medical technology and resources are far more 
+advanced then any other culture on the continent.
+
+
+Characters may gain access to Regen-Stims through expensive purchases or via crafting if a character can gain access to the rare 
+materials as well as possess the appropriate knowledge.
+
+ 
+Characters may spend 1 AP and make a Basic Action with a free hand to use a Regen-Stim on themself or another character within their
+reach. The Regen-Stim reduces the target's Damage by an amount equal to xd4, where x is equal to the Item Quality level modifier of 
+the Regen-Stim, plus 1. 
+	
+	Regen-Stim Item Quality | Healing
+	----------------------------------	
+	Novice	 		| 1d4
+	Journeyman  		| 2d4
+	Master			| 3d4
+	Legend  		| 4d4	
+
+
+If an individual is healed by any combination of Regen-Stims and/or the Combat Regeneration Technique more than once a day, they 
+receive an amount Stress equal to 6 minus their Tenacity each time they are healed after the first.
+
+
+
+
+
+

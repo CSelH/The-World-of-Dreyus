@@ -1,0 +1,234 @@
+
+While all kinds of objects, materials, and devices exist in the world, there are a handful that are mechanically significant which a 
+Player can interact with in the game. This section covers the general rules for those items, including weapons, microfabricators, 
+armor, etc.
+
+This section covers the general rules that can be applied across a whole category of items, and the subsequent section 7a contains
+some specific rules and examples for certain items within the broader categories that require further explanation.
+
+
+
+\\\\\\\\\\\\\\\\\\
+
+
+
+
+
+Item Quality
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Similiar to Ability Levels, items have 4 levels of Item Quality: Novice, Journeyman, Master, Legend. The level of Item Quality 
+indicates the overall capability and effectiveness of an item.
+Each level of Item Quality correlates to a modifier:
+	Novice 		- +0
+	Journeyman	- +1
+	Master		- +2
+	Legend		- +3
+
+Item Quality, including the modifier, affects items slightly differently across each category. 
+However, in all cases where an item is used in conjunction with a Primary Ability, the level of Item Quality bonus available to a 
+character is limited by their Ability Level in the Primary Ability. In other words, a Master trib-gun in the hands of a Journeyman
+in Marksmanship can only provide the same benefit as a Journeyman trib-gun. A Novice Engineer cannot get the same benefit from a
+Legend M-fab that a Legend Engineer can.
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\
+
+
+
+
+
+
+Microfabricators (M-fabs)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Microfabricators take many shapes and sizes, but are ubiquitous to the technologically advanced societies on the continent. Most 
+skilled technicians make use of them, as they are an invaluable tool for diagnosing, repairing, and small-scale custom manufacturing.
+They are a highly customizable platform, with some abilities providing characters methods to upgrade their m-fabs capabilities 
+at particular tasks.
+
+Abilities marked with the M-fab tag make use of or require a microfabricator.
+
+M-fabs have an onboard supply of Material that is consumed whenever the m-fab is used in a generative way(e.g. repairing, healing, 
+producing). If the action is one described by a Player or GM, the GM will determine the required number of Material units. 
+Techniques will provide a Material cost in their description, if applicable. 
+
+The Material pool is resupplied via consumable resupply pods. A resupply pod always fully charges an m-fab's Material pool.
+M-fabs have a larger Material pool based on their Item Quality, representing the device's efficiency.
+The following table describes the size of Material pool based on Item Quality:
+	Novice  	- 30 units
+	Journeyman	- 40 units
+	Master  	- 50 units
+	Legend	 	- 60 units
+
+
+Whenever an m-fab is used for an Action Roll where the result is a non-combat effect, the Item Quality modifier can be applied as a 
+roll modifier for each of the dice rolled.
+
+Whenever an m-fab is used for an Ability Roll where the result is a combat effect (e.g. attacking, defending, healing, etc.) 
+the Item Quality modifier can be applied as a roll modifer for only one of the dice rolled, and no others. The individual in control
+of the character may choose which die, if any, this bonus is applied to.
+ 
+
+
+
+
+\\\\\\\\\\\\\\\\\\
+
+
+
+
+
+Weapons
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Dreyüs, being a large continent with a variety of cultures, has no true standard armament. Depending on needs and availability, it
+is possible to find sky-pirates armed with trib-guns and steel-edged sabers, tribal hunters with bone spears and recurve bows, or
+nomadic merchants armed with a combination of modern and traditional weaponry. Like most other aspects of life on Dreyüs, people
+make due with what they have in order to accomplish what they must. 
+
+The efficacy of any weapon is largely determined by the capability of the wielder, and the majority of outgoing damage a character
+produces is determined by their relevant attributes and abilities. Weapons serve mostly as a tool to enable a character to make use
+of the corresponding abilities.
+
+Weapons are broadly categorized into four groups: small ranged weapons, small melee weapons, large ranged weapons, and large melee 
+weapons. Small weapons can be wielded in one hand, while large weapons require two hands. (Note: while using a large weapon requires
+two hands, holding or carrying a large weapon may only require one hand, allowing for one open hand only whenever the weapon is not 
+being actively employed for any offensive, defensive, or utility purpose.)
+
+Characters get a bonus damage die based on their weapon's category whenever they make a successful attack with that weapon.
+
+The following table describes the dice granted to each category:
+	
+	Weapon     | Die
+	-----------------	
+	Small ranged | 1d4
+	Small melee  | 1d6
+	Large ranged | 1d8
+	Large melee  | 1d12
+  
+Note: characters attacking with a small weapon in each hand can benefit from the bonus damage from each weapon if their attacking 
+Action Roll succeeds on at least two dice. If an attacker succeeds with only one dice on their roll, they may only benefit from one 
+weapon's bonus damage die. 
+
+Weapons are also defined by their Item Quality. The Item Quality modifier is applied in particular ways for weapons.
+
+If a character uses a weapon as part of a Action Roll that is not a direct combat action they may apply the Item Quality modifier
+to each dice rolled as a roll modifier. These could be rolls made to convince someone of the quality of the weapon, attacking rolls
+made for non-combat reasons (e.g. cutting a rope, shooting a lock), or when using the weapon to intimidate. Ultimately, whether or
+not a potential action should be considered "non-combat" should be determined by the GM.
+
+Whenever a character uses a weapon for an Action Roll where the result is a combat effect, the Item Quality modifier can be applied 
+as a roll modifer for only one of the dice rolled, and no others. The individual in control of the character may choose which dice, 
+if any, this bonus is applied to.
+
+Note: Characters using a small weapon in each hand for combat Action Rolls may apply the Item Quality roll modifier from each 
+weapon, but they cannot use both modifiers on the same die. The individual in control of the character may choose which dice, if any, 
+the roll modifiers are applied to. 
+
+Some ranged weapons, particularly trib-guns, are considered Energy-based weapons for the purpose of Armor Mitigation. This makes them
+more effective at dealing damage to armored targets. The Armor section provides a detailed explanation of this rule.
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\
+
+
+
+
+Armor
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Personal protective gear in Dreyüs takes the form of mundane, if finely engineered, material-based equipment similiar to our own 
+world. Different cultural styles exist, and material supply limits often affect standard quality, cost, and availabilty for any given
+society. As such, armor found in Dreyüs can be as simple as layered fabrics from plant-based fibers, boiled leather molded to shape,
+or hard plates sewn into fabric for added protection. Cultures with more advanced engineering and material capabilites may make use 
+of synthetic materials, have easier access to high-quality alloys, or employ advanced manufacturing or design methods that allow for
+greater supply of consitently higher-quality armor. 
+
+Characters may acquire a set of armor via crafting, bartering, or as part of their character's starting equipment. For game purposes,
+armor is defined by its Item Quality level, which determines how effective the armor's benefits are.
+
+Armor provides an Armor Mitigation effect against succesful incoming attacks. Armor Mitigation reduces incoming damage by a set amount
+determined by the kind of incoming attack, as well as the Item Quality level of the armor.
+
+Armor Mitigation is more effective against range attacks than melee attacks, which have an easier time of finding the weakpoints
+in the armor. 
+
+Against melee attacks, Armor Mitigation is equal to the Item Quality level modifier. Against ranged attacks, Armor Mitigation is equal
+to the Item Quality level modifer, plus two. The following table describes these values:
+	
+	        Vs. Melee | Vs. Ranged 
+	Novice:     0     |     2
+       Journey:     1     |     3
+	Master:     2     |     4
+	Legend:     3     |     5  
+
+
+
+Energy-based Attacks and Armor Mitigation
+--
+
+Some attacks transmit their force in non-kinetic ways. Examples include thermal based attacks, such as fire or lasers, or radiation
+based attacks, such as those from a neutron bomb. Any attacks that do not rely primarly on kinetic force are considered 
+"Energy-based" attacks. The primary sources of Energy-based attacks for players will be trib-guns and m-fab abilities.
+M-fab abilities that provide Energy-based attacks will include the Energy-based Attack Ability Tag in their description. Trib-guns
+are always considered Energy-based attacks when being fired. 
+
+Whenever taking damage from a successful Energy-based attack, Armor Mitigation can only reduce damage by an amount equal to the
+armor's Item Quality modifier. This means Armor Mitigation against Energy-based attacks is the same for both ranged and melee attacks.
+
+--
+
+Simliar to weapons, using armor as part of an Action Roll for non-combat purposes allows a character to apply the armor's Item
+Quality modifier as a roll modifier to each dice rolled. 
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\
+
+
+
+
+
+Tools, Devices, and Workstations
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Characters might make use of a variety of utility items outside of weapons, m-fabs, and armor. These can range from simple working 
+tools like hammers, wrenches, and screwdrivers, or be as complex as production workstations with devices similiar to modern CNC 
+machines, lathes, 3D printers, ableit more precise, advanced, and efficient, often integrating m-fab technology as well. 
+Simple tools are in relatively universal supply, however complex machinery is rare among frontier and tribal cultures. 
+Most ships, sky-sailing or sea-sailing, will have some form of machining or production capabities in order to make field repairs to
+the ship or its equipment. 
+
+Whenever a character makes use of some tool, device, or workstation, they may use the item's Item Quality modifier as a roll modifier
+for each of the dice rolled.
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\
+
+
+
+Consumables
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+Various consumable items can be acquired either from NPCs or by being crafted by a player's character.
+Most consumable items should be accompanied by a description that gives their specific function and use. 
+Sometimes these items can be of various Item Quality levels, and their description may include how the item benefits from the 
+Item Quality modifier.  
+
+Section 7a has a list of some common consumable items that can be used in your games.
+
+
+
+\\\\\\\\\\\\\\\\\\\\\
