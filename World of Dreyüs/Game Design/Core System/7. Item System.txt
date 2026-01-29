@@ -175,7 +175,7 @@ Energy-based Attacks and Armor Mitigation
 --
 
 Some attacks transmit their force in non-kinetic ways. Examples include thermal based attacks, such as fire or lasers, or radiation
-based attacks, such as those from a neutron bomb. Any attack that does not rely primarly on kinetic force are considered 
+based attacks, such as those from a neutron bomb. Any attacks that do not rely primarly on kinetic force are considered 
 "Energy-based" attacks. The primary sources of Energy-based attacks for players will be trib-guns and m-fab abilities.
 M-fab abilities that provide Energy-based attacks will include the Energy-based Attack Ability Tag in their description. Trib-guns
 are always considered Energy-based attacks when being fired. 

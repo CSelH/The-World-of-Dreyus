@@ -25,5 +25,5 @@ Medicine - Microfabricator Physician, Surgeon, Psychologist, Anaesthesiologist, 
 Communication - Deceit, Persuasion, Imperative, Performance, Literacy
 Navigation - Piloting, Cartography, Astronomy, Meteorology, Vehicle Construction (split with engi)
 Subtlety - locksmithing (or w/ Engi), trapper, Assassination, misdirection
-Ecology -  Zoology, Entomology, Botany, Mycology, Microbiology (or w/ medicine), anthropology (or w/ communication)
+Ecology -  Macrobiology, Microbiology (or w/ medicine), anthropology (or w/ communication), archeology
 Warfare - small unit tactics, vehicle officer, logistics and supply (or w/ Navigation)

@@ -250,7 +250,7 @@ take the Attack Action.
 Pressure
 -
 Targets you successfully Attack with your Melee Weapons Ability have this effect applied to them automatically. Enemies affected
-by this Technique have a -1 Roll Modifier on ranged attacks against you, and a -1 Roll Modifier on melee attacks aginst anyone 
+by this Technique have a -1 Roll Modifier on ranged attacks against you, and a -1 Roll Modifier on melee attacks against anyone 
 other than you. This effect ends at the end of an affected character's turn, or if the affected character successfully Attacks you,
 or successfully Evades or Parries one of your Attacks. 
 Additionally, Enemies affected by this Technique within range of your Melee Attacks automatically provoke a Melee Weapon Ability 
@@ -1114,9 +1114,8 @@ on methods of fighting as a group, and thus does not provide the capability of d
 this ability does provide valuable knowledge in strategy, tactics, logistics, and leadership. Whether coordinating an infantry squad
 or leading a sky-fleet into battle, this ability is responsible for the quality of planning and leadership you can provide.
 
-This ability provides benefits both in and out of combat, and its Secondary Ability options provide specialization options including
-Small Unit Tactics, Ship Tactics, Fleet Warfare, and Battlefield Strategy, among others. These Secondary Abilities provide additional
-benefits and capabilities when working within the given specialization.
+This ability provides benefits both in and out of combat, and its Secondary Abilities provide options for specialization in leading
+particular varieties of units.
 
 Acuity, Memory, and Charm are the most frequently used Attributes for this ability.
 
@@ -1165,7 +1164,7 @@ Multiple instaces of this Technique do not stack, and if multiple members of a g
 amongst them is the one used.
 	
 
-Master -- Veteran Ofiicer
+Master -- Veteran Officer
 --
 This Technqiue upgrades your Combat Leadership Technique.
 Now you only need to succeed on 1 die in order to provide the +1 Action Point to each ally in the same combat as you.

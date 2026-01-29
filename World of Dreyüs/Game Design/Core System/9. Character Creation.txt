@@ -65,7 +65,7 @@ The next step should be to determine and note down the character's starting Abil
 	Battletechs begin with the following:
 		- Novice Marksmanship OR Novice Melee Weapons
 		- Journeyman Engineering OR Journeyman Medicine
-		- Player's choice of 1 Secondary Ability the character meets the requirements of that has the M-fab Tag on the 
+		- Player's choice of 1 Secondary Ability the character meets the requirements for that has the M-fab Tag on the 
 			Ability itself or at least one Technique provided by the Ability. 
 		- Player's choice of 1 additional Secondary Ability the character meets the requirements of.
 

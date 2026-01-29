@@ -33,7 +33,7 @@ appropriate raw materials.
 
 This rig can carry up to 6 small trib-guns, which must be modified to be compatible with the rig's mechanism. This modification
 is done at the same time the rig is crafted. 
-The main function of this rig and its mechanism to charge each weapon holstered in it simultaneously.
+The main function of this rig and its mechanism is to charge each weapon holstered in it simultaneously.
 
 Whenever wearing the rig, you may expend 1 Action Point to charge each weapon you are carrying in the rig's holsters.
 Weapons modified to work in this rig do not have independent charging handles and can only be charged by the rig's mechanism. 
@@ -156,7 +156,7 @@ Req: Master Hand-to-Hand
 Cost:
 
 This ability passively reduces the Stress you recieve, a result of your extensive internal reflection in combination with the 
-physicaly commitment to your training. While some may achieve martial mastery through physical effort alone and never achieve this
+physical commitment to your training. While some may achieve martial mastery through physical effort alone and never achieve this
 inner resilience, this ability represents those who have dedicated themselves to a more complete mastery of the self, extending to
 both the mental and physical.
  
@@ -280,7 +280,7 @@ unique features if your GM thinks it appropriate. Think of the following as sugg
 You could take inspiration from the following, or work out the specifics of your own creative vision. As always, try to keep game
 balance in mind, any specific design should have strengths and weaknesses that account for capability and cost.
 
-For instance, the simplest, cheapest drones might use wheels or tracks, sacrificing enviromentally-specific capabilities for easier 
+For instance, the simplest, cheapest drones might use wheels or tracks, sacrificing environmentally-specific capabilities for easier 
 availability as well as decent ground-pressure distribution that allows for a jack-of-all-trades approach that can handle reasonable
 amounts of harzards such as mud, ice, and sand roughly equally.
 
@@ -288,14 +288,14 @@ Drones with powerful, surface-piercing legs might have incredible climbing capab
 but may suffer from mechanical complexity as well as high ground-pressure that makes them less reliable on many surfaces. They might
 bog down in bad conditions and be more expensive to repair when disabled. 
 
-Ground-effect or Lift-Drive motivated drones would be very costly to create and maintain, but could effectively ignore enviromental 
+Ground-effect or Lift-Drive motivated drones would be very costly to create and maintain, but could effectively ignore environmental 
 variability, limited only by the incline of the surface itself. These drones cannot truly fly, and are thus unable to traverse 
 in the vertical extreme. They are unlikely to suffer in performance until disabled completely, but their monolithic design makes them
 more costly to repair in comparison to modular designs that allows for individual pieces, such as wheels, tracks or leg-segments to
 be replaced instead of the entire apparatus.
 
 In terms of game mechanics, the drone could be forced to make saves or rolls to traverse unfavorable terrain, and/or suffer movement
-value penalties. Some drones would be able to move in ways others cannot, and some designs may suffer drom Damage in different ways.
+value penalties. Some drones would be able to move in ways others cannot, and some designs may suffer from Damage in different ways.
 They might have small variations in their Attributes and abilities. Material expense should also vary based on capability and a 
 sense of technological scaling. Your GM can set a common set a rules, or choose to rule dynamically based on the specific scenario 
 that you have collaborated to create.)
@@ -375,7 +375,7 @@ Maintenance: Outside of combat you can repair the drone directly if you have acc
 	remove the Destroyed Status.
 	
 Rebuild: If the drone is completely lost you may build a new one from scratch.
-	You spend a day and half's work and use materials equal to the Cost of the drone to reconstruct the complete device.
+	You spend a day and a half's work and use materials equal to the Cost of the drone to reconstruct the complete device.
 
 
 
@@ -672,7 +672,7 @@ You gain the following benefits after acquiring this ability:
 Therapist
 -
 This Technique provides a passive benefit to you and your allies. You've taken to incorporating subtle therapeutic methods into your
-everyday interactions with the crew. These efforts help to ensure a healthy enviroment that allows crewmates to more easily process
+everyday interactions with the crew. These efforts help to ensure a healthy environment that allows crewmates to more easily process
 the Stress of their adventures.
 
 Whenever you and your allies roll to reduce Stress after resting you may roll an additional die and increase the value by that amount.
@@ -704,7 +704,7 @@ This ability represents specialized experience and knowledge in the use of drugs
 sensitory awareness in individuals, particularly within a medical context to enable other procedures that would be painful, 
 dangerous, or outright impossible to perform. 
 In ideal conditions, dedicated anaesthesiologists participate in any procedure requiring use of these sorts of substances, however 
-the expeditionary and frontier enviroments a ship's crew find themselves in can rarely allow for anything considered ideal by 
+the expeditionary and frontier environments a ship's crew find themselves in can rarely allow for anything considered ideal by 
 civilized standards. While some individuals may work primarily within this field as their specialty, it is not uncommon for more 
 adventuring medical experts to also study in it extensively alongside other topics in order to create a more monolithic practice. 
 Seasoned ship's surgeons will tell you that performing amputations is notably eaiser whenever you're able to provide more to a 
@@ -975,7 +975,7 @@ You gain the following benfits after acquiring this ability:
 
 Surveying
 -
-This Technique allows you to passively gather data of enviroments you explore, which you can then dedicate work hours to creating
+This Technique allows you to passively gather data of environments you explore, which you can then dedicate work hours to creating
 your own maps from.
 
 Once you gain access to this Technique you begin memorizing the navigational and observational data required to create a map of your
@@ -1014,18 +1014,19 @@ You gain the following benefits after acquiring this ability:
 
 Meteorology
 --
-Req: Journeyman Navigation
+Req: Journeyman Navigation OR Journeyman Ecology
 Cost:
 
 This ability represents experience and knowledge in the study of the weather, including acute weather formations, climate cycles, 
 and various levels of predictive forecasting. Given the extreme weather patterns on Dreyüs as well as the reliance on wind-driven
 transportation, meterologists are highly valued for their ability to keep people safe in addition to making transporation efficient.
 You gain the following benefits after acquiring this ability:
-- You have a +2 Roll Modifier to each dice rolled when using your Navigation Ability to determine wind conditions at an Altitude 
-	Level above or below your current Altitude Level.
+- You have a +2 Roll Modifier to each dice rolled for any Ability Roll to determine wind conditions at an Altitude Level above or 
+	below your current Altitude Level. This modifier cannot stack with any other modifier provided by Navigation, Ecology, or 
+	one of their dependent Secondary Abilities. 
 -  You gain a +1 Roll Modifier to each dice used in any Ability Roll related to knowledge of the weather or climate, including
-	forecasting future weather conditions. This modifier cannot stack with any other modifier provided by Navigation or one of 
-	its dependent Secondary Abilities. 
+	forecasting future weather conditions. This modifier cannot stack with any other modifier provided by Navigation, Ecology, or 
+	one of their dependent Secondary Abilities. 
 
 
 \\\
@@ -1144,6 +1145,123 @@ You gain the following benefits after acquiring this ability:
 - If you have the Performance Communication Secondary Ability, whenever you make a Communication Ability roll that would benefit
 	from your Performance Ability directly after succeeding with your Trick Technique against the target you may choose to forgo
 	rolling one of your available die to instead count it as an automatic successful roll on that die.
+
+
+\\\
+
+
+Macrobiology
+--
+Req: Journeyman Ecology
+Cost:
+
+This ability represents practical expertise in the identification and study of the varieties of lifeforms generally visible to the
+human eye. To contrast Microbiology, this field is generally concerned with life at a scale whereby the subject of study has 
+significant interaction with its external environment. This generally includes most forms of plant and animal life, as well as many
+fungi, and a handful of large-scale colonies of single-celled organisms (such as algae). 
+
+This ability would primarily concern how individual subjects live and interact with their environment. Comparatively, Microbiology is 
+mostly focused on internal aspects of multi-cellular life, and generally is lessed concerned with external interactions except in 
+some cases of single-celled organisms in large amounts.
+Note: There is some natural overlap between certain questions that could concern both Macrobiology and Microbiology, and whether or 
+not either Secondary Ability is applicable to the situation is ultimately in the hands of the GM.
+
+You gain the following benefits after acquiring this ability:
+- You gain a +2 Roll Modifier to each dice used for Ability Rolls to recall information about large-scale lifeforms you have studied.
+	This modifier cannot stack with any other modifier provided by Ecology or one of its dependent Secondary Abilities.
+- You gain a +1 Roll Modifier to each dice used for Ability Rolls to study large-scale lifeforms. If the lifeform is one you are 
+	familiar with, the Roll Modifier becomes +2 instead. This modifier cannot stack with any other modifier provided by Ecology 
+	or one of its dependent Secondary Abilities.
+
+
+\\\
+
+
+Microbiology
+--
+Req: Journeyman Ecology OR Journeyman Medicine
+Cost:
+
+This ability represents practical expertise in the identification and study of the varieties of lifeforms generally invisible to the
+human eye. To contrast Macrobiology, this field is generally concerned with life at a scale whereby the subject of study has very 
+little interaction with external factors beyond their immediate proximity or the greater system they are a part of. This generally
+includes all forms of single-celled life, as well as the microscopic study of multi-celled organisms. Due to the nature of infectious
+diseases, many students of Medicine will study Microbology to better understand the pathogens they contend with.
+
+This ability would primarily concern how individual cells function internally and how they interact with their immediate environment. 
+Comparatively, Macrobiology is mostly focused on multi-cellular life as individuals or groups that interact with their greater 
+external environment, and is generally only concerned with microscopic lifeforms when found in larger colony structures that have
+significant effect on the external environment (such as algae, or fungal colonies). 
+Note: There is some natural overlap between certain questions that could concern both Macrobiology and Microbiology, and whether or 
+not either Secondary Ability is applicable to the situation is ultimately in the hands of the GM.
+
+You gain the following benefits after acquiring this ability:
+- You gain a +2 Roll Modifier to each dice used for Ability Rolls to recall information about microscopic life you have studied.
+	This modifier cannot stack with any other modifier provided by Ecology, Medicine, or one of their dependent 
+	Secondary Abilities.
+- You gain a +1 Roll Modifier to each dice used for Ability Rolls to conduct experiments with microscopic life. This may include
+	the direct study of a lifeform via observation, but may also cover other activities such as growing microbiological cultures.
+	If the lifeform is one you are familiar with, the Roll Modifier becomes +2 instead. This modifier cannot stack with any other
+	modifier provided by Ecology, Medicine, or one of their dependent Secondary Abilities.
+
+
+\\\
+
+
+Anthropology
+--
+Req: Journeyman Ecology OR Journeyman Communication
+Cost:
+
+This ability represents practical expertise in the study of at least one the various extant cultures of Dreyüs, as well as the
+study of human culture generally as a phenomenon. Of all the organisms of Dreyüs, humanity is the most likely to go out of its way
+en masse to affect the environment. This fact has lead many environmental scientists into the study of human culture, while those
+who seek to improve their ability to communicate both within and without a given culture also turn to this field for its usefulness.
+
+You gain the following benefits after acquiring this ability:
+- You gain a +2 Roll Modifier to each dice used in any Ability Roll to recall specific information concerning a particular culture
+	which you have previously extensively studied.
+	This modifier cannot stack with any other modifier provided by Ecology, Communication, or one of their dependent 
+	Secondary Abilities.
+- You gain a +1 Roll Modifier to each dice used in any Ability Roll to study some aspect of a culture with which you are unfamiliar.
+	Whenever you use this benefit on a successful Ability Roll make a note of the success and the culture studied. After 
+	you study a culture this way successfully a number of times equal to thirty minus the combined value of your Acuity, Charm,
+	and Memory Attributes (30 minus Acuity Attribute, Charm Attribute, AND Memory Attribute), you become well-studied enough in
+	that culture that you may apply the previous benefit gained from this ability instead (i.e. the +1 Roll Modifier becomes the 
+	+2 Roll Modifier, and you no longer track successes).
+	The +1 Roll Modifier of this ability cannot stack with any other modifier provided by Ecology, Communication, or one of their
+	dependent Seconday Abilities.
+- You gain a +2 Roll Modifier to each dice used in any Ability Roll to recall general information about human behaviour and culture.
+	This modifier cannot be used when concerning a particular culture or one of its elements, only general features of most or 
+	all human cultures.
+	This modifier cannot stack with any other modifier provided by Ecology, Communication, or one of their dependent 
+	Secondary Abilities.
+ 
+
+\\\
+
+
+Archeology
+--
+Req: Anthropology
+Cost:
+
+This ability represents practical expertise in the study of physical ruins of civilizations. The long history of advanced
+civilizations on Dreyüs has had significant affects on the environment of the continent, many of which continue to be impactful to
+the present day. This, combined with the need to preserve and utilize the natural environment in a sustainable way, has lead to the 
+field of Archeology becoming deeply intertwined with environmental sciences as well as the humanities. On Dreyüs, rediscovering the
+past and preserving the future are two sides of the same coin, and those that understand how best to do the former are much sought
+after by those who wish to do the latter.
+
+You gain the following benefits after acquiring this ability:
+- You gain a +1 Roll Modifier to any Ability Roll involving the identification and study of extinct cultures and their elements,
+	including recalling information previously studied.
+	This modifier cannot stack with any other modifier provided by Ecology, Communication, or one of their dependent 
+	Secondary Abilities.
+- You gain a +2 Roll Modifier to any Ability Roll involving the physical identification, exploration, retrieval, and care of any 
+	archaic artifacts or ruins.
+	This modifier cannot stack with any other modifier provided by Ecology, Communication, or one of their dependent 
+	Secondary Abilities.
 
 
 \\\

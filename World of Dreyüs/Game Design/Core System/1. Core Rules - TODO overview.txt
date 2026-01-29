@@ -12,7 +12,7 @@ TODO
 
 6. Ability System - REVIEW READY
 6a. Primary Ability List - REVIEW READY / PENDING ADDDITIONS AS NEEDED 
-6b. Secondary Ability List - Needs only Ecology Secondaries
+6b. Secondary Ability List - REVIEW READY
 
 7. Item System - REVIEW READY
 7a. Item Details - REVIEW READY / PENDING ADDDITIONS AS NEEDED 

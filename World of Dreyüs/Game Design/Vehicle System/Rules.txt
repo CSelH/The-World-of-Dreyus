@@ -31,7 +31,7 @@ Vehicle Actions -
 			the vehicle does not perform its action at all or performs the action incorrectly in a non-beneficial way.
 		
 		-> Inadequate occurs when no dice meet or exceed the threshold of the roll.
-			The vehicle will either perform its action poorly, or perform in incompletely.
+			The vehicle will either perform its action poorly, or performed incompletely.
 		
 		-> Excellent occurs when the threshold for the roll is met, and a Failure does not occur.
 			The vehicle will perform the action correctly and to its best capability.
@@ -185,21 +185,26 @@ Movement:
 			however many other sorts of vehicles exist in this class, such as sail-boards, sea-sailing ships, and 
 			other surface-based craft that use weak LDs to hover a small distance above the ground or water.
 		
+
 		Depending on the vehicle, the Pilot, Helmsman, and/or Navigator Roles are used to control movement.
 			Large, fully-crewed Sky-sailing Ships may even require a Helmsman, Navigator, and Engineer all working 
 			together in order to achieve optimal movement.
 		
+
+
 		Nearly all vehicles in this class utilize Navigation rolls for their movement, however the number of such rolls,
 			as well as the Attributes used for the roll, can vary between vehicles and related roles. 
 			Typically these will nearly always involve Acuity, either alone or split with another Attribute.
 		
-		The threshold for movement rolls can differ slightly, but will normally use a base of 3 + some modifier.
-			Typically the modifier is Navigational Difficulty (ND), which describes the difficulty of guiding the vehicle.
-				Navigational Difficulty varies for each vehicle, with a sepereate value for each relative Direction.
-			Besides ND, Lift-Drive Class (LDC) is the 2nd most common modifier for these rolls, but is only applicable 
-				whenever altitude changes are made. If an Engineer is handling the altitude change, the threshold 
-				for their roll is 6 + LDC modifier.
-				(Note: These rules will become more clear as the other relevant mechanics are explained.)
+		Typically the Navigational Difficulty (ND), which describes the difficulty of guiding the vehicle, is used to 
+			determine the threshold for Navigation rolls to move the vehicle.
+		Navigational Difficulty varies for each vehicle, with a seperate value for each relative Direction.
+		Besides ND, Lift-Drive Class (LDC) is the other Vehicle Attribute that affects the threshold for movement rolls, 
+			it is added to Navigational Difficulty whenever altitude changes are made as part of a unified movement roll. 
+		If an Engineer is handling the altitude change independently, the threshold for their roll is 4 + Lift-Drive Class.
+			
+
+	
 		
 		While the maximum achievable speed is determined by the combination of the Vehicle's Speed, its Direction of travel 
 			relative to the wind, and the Wind Intensity, the quality of the result of the roll determines how much of
@@ -214,7 +219,10 @@ Movement:
 			These values are used as the base value when deriving the actual movement speed of the vehicle for a round.
 				Wind Intensity subtracts from this base value, limiting the maximum speed of the vehicle.
 				Direction of travel determines what percentage of that adjusted value is achievable. 
-			
+		
+	
+
+
 		Wind Intensity describes the general strength of the wind along its direction of travel.
 			Wind Intensity is described as either Strong, Normal, Weak, or Calm (no wind).
 			(Note: these general descriptions are used in lieu of exact wind speeds for simplicity.)
@@ -226,15 +234,23 @@ Movement:
 					reduced at this intensity.
 				Still Winds are non-intensive, being essentially of negligible speed. Vehicles will either be unable
 					to move, or only drift slowly.
+	
 		Wind Intensity affects the maximum speed of a vehicle in the following ways:
 			Strong - Full Speed
 			Normal - -5 m/s
 			Weak   - -10 m/s
 			Calmed - Max speed = 1 m/s
+			
+			At the surface, Normal and Weak winds only reduce maximum speed by 2 m/s and 5 m/s, respectively.
+		
 			(Note: Normal and Weak winds cannot reduce a vehicle's speed below 1 m/s.)
 			(Additional Note: if an altitude change is made as part of a movement, the Wind Intensity of the initial
 				position is used to determine possible speed.)
-		
+	
+
+	
+
+
 		Direction - wind-driven vehicles have three directions of lateral movement relative to the wind.
 			These are Reaching, Downwind, and Windward.
 			Reaching is movement that is roughly perpendicular to the wind's direction.
@@ -245,6 +261,7 @@ Movement:
 					can consider Windward movement as a straight line and describe it as such, with the 
 					understanding that characters in-world are utilizing realistic techniques, and are not
 					defying the laws of physics insofar as sailing techniques are concerned.) 
+
 		The direction of travel relative to the wind's direction affects the actual travelling speed of the vehicle.
 			Reaching movement allows for the maximum possible speed in the given Wind Intensity.
 			Downwind movement restricts a vehicle to 75% of its maximum possible speed in the given Wind Intensity.
@@ -252,10 +269,15 @@ Movement:
 			(Note: Downwind and Windward movement cannot reduce a vehicle's speed below 1 m/s.)
 			(Additional Note: similiar to Wind Intensity, if an altitude change is made as part of a movement, the inital
 				Direction relative to the wind is used to determine possible speed.)
+
+
+
+
 		Wind intensity and Direction can vary depending on altitude. In lieu of definite measurements of altitude using
 			distance from the surface, instead stratified Altitude Levels are used to describe altitude, similiar to the
 			ascending floors of a building. Altitude Level 1 is the airspace directly above and including the surface,
 			and each Altitude Level above 1 representing a significant increase in altitude.
+
 		Characters automatically know the Wind Intesity and Direction for their location at their current Altitude Level.
 			Characters can make a Navigation Roll (Acuity) to determine the wind conditions for an Altitude Level above 
 			or below them. The Threshold for this roll is equal to 3 plus the number of Altitude Levels that the target
@@ -264,15 +286,17 @@ Movement:
 			above Altitude Level 2, making the Threshold equal to 3 + 2). 
 
 		
+
 		All together, a vehicle's movement is determined using the following process:
 			A crew member, typically the Navigator, decides the intended course. 
 			Once the Direction is determined (Reaching, Downwind, Windward), and whether or not an altitude change is 
 				desired, the roll threshold is set based on the vehicle's Navigational Difficulty for that direction
-				and/or the Lift-Drive Class. These values are added to a base of 3 to determine the roll(s) threshold.
+				and/or the Lift-Drive Class.
 				(Note: Depending on the how responsibilities are divided, different Crew Roles may have different
 					thresholds for the same movement roll. This is most notable whenever a crew is using a 
 					Navigator, Helmsman, and Engineer in cooperation. This is explained in detail in the 
 					Crew Roles segment.)
+
 			Starting from the vehicle's relevant speed (surface or sky), first any reduction from Wind Intensity 
 				is applied, if appropriate. Then, any reduction due to Direction is applied, rounded down to the 
 				nearest whole number if necessary. The resulting value is the vehicle's maximum speed for that round. 
@@ -291,13 +315,12 @@ Movement:
 				rigging and a Lift-Drive class of Normal) sets a Reaching course in Strong Winds, 
 				along with an altitude change. (Note: the ship is already at altitude, rather than the surface.)
 			This ship requires the Navigator, Helmsman, and Engineer to make seperate rolls in cooperation.
-				The Navigator's roll is Navigation (Acuity + Memory), with a threshold equal to 3 plus the Reaching 
-					ND for this ship ( 3 + 6 for a total of 9).
+				The Navigator's roll is Navigation (Acuity + Memory), with a threshold equal to the Reaching ND for 
+					this ship (7).
 				The Helmsman's roll is Navigation (Acuity), with the same threshold as the Navigator's roll.
-					(base 3 + the ships Reaching ND of 6 for a total of 9.)
-				The Engineer's roll is Navigation (Acuity + Memory), with a threshold equal to 6 plus the modifier 
+				The Engineer's roll is Navigation (Acuity + Memory), with a threshold equal to 4 plus the modifier 
 					from the ship's Lift-Drive Class (+0 for a LDC of Normal, so the threshold in this case is
-					simply 6).
+					simply 4).
 			This ship's sky speed is 15 m/s, the winds are Strong (no reduction), and the ship is reaching (no reduction).
 				So the ship's maximum speed for this round is the full 15 m/s. 
 			The Navigator, Helmsman, and Engineer all roll, each manage to meet or beat the threshold, and the total 
@@ -313,12 +336,12 @@ Movement:
 			
 			A Lancer operating a Lancer Sail-Board decides to move Windward while the Wind Intensity is Normal. 
 				(Note: altitude changes do not affect the roll for these craft).
-			The Lancer's roll is Navigation (Finesse + Acuity), and the threshold is 3 plus the ND of this craft, in this
-				case we'll say it is 5, so the threshold is 8 (since 3 + 5 = 8).
+			The Lancer's roll is Navigation (Finesse + Acuity), and the threshold is the ND of this craft, in this
+				case we'll say it is 4.
 			This Sail-Board's Sky-Speed is 30 m/s, reduced by 5 m/s down to 25 m/s due to Normal Wind Intensity, and the 
 				Direction is Windward, so the 25 m/s is reduced by 50%, rounded down, for a result of 12 m/s.
 				So the craft's maximum speed for this round is 12 m/s.
-			The Lancer rolls and does not meet or beat the threshold of 8, but less than half of the dice rolled are 1's,
+			The Lancer rolls and does not meet or beat the threshold of 4, but less than half of the dice rolled are 1's,
 				so the result of the roll is just Inadequate.
 			The Inadequate result applies another 50% reduction to the 12 m/s speed, down to merely 6 m/s. However the 
 				movement does still occur since the final speed speed is not < 1 m/s.
@@ -328,10 +351,10 @@ Movement:
 
 			The lone Navigator of an average width Cutter sky-ship equipped with a High Power Lift-Drive sets a 
 				Downwind course with an altitude change during Weak Winds.
-			The Navigator's roll is Navigation (Acuity + Memory), with a threshold equal to 3 + the ship's Downwind ND, 
-				plus the Lift-Drive Class Modifier. Thus threshold is used because the Navigator is handling the 
+			The Navigator's roll is Navigation (Acuity + Memory), with a threshold equal to the ship's Downwind ND, 
+				plus the Lift-Drive Class Modifier. This threshold is used because the Navigator is handling the 
 				altitude change, rather than delegating the task to a dedicated Engineer.
-				So, the threshold for this roll is 4 ( 3 + 2 *Downwind ND* + -1 *High Power Lift-Drive Class* = 4 )
+				So, the threshold for this roll is 2 (3 *Downwind ND* + -1 *High Power Lift-Drive Class* = 2 )
 			The Cutter's Sky-Speed is 20 m/s, Weak Winds reduce this by 10 m/s, then the Downwind penalty is applied,
 				rounded down, bringing the speed to 7 m/s ( 20 - 10 = 10, 10 x .75 = 7.5, round down to 7).
 				So the ship's maximum speed for this round is 7 m/s.
@@ -452,7 +475,7 @@ Vehicle Roles:
 			
 			Altitude Change - On Size Class Medium and larger sky-ships an Engineer must make a 
 				Navigation Roll (Acuity + Memory) seperate from the Navigator's and/or Helmsman's Navigation Rolls
-				when the ship is changing altitude. The threshold for this roll is 6 plus the modifier from 
+				when the ship is changing altitude. The threshold for this roll is 4 plus the modifier from 
 				the ship's Lift-Drive Class.
 			
 			System Stabilization - When a vehicle's systems become Critical, an Engineer can make an 
@@ -528,8 +551,8 @@ Vehicle Roles:
 		
 		On Size Class: Small ships, the Helmsman can combine the Engineer's roll for altitude changes into their own
 			Navigation roll instead of the Navigator or Engineer. 
-			The threshold for this roll is 3 plus Navigational Difficulty plus Lift-Drive Class modifier.
-				(3 + ND + LD Class)
+			The threshold for this roll is Navigational Difficulty plus Lift-Drive Class modifier.
+				(ND + LD Class)
 		
 		If a Helmsman must direct a manual rigging crew as part of the action, their roll becomes Navigation (Acuity + Charm).
 		
@@ -543,7 +566,7 @@ Vehicle Roles:
 
 		Typical Rolls:
 			
-			-> Movement: Navigation (Finesse + Acuity) Roll. Threshold is 3 + Navigational Difficulty.
+			-> Movement: Navigation (Finesse + Acuity) Roll. Threshold is equal to Navigational Difficulty.
 
 			-> Lance Attack: Melee Weapon (Acuity + Power) Roll to attack another craft with the mounted explosive
 				lance. Threshold is target craft's Defense.
@@ -559,12 +582,12 @@ Vehicle Roles:
 		Required Role on most wind-driven craft.
 
 		Makes Navigation (Acuity + Memory) Rolls to set a craft's course, determining the craft's movement. 
-			The threshold for this roll is 3 plus the Navigational Difficulty for the course's direction.
+			The threshold for this roll is the Navigational Difficulty for the course's direction.
 
 		On craft that do not require seperate rolls from the Engineer for altitude changes, the Navigator can incorporate
 			that roll into their primary Navigation roll to make them one combined roll.
-			The threshold for this roll is 3 plus Navigational Difficulty plus Lift-Drive Class modifier.
-				(3 + ND + LD Class)
+			The threshold for this roll is Navigational Difficulty plus Lift-Drive Class modifier.
+				(ND + LD Class)
 
 		On craft with less than 3 masts the Nagivator can both determine the course of the ship while handling the ship's
 			controls and directing the rigging crew, if any. 
@@ -632,16 +655,16 @@ Sky-ship Attributes (& Components):
 							Note: Limited to Small and Medium ships.
 		Ship Width	- Narrow, Average, Wide <- Affects the following:
 			Compartments Per Deck Change:
-				Small: -2, 0, +2 
-				Medium:
-				Large:
+				Small: -3, 0, +3 
+				Medium: -5, 0, +5
+				Large: N/A, 0, +7
 				Huge:
 			Navigational Difficulty Change:
 				All Sail Plans: -1, 0, +1
-			Construction Cost Change:
+			Construction Cost Change per deck:
 				Small: -500, 0, +500
-				Medium:
-				Large:
+				Medium: -2000, 0, +2000
+				Large: N/A, 0, +2500
 				Huge:
 	
 	Berth and Capacity:
@@ -679,10 +702,8 @@ Sky-ship Attributes (& Components):
 		Cargo Space	- Total cargo capacity of ship as a number of compartments. 
 					Equal to the number of unreserved compartments 
 						plus the number of compartments described by Dedicated Hold.
-					1 compartment is about 1 tonne (metric) of capacity, or roughly a cubed meter of space.	
-						(Note: this is not an exact description of such a space, but a representation of
-							the usable area of the space, i.e. the effective value. In reality the size 
-							would likely be at least slightly larger.)
+					1 compartment is about 10 tonnes (metric) of capacity.	
+					
 					Additional Note: Unused cargo space can be used as makeshift living spaces to accomodate
 						up to 5 individuals per compartment, but compartments used this way cannot hold
 						cargo at the same time, and any individuals sleeping there should experience
@@ -692,19 +713,19 @@ Sky-ship Attributes (& Components):
 		Sky-Speed 	- Maximum movement speed while Reaching in the sky. While Downwind = 75%, Windward 50%	
 		Surface-Speed	- Maximum movement speed while Reaching at the surface. While Downwind = 75%, Windward 50%	
 		Navigational 
-		Difficulty	- 3 values (Reaching, Downwind, and Windward) used as a modifier, being added to 3 
-					to determine roll threshold for Navigator's and Helmsman's Navigation Rolls.
+		Difficulty	- 3 values (Reaching, Downwind, and Windward) used as to determine roll threshold for Navigator's and 
+					Helmsman's Navigation Rolls.
 		Lift-Drive
 		Class		- Relative power of Lift-Drive for the ship's Size Class
 				 	Acts as a modifier to the Navigational Roll when changing altitude.
-						Added to the base 6 used for Engineering Navigation Rolls.
-						Added to the base 3 plus the Navigational Difficulty when incorporated into regular
+						Added to the base 4 used for Engineering Navigation Rolls.
+						Added to the base Navigational Difficulty when incorporated into regular 
 							Navigation Rolls.
 					Low, Normal, High - +1, 0, -1
 					Affects construction cost relative to the Ship's Size Class
 						Small: -2000, 0, +2000
-						Medium:
-						Large:
+						Medium: -3000, 0, +3000
+						Large: -4000, 0, +4000
 						Huge:
 					Note: on Small ships this affects the Navigator's singular Navigation Roll along with the 
 						ship's Navigational Difficulty ONLY when changing altitude. Otherwise, the roll
@@ -727,11 +748,11 @@ Sky-ship Attributes (& Components):
 		Lancer Bays	- Number of compartments set aside to allow Lancer deployment at altitude.
 					Limited per deck by Size Class:
 						Small: 2
-						Medium:
-						Large:
+						Medium: 4
+						Large: 6
 						Huge:	
 		Full Gundeck(s)	- Contributes to Broadside Power and Chaser Power, requires 1/2 compartments on dedicated deck
-		Half Gundeck(s) - Contributes to Broadside Power, requires 1/2 the compartments of a Full Gundeck
+		Half Gundeck(s) - Contributes to Broadside Power, requires 1/2 the compartments and crew of a Full Gundeck
 				Note: A ship CANNOT have multiple Gundecks, Full or Half, on a single deck of a ship, regardless of
 					the number of available compartments.
 		Broadside Force - Added Potential for Gunnery rolls from the side.
