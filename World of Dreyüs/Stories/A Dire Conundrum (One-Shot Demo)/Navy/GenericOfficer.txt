@@ -1,0 +1,26 @@
+Generic Officer Stat Block
+
++1 Heartiness
++1 Tenacity
++2 Acuity
++1 Memory
++1 Charm
+
+Health: 20
+Control: 20
+Defense: 3
+PP: 5
+Move: 1m
+AP: 2
+
+
+Novice Warfare
+Novice Marksman or Melee
+Journeyman Engineer or Medicine
+Explosives or M-fab Physician
+Thermaals or Surgeon
+
+Novice Armor
+1 Small Tribgun
+1 Small Tribgun or Melee
+journeyman M-fab, 2 refills

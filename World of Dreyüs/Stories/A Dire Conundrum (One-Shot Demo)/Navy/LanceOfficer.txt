@@ -1,0 +1,25 @@
+Generic Officer Stat Block
+
++1 Heartiness
++1 Tenacity
++1 Speed
++1 Acuity
++1 Power
++1 Finesse
+
+Health: 20
+Control: 20
+Defense: 4
+PP: 4
+Move: 2m
+AP: 3
+
+Journeyman Melee
+Journeyman Navigation
+ - Piloting
+Journeyman Kinesiology
+
+Novice Armor
+1 Small Melee
+1 Small or Large Melee
+

@@ -1,0 +1,25 @@
+Generic Pirate Stat Block
+
++1 Heartiness
++1 Tenacity
++1 Power
++1 Acuity
++1 Finesse
++1 Speed
+
+Health: 20
+Control: 20
+Defense: 4
+PP: 4
+Move: 2m
+AP: 3
+
+
+Journeyman Marksman or Melee, novice other
+novice Kinesiology
+novice navigation
+
+journeyman armor
+2 small trib and 1 small melee or
+1 large trib and 1 small melee or
+1 small trib and 1 large melee

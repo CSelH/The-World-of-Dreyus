@@ -1,0 +1,17 @@
+Generic Sailor Stat Block
+
++1 Tenacity
++1 Power
++1 Finesse
+
+Health: 10
+Control: 20
+Defense: 3
+PP: 3
+Move: 1m
+AP: 2
+
+Novice Marksman or Melee
+Novice Kinesiology
+
+1 small tribgun or melee
