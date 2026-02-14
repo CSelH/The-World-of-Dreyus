@@ -58,7 +58,13 @@ The next step should be to determine and note down the character's starting Abil
 		- Journeyman Marksmanship
 		- Novice Analysis
 		- Player's choice of 1 Novice Primary Ability.
+		- Combat Observation Technique
 
+		Combat Observation
+		-----
+		This Technique gives Marksmen a Roll Modifier for their Analyze Technique when targeting a hostile combatant.
+		After rolling, the Marksman can select a a number of dice equal to their Analysis Ability Level (1-4) that did not
+		provoke an Opening or Mistake, and give those dice a +1 Roll Modifier.
 
 
 
@@ -68,7 +74,14 @@ The next step should be to determine and note down the character's starting Abil
 		- Player's choice of 1 Secondary Ability the character meets the requirements for that has the M-fab Tag on the 
 			Ability itself or at least one Technique provided by the Ability. 
 		- Player's choice of 1 additional Secondary Ability the character meets the requirements of.
+		- Field Technician Technique
 
+		Field Technician
+		-----
+		This Technique gives Battletechs a greater effectiveness when using their m-fabs in combat. Whenever making an Attack
+		or Healing action with an m-fab during combat, Battletechs may add an Effect Modifier if that action succeeds.
+		The value of the Effect Modifier is equal to 1 plus the Ability Level of the Primary Ability governing the action.
+		(1 + Primary Ability Level)
 
 
 

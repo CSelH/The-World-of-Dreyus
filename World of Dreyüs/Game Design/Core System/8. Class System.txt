@@ -1,7 +1,7 @@
 There a four classes a player may choose between when creating a character. These classes mostly determine what Attributes and 
 Abilities a character starts with, and somewhat affect a character's progression, such as access to class-restricted Abilities.
 
-The four classes represent archetypes of the kinds of individuals who serve on sky-ship crews, and are sometimes referred to in world
+The four classes represent archetypes of the kinds of individuals who serve on sky-ship crews, and are often referred to in world
 by these names in a way similiar to a job title. These classes essentially represent a training background possessed by the character
 before the tale begins. While certain commonalities will exist between individuals that share a particular class, individuals are 
 free to pursue a wide variety advancements as they see fit. A Lancer might have incredible medical knowledge, a Marksman could be a 
@@ -10,3 +10,237 @@ proficient Hand-to-Hand fighter, a Battletech might be a renowed fencing master,
 
 The following section provides general descriptions of each class and their typical playstyles and characteristics. 
 The later section on character creation contains the exact rules describing the starting benefits of each class.
+
+
+
+\\\\\\
+
+
+
+The Lancer
+----------
+
+In Dreyüs the word "Lancer" is commonly used to refer to both the small attack sky-craft as well as those who pilot them in combat.
+Within the minds of sky-sailors the two are essentially one and the same, with the understanding that one cannot serve that purpose
+without the other. 
+
+The sky-craft are heavily modified sail-boards, outfitted with high-altitude lift-drives as well as the lance mechanism and the 
+specialized rig-grips required to control the craft while also handling the lance. The lances are equipped with special warheads 
+designed to penetrate into a sky-ship's hull using the kinetic energy of the attacking craft. The warhead is attached to a 
+break-away mechanism with both automatic fail-safes, in the case of energy-mismanagement that could cause a stall or other dangerous 
+loss of velocity, as well as a primary manual control used by the Lancer during an attack. 
+
+Lancers must be conscious of wind-currents, sightlines, attack angles, target priority, and the extreme focus to time the warhead 
+release during an attack. They must also meet exceptional physical demands, great strength and control to handle the notoriously and
+uniquely difficult Lancer rig-grip, resilient and enduring vitality that can resist the thin, freezing air, and honed senses that can
+gather accurate data despite the stresses. In all, Lancers require both an exceptional physical and mental capacity as well as a 
+variety of well-developed skillsets to perform their role. These requirements, as well as the extreme personal danger associated
+with the role, mean that Lancers are almost universally a volunteer role fulfilled by those that posess as much daring as they do skill.
+
+While the title of Lancer in-world is reserved for those actually fulfilling that role on a sky-ship, the basic requirements and 
+archetype associated with that role means that Lancer Class mechanically covers some individuals who may not have originally trained
+for the role per se. Specifically, the most definitive features of the Lancer are their well-rounded capabilties, risk-taking 
+behaviour, and preference for more direct and typically close-ranged combat.
+
+Lancers begin the game with Melee Weapons and Navigation abilities, as well as free pick of the player's choice. Always starting
+with the Melee Weapons ability reflects the Lancers' status as the greatest close-range fighters on Dreyüs, especially when 
+considering they are the only ones who can effectively use a kind of melee weapon in vehicle combat. Lancers' also have unique
+access to the most powerful Secondary Abilities for Melee Weapons. Navigation is both a basic requirement, as all Lancers are at 
+least capable Pilots, as well as a generally useful skill as vehicles of all kinds are fundamental to the lives and economies of 
+Dreyüs. The free pick additionally reflects their diverse natures; some Lancers like to diversify their fighting capabilities, while
+many pursue various personal interests, functional or otherwise. 
+
+Lancers also start with a unique Class Technique called Fearless, which makes the character less susceptible to the mental stress of 
+combat. Typically, individuals will suffer a Stress increase when targeted by an attack, regardles of whether or not they are hit.
+Fearless makes Lancers immune to this effect. Additionally the Technique makes the character less likely to fail Panic Saves.
+
+
+
+SHOULD I PLAY A LANCER?
+
+There are a lot of good reasons to play a Lancer. Lancers can become the best melee weapon fighters. They are free to pursue a wide
+variety of Abilities and will likely find them useful in some way. Their combat leans into high-stakes action that can be both
+cinematic and rewarding, but also unforgiving and devastating at times. There is also a lot of potential in playing a kind of 
+"off-type" Lancer. Perhaps an acquired disability has rendered an veteran Lancer unable to perform the role and are now serving as 
+a Helmsman and technical specialist. An old Lancer might be his own Captain now, and prefers to lead his crew directly by commanding
+the ship and spearheading the boarding actions.
+
+We recommend playing a Lancer if you love high-risk heroics, being a fearsome brawler, or having the freedom to pursue your own 
+interests while remaining a dangerous asset for your crew. 
+
+
+
+\\\\\\
+
+
+
+The Marksman
+----------
+
+Much like in our world, the term "Marksman" is used in Dreyüs to refer to nearly anyone who possesses respectable shooting skills in
+addition to being used in a military context to refer to a definitive combat role. Marksmen walk nearly every path in life, and 
+are found in all shapes and sizes in nearly every culture on the continent. Armies and sky-fleets value Marksman's dominanting 
+capability on the battlefield. Villages, nomadic tribes, and small city markets rely on Marksmen as hunters and protectors.
+Whether holding the finest tribgun of a ship's arsenal or the simplest of atlatl carved by an elder's hand, one can also be assured
+that if it can be hit, the Marksman will make the shot.
+
+Marksmen are the most common combatants on almost every battlefield, thanks in no small part to the deadly reliability of their 
+tribguns and their unmatched capability when employing them. Many larger sky-sailing crews might possess more Marksmen than Lancers 
+at more than 10:1 ratios. This is thanks in part in the requirements of space and specialized equipment for Lancers, but also in great 
+part to the fact that good Marksmen are more common, easier to train and equip, arguably more reliable, and particularly less risky 
+both tactically and economically. The primary weapons of most vehicles in Dreyüs are high-powered tribgun cannons, causing Marksmen 
+to stand out in vehicle combat as naturally capable gunners and gunnery officers. 
+
+The starting Abilities and Attributes for Marksmen reflect their speciality and keen sense. They recieve an enhanced starting level
+to their Marksmanship Ability (which all characters utilize as their shooting skill), and they receive basic Analysis to reflect 
+their perceptiveness and ability to find weakpoints. Their starting Attributes lean into those Abilities, ensuring that all 
+Marksmen start out with strong core capabilities in combat. Similiar to Lancers, Marksmen recieve a free choice of an Ability to 
+start with in addition, however unlike Lancers the Marksmen more specialized starting Attributes make them more capable in some 
+fields than others. Marksmen also have access to powerful Secondary Abilities for Marksmanship, giving them the choice between
+the precise, long-range Sniper, or the Gunslinger with their unique multi-gun fighting style. 
+
+The Marksman's Class Technique, Combat Observation, allows the character to more reliably succeed on their Analyze rolls during 
+combat. This results in more consistent hits and higher damage output. It also makes Marksmen theoretically the best at identifying
+weakpoints on their enemies, and a talent that is certainly useful to the individual but can also be valuble when leading and 
+directing others during a fight.
+
+
+
+SHOULD I PLAY A MARKSMAN?
+
+In a world where laser-shooting guns are the standard armament for everyone who can get them, the ability to shoot well is most 
+likely the single most deadly skill a person could have. While they lack the flexibility and freedom of the Lancer, Marksmen do
+start out more specialized and with better tailored Attributes to their Abilities. During combat Marksmen are the backbone of a 
+force's damage output, and are typically the best at exploiting the opportunities created by other fighters. Vehicle crews that
+don't make use of Marksmen for their gunnery are asking to be outclassed and outgunned by those that do. Characteristically, if
+most Lancers are daring front-liners who love to take risks and be seen, most Marksmen are the careful, patient, analytical fighters
+who are waiting to appear from behind a doorway or from within a crow's nest at just the right moment to land the perfect shot to
+win the fight.
+
+We recommend playing a Marksman if you like being the backbone of the fight with powerful and consistent damage, as well as knowing
+that your eyes are always the sharpest when the lasers start flying. 
+
+
+
+\\\\\\
+
+
+
+The Battletech
+----------
+
+The closest real-world analog to the Battletech would be the Combat Engineer, found in nearly all standardized militaries. 
+However, while a Combat Engineer may perform a large variety of duties all the way from building bridges all the way up to blowing 
+up defenses during a battle, the Battletech is more focused on the *micro* level of Engineering during a fight. 
+Specifically, Battletechs are those who specialize in the use of m-fab, or microfabricator, Techniques during combat. 
+M-fabs have a large variety of uses both in and out of combat, capable of attacking foes with all manner of viscous materials, 
+healing allies with emergency medicines, or simply as functional tool to solve some engineering problem right then and there. 
+Battletechs are unmatched at putting these technologies to use during combat, and typically possess more than respectable skills 
+outside of combat as well.
+
+M-fabs are small, hand-held machines capable of rapidly sythnesizing chemical compounds at the molecular level, and then employing
+the fresh materials under the user's control. Composed of a small "core" that handles the synthesis fixed into a greater apparatus,
+often custom-made by the user, that will typically include a computerized control system, an output control (often a barrel or 
+nozzle), and whatever ergonomic features the user desires. 
+
+The m-fab core is an ancient design that has remain fundamentally similiar into the current era, and has been used by every advanced 
+society since its widespread adoption. Thus, ancient m-fab cores are nearly as valuable to a scavcycler as a freshly created one. 
+The production of entirely new m-fab cores is extremely limited, and is a capability possessed by only a handful of powers. 
+However, since only a few interative advancements have been made on the base tech, scavenging, recycling, and updating existing cores
+is the most common method of acquisition. Normally this would mean a  dwindling supply of cores that would lead to extreme scarcity, 
+although this is not the case. Societies on Dreyüs are still recovering from the last large-scale collapse a little over 300 years 
+before the current setting, so at this moment most economies are experiencing technological growth as they have more freed resources 
+available to dedicate to scavcycling and returning lost resources back into use. In other words, demand for m-fabs is increasing, but
+the supply infrastructure is likewise increasing as both are being driven by the same factor: societal regrowth.
+
+Battletechs may take on a variety of specialties and come from numerous walks of life, although any society producing Battletechs
+must be achieving certain technological standards by default. Battletechs might be field medics who save the wounded by utilizing 
+their trauma treating abilities with an m-fab, and carrying a tribgun to protect themselves and their patients. They might take on
+the role of a disruptive fighter, employing debilitating and disorienting m-fab attacks while keeping the odd handgun or saber as 
+backup for times of need. Battletechs are also often responsible for keeping vehicles operational during combat, being capable of 
+both repairing and operating the machines of way, as well as being ready to defend those machines when needed.
+
+Starting out, Battletechs are second only to Experts in regards to the freedom of choice they have in their intial Abilities.
+All Battletechs have some basic weapon training, a necessity of any combatant, however the player has a choice of whether to begin
+with Melee Weapons or Marksmanship. Battletechs will almost always carry a mundane weapon or two to ensure their safety, but their
+weapon Abilities are also employed at times when attacking with their m-fabs. Some of the unique Secondary Abilities available to 
+Battletechs give them opportunities to incorporate their m-fabs into other weapon systems which can give them powerful capabilities
+during combat, typically making their weapon Abilities that much more valuable.
+
+Battletechs are also given a choise of whether to take a background in Medicine or Engineering, starting the game with a respectable
+mix of combat and utility capabilities. They also choose two Secondary Abilities to start with, one of which must be an m-fab Ability.
+These choices will allow for a Battletech to lean further into their specialization, or get a headstart on diversifying their
+capabilities. Typically Battletechs will learn a wide variety of Secondary Abilities in order to provide them with a greater number
+of m-fab Techniques. 
+
+The Battletech's Class Technique is Field Technician, which give them a consistent bonus to the effect of their successful m-fab
+actions during combat. Specifically, they gain an Effect Modifier equal to 1 plus the Ability Level of Primary Ability that goverened
+the dice roll. Effect Modifiers provide a specified increase to the result of actions where the dice roll is already a success, so it
+does not make them more likely to succeed on a given attempt, but will make the results of their success more effective.
+
+
+
+SHOULD I PLAY A BATTLETECH?
+
+In The World of Dreyüs, true supernatural magic does not exist, so this game features no mages, wizards, witches, or warlocks
+to throw fireballs at your enemies with. Instead, this world walks on a fine line between grounded, yet ultimately fictional, 
+science and the Clarkian axiom that "any sufficiently advanced technology is indistinguishable from magic". In other words, the
+technology of Dreyüs, and thus to a greater extent the setting itself, is a fantasy, however it is a fantasy that is rooted in 
+real-world concepts. With that being said, if one were to simply substitute the word "tech" for "magic" it should be immediately 
+evident what the archetype of the Battletech is in truth. While any character can learn how to use or even fight with an m-fab, the
+Battletech will always be the preeminment "caster" of the setting.
+
+We recommend playing a Battletech if you want to explore where the intersection of the esoteric, miracle-like technology of Dreyüs 
+and with the brutal consequences of its violence meet, while always knowing you'll be a valued and capable member of any crew.
+
+
+
+\\\\\\
+
+
+
+The Expert
+----------
+
+No matter what world, what people, or what time in their history, no advanced society can function without those who have dedicated
+significant time and effort to acquire specialized knowledge and capabilities that extend past those needed for basic survival.
+Everyone needs Experts. Experts build everything, run everything, lead everyone, and often are the owns who own the things that can
+be owned. What sets Experts apart is not what they know, but how well they know it. Mental exceptionalism is their defining 
+characteristic, and they are as many kinds of Experts as there are things that people can be good at or know well. So, much like in
+our world, the people of Dreyüs benefit the most when they employ those most capable at the task at hand.
+
+Experts will be found in all societies, all crews, and in nearly every position imaginable in one instance or another. However,
+there is almost now situation where there can be too many Experts either, as their capacity to rapidly acquire and hone new skills
+means they will always find some way to be valuable. On a ship's crew Experts will serve as doctors, helmsmen, material support 
+technicians, navigators, researchers, and even leaders. While most will stray away from infantry combat, some may put the effort 
+into learning how to be a capable fighter, although they will ultimately end up less capable than those who take on dedicated combat 
+roles. The primary exception to that rule are infantry officers, many of whom find themselves more effective when they focus less on
+their own fighting prowess and more on their ability to lead and direct those under their command. The requirements of that skillset
+creates a valuable niche for some Experts to serve on the battlefield directly. 
+
+The Expert provides the greatest amount of choices to the player when determining their starting Abiilities, however their starting
+Attributes do lean them more mental capabilites rather than physical strength. Experts get to choose 5 starting Abilities, which can 
+be any combination of Primary and Secondary (Note: all Secondary Abilities require their parent Primary Ability be learned first). 
+However, they can only choose up to one combat ability to start with, even though more can be acquired later on in the player's 
+adventures. In practice, Experts get to start out being the best at whatever their specialty is compared to any other character's 
+starting conditions, so long as that specialty doesn't typicall involve being shot at. 
+
+Experts get two Class Techniques: Noncombatant and Quick Study. Noncombatant causes Experts to passively gain Stress during 
+infantry combat, however in return they get a bonus to their action rolls outside of combat. Quick Study allows Experts to learn
+noncombat Abilites faster than other classes, with the effect improving as the character's Acuity Attribute increases.
+
+
+
+SHOULD I PLAY AN EXPERT?
+
+Experts are the best at doing everything other than fighting, although they can fight if they choose to. Choosing to play an Expert
+opens the door to a huge variety of opportunities to add more definition to your character through their knowledge and skills.
+A player may choose Expert because they have a specific archetype or position they want to fulfill, or in can be chosen beacuse the
+player isn't quite sure who they want to be, but want to have the freedom to explore and develop rapidly. Experts can choose to
+support, lead, fight, or charm their way through the world, and know that when in their element they will easily outperform the
+less talented. Due to the extreme range of possibilities open to them there are very few characteristics common to all Experts
+save one: exceptionalism. Thus all kinds of people are Experts, from actors to doctors to pilots, and so on; any task in life could
+be performed better by being an Expert in the field.   
+
+We recommend playing an Expert if you want to acquire and develop new Abilities rapidly at the cost of personal fighting prowess.
+Particularly, Experts are great for those who prefer to avoid fights altogether, or those who want the most freedom in their pursuits.
